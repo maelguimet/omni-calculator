@@ -1,0 +1,4192 @@
+{
+  "binary_sha256": "bb8d4a5cc7cff5783fc7967a32ef1fd3e2750baff8f70b7a4edf46fa650cd07a",
+  "cases_sha256": "ce1c6c0b07ab140c73715e5b3b87656a8c17e36723bf00016a37b2377ce2af98",
+  "model_sha256": null,
+  "backend": "auto",
+  "retry": 3,
+  "groups": {
+    "literal_and_typo": {
+      "passed": 12,
+      "total": 12,
+      "wrong_answers": 0,
+      "rejected": 0
+    },
+    "verbal_operations": {
+      "passed": 14,
+      "total": 14,
+      "wrong_answers": 0,
+      "rejected": 0
+    },
+    "scientific_and_complex": {
+      "passed": 12,
+      "total": 12,
+      "wrong_answers": 0,
+      "rejected": 0
+    },
+    "units_and_physics": {
+      "passed": 9,
+      "total": 9,
+      "wrong_answers": 0,
+      "rejected": 0
+    },
+    "matrices_and_vectors": {
+      "passed": 7,
+      "total": 7,
+      "wrong_answers": 0,
+      "rejected": 0
+    },
+    "statistics": {
+      "passed": 7,
+      "total": 7,
+      "wrong_answers": 0,
+      "rejected": 0
+    },
+    "probability": {
+      "passed": 5,
+      "total": 5,
+      "wrong_answers": 0,
+      "rejected": 0
+    },
+    "numerical_calculus": {
+      "passed": 6,
+      "total": 6,
+      "wrong_answers": 0,
+      "rejected": 0
+    },
+    "symbolic": {
+      "passed": 7,
+      "total": 7,
+      "wrong_answers": 0,
+      "rejected": 0
+    },
+    "bad_input": {
+      "passed": 21,
+      "total": 21,
+      "wrong_answers": 0,
+      "rejected": 0
+    }
+  },
+  "passed": 100,
+  "total": 100,
+  "records": [
+    {
+      "id": "final-001",
+      "category": "literal_and_typo",
+      "input": "what is 14 + 27",
+      "reference_expression": "14+27",
+      "unquoted_safe": true,
+      "expect": {
+        "number": 41.0,
+        "exact": true
+      },
+      "oracle": "Integer addition.",
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "what is 14 + 27",
+        "expression": "14 + 27",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "41",
+          "value": 41,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 3.604906,
+          "model_ms": 0.393825,
+          "compute_ms": 0.105138
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.9994450539341496
+      },
+      "exit_code": 0,
+      "failure": null,
+      "wall_ms": 5.831256
+    },
+    {
+      "id": "final-002",
+      "category": "literal_and_typo",
+      "input": "wat iz 18 - 7",
+      "reference_expression": "18-7",
+      "unquoted_safe": true,
+      "expect": {
+        "number": 11.0,
+        "exact": true
+      },
+      "oracle": "Integer subtraction with typo wrapper.",
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "wat iz 18 - 7",
+        "expression": "18 - 7",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "11",
+          "value": 11,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 3.098744,
+          "model_ms": 0.02636,
+          "compute_ms": 0.059575
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.9999959825488104
+      },
+      "exit_code": 0,
+      "failure": null,
+      "wall_ms": 4.796646
+    },
+    {
+      "id": "final-003",
+      "category": "literal_and_typo",
+      "input": "wht is (13+5)/6",
+      "reference_expression": "(13+5)/6",
+      "unquoted_safe": false,
+      "expect": {
+        "number": 3.0,
+        "exact": true
+      },
+      "oracle": "Parentheses before division.",
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "wht is (13+5)/6",
+        "expression": "(13+5)/6",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "3",
+          "value": 3,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.638648,
+          "model_ms": 0.052113,
+          "compute_ms": 0.130632
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.9942172440701696
+      },
+      "exit_code": 0,
+      "failure": null,
+      "wall_ms": 2.491837
+    },
+    {
+      "id": "final-004",
+      "category": "literal_and_typo",
+      "input": "please calculate 2^3^2",
+      "reference_expression": "2^(3^2)",
+      "unquoted_safe": true,
+      "expect": {
+        "number": 512.0,
+        "exact": true
+      },
+      "oracle": "Right-associative exponentiation.",
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "please calculate 2^3^2",
+        "expression": "2^3^2",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "512",
+          "value": 512,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.43144499999999997,
+          "model_ms": 0.041709,
+          "compute_ms": 0.07515
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.9999977082624224
+      },
+      "exit_code": 0,
+      "failure": null,
+      "wall_ms": 1.902225
+    },
+    {
+      "id": "final-005",
+      "category": "literal_and_typo",
+      "input": "-7^2 + 7^-2",
+      "reference_expression": "-(7^2)+7^(-2)",
+      "unquoted_safe": true,
+      "expect": {
+        "value": "-2400/49",
+        "kind": "rational",
+        "exact": true
+      },
+      "oracle": "Fraction oracle; powers bind more tightly than unary minus.",
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "-7^2 + 7^-2",
+        "expression": "-7^2 + 7^-2",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "-48 48/49",
+          "value": "-2400/49",
+          "kind": "rational",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.367556,
+          "model_ms": 0.019915,
+          "compute_ms": 0.083229
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.9800796298414598
+      },
+      "exit_code": 0,
+      "failure": null,
+      "wall_ms": 1.525577
+    },
+    {
+      "id": "final-006",
+      "category": "literal_and_typo",
+      "input": "(27-3)/(5+3)",
+      "reference_expression": "(27-3)/(5+3)",
+      "unquoted_safe": false,
+      "expect": {
+        "number": 3.0,
+        "exact": true
+      },
+      "oracle": "Exact rational division.",
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "(27-3)/(5+3)",
+        "expression": "(27-3)/(5+3)",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "3",
+          "value": 3,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.35532800000000003,
+          "model_ms": 0.01895,
+          "compute_ms": 0.07512300000000001
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.999999085436629
+      },
+      "exit_code": 0,
+      "failure": null,
+      "wall_ms": 1.25966
+    },
+    {
+      "id": "final-007",
+      "category": "literal_and_typo",
+      "input": ".125 + .375",
+      "reference_expression": ".125+.375",
+      "unquoted_safe": true,
+      "expect": {
+        "number": 0.5,
+        "exact": true
+      },
+      "oracle": "Decimal strings converted to exact Fractions.",
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": ".125 + .375",
+        "expression": ".125 + .375",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "0.5",
+          "value": "0.5",
+          "kind": "number",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.354721,
+          "model_ms": 0.011903,
+          "compute_ms": 0.08356000000000001
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.997978835648902
+      },
+      "exit_code": 0,
+      "failure": null,
+      "wall_ms": 1.462075
+    },
+    {
+      "id": "final-008",
+      "category": "literal_and_typo",
+      "input": "1/7 + 2/21",
+      "reference_expression": "1/7+2/21",
+      "unquoted_safe": true,
+      "expect": {
+        "value": "5/21",
+        "kind": "rational",
+        "exact": true
+      },
+      "oracle": "Fraction oracle with common denominator 21.",
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "1/7 + 2/21",
+        "expression": "1/7 + 2/21",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "5/21",
+          "value": "5/21",
+          "kind": "rational",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.345204,
+          "model_ms": 0.017325,
+          "compute_ms": 0.075759
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.9999861264116734
+      },
+      "exit_code": 0,
+      "failure": null,
+      "wall_ms": 1.345439
+    },
+    {
+      "id": "final-009",
+      "category": "literal_and_typo",
+      "input": "9007199254741017 + 2",
+      "reference_expression": "9007199254741017+2",
+      "unquoted_safe": true,
+      "expect": {
+        "value": "9007199254741019",
+        "display": "9007199254741019",
+        "kind": "integer",
+        "exact": true
+      },
+      "oracle": "Python arbitrary-precision integer oracle; strict display also detects a lost low bit.",
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "9007199254741017 + 2",
+        "expression": "9007199254741017 + 2",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "9007199254741019",
+          "value": "9007199254741019",
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.343073,
+          "model_ms": 0.011663,
+          "compute_ms": 0.080644
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.997978835648902
+      },
+      "exit_code": 0,
+      "failure": null,
+      "wall_ms": 1.274714
+    },
+    {
+      "id": "final-010",
+      "category": "literal_and_typo",
+      "input": "2^137",
+      "reference_expression": "2^137",
+      "unquoted_safe": true,
+      "expect": {
+        "value": "174224571863520493293247799005065324265472",
+        "kind": "integer",
+        "exact": true
+      },
+      "oracle": "Python arbitrary-precision integer exponentiation.",
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "2^137",
+        "expression": "2^137",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "174224571863520493293247799005065324265472",
+          "value": "174224571863520493293247799005065324265472",
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.29142300000000004,
+          "model_ms": 0.009028,
+          "compute_ms": 0.058962
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.9999905350104238
+      },
+      "exit_code": 0,
+      "failure": null,
+      "wall_ms": 1.285321
+    },
+    {
+      "id": "final-011",
+      "category": "literal_and_typo",
+      "input": "(1e-18 + 3e-18)/2e-18",
+      "reference_expression": "(1e-18+3e-18)/2e-18",
+      "unquoted_safe": false,
+      "expect": {
+        "number": 2.0,
+        "exact": true
+      },
+      "oracle": "Exact decimal exponent notation.",
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "(1e-18 + 3e-18)/2e-18",
+        "expression": "(1e-18 + 3e-18)/2e-18",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "2",
+          "value": 2,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.24966300000000002,
+          "model_ms": 0.015286,
+          "compute_ms": 0.046256
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.999994445223898
+      },
+      "exit_code": 0,
+      "failure": null,
+      "wall_ms": 1.0111
+    },
+    {
+      "id": "final-012",
+      "category": "literal_and_typo",
+      "input": "73!/(72!)",
+      "reference_expression": "73!/72!",
+      "unquoted_safe": false,
+      "expect": {
+        "number": 73.0,
+        "exact": true
+      },
+      "oracle": "Consecutive factorials cancel exactly.",
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "73!/(72!)",
+        "expression": "73!/(72!)",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "73",
+          "value": 73,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.332367,
+          "model_ms": 0.018378,
+          "compute_ms": 0.056084
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.9999994520168296
+      },
+      "exit_code": 0,
+      "failure": null,
+      "wall_ms": 1.258545
+    },
+    {
+      "id": "final-013",
+      "category": "verbal_operations",
+      "input": "what is 63 plus 29",
+      "reference_expression": "63+29",
+      "unquoted_safe": true,
+      "expect": {
+        "number": 92.0
+      },
+      "oracle": "Addition of original operands.",
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "what is 63 plus 29",
+        "expression": "(63)+(29)",
+        "tool_call": {
+          "name": "function",
+          "arguments": {
+            "arguments": [
+              "63",
+              "29"
+            ],
+            "function": "add"
+          }
+        },
+        "result": {
+          "display": "92",
+          "value": 92,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.6156309999999999,
+          "model_ms": 0.364002,
+          "compute_ms": 0.028677
+        },
+        "model": "omni-intent-v1",
+        "confidence": 0.9988743509042416
+      },
+      "exit_code": 0,
+      "failure": null,
+      "wall_ms": 1.457399
+    },
+    {
+      "id": "final-014",
+      "category": "verbal_operations",
+      "input": "calculate 82 minus 35",
+      "reference_expression": "82-35",
+      "unquoted_safe": true,
+      "expect": {
+        "number": 47.0
+      },
+      "oracle": "Subtraction in source order.",
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "calculate 82 minus 35",
+        "expression": "(82)-(35)",
+        "tool_call": {
+          "name": "function",
+          "arguments": {
+            "arguments": [
+              "82",
+              "35"
+            ],
+            "function": "subtract"
+          }
+        },
+        "result": {
+          "display": "47",
+          "value": 47,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.505042,
+          "model_ms": 0.102582,
+          "compute_ms": 0.04772
+        },
+        "model": "omni-intent-v1",
+        "confidence": 0.9991418013793288
+      },
+      "exit_code": 0,
+      "failure": null,
+      "wall_ms": 1.535939
+    },
+    {
+      "id": "final-015",
+      "category": "verbal_operations",
+      "input": "subtract -8 from 17",
+      "reference_expression": "17-(-8)",
+      "unquoted_safe": true,
+      "expect": {
+        "number": 25.0
+      },
+      "oracle": "From reverses subtraction operand order; preserve negative sign.",
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "subtract -8 from 17",
+        "expression": "(17)-(-8)",
+        "tool_call": {
+          "name": "function",
+          "arguments": {
+            "arguments": [
+              "17",
+              "-8"
+            ],
+            "function": "subtract"
+          }
+        },
+        "result": {
+          "display": "25",
+          "value": 25,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.589697,
+          "model_ms": 0.128422,
+          "compute_ms": 0.059228
+        },
+        "model": "omni-intent-v1",
+        "confidence": 0.9990821517218168
+      },
+      "exit_code": 0,
+      "failure": null,
+      "wall_ms": 1.76794
+    },
+    {
+      "id": "final-016",
+      "category": "verbal_operations",
+      "input": "multiply -9 by 14",
+      "reference_expression": "(-9)*14",
+      "unquoted_safe": true,
+      "expect": {
+        "number": -126.0
+      },
+      "oracle": "Signed multiplication.",
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "multiply -9 by 14",
+        "expression": "(-9)*(14)",
+        "tool_call": {
+          "name": "function",
+          "arguments": {
+            "arguments": [
+              "-9",
+              "14"
+            ],
+            "function": "multiply"
+          }
+        },
+        "result": {
+          "display": "-126",
+          "value": -126,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.482553,
+          "model_ms": 0.105493,
+          "compute_ms": 0.04292
+        },
+        "model": "omni-intent-v1",
+        "confidence": 0.999766413140391
+      },
+      "exit_code": 0,
+      "failure": null,
+      "wall_ms": 1.462611
+    },
+    {
+      "id": "final-017",
+      "category": "verbal_operations",
+      "input": "what is 156 divided by 12",
+      "reference_expression": "156/12",
+      "unquoted_safe": true,
+      "expect": {
+        "number": 13.0
+      },
+      "oracle": "Division in source order.",
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "what is 156 divided by 12",
+        "expression": "(156)/(12)",
+        "tool_call": {
+          "name": "function",
+          "arguments": {
+            "arguments": [
+              "156",
+              "12"
+            ],
+            "function": "divide"
+          }
+        },
+        "result": {
+          "display": "13",
+          "value": 13,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 3.1584529999999997,
+          "model_ms": 0.127006,
+          "compute_ms": 0.094041
+        },
+        "model": "omni-intent-v1",
+        "confidence": 0.9991944411059086
+      },
+      "exit_code": 0,
+      "failure": null,
+      "wall_ms": 5.380087
+    },
+    {
+      "id": "final-018",
+      "category": "verbal_operations",
+      "input": "divide 4 into 68",
+      "reference_expression": "68/4",
+      "unquoted_safe": true,
+      "expect": {
+        "number": 17.0
+      },
+      "oracle": "Divide into reverses division operand order.",
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "divide 4 into 68",
+        "expression": "(68)/(4)",
+        "tool_call": {
+          "name": "function",
+          "arguments": {
+            "arguments": [
+              "68",
+              "4"
+            ],
+            "function": "divide"
+          }
+        },
+        "result": {
+          "display": "17",
+          "value": 17,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.5560050000000001,
+          "model_ms": 0.107942,
+          "compute_ms": 0.085271
+        },
+        "model": "omni-intent-v1",
+        "confidence": 0.9995507783553568
+      },
+      "exit_code": 0,
+      "failure": null,
+      "wall_ms": 2.496892
+    },
+    {
+      "id": "final-019",
+      "category": "verbal_operations",
+      "input": "what is 6 to the power of 4",
+      "reference_expression": "6^4",
+      "unquoted_safe": true,
+      "expect": {
+        "number": 1296.0
+      },
+      "oracle": "Integer power.",
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "what is 6 to the power of 4",
+        "expression": "(6)^(4)",
+        "tool_call": {
+          "name": "function",
+          "arguments": {
+            "arguments": [
+              "6",
+              "4"
+            ],
+            "function": "power"
+          }
+        },
+        "result": {
+          "display": "1296",
+          "value": 1296,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.393673,
+          "model_ms": 0.08776,
+          "compute_ms": 0.043529000000000005
+        },
+        "model": "omni-intent-v1",
+        "confidence": 0.9932839564948692
+      },
+      "exit_code": 0,
+      "failure": null,
+      "wall_ms": 1.689232
+    },
+    {
+      "id": "final-020",
+      "category": "verbal_operations",
+      "input": "what is the square root of 289",
+      "reference_expression": "sqrt(289)",
+      "unquoted_safe": true,
+      "expect": {
+        "number": 17.0
+      },
+      "oracle": "17 squared is 289.",
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "what is the square root of 289",
+        "expression": "sqrt(289)",
+        "tool_call": {
+          "name": "function",
+          "arguments": {
+            "arguments": [
+              "289"
+            ],
+            "function": "sqrt"
+          }
+        },
+        "result": {
+          "display": "17",
+          "value": 17,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.5526319999999999,
+          "model_ms": 0.123815,
+          "compute_ms": 0.068951
+        },
+        "model": "omni-intent-v1",
+        "confidence": 0.996504964556508
+      },
+      "exit_code": 0,
+      "failure": null,
+      "wall_ms": 1.677737
+    },
+    {
+      "id": "final-021",
+      "category": "verbal_operations",
+      "input": "cube root of -729",
+      "reference_expression": "cbrt(-729)",
+      "unquoted_safe": true,
+      "expect": {
+        "number": -9.0
+      },
+      "oracle": "The real cube root; (-9)^3 = -729.",
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "cube root of -729",
+        "expression": "cbrt(-729)",
+        "tool_call": {
+          "name": "function",
+          "arguments": {
+            "arguments": [
+              "-729"
+            ],
+            "function": "cbrt"
+          }
+        },
+        "result": {
+          "display": "-9",
+          "value": -9,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.48443800000000004,
+          "model_ms": 0.085324,
+          "compute_ms": 0.07223
+        },
+        "model": "omni-intent-v1",
+        "confidence": 0.9993710247930342
+      },
+      "exit_code": 0,
+      "failure": null,
+      "wall_ms": 1.519221
+    },
+    {
+      "id": "final-022",
+      "category": "verbal_operations",
+      "input": "what is the factorial of 8",
+      "reference_expression": "factorial(8)",
+      "unquoted_safe": true,
+      "expect": {
+        "number": 40320.0
+      },
+      "oracle": "Python factorial.",
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "what is the factorial of 8",
+        "expression": "(8)!",
+        "tool_call": {
+          "name": "function",
+          "arguments": {
+            "arguments": [
+              "8"
+            ],
+            "function": "factorial"
+          }
+        },
+        "result": {
+          "display": "40320",
+          "value": 40320,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.44167700000000004,
+          "model_ms": 0.094145,
+          "compute_ms": 0.034146
+        },
+        "model": "omni-intent-v1",
+        "confidence": 0.9993158614881168
+      },
+      "exit_code": 0,
+      "failure": null,
+      "wall_ms": 1.435398
+    },
+    {
+      "id": "final-023",
+      "category": "verbal_operations",
+      "input": "what is 113 modulo 17",
+      "reference_expression": "mod(113,17)",
+      "unquoted_safe": true,
+      "expect": {
+        "number": 11.0
+      },
+      "oracle": "113 = 6*17 + 11.",
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "what is 113 modulo 17",
+        "expression": "mod(113,17)",
+        "tool_call": {
+          "name": "function",
+          "arguments": {
+            "arguments": [
+              "113",
+              "17"
+            ],
+            "function": "mod"
+          }
+        },
+        "result": {
+          "display": "11",
+          "value": 11,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.45657,
+          "model_ms": 0.085024,
+          "compute_ms": 0.049572
+        },
+        "model": "omni-intent-v1",
+        "confidence": 0.9950006454247476
+      },
+      "exit_code": 0,
+      "failure": null,
+      "wall_ms": 1.515877
+    },
+    {
+      "id": "final-024",
+      "category": "verbal_operations",
+      "input": "greatest common divisor of 84 and 198",
+      "reference_expression": "gcd(84,198)",
+      "unquoted_safe": true,
+      "expect": {
+        "number": 6.0
+      },
+      "oracle": "Euclidean gcd.",
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "greatest common divisor of 84 and 198",
+        "expression": "gcd(84,198)",
+        "tool_call": {
+          "name": "function",
+          "arguments": {
+            "arguments": [
+              "84",
+              "198"
+            ],
+            "function": "gcd"
+          }
+        },
+        "result": {
+          "display": "6",
+          "value": 6,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.471548,
+          "model_ms": 0.103643,
+          "compute_ms": 0.055606
+        },
+        "model": "omni-intent-v1",
+        "confidence": 0.9994656023750768
+      },
+      "exit_code": 0,
+      "failure": null,
+      "wall_ms": 1.361009
+    },
+    {
+      "id": "final-025",
+      "category": "verbal_operations",
+      "input": "least common multiple of 18 and 35",
+      "reference_expression": "lcm(18,35)",
+      "unquoted_safe": true,
+      "expect": {
+        "number": 630.0
+      },
+      "oracle": "LCM = abs(a*b)/gcd(a,b).",
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "least common multiple of 18 and 35",
+        "expression": "lcm(18,35)",
+        "tool_call": {
+          "name": "function",
+          "arguments": {
+            "arguments": [
+              "18",
+              "35"
+            ],
+            "function": "lcm"
+          }
+        },
+        "result": {
+          "display": "630",
+          "value": 630,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.295536,
+          "model_ms": 0.065134,
+          "compute_ms": 0.03218
+        },
+        "model": "omni-intent-v1",
+        "confidence": 0.9990783322673974
+      },
+      "exit_code": 0,
+      "failure": null,
+      "wall_ms": 1.203208
+    },
+    {
+      "id": "final-026",
+      "category": "verbal_operations",
+      "input": "what is 17.5 percent of 240",
+      "reference_expression": "(17.5/100)*240",
+      "unquoted_safe": true,
+      "expect": {
+        "number": 42.0
+      },
+      "oracle": "A percent of a quantity; exact Fraction oracle.",
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "what is 17.5 percent of 240",
+        "expression": "(17.5)/100*(240)",
+        "tool_call": {
+          "name": "function",
+          "arguments": {
+            "arguments": [
+              "17.5",
+              "240"
+            ],
+            "function": "percent"
+          }
+        },
+        "result": {
+          "display": "42",
+          "value": 42,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.448237,
+          "model_ms": 0.088198,
+          "compute_ms": 0.057228999999999995
+        },
+        "model": "omni-intent-v1",
+        "confidence": 0.999348932924804
+      },
+      "exit_code": 0,
+      "failure": null,
+      "wall_ms": 1.466095
+    },
+    {
+      "id": "final-027",
+      "category": "scientific_and_complex",
+      "input": "sin(pi/7)^2 + cos(pi/7)^2",
+      "reference_expression": "sin(pi/7)^2 + cos(pi/7)^2",
+      "unquoted_safe": false,
+      "expect": {
+        "number": 1.0
+      },
+      "oracle": "Pythagorean trigonometric identity; explicit calls bind before powers.",
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "sin(pi/7)^2 + cos(pi/7)^2",
+        "expression": "sin(pi/7)^2 + cos(pi/7)^2",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "approx. 1",
+          "value": 1,
+          "kind": "integer",
+          "exact": false
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 1228.784436,
+          "model_ms": 1228.00042,
+          "compute_ms": 0.446184
+        },
+        "model": "needle2-tuned"
+      },
+      "exit_code": 0,
+      "failure": null,
+      "wall_ms": 1229.8401
+    },
+    {
+      "id": "final-028",
+      "category": "scientific_and_complex",
+      "input": "sin(150 degrees)",
+      "reference_expression": "sin(150 degrees)",
+      "unquoted_safe": false,
+      "expect": {
+        "number": 0.5
+      },
+      "oracle": "sin(150 degrees) = sin(30 degrees) = 1/2.",
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "sin(150 degrees)",
+        "expression": "sin(150 degrees)",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "0.5",
+          "value": "0.5",
+          "kind": "number",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 142.496282,
+          "model_ms": 141.829243,
+          "compute_ms": 0.262058
+        },
+        "model": "needle2-tuned"
+      },
+      "exit_code": 0,
+      "failure": null,
+      "wall_ms": 144.028749
+    },
+    {
+      "id": "final-029",
+      "category": "scientific_and_complex",
+      "input": "log(343,7)",
+      "reference_expression": "log(343,7)",
+      "unquoted_safe": false,
+      "expect": {
+        "number": 3.0
+      },
+      "oracle": "343 = 7^3; value-first log convention.",
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "log(343,7)",
+        "expression": "log(343,7)",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "3",
+          "value": 3.0,
+          "kind": "number",
+          "exact": false
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.314675,
+          "model_ms": 0.019093,
+          "compute_ms": 0.005993
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.9999955693397236
+      },
+      "exit_code": 0,
+      "failure": null,
+      "wall_ms": 1.61037
+    },
+    {
+      "id": "final-030",
+      "category": "scientific_and_complex",
+      "input": "ln(exp(3))",
+      "reference_expression": "ln(exp(3))",
+      "unquoted_safe": false,
+      "expect": {
+        "number": 3.0
+      },
+      "oracle": "Natural logarithm and exponential are inverses on real inputs.",
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "ln(exp(3))",
+        "expression": "ln(exp(3))",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "approx. 3",
+          "value": 3,
+          "kind": "integer",
+          "exact": false
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.5328579999999999,
+          "model_ms": 0.018995,
+          "compute_ms": 0.241257
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.9999920491971374
+      },
+      "exit_code": 0,
+      "failure": null,
+      "wall_ms": 1.57996
+    },
+    {
+      "id": "final-031",
+      "category": "scientific_and_complex",
+      "input": "hypot(8,15)",
+      "reference_expression": "hypot(8,15)",
+      "unquoted_safe": false,
+      "expect": {
+        "number": 17.0
+      },
+      "oracle": "8^2+15^2=17^2.",
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "hypot(8,15)",
+        "expression": "hypot(8,15)",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "17",
+          "value": 17.0,
+          "kind": "number",
+          "exact": false
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.270335,
+          "model_ms": 0.017179,
+          "compute_ms": 0.006574
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.9999057682401812
+      },
+      "exit_code": 0,
+      "failure": null,
+      "wall_ms": 2.279659
+    },
+    {
+      "id": "final-032",
+      "category": "scientific_and_complex",
+      "input": "gamma(6)",
+      "reference_expression": "gamma(6)",
+      "unquoted_safe": false,
+      "expect": {
+        "number": 120.0
+      },
+      "oracle": "Gamma(n) = (n-1)! for a positive integer.",
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "gamma(6)",
+        "expression": "gamma(6)",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "119.99999999999969",
+          "value": 119.99999999999967,
+          "kind": "number",
+          "exact": false
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.6401589999999999,
+          "model_ms": 0.016728,
+          "compute_ms": 0.006333
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.9998093210175456
+      },
+      "exit_code": 0,
+      "failure": null,
+      "wall_ms": 2.931929
+    },
+    {
+      "id": "final-033",
+      "category": "scientific_and_complex",
+      "input": "erf(0.75)",
+      "reference_expression": "erf(0.75)",
+      "unquoted_safe": false,
+      "expect": {
+        "number": 0.7111556336535151
+      },
+      "oracle": "Python stdlib erf at 0.75.",
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "erf(0.75)",
+        "expression": "erf(0.75)",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "0.7111556336390596",
+          "value": 0.7111556336390596,
+          "kind": "number",
+          "exact": false
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.40226,
+          "model_ms": 0.031935,
+          "compute_ms": 0.010656
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.9990961635413544
+      },
+      "exit_code": 0,
+      "failure": null,
+      "wall_ms": 2.856828
+    },
+    {
+      "id": "final-034",
+      "category": "scientific_and_complex",
+      "input": "sinh(47)",
+      "reference_expression": "sinh(47)",
+      "unquoted_safe": false,
+      "expect": {
+        "number": 1.2906564430950338e+20
+      },
+      "oracle": "Python stdlib sinh; output exceeds u64 without floating overflow.",
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "sinh(47)",
+        "expression": "sinh(47)",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "approx. 129065644309503000000",
+          "value": 1.29065644309503e+20,
+          "kind": "integer",
+          "exact": false
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.401326,
+          "model_ms": 0.021983,
+          "compute_ms": 0.10223
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.9989759930581044
+      },
+      "exit_code": 0,
+      "failure": null,
+      "wall_ms": 1.649031
+    },
+    {
+      "id": "final-035",
+      "category": "scientific_and_complex",
+      "input": "real((8+3i)*(4-7i))",
+      "reference_expression": "real((8+3i)*(4-7i))",
+      "unquoted_safe": false,
+      "expect": {
+        "number": 53.0
+      },
+      "oracle": "Python complex multiplication, real component.",
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "real((8+3i)*(4-7i))",
+        "expression": "real((8+3i)*(4-7i))",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "53",
+          "value": 53,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.359523,
+          "model_ms": 0.025432999999999997,
+          "compute_ms": 0.076762
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.9999377598391362
+      },
+      "exit_code": 0,
+      "failure": null,
+      "wall_ms": 1.309343
+    },
+    {
+      "id": "final-036",
+      "category": "scientific_and_complex",
+      "input": "imag((8+3i)*(4-7i))",
+      "reference_expression": "imag((8+3i)*(4-7i))",
+      "unquoted_safe": false,
+      "expect": {
+        "number": -44.0
+      },
+      "oracle": "Python complex multiplication, imaginary component.",
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "imag((8+3i)*(4-7i))",
+        "expression": "imag((8+3i)*(4-7i))",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "-44",
+          "value": -44,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.343327,
+          "model_ms": 0.017447,
+          "compute_ms": 0.079774
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.9999967896343814
+      },
+      "exit_code": 0,
+      "failure": null,
+      "wall_ms": 1.245928
+    },
+    {
+      "id": "final-037",
+      "category": "scientific_and_complex",
+      "input": "abs(8-15i)",
+      "reference_expression": "abs(8-15i)",
+      "unquoted_safe": false,
+      "expect": {
+        "number": 17.0
+      },
+      "oracle": "Complex modulus sqrt(8^2+15^2).",
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "abs(8-15i)",
+        "expression": "abs(8-15i)",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "17",
+          "value": 17,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.315324,
+          "model_ms": 0.010541,
+          "compute_ms": 0.06488899999999999
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.9998525708695234
+      },
+      "exit_code": 0,
+      "failure": null,
+      "wall_ms": 1.30229
+    },
+    {
+      "id": "final-038",
+      "category": "scientific_and_complex",
+      "input": "imag(sqrt(-121))",
+      "reference_expression": "imag(sqrt(-121))",
+      "unquoted_safe": false,
+      "expect": {
+        "number": 11.0
+      },
+      "oracle": "Principal square root of -121 is 11i.",
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "imag(sqrt(-121))",
+        "expression": "imag(sqrt(-121))",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "11",
+          "value": 11,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.36306700000000003,
+          "model_ms": 0.01527,
+          "compute_ms": 0.096111
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.999805457669298
+      },
+      "exit_code": 0,
+      "failure": null,
+      "wall_ms": 1.308893
+    },
+    {
+      "id": "final-039",
+      "category": "units_and_physics",
+      "input": "what is 7.25 km to m",
+      "reference_expression": "7.25 km to m",
+      "unquoted_safe": true,
+      "expect": {
+        "value": "7250 m",
+        "kind": "quantity",
+        "exact": true
+      },
+      "oracle": "SI prefix kilo = 1000.",
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "what is 7.25 km to m",
+        "expression": "7.25 km to m",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "7250 m",
+          "value": "7250 m",
+          "kind": "quantity",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.368702,
+          "model_ms": 0.016225,
+          "compute_ms": 0.098664
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.9999879819365944
+      },
+      "exit_code": 0,
+      "failure": null,
+      "wall_ms": 1.251365
+    },
+    {
+      "id": "final-040",
+      "category": "units_and_physics",
+      "input": "125 cm to m",
+      "reference_expression": "125 cm to m",
+      "unquoted_safe": true,
+      "expect": {
+        "value": "1.25 m",
+        "kind": "quantity",
+        "exact": true
+      },
+      "oracle": "SI prefix centi = 1/100.",
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "125 cm to m",
+        "expression": "125 cm to m",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "1.25 m",
+          "value": "1.25 m",
+          "kind": "quantity",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.35947300000000004,
+          "model_ms": 0.013805,
+          "compute_ms": 0.099288
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.999481652536994
+      },
+      "exit_code": 0,
+      "failure": null,
+      "wall_ms": 1.369632
+    },
+    {
+      "id": "final-041",
+      "category": "units_and_physics",
+      "input": "3600 s to hour",
+      "reference_expression": "3600 s to hour",
+      "unquoted_safe": true,
+      "expect": {
+        "value": "1 hour",
+        "kind": "quantity",
+        "exact": true
+      },
+      "oracle": "One hour is 3600 seconds.",
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "3600 s to hour",
+        "expression": "3600 s to hour",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "1 hour",
+          "value": "1 hour",
+          "kind": "quantity",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.33699100000000004,
+          "model_ms": 0.015247,
+          "compute_ms": 0.076443
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.9908709761961256
+      },
+      "exit_code": 0,
+      "failure": null,
+      "wall_ms": 1.403138
+    },
+    {
+      "id": "final-042",
+      "category": "units_and_physics",
+      "input": "2.5 kg to g",
+      "reference_expression": "2.5 kg to g",
+      "unquoted_safe": true,
+      "expect": {
+        "value": "2500 g",
+        "kind": "quantity",
+        "exact": true
+      },
+      "oracle": "One kilogram is 1000 grams.",
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "2.5 kg to g",
+        "expression": "2.5 kg to g",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "2500 g",
+          "value": "2500 g",
+          "kind": "quantity",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.48202199999999995,
+          "model_ms": 0.01499,
+          "compute_ms": 0.181776
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.9999986331444632
+      },
+      "exit_code": 0,
+      "failure": null,
+      "wall_ms": 1.386105
+    },
+    {
+      "id": "final-043",
+      "category": "units_and_physics",
+      "input": "7500 mL to L",
+      "reference_expression": "7500 mL to L",
+      "unquoted_safe": true,
+      "expect": {
+        "value": "7.5 L",
+        "kind": "quantity",
+        "exact": true
+      },
+      "oracle": "One litre is 1000 millilitres.",
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "7500 mL to L",
+        "expression": "7500 mL to L",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "7.5 L",
+          "value": "7.5 L",
+          "kind": "quantity",
+          "exact": true
+        },
+        "attempts": 2,
+        "retries": 1,
+        "timing": {
+          "total_ms": 504.642865,
+          "model_ms": 504.066313,
+          "compute_ms": 0.16631
+        },
+        "model": "needle2-tuned"
+      },
+      "exit_code": 0,
+      "failure": null,
+      "wall_ms": 505.930964
+    },
+    {
+      "id": "final-044",
+      "category": "units_and_physics",
+      "input": "(11 kg * (8 m/s)^2)/2 to J",
+      "reference_expression": "(11 kg*(8 m/s)^2)/2 to J",
+      "unquoted_safe": false,
+      "expect": {
+        "value": "352 J",
+        "kind": "quantity",
+        "exact": true
+      },
+      "oracle": "Kinetic energy = mass*speed^2/2; 1 J = kg*m^2/s^2.",
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "(11 kg * (8 m/s)^2)/2 to J",
+        "expression": "(11 kg * (8 m/s)^2)/2 to J",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "352 J",
+          "value": "352 J",
+          "kind": "quantity",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 1.423168,
+          "model_ms": 0.032029,
+          "compute_ms": 0.28302299999999997
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.9999997302795876
+      },
+      "exit_code": 0,
+      "failure": null,
+      "wall_ms": 3.531693
+    },
+    {
+      "id": "final-045",
+      "category": "units_and_physics",
+      "input": "(24 V)*(3 A) to W",
+      "reference_expression": "(24 V)*(3 A) to W",
+      "unquoted_safe": false,
+      "expect": {
+        "value": "72 W",
+        "kind": "quantity",
+        "exact": true
+      },
+      "oracle": "Electrical power = voltage*current.",
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "(24 V)*(3 A) to W",
+        "expression": "(24 V)*(3 A) to W",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "72 W",
+          "value": "72 W",
+          "kind": "quantity",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 1.050751,
+          "model_ms": 0.052605,
+          "compute_ms": 0.504757
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.9999692845216432
+      },
+      "exit_code": 0,
+      "failure": null,
+      "wall_ms": 3.363568
+    },
+    {
+      "id": "final-046",
+      "category": "units_and_physics",
+      "input": "68 degrees Fahrenheit to Celsius",
+      "reference_expression": "68 degrees Fahrenheit to Celsius",
+      "unquoted_safe": true,
+      "expect": {
+        "value": "20 \u00b0C",
+        "kind": "quantity",
+        "exact": true
+      },
+      "oracle": "Celsius = (Fahrenheit-32)*5/9; affine offset must be retained.",
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "68 degrees Fahrenheit to Celsius",
+        "expression": "68 degrees Fahrenheit to Celsius",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "20 \u00b0C",
+          "value": "20 \u00b0C",
+          "kind": "quantity",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.505252,
+          "model_ms": 0.057989000000000006,
+          "compute_ms": 0.119886
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.9995026179038734
+      },
+      "exit_code": 0,
+      "failure": null,
+      "wall_ms": 2.210198
+    },
+    {
+      "id": "final-047",
+      "category": "units_and_physics",
+      "input": "-10 degrees Celsius to Kelvin",
+      "reference_expression": "-10 degrees Celsius to Kelvin",
+      "unquoted_safe": true,
+      "expect": {
+        "value": "263.15 K",
+        "kind": "quantity",
+        "exact": true
+      },
+      "oracle": "Kelvin = Celsius+273.15.",
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "-10 degrees Celsius to Kelvin",
+        "expression": "-10 degrees Celsius to Kelvin",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "263.15 K",
+          "value": "263.15 K",
+          "kind": "quantity",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.416184,
+          "model_ms": 0.03074,
+          "compute_ms": 0.097494
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.9988144348116303
+      },
+      "exit_code": 0,
+      "failure": null,
+      "wall_ms": 2.72484
+    },
+    {
+      "id": "final-048",
+      "category": "matrices_and_vectors",
+      "input": "det([[7,2],[5,3]])",
+      "reference_expression": "det([[7,2],[5,3]])",
+      "unquoted_safe": false,
+      "expect": {
+        "number": 11.0,
+        "exact": false
+      },
+      "oracle": "Two-by-two determinant ad-bc.",
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "det([[7,2],[5,3]])",
+        "expression": "det([[7,2],[5,3]])",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "11.000000000000002",
+          "value": 11.000000000000002,
+          "kind": "number",
+          "exact": false
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.824864,
+          "model_ms": 0.057438,
+          "compute_ms": 0.020191
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.9999970093948618
+      },
+      "exit_code": 0,
+      "failure": null,
+      "wall_ms": 3.880073
+    },
+    {
+      "id": "final-049",
+      "category": "matrices_and_vectors",
+      "input": "inverse([[4,1],[2,1]])",
+      "reference_expression": "inverse([[4,1],[2,1]])",
+      "unquoted_safe": false,
+      "expect": {
+        "value": [
+          [
+            0.5,
+            -0.5
+          ],
+          [
+            -1,
+            2
+          ]
+        ],
+        "kind": "matrix",
+        "exact": false
+      },
+      "oracle": "Two-by-two adjugate divided by determinant 2; both matrix products give identity.",
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "inverse([[4,1],[2,1]])",
+        "expression": "inverse([[4,1],[2,1]])",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "[[0.5, -0.5], [-1, 2]]",
+          "value": [
+            [
+              0.5,
+              -0.5
+            ],
+            [
+              -1.0,
+              2.0
+            ]
+          ],
+          "kind": "matrix",
+          "exact": false
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 1.522573,
+          "model_ms": 0.052928,
+          "compute_ms": 0.026296999999999997
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.9998504842912151
+      },
+      "exit_code": 0,
+      "failure": null,
+      "wall_ms": 3.195837
+    },
+    {
+      "id": "final-050",
+      "category": "matrices_and_vectors",
+      "input": "matmul([[2,5],[1,3]],[[4,1],[2,6]])",
+      "reference_expression": "matmul([[2,5],[1,3]],[[4,1],[2,6]])",
+      "unquoted_safe": false,
+      "expect": {
+        "value": [
+          [
+            18,
+            32
+          ],
+          [
+            10,
+            19
+          ]
+        ],
+        "kind": "matrix",
+        "exact": false
+      },
+      "oracle": "Independent row-by-column Python sums.",
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "matmul([[2,5],[1,3]],[[4,1],[2,6]])",
+        "expression": "matmul([[2,5],[1,3]],[[4,1],[2,6]])",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "[[18, 32], [10, 19]]",
+          "value": [
+            [
+              18.0,
+              32.0
+            ],
+            [
+              10.0,
+              19.0
+            ]
+          ],
+          "kind": "matrix",
+          "exact": false
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.314618,
+          "model_ms": 0.029482,
+          "compute_ms": 0.011887
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.9999970882290032
+      },
+      "exit_code": 0,
+      "failure": null,
+      "wall_ms": 1.444303
+    },
+    {
+      "id": "final-051",
+      "category": "matrices_and_vectors",
+      "input": "solve_linear([[3,2],[1,-1]],[16,2])",
+      "reference_expression": "solve_linear([[3,2],[1,-1]],[16,2])",
+      "unquoted_safe": false,
+      "expect": {
+        "value": [
+          4,
+          2
+        ],
+        "kind": "vector",
+        "exact": false
+      },
+      "oracle": "Substitution verifies 3*4+2*2=16 and 4-2=2.",
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "solve_linear([[3,2],[1,-1]],[16,2])",
+        "expression": "solve_linear([[3,2],[1,-1]],[16,2])",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "[4, 2]",
+          "value": [
+            4.0,
+            2.0
+          ],
+          "kind": "vector",
+          "exact": false
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.295982,
+          "model_ms": 0.020496,
+          "compute_ms": 0.014247
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.9996679647292768
+      },
+      "exit_code": 0,
+      "failure": null,
+      "wall_ms": 1.332387
+    },
+    {
+      "id": "final-052",
+      "category": "matrices_and_vectors",
+      "input": "dot([2,-3,7],[5,4,-2])",
+      "reference_expression": "dot([2,-3,7],[5,4,-2])",
+      "unquoted_safe": false,
+      "expect": {
+        "number": -16.0,
+        "exact": false
+      },
+      "oracle": "Independent scalar-product sum.",
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "dot([2,-3,7],[5,4,-2])",
+        "expression": "dot([2,-3,7],[5,4,-2])",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "-16",
+          "value": -16.0,
+          "kind": "number",
+          "exact": false
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.280045,
+          "model_ms": 0.015568,
+          "compute_ms": 0.005388
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.9999992931321556
+      },
+      "exit_code": 0,
+      "failure": null,
+      "wall_ms": 1.209006
+    },
+    {
+      "id": "final-053",
+      "category": "matrices_and_vectors",
+      "input": "cross([2,1,0],[0,3,4])",
+      "reference_expression": "cross([2,1,0],[0,3,4])",
+      "unquoted_safe": false,
+      "expect": {
+        "value": [
+          4,
+          -8,
+          6
+        ],
+        "kind": "vector",
+        "exact": false
+      },
+      "oracle": "Right-handed determinant formula for cross product.",
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "cross([2,1,0],[0,3,4])",
+        "expression": "cross([2,1,0],[0,3,4])",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "[4, -8, 6]",
+          "value": [
+            4.0,
+            -8.0,
+            6.0
+          ],
+          "kind": "vector",
+          "exact": false
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.26471900000000004,
+          "model_ms": 0.015066,
+          "compute_ms": 0.00703
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.9999976128259476
+      },
+      "exit_code": 0,
+      "failure": null,
+      "wall_ms": 1.189766
+    },
+    {
+      "id": "final-054",
+      "category": "matrices_and_vectors",
+      "input": "matrix_power([[1,2],[0,1]],4)",
+      "reference_expression": "matrix_power([[1,2],[0,1]],4)",
+      "unquoted_safe": false,
+      "expect": {
+        "value": [
+          [
+            1,
+            8
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "kind": "matrix",
+        "exact": false
+      },
+      "oracle": "For N^2=0, (I+N)^4=I+4N.",
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "matrix_power([[1,2],[0,1]],4)",
+        "expression": "matrix_power([[1,2],[0,1]],4)",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "[[1, 8], [0, 1]]",
+          "value": [
+            [
+              1.0,
+              8.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "kind": "matrix",
+          "exact": false
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.326902,
+          "model_ms": 0.019982,
+          "compute_ms": 0.056411
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.9999749101391252
+      },
+      "exit_code": 0,
+      "failure": null,
+      "wall_ms": 1.236903
+    },
+    {
+      "id": "final-055",
+      "category": "statistics",
+      "input": "what is the mean of 3, 8, 14, 19",
+      "reference_expression": "mean([3,8,14,19])",
+      "unquoted_safe": true,
+      "expect": {
+        "number": 11.0,
+        "exact": false
+      },
+      "oracle": "Arithmetic mean.",
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "what is the mean of 3, 8, 14, 19",
+        "expression": "mean([3,8,14,19])",
+        "tool_call": {
+          "name": "function",
+          "arguments": {
+            "arguments": [
+              "[3,8,14,19]"
+            ],
+            "function": "mean"
+          }
+        },
+        "result": {
+          "display": "11",
+          "value": 11.0,
+          "kind": "number",
+          "exact": false
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 215.44056,
+          "model_ms": 214.857743,
+          "compute_ms": 0.01231
+        },
+        "model": "needle2-tuned"
+      },
+      "exit_code": 0,
+      "failure": null,
+      "wall_ms": 216.600006
+    },
+    {
+      "id": "final-056",
+      "category": "statistics",
+      "input": "median([19,2,17,5])",
+      "reference_expression": "median([19,2,17,5])",
+      "unquoted_safe": false,
+      "expect": {
+        "number": 11.0,
+        "exact": false
+      },
+      "oracle": "Middle pair after sorting: 2,5,17,19.",
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "median([19,2,17,5])",
+        "expression": "median([19,2,17,5])",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "11",
+          "value": 11.0,
+          "kind": "number",
+          "exact": false
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.34751600000000005,
+          "model_ms": 0.037474,
+          "compute_ms": 0.011645
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.9998852058278392
+      },
+      "exit_code": 0,
+      "failure": null,
+      "wall_ms": 1.764252
+    },
+    {
+      "id": "final-057",
+      "category": "statistics",
+      "input": "variance([2,6,10,14])",
+      "reference_expression": "variance([2,6,10,14])",
+      "unquoted_safe": false,
+      "expect": {
+        "number": 20.0,
+        "exact": false
+      },
+      "oracle": "Population variance divides squared deviations by n.",
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "variance([2,6,10,14])",
+        "expression": "variance([2,6,10,14])",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "20.000000000000004",
+          "value": 20.000000000000004,
+          "kind": "number",
+          "exact": false
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.272523,
+          "model_ms": 0.025062,
+          "compute_ms": 0.006327
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.999998773277607
+      },
+      "exit_code": 0,
+      "failure": null,
+      "wall_ms": 1.323051
+    },
+    {
+      "id": "final-058",
+      "category": "statistics",
+      "input": "sample_variance([2,6,10,14])",
+      "reference_expression": "sample_variance([2,6,10,14])",
+      "unquoted_safe": false,
+      "expect": {
+        "number": 26.666666666666668,
+        "exact": false
+      },
+      "oracle": "Sample variance divides squared deviations by n-1.",
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "sample_variance([2,6,10,14])",
+        "expression": "sample_variance([2,6,10,14])",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "26.666666666666675",
+          "value": 26.666666666666675,
+          "kind": "number",
+          "exact": false
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.274599,
+          "model_ms": 0.023375,
+          "compute_ms": 0.005801
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.9996715256073684
+      },
+      "exit_code": 0,
+      "failure": null,
+      "wall_ms": 1.3136
+    },
+    {
+      "id": "final-059",
+      "category": "statistics",
+      "input": "quantile([3,7,11,15,19],0.375)",
+      "reference_expression": "quantile([3,7,11,15,19],0.375)",
+      "unquoted_safe": false,
+      "expect": {
+        "number": 9.0,
+        "exact": false
+      },
+      "oracle": "Linear interpolation at zero-based position 0.375*(5-1)=1.5.",
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "quantile([3,7,11,15,19],0.375)",
+        "expression": "quantile([3,7,11,15,19],0.375)",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "9",
+          "value": 9.0,
+          "kind": "number",
+          "exact": false
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.278124,
+          "model_ms": 0.014978,
+          "compute_ms": 0.005067
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.999976352691788
+      },
+      "exit_code": 0,
+      "failure": null,
+      "wall_ms": 1.203945
+    },
+    {
+      "id": "final-060",
+      "category": "statistics",
+      "input": "sqrt(mean([49,49,49]))",
+      "reference_expression": "sqrt(mean([49,49,49]))",
+      "unquoted_safe": false,
+      "expect": {
+        "number": 7.0,
+        "exact": false
+      },
+      "oracle": "Mean is 49; positive square root is 7.",
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "sqrt(mean([49,49,49]))",
+        "expression": "sqrt(mean([49,49,49]))",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "7",
+          "value": 7,
+          "kind": "integer",
+          "exact": false
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.400157,
+          "model_ms": 0.015256,
+          "compute_ms": 0.109858
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.999950607696544
+      },
+      "exit_code": 0,
+      "failure": null,
+      "wall_ms": 1.414088
+    },
+    {
+      "id": "final-061",
+      "category": "statistics",
+      "input": "covariance([1,3,5],[4,8,12])",
+      "reference_expression": "covariance([1,3,5],[4,8,12])",
+      "unquoted_safe": false,
+      "expect": {
+        "number": 5.333333333333333,
+        "exact": false
+      },
+      "oracle": "Population paired covariance: (8+0+8)/3.",
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "covariance([1,3,5],[4,8,12])",
+        "expression": "covariance([1,3,5],[4,8,12])",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "5.333333333333333",
+          "value": 5.333333333333333,
+          "kind": "number",
+          "exact": false
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.27210100000000004,
+          "model_ms": 0.017521000000000002,
+          "compute_ms": 0.006423
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.999999354340852
+      },
+      "exit_code": 0,
+      "failure": null,
+      "wall_ms": 1.264877
+    },
+    {
+      "id": "final-062",
+      "category": "probability",
+      "input": "normal_cdf(1.25)",
+      "reference_expression": "normal_cdf(1.25)",
+      "unquoted_safe": false,
+      "expect": {
+        "number": 0.8943502263331446,
+        "exact": false
+      },
+      "oracle": "Standard normal CDF relation to erf.",
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "normal_cdf(1.25)",
+        "expression": "normal_cdf(1.25)",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "0.8943502263282167",
+          "value": 0.8943502263282167,
+          "kind": "number",
+          "exact": false
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.281169,
+          "model_ms": 0.01471,
+          "compute_ms": 0.004862
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.9996049649420014
+      },
+      "exit_code": 0,
+      "failure": null,
+      "wall_ms": 1.255101
+    },
+    {
+      "id": "final-063",
+      "category": "probability",
+      "input": "normal_pdf(0,0,2)",
+      "reference_expression": "normal_pdf(0,0,2)",
+      "unquoted_safe": false,
+      "expect": {
+        "number": 0.19947114020071635,
+        "exact": false
+      },
+      "oracle": "Gaussian density at its mean with sigma=2.",
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "normal_pdf(0,0,2)",
+        "expression": "normal_pdf(0,0,2)",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "0.19947114020071632",
+          "value": 0.19947114020071632,
+          "kind": "number",
+          "exact": false
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.279127,
+          "model_ms": 0.015785,
+          "compute_ms": 0.004912
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.9999839409405292
+      },
+      "exit_code": 0,
+      "failure": null,
+      "wall_ms": 1.267549
+    },
+    {
+      "id": "final-064",
+      "category": "probability",
+      "input": "binomial_pmf(3,7,0.4)",
+      "reference_expression": "binomial_pmf(3,7,0.4)",
+      "unquoted_safe": false,
+      "expect": {
+        "number": 0.290304,
+        "exact": false
+      },
+      "oracle": "Binomial choose(n,k)*p^k*(1-p)^(n-k).",
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "binomial_pmf(3,7,0.4)",
+        "expression": "binomial_pmf(3,7,0.4)",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "0.2903040000000003",
+          "value": 0.2903040000000003,
+          "kind": "number",
+          "exact": false
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.311327,
+          "model_ms": 0.017476,
+          "compute_ms": 0.056148
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.9995782621667058
+      },
+      "exit_code": 0,
+      "failure": null,
+      "wall_ms": 1.197567
+    },
+    {
+      "id": "final-065",
+      "category": "probability",
+      "input": "poisson_pmf(4,2)",
+      "reference_expression": "poisson_pmf(4,2)",
+      "unquoted_safe": false,
+      "expect": {
+        "number": 0.0902235221577418,
+        "exact": false
+      },
+      "oracle": "Poisson exp(-lambda)*lambda^k/k!.",
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "poisson_pmf(4,2)",
+        "expression": "poisson_pmf(4,2)",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "0.09022352215774178",
+          "value": 0.09022352215774178,
+          "kind": "number",
+          "exact": false
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 163.78489399999998,
+          "model_ms": 163.330266,
+          "compute_ms": 0.084404
+        },
+        "model": "needle2-tuned"
+      },
+      "exit_code": 0,
+      "failure": null,
+      "wall_ms": 165.002706
+    },
+    {
+      "id": "final-066",
+      "category": "probability",
+      "input": "exponential_cdf(3,0.5)",
+      "reference_expression": "exponential_cdf(3,0.5)",
+      "unquoted_safe": false,
+      "expect": {
+        "number": 0.7768698398515702,
+        "exact": false
+      },
+      "oracle": "Rate-parameterized exponential CDF 1-exp(-rate*x).",
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "exponential_cdf(3,0.5)",
+        "expression": "exponential_cdf(3,0.5)",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "0.7768698398515702",
+          "value": 0.7768698398515702,
+          "kind": "number",
+          "exact": false
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.42621,
+          "model_ms": 0.049298,
+          "compute_ms": 0.009069
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.9998720253485412
+      },
+      "exit_code": 0,
+      "failure": null,
+      "wall_ms": 2.066693
+    },
+    {
+      "id": "final-067",
+      "category": "numerical_calculus",
+      "input": "integrate(x^3-2*x+1,x,0,3)",
+      "reference_expression": "integrate(x^3-2*x+1,x,0,3)",
+      "unquoted_safe": false,
+      "expect": {
+        "number": 14.25,
+        "exact": false
+      },
+      "oracle": "Antiderivative x^4/4-x^2+x at endpoints.",
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "integrate(x^3-2*x+1,x,0,3)",
+        "expression": "integrate(x^3-2*x+1,x,0,3)",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "14.25",
+          "value": 14.25,
+          "kind": "number",
+          "exact": false
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.33603700000000003,
+          "model_ms": 0.029809,
+          "compute_ms": 0.030067
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.9999693305294208
+      },
+      "exit_code": 0,
+      "failure": null,
+      "wall_ms": 1.499391
+    },
+    {
+      "id": "final-068",
+      "category": "numerical_calculus",
+      "input": "integrate(cos(x)^2,x,0,pi)",
+      "reference_expression": "integrate(cos(x)^2,x,0,pi)",
+      "unquoted_safe": false,
+      "expect": {
+        "number": 1.5707963267948966,
+        "exact": false
+      },
+      "oracle": "cos^2(x)=(1+cos(2x))/2 over a half-period.",
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "integrate(cos(x)^2,x,0,pi)",
+        "expression": "integrate(cos(x)^2,x,0,pi)",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "1.5707963267948963",
+          "value": 1.5707963267948963,
+          "kind": "number",
+          "exact": false
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.39796200000000004,
+          "model_ms": 0.022288,
+          "compute_ms": 0.097979
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.9898736302059472
+      },
+      "exit_code": 0,
+      "failure": null,
+      "wall_ms": 1.513279
+    },
+    {
+      "id": "final-069",
+      "category": "numerical_calculus",
+      "input": "root(x^3-64,x,1,8)",
+      "reference_expression": "root(x^3-64,x,1,8)",
+      "unquoted_safe": false,
+      "expect": {
+        "number": 4.0,
+        "exact": false
+      },
+      "oracle": "Unique real cube root 4 inside the bracket.",
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "root(x^3-64,x,1,8)",
+        "expression": "root(x^3-64,x,1,8)",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "3.999999999999318",
+          "value": 3.999999999999318,
+          "kind": "number",
+          "exact": false
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.267426,
+          "model_ms": 0.014684999999999998,
+          "compute_ms": 0.011248
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.9999996244302064
+      },
+      "exit_code": 0,
+      "failure": null,
+      "wall_ms": 1.284374
+    },
+    {
+      "id": "final-070",
+      "category": "numerical_calculus",
+      "input": "derivative_at(x^4+sin(x),x,0)",
+      "reference_expression": "derivative_at(x^4+sin(x),x,0)",
+      "unquoted_safe": false,
+      "expect": {
+        "number": 1.0,
+        "exact": false
+      },
+      "oracle": "Derivative 4*x^3+cos(x), evaluated at zero.",
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "derivative_at(x^4+sin(x),x,0)",
+        "expression": "derivative_at(x^4+sin(x),x,0)",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "1",
+          "value": 1.0,
+          "kind": "number",
+          "exact": false
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.283835,
+          "model_ms": 0.019902,
+          "compute_ms": 0.008664999999999999
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.9989306365254648
+      },
+      "exit_code": 0,
+      "failure": null,
+      "wall_ms": 1.234331
+    },
+    {
+      "id": "final-071",
+      "category": "numerical_calculus",
+      "input": "summation(k^2,k,3,9)",
+      "reference_expression": "summation(k^2,k,3,9)",
+      "unquoted_safe": false,
+      "expect": {
+        "number": 280.0,
+        "exact": false
+      },
+      "oracle": "Independent finite integer sum, both endpoints included.",
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "summation(k^2,k,3,9)",
+        "expression": "summation(k^2,k,3,9)",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "280",
+          "value": 280.0,
+          "kind": "number",
+          "exact": false
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.294949,
+          "model_ms": 0.015403000000000002,
+          "compute_ms": 0.050431
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.999946544347214
+      },
+      "exit_code": 0,
+      "failure": null,
+      "wall_ms": 1.21381
+    },
+    {
+      "id": "final-072",
+      "category": "numerical_calculus",
+      "input": "product_range(k,k,3,7)",
+      "reference_expression": "product_range(k,k,3,7)",
+      "unquoted_safe": false,
+      "expect": {
+        "number": 2520.0,
+        "exact": false
+      },
+      "oracle": "Independent finite integer product, both endpoints included.",
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "product_range(k,k,3,7)",
+        "expression": "product_range(k,k,3,7)",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "2520",
+          "value": 2520.0,
+          "kind": "number",
+          "exact": false
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.313323,
+          "model_ms": 0.0238,
+          "compute_ms": 0.046531
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.9994356565322416
+      },
+      "exit_code": 0,
+      "failure": null,
+      "wall_ms": 1.20925
+    },
+    {
+      "id": "final-073",
+      "category": "symbolic",
+      "input": "diff(13*x+4,x)",
+      "reference_expression": "diff(13*x+4,x)",
+      "unquoted_safe": false,
+      "expect": {
+        "number": 13.0,
+        "kind": "symbolic",
+        "exact": true
+      },
+      "oracle": "Derivative of a linear polynomial.",
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "diff(13*x+4,x)",
+        "expression": "diff(13*x+4,x)",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "13",
+          "value": "13",
+          "kind": "symbolic",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.287111,
+          "model_ms": 0.01353,
+          "compute_ms": 0.031745
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.999999847566946
+      },
+      "exit_code": 0,
+      "failure": null,
+      "wall_ms": 1.293659
+    },
+    {
+      "id": "final-074",
+      "category": "symbolic",
+      "input": "diff(x^5,x,5)",
+      "reference_expression": "diff(x^5,x,5)",
+      "unquoted_safe": false,
+      "expect": {
+        "number": 120.0,
+        "kind": "symbolic",
+        "exact": true
+      },
+      "oracle": "The fifth derivative of x^5 is 5!.",
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "diff(x^5,x,5)",
+        "expression": "diff(x^5,x,5)",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "120",
+          "value": "120",
+          "kind": "symbolic",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.29611699999999996,
+          "model_ms": 0.013191,
+          "compute_ms": 0.04161
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.9999992934839496
+      },
+      "exit_code": 0,
+      "failure": null,
+      "wall_ms": 1.263438
+    },
+    {
+      "id": "final-075",
+      "category": "symbolic",
+      "input": "expand((x+4)^2-x^2-8*x)",
+      "reference_expression": "expand((x+4)^2-x^2-8*x)",
+      "unquoted_safe": false,
+      "expect": {
+        "number": 16.0,
+        "kind": "symbolic",
+        "exact": true
+      },
+      "oracle": "Binomial expansion leaves the constant 4^2.",
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "expand((x+4)^2-x^2-8*x)",
+        "expression": "expand((x+4)^2-x^2-8*x)",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "16",
+          "value": "16",
+          "kind": "symbolic",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.325119,
+          "model_ms": 0.017836,
+          "compute_ms": 0.059973000000000005
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.9999997725915843
+      },
+      "exit_code": 0,
+      "failure": null,
+      "wall_ms": 1.356765
+    },
+    {
+      "id": "final-076",
+      "category": "symbolic",
+      "input": "substitute(x^3-3*x+2,x,-3)",
+      "reference_expression": "substitute(x^3-3*x+2,x,-3)",
+      "unquoted_safe": false,
+      "expect": {
+        "number": -16.0,
+        "kind": "symbolic",
+        "exact": true
+      },
+      "oracle": "Direct integer substitution.",
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "substitute(x^3-3*x+2,x,-3)",
+        "expression": "substitute(x^3-3*x+2,x,-3)",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "-16",
+          "value": "-16",
+          "kind": "symbolic",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.284881,
+          "model_ms": 0.018057,
+          "compute_ms": 0.03519
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.9999993270944294
+      },
+      "exit_code": 0,
+      "failure": null,
+      "wall_ms": 1.241026
+    },
+    {
+      "id": "final-077",
+      "category": "symbolic",
+      "input": "solve(5*x-45=0,x)",
+      "reference_expression": "solve(5*x-45=0,x)",
+      "unquoted_safe": false,
+      "expect": {
+        "value": {
+          "variable": "x",
+          "solutions": [
+            "9"
+          ],
+          "all_values": false,
+          "domain": "complex"
+        },
+        "kind": "solutions",
+        "exact": true
+      },
+      "oracle": "Direct substitution and polynomial degree/discriminant verify the complete distinct root set.",
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "solve(5*x-45=0,x)",
+        "expression": "solve(5*x-45=0,x)",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "x = 9",
+          "value": {
+            "all_values": false,
+            "domain": "complex",
+            "solutions": [
+              "9"
+            ],
+            "variable": "x"
+          },
+          "kind": "solutions",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.31644300000000003,
+          "model_ms": 0.017078000000000003,
+          "compute_ms": 0.031704
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.9999768871900788
+      },
+      "exit_code": 0,
+      "failure": null,
+      "wall_ms": 2.370279
+    },
+    {
+      "id": "final-078",
+      "category": "symbolic",
+      "input": "solve(x^2-10*x+25=0,x)",
+      "reference_expression": "solve(x^2-10*x+25=0,x)",
+      "unquoted_safe": false,
+      "expect": {
+        "value": {
+          "variable": "x",
+          "solutions": [
+            "5"
+          ],
+          "all_values": false,
+          "domain": "complex"
+        },
+        "kind": "solutions",
+        "exact": true
+      },
+      "oracle": "Direct substitution and polynomial degree/discriminant verify the complete distinct root set.",
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "solve(x^2-10*x+25=0,x)",
+        "expression": "solve(x^2-10*x+25=0,x)",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "x = 5",
+          "value": {
+            "all_values": false,
+            "domain": "complex",
+            "solutions": [
+              "5"
+            ],
+            "variable": "x"
+          },
+          "kind": "solutions",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.701296,
+          "model_ms": 0.023704,
+          "compute_ms": 0.048444
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.9999998951628198
+      },
+      "exit_code": 0,
+      "failure": null,
+      "wall_ms": 2.982466
+    },
+    {
+      "id": "final-079",
+      "category": "symbolic",
+      "input": "integrate(1,x)",
+      "reference_expression": "integrate(1,x)",
+      "unquoted_safe": false,
+      "expect": {
+        "value": {
+          "expression": "x",
+          "constant": "C",
+          "variable": "x",
+          "domain": "real intervals where the input and antiderivative are defined",
+          "conditions": []
+        },
+        "kind": "antiderivative",
+        "exact": true
+      },
+      "oracle": "Antiderivative of one is x+C with no real-domain exclusions; chosen to avoid equivalent-form formatting ambiguity.",
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "integrate(1,x)",
+        "expression": "integrate(1,x)",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "x + C",
+          "value": {
+            "conditions": [],
+            "constant": "C",
+            "domain": "real intervals where the input and antiderivative are defined",
+            "expression": "x",
+            "variable": "x"
+          },
+          "kind": "antiderivative",
+          "exact": true
+        },
+        "attempts": 2,
+        "retries": 1,
+        "timing": {
+          "total_ms": 590.1532109999999,
+          "model_ms": 589.601221,
+          "compute_ms": 0.017906000000000002
+        },
+        "model": "needle2-tuned"
+      },
+      "exit_code": 0,
+      "failure": null,
+      "wall_ms": 592.197547
+    },
+    {
+      "id": "final-080",
+      "category": "bad_input",
+      "input": "what's the weather in Lyon",
+      "reference_expression": null,
+      "unquoted_safe": false,
+      "expect": {
+        "error": []
+      },
+      "oracle": "Outside mathematical calculator scope.",
+      "response": {
+        "schema_version": 1,
+        "ok": false,
+        "input": "what's the weather in Lyon",
+        "error": {
+          "code": "unsupported_input",
+          "message": "This request asks for a task outside the calculator's scope. Ask explicitly for a calculation.",
+          "retryable": false
+        },
+        "attempts": 0,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.300956,
+          "model_ms": 0.0,
+          "compute_ms": 0.0
+        },
+        "model": "none"
+      },
+      "exit_code": 2,
+      "failure": null,
+      "wall_ms": 1.565588
+    },
+    {
+      "id": "final-081",
+      "category": "bad_input",
+      "input": "open my documents",
+      "reference_expression": null,
+      "unquoted_safe": true,
+      "expect": {
+        "error": []
+      },
+      "oracle": "A file-management request is outside scope.",
+      "response": {
+        "schema_version": 1,
+        "ok": false,
+        "input": "open my documents",
+        "error": {
+          "code": "unsupported_input",
+          "message": "This request asks for a task outside the calculator's scope. Ask explicitly for a calculation.",
+          "retryable": false
+        },
+        "attempts": 0,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.238685,
+          "model_ms": 0.0,
+          "compute_ms": 0.0
+        },
+        "model": "none"
+      },
+      "exit_code": 2,
+      "failure": null,
+      "wall_ms": 1.279434
+    },
+    {
+      "id": "final-082",
+      "category": "bad_input",
+      "input": "write a poem about 7 plus 8",
+      "reference_expression": null,
+      "unquoted_safe": true,
+      "expect": {
+        "error": []
+      },
+      "oracle": "A mathematical mention does not turn a writing request into evaluation.",
+      "response": {
+        "schema_version": 1,
+        "ok": false,
+        "input": "write a poem about 7 plus 8",
+        "error": {
+          "code": "unsupported_input",
+          "message": "This request asks for a task outside the calculator's scope. Ask explicitly for a calculation.",
+          "retryable": false
+        },
+        "attempts": 0,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.217514,
+          "model_ms": 0.0,
+          "compute_ms": 0.0
+        },
+        "model": "none"
+      },
+      "exit_code": 2,
+      "failure": null,
+      "wall_ms": 1.334787
+    },
+    {
+      "id": "final-083",
+      "category": "bad_input",
+      "input": "what is 7 + 8 and email the answer",
+      "reference_expression": null,
+      "unquoted_safe": true,
+      "expect": {
+        "error": []
+      },
+      "oracle": "Mixed calculation and unsupported external action.",
+      "response": {
+        "schema_version": 1,
+        "ok": false,
+        "input": "what is 7 + 8 and email the answer",
+        "error": {
+          "code": "unsupported_input",
+          "message": "This request asks for a task outside the calculator's scope. Ask explicitly for a calculation.",
+          "retryable": false
+        },
+        "attempts": 0,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.219049,
+          "model_ms": 0.0,
+          "compute_ms": 0.0
+        },
+        "model": "none"
+      },
+      "exit_code": 2,
+      "failure": null,
+      "wall_ms": 1.175617
+    },
+    {
+      "id": "final-084",
+      "category": "bad_input",
+      "input": "do not calculate 14 plus 6",
+      "reference_expression": null,
+      "unquoted_safe": true,
+      "expect": {
+        "error": []
+      },
+      "oracle": "Explicitly negated calculation.",
+      "response": {
+        "schema_version": 1,
+        "ok": false,
+        "input": "do not calculate 14 plus 6",
+        "tool_call": {
+          "name": "function",
+          "arguments": {
+            "arguments": [
+              "14",
+              "6"
+            ],
+            "function": "add"
+          }
+        },
+        "error": {
+          "code": "unsupported_input",
+          "message": "The request explicitly says not to perform a calculation.",
+          "retryable": false
+        },
+        "attempts": 3,
+        "retries": 2,
+        "timing": {
+          "total_ms": 701.910922,
+          "model_ms": 701.5647690000001,
+          "compute_ms": 0.0
+        },
+        "model": "needle2-tuned"
+      },
+      "exit_code": 2,
+      "failure": null,
+      "wall_ms": 703.072079
+    },
+    {
+      "id": "final-085",
+      "category": "bad_input",
+      "input": "what is",
+      "reference_expression": null,
+      "unquoted_safe": true,
+      "expect": {
+        "error": []
+      },
+      "oracle": "Missing expression.",
+      "response": {
+        "schema_version": 1,
+        "ok": false,
+        "input": "what is",
+        "error": {
+          "code": "unsupported_input",
+          "message": "I could not identify a supported calculation. Include the numbers, expression, or units to calculate.",
+          "retryable": false
+        },
+        "attempts": 3,
+        "retries": 2,
+        "timing": {
+          "total_ms": 619.915935,
+          "model_ms": 619.443925,
+          "compute_ms": 0.0
+        },
+        "model": "needle2-tuned"
+      },
+      "exit_code": 2,
+      "failure": null,
+      "wall_ms": 621.297996
+    },
+    {
+      "id": "final-086",
+      "category": "bad_input",
+      "input": "13 +",
+      "reference_expression": null,
+      "unquoted_safe": true,
+      "expect": {
+        "error": []
+      },
+      "oracle": "Missing right operand.",
+      "response": {
+        "schema_version": 1,
+        "ok": false,
+        "input": "13 +",
+        "expression": "13 +",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "error": {
+          "code": "math_error",
+          "message": "found '+' while expecting ')'",
+          "retryable": false
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.347821,
+          "model_ms": 0.019268,
+          "compute_ms": 0.052481
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.999970184592257
+      },
+      "exit_code": 3,
+      "failure": null,
+      "wall_ms": 1.739198
+    },
+    {
+      "id": "final-087",
+      "category": "bad_input",
+      "input": "(8+3",
+      "reference_expression": null,
+      "unquoted_safe": false,
+      "expect": {
+        "error": []
+      },
+      "oracle": "Unclosed grouping.",
+      "response": {
+        "schema_version": 1,
+        "ok": false,
+        "input": "(8+3",
+        "expression": "(8+3",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "error": {
+          "code": "invalid_input",
+          "message": "Unclosed brackets",
+          "retryable": false
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.29586,
+          "model_ms": 0.012355,
+          "compute_ms": 0.00061
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.99998427379903
+      },
+      "exit_code": 2,
+      "failure": null,
+      "wall_ms": 1.352737
+    },
+    {
+      "id": "final-088",
+      "category": "bad_input",
+      "input": "mean([2,,7])",
+      "reference_expression": null,
+      "unquoted_safe": false,
+      "expect": {
+        "error": []
+      },
+      "oracle": "Missing interior list value; a trailing comma rule cannot repair this.",
+      "response": {
+        "schema_version": 1,
+        "ok": false,
+        "input": "mean([2,,7])",
+        "expression": "mean([2,,7])",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "error": {
+          "code": "invalid_input",
+          "message": "Missing argument or mismatched brackets",
+          "retryable": false
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.27276,
+          "model_ms": 0.021838,
+          "compute_ms": 0.005359
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.999956849720508
+      },
+      "exit_code": 2,
+      "failure": null,
+      "wall_ms": 1.242638
+    },
+    {
+      "id": "final-089",
+      "category": "bad_input",
+      "input": "mean([])",
+      "reference_expression": null,
+      "unquoted_safe": false,
+      "expect": {
+        "error": []
+      },
+      "oracle": "Undefined mean of an empty data set.",
+      "response": {
+        "schema_version": 1,
+        "ok": false,
+        "input": "mean([])",
+        "expression": "mean([])",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "error": {
+          "code": "math_error",
+          "message": "A nonempty list is required",
+          "retryable": false
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 126.35385800000002,
+          "model_ms": 125.87277,
+          "compute_ms": 0.005488
+        },
+        "model": "needle2-tuned"
+      },
+      "exit_code": 3,
+      "failure": null,
+      "wall_ms": 127.513515
+    },
+    {
+      "id": "final-090",
+      "category": "bad_input",
+      "input": "variance([1e200,-1e200])",
+      "reference_expression": null,
+      "unquoted_safe": false,
+      "expect": {
+        "error": []
+      },
+      "oracle": "Variance is 1e400, outside finite f64 range; must not become zero.",
+      "response": {
+        "schema_version": 1,
+        "ok": false,
+        "input": "variance([1e200,-1e200])",
+        "expression": "variance([1e200,-1e200])",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "error": {
+          "code": "math_error",
+          "message": "Result is not finite (invalid domain or numeric overflow)",
+          "retryable": false
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.39400999999999997,
+          "model_ms": 0.042223,
+          "compute_ms": 0.008092
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.9999844634821512
+      },
+      "exit_code": 3,
+      "failure": null,
+      "wall_ms": 1.765967
+    },
+    {
+      "id": "final-091",
+      "category": "bad_input",
+      "input": "1/0",
+      "reference_expression": null,
+      "unquoted_safe": true,
+      "expect": {
+        "error": []
+      },
+      "oracle": "Division by zero.",
+      "response": {
+        "schema_version": 1,
+        "ok": false,
+        "input": "1/0",
+        "expression": "1/0",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "error": {
+          "code": "math_error",
+          "message": "division by zero",
+          "retryable": false
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.395621,
+          "model_ms": 0.015004,
+          "compute_ms": 0.057153
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.999933789015502
+      },
+      "exit_code": 3,
+      "failure": null,
+      "wall_ms": 1.528912
+    },
+    {
+      "id": "final-092",
+      "category": "bad_input",
+      "input": "0^0",
+      "reference_expression": null,
+      "unquoted_safe": true,
+      "expect": {
+        "error": []
+      },
+      "oracle": "Undefined zero-to-zero convention required by the calculator.",
+      "response": {
+        "schema_version": 1,
+        "ok": false,
+        "input": "0^0",
+        "expression": "0^0",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "error": {
+          "code": "math_error",
+          "message": "zero to the power of zero is undefined",
+          "retryable": false
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.344057,
+          "model_ms": 0.012356,
+          "compute_ms": 0.043396
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.9999905350104238
+      },
+      "exit_code": 3,
+      "failure": null,
+      "wall_ms": 1.565676
+    },
+    {
+      "id": "final-093",
+      "category": "bad_input",
+      "input": "factorial(2.000000000000001)",
+      "reference_expression": null,
+      "unquoted_safe": false,
+      "expect": {
+        "error": []
+      },
+      "oracle": "Fractional argument is not an integer factorial.",
+      "response": {
+        "schema_version": 1,
+        "ok": false,
+        "input": "factorial(2.000000000000001)",
+        "expression": "factorial(2.000000000000001)",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "error": {
+          "code": "math_error",
+          "message": "Expected an exact integer with magnitude no larger than 2^53 - 1",
+          "retryable": false
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.339754,
+          "model_ms": 0.021119,
+          "compute_ms": 0.07539
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.981204239146792
+      },
+      "exit_code": 3,
+      "failure": null,
+      "wall_ms": 1.304396
+    },
+    {
+      "id": "final-094",
+      "category": "bad_input",
+      "input": "log(13,1)",
+      "reference_expression": null,
+      "unquoted_safe": false,
+      "expect": {
+        "error": []
+      },
+      "oracle": "A logarithm base cannot be one.",
+      "response": {
+        "schema_version": 1,
+        "ok": false,
+        "input": "log(13,1)",
+        "expression": "log(13,1)",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "error": {
+          "code": "math_error",
+          "message": "Real logarithm requires x > 0 and a positive base other than 1",
+          "retryable": false
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.29074500000000003,
+          "model_ms": 0.016038,
+          "compute_ms": 0.006987
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.9999955693397236
+      },
+      "exit_code": 3,
+      "failure": null,
+      "wall_ms": 1.321576
+    },
+    {
+      "id": "final-095",
+      "category": "bad_input",
+      "input": "atan2(0,0)",
+      "reference_expression": null,
+      "unquoted_safe": false,
+      "expect": {
+        "error": []
+      },
+      "oracle": "The zero vector has no defined angle.",
+      "response": {
+        "schema_version": 1,
+        "ok": false,
+        "input": "atan2(0,0)",
+        "expression": "atan2(0,0)",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "error": {
+          "code": "math_error",
+          "message": "atan2 is undefined at (0,0)",
+          "retryable": false
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.306015,
+          "model_ms": 0.023871,
+          "compute_ms": 0.007521
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.9999984434283384
+      },
+      "exit_code": 3,
+      "failure": null,
+      "wall_ms": 1.314342
+    },
+    {
+      "id": "final-096",
+      "category": "bad_input",
+      "input": "inverse([[1,2],[2,4]])",
+      "reference_expression": null,
+      "unquoted_safe": false,
+      "expect": {
+        "error": []
+      },
+      "oracle": "Singular matrix: second row is twice the first.",
+      "response": {
+        "schema_version": 1,
+        "ok": false,
+        "input": "inverse([[1,2],[2,4]])",
+        "expression": "inverse([[1,2],[2,4]])",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "error": {
+          "code": "math_error",
+          "message": "Matrix is singular",
+          "retryable": false
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 2.804993,
+          "model_ms": 0.027333,
+          "compute_ms": 0.009456
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.9998504842912151
+      },
+      "exit_code": 3,
+      "failure": null,
+      "wall_ms": 4.693656
+    },
+    {
+      "id": "final-097",
+      "category": "bad_input",
+      "input": "matmul([[1,2]],[[3,4]])",
+      "reference_expression": null,
+      "unquoted_safe": false,
+      "expect": {
+        "error": []
+      },
+      "oracle": "Inner matrix dimensions do not agree.",
+      "response": {
+        "schema_version": 1,
+        "ok": false,
+        "input": "matmul([[1,2]],[[3,4]])",
+        "expression": "matmul([[1,2]],[[3,4]])",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "error": {
+          "code": "math_error",
+          "message": "Matrix multiplication requires columns(A) = rows(B)",
+          "retryable": false
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.413141,
+          "model_ms": 0.051684,
+          "compute_ms": 0.012032
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.9999908913121496
+      },
+      "exit_code": 3,
+      "failure": null,
+      "wall_ms": 2.208398
+    },
+    {
+      "id": "final-098",
+      "category": "bad_input",
+      "input": "12 kg to seconds",
+      "reference_expression": null,
+      "unquoted_safe": true,
+      "expect": {
+        "error": []
+      },
+      "oracle": "Mass and time dimensions are incompatible.",
+      "response": {
+        "schema_version": 1,
+        "ok": false,
+        "input": "12 kg to seconds",
+        "expression": "12 kg to seconds",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "error": {
+          "code": "math_error",
+          "message": "cannot convert from kg to seconds: units 'kilogram' and 'second' are incompatible",
+          "retryable": false
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.532106,
+          "model_ms": 0.041336,
+          "compute_ms": 0.139247
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.995985445818422
+      },
+      "exit_code": 3,
+      "failure": null,
+      "wall_ms": 1.900753
+    },
+    {
+      "id": "final-099",
+      "category": "bad_input",
+      "input": "integrate(1/(x-0.41)^2,x,0,1)",
+      "reference_expression": null,
+      "unquoted_safe": false,
+      "expect": {
+        "error": []
+      },
+      "oracle": "A positive second-order pole makes the improper integral diverge.",
+      "response": {
+        "schema_version": 1,
+        "ok": false,
+        "input": "integrate(1/(x-0.41)^2,x,0,1)",
+        "expression": "integrate(1/(x-0.41)^2,x,0,1)",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "error": {
+          "code": "math_error",
+          "message": "Integration did not converge; split singularities or choose a smoother interval",
+          "retryable": false
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.458148,
+          "model_ms": 0.044304,
+          "compute_ms": 0.118196
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.9989906284444948
+      },
+      "exit_code": 3,
+      "failure": null,
+      "wall_ms": 1.568878
+    },
+    {
+      "id": "final-100",
+      "category": "bad_input",
+      "input": "substitute(x/x,x,0)",
+      "reference_expression": null,
+      "unquoted_safe": false,
+      "expect": {
+        "error": []
+      },
+      "oracle": "Substitution cannot erase the excluded zero denominator.",
+      "response": {
+        "schema_version": 1,
+        "ok": false,
+        "input": "substitute(x/x,x,0)",
+        "expression": "substitute(x/x,x,0)",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "error": {
+          "code": "math_error",
+          "message": "zero cannot be raised to a zero or negative power",
+          "retryable": false
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 1.448215,
+          "model_ms": 0.02378,
+          "compute_ms": 0.024755
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.999411182201686
+      },
+      "exit_code": 3,
+      "failure": null,
+      "wall_ms": 3.665831
+    }
+  ]
+}

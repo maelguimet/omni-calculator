@@ -1,0 +1,1235 @@
+[
+  {
+    "id": "final-001",
+    "category": "literal_and_typo",
+    "input": "what is 14 + 27",
+    "reference_expression": "14+27",
+    "unquoted_safe": true,
+    "expect": {
+      "number": 41.0,
+      "exact": true
+    },
+    "oracle": "Integer addition."
+  },
+  {
+    "id": "final-002",
+    "category": "literal_and_typo",
+    "input": "wat iz 18 - 7",
+    "reference_expression": "18-7",
+    "unquoted_safe": true,
+    "expect": {
+      "number": 11.0,
+      "exact": true
+    },
+    "oracle": "Integer subtraction with typo wrapper."
+  },
+  {
+    "id": "final-003",
+    "category": "literal_and_typo",
+    "input": "wht is (13+5)/6",
+    "reference_expression": "(13+5)/6",
+    "unquoted_safe": false,
+    "expect": {
+      "number": 3.0,
+      "exact": true
+    },
+    "oracle": "Parentheses before division."
+  },
+  {
+    "id": "final-004",
+    "category": "literal_and_typo",
+    "input": "please calculate 2^3^2",
+    "reference_expression": "2^(3^2)",
+    "unquoted_safe": true,
+    "expect": {
+      "number": 512.0,
+      "exact": true
+    },
+    "oracle": "Right-associative exponentiation."
+  },
+  {
+    "id": "final-005",
+    "category": "literal_and_typo",
+    "input": "-7^2 + 7^-2",
+    "reference_expression": "-(7^2)+7^(-2)",
+    "unquoted_safe": true,
+    "expect": {
+      "value": "-2400/49",
+      "kind": "rational",
+      "exact": true
+    },
+    "oracle": "Fraction oracle; powers bind more tightly than unary minus."
+  },
+  {
+    "id": "final-006",
+    "category": "literal_and_typo",
+    "input": "(27-3)/(5+3)",
+    "reference_expression": "(27-3)/(5+3)",
+    "unquoted_safe": false,
+    "expect": {
+      "number": 3.0,
+      "exact": true
+    },
+    "oracle": "Exact rational division."
+  },
+  {
+    "id": "final-007",
+    "category": "literal_and_typo",
+    "input": ".125 + .375",
+    "reference_expression": ".125+.375",
+    "unquoted_safe": true,
+    "expect": {
+      "number": 0.5,
+      "exact": true
+    },
+    "oracle": "Decimal strings converted to exact Fractions."
+  },
+  {
+    "id": "final-008",
+    "category": "literal_and_typo",
+    "input": "1/7 + 2/21",
+    "reference_expression": "1/7+2/21",
+    "unquoted_safe": true,
+    "expect": {
+      "value": "5/21",
+      "kind": "rational",
+      "exact": true
+    },
+    "oracle": "Fraction oracle with common denominator 21."
+  },
+  {
+    "id": "final-009",
+    "category": "literal_and_typo",
+    "input": "9007199254741017 + 2",
+    "reference_expression": "9007199254741017+2",
+    "unquoted_safe": true,
+    "expect": {
+      "value": "9007199254741019",
+      "display": "9007199254741019",
+      "kind": "integer",
+      "exact": true
+    },
+    "oracle": "Python arbitrary-precision integer oracle; strict display also detects a lost low bit."
+  },
+  {
+    "id": "final-010",
+    "category": "literal_and_typo",
+    "input": "2^137",
+    "reference_expression": "2^137",
+    "unquoted_safe": true,
+    "expect": {
+      "value": "174224571863520493293247799005065324265472",
+      "kind": "integer",
+      "exact": true
+    },
+    "oracle": "Python arbitrary-precision integer exponentiation."
+  },
+  {
+    "id": "final-011",
+    "category": "literal_and_typo",
+    "input": "(1e-18 + 3e-18)/2e-18",
+    "reference_expression": "(1e-18+3e-18)/2e-18",
+    "unquoted_safe": false,
+    "expect": {
+      "number": 2.0,
+      "exact": true
+    },
+    "oracle": "Exact decimal exponent notation."
+  },
+  {
+    "id": "final-012",
+    "category": "literal_and_typo",
+    "input": "73!/(72!)",
+    "reference_expression": "73!/72!",
+    "unquoted_safe": false,
+    "expect": {
+      "number": 73.0,
+      "exact": true
+    },
+    "oracle": "Consecutive factorials cancel exactly."
+  },
+  {
+    "id": "final-013",
+    "category": "verbal_operations",
+    "input": "what is 63 plus 29",
+    "reference_expression": "63+29",
+    "unquoted_safe": true,
+    "expect": {
+      "number": 92.0
+    },
+    "oracle": "Addition of original operands."
+  },
+  {
+    "id": "final-014",
+    "category": "verbal_operations",
+    "input": "calculate 82 minus 35",
+    "reference_expression": "82-35",
+    "unquoted_safe": true,
+    "expect": {
+      "number": 47.0
+    },
+    "oracle": "Subtraction in source order."
+  },
+  {
+    "id": "final-015",
+    "category": "verbal_operations",
+    "input": "subtract -8 from 17",
+    "reference_expression": "17-(-8)",
+    "unquoted_safe": true,
+    "expect": {
+      "number": 25.0
+    },
+    "oracle": "From reverses subtraction operand order; preserve negative sign."
+  },
+  {
+    "id": "final-016",
+    "category": "verbal_operations",
+    "input": "multiply -9 by 14",
+    "reference_expression": "(-9)*14",
+    "unquoted_safe": true,
+    "expect": {
+      "number": -126.0
+    },
+    "oracle": "Signed multiplication."
+  },
+  {
+    "id": "final-017",
+    "category": "verbal_operations",
+    "input": "what is 156 divided by 12",
+    "reference_expression": "156/12",
+    "unquoted_safe": true,
+    "expect": {
+      "number": 13.0
+    },
+    "oracle": "Division in source order."
+  },
+  {
+    "id": "final-018",
+    "category": "verbal_operations",
+    "input": "divide 4 into 68",
+    "reference_expression": "68/4",
+    "unquoted_safe": true,
+    "expect": {
+      "number": 17.0
+    },
+    "oracle": "Divide into reverses division operand order."
+  },
+  {
+    "id": "final-019",
+    "category": "verbal_operations",
+    "input": "what is 6 to the power of 4",
+    "reference_expression": "6^4",
+    "unquoted_safe": true,
+    "expect": {
+      "number": 1296.0
+    },
+    "oracle": "Integer power."
+  },
+  {
+    "id": "final-020",
+    "category": "verbal_operations",
+    "input": "what is the square root of 289",
+    "reference_expression": "sqrt(289)",
+    "unquoted_safe": true,
+    "expect": {
+      "number": 17.0
+    },
+    "oracle": "17 squared is 289."
+  },
+  {
+    "id": "final-021",
+    "category": "verbal_operations",
+    "input": "cube root of -729",
+    "reference_expression": "cbrt(-729)",
+    "unquoted_safe": true,
+    "expect": {
+      "number": -9.0
+    },
+    "oracle": "The real cube root; (-9)^3 = -729."
+  },
+  {
+    "id": "final-022",
+    "category": "verbal_operations",
+    "input": "what is the factorial of 8",
+    "reference_expression": "factorial(8)",
+    "unquoted_safe": true,
+    "expect": {
+      "number": 40320.0
+    },
+    "oracle": "Python factorial."
+  },
+  {
+    "id": "final-023",
+    "category": "verbal_operations",
+    "input": "what is 113 modulo 17",
+    "reference_expression": "mod(113,17)",
+    "unquoted_safe": true,
+    "expect": {
+      "number": 11.0
+    },
+    "oracle": "113 = 6*17 + 11."
+  },
+  {
+    "id": "final-024",
+    "category": "verbal_operations",
+    "input": "greatest common divisor of 84 and 198",
+    "reference_expression": "gcd(84,198)",
+    "unquoted_safe": true,
+    "expect": {
+      "number": 6.0
+    },
+    "oracle": "Euclidean gcd."
+  },
+  {
+    "id": "final-025",
+    "category": "verbal_operations",
+    "input": "least common multiple of 18 and 35",
+    "reference_expression": "lcm(18,35)",
+    "unquoted_safe": true,
+    "expect": {
+      "number": 630.0
+    },
+    "oracle": "LCM = abs(a*b)/gcd(a,b)."
+  },
+  {
+    "id": "final-026",
+    "category": "verbal_operations",
+    "input": "what is 17.5 percent of 240",
+    "reference_expression": "(17.5/100)*240",
+    "unquoted_safe": true,
+    "expect": {
+      "number": 42.0
+    },
+    "oracle": "A percent of a quantity; exact Fraction oracle."
+  },
+  {
+    "id": "final-027",
+    "category": "scientific_and_complex",
+    "input": "sin(pi/7)^2 + cos(pi/7)^2",
+    "reference_expression": "sin(pi/7)^2 + cos(pi/7)^2",
+    "unquoted_safe": false,
+    "expect": {
+      "number": 1.0
+    },
+    "oracle": "Pythagorean trigonometric identity; explicit calls bind before powers."
+  },
+  {
+    "id": "final-028",
+    "category": "scientific_and_complex",
+    "input": "sin(150 degrees)",
+    "reference_expression": "sin(150 degrees)",
+    "unquoted_safe": false,
+    "expect": {
+      "number": 0.5
+    },
+    "oracle": "sin(150 degrees) = sin(30 degrees) = 1/2."
+  },
+  {
+    "id": "final-029",
+    "category": "scientific_and_complex",
+    "input": "log(343,7)",
+    "reference_expression": "log(343,7)",
+    "unquoted_safe": false,
+    "expect": {
+      "number": 3.0
+    },
+    "oracle": "343 = 7^3; value-first log convention."
+  },
+  {
+    "id": "final-030",
+    "category": "scientific_and_complex",
+    "input": "ln(exp(3))",
+    "reference_expression": "ln(exp(3))",
+    "unquoted_safe": false,
+    "expect": {
+      "number": 3.0
+    },
+    "oracle": "Natural logarithm and exponential are inverses on real inputs."
+  },
+  {
+    "id": "final-031",
+    "category": "scientific_and_complex",
+    "input": "hypot(8,15)",
+    "reference_expression": "hypot(8,15)",
+    "unquoted_safe": false,
+    "expect": {
+      "number": 17.0
+    },
+    "oracle": "8^2+15^2=17^2."
+  },
+  {
+    "id": "final-032",
+    "category": "scientific_and_complex",
+    "input": "gamma(6)",
+    "reference_expression": "gamma(6)",
+    "unquoted_safe": false,
+    "expect": {
+      "number": 120.0
+    },
+    "oracle": "Gamma(n) = (n-1)! for a positive integer."
+  },
+  {
+    "id": "final-033",
+    "category": "scientific_and_complex",
+    "input": "erf(0.75)",
+    "reference_expression": "erf(0.75)",
+    "unquoted_safe": false,
+    "expect": {
+      "number": 0.7111556336535151
+    },
+    "oracle": "Python stdlib erf at 0.75."
+  },
+  {
+    "id": "final-034",
+    "category": "scientific_and_complex",
+    "input": "sinh(47)",
+    "reference_expression": "sinh(47)",
+    "unquoted_safe": false,
+    "expect": {
+      "number": 1.2906564430950338e+20
+    },
+    "oracle": "Python stdlib sinh; output exceeds u64 without floating overflow."
+  },
+  {
+    "id": "final-035",
+    "category": "scientific_and_complex",
+    "input": "real((8+3i)*(4-7i))",
+    "reference_expression": "real((8+3i)*(4-7i))",
+    "unquoted_safe": false,
+    "expect": {
+      "number": 53.0
+    },
+    "oracle": "Python complex multiplication, real component."
+  },
+  {
+    "id": "final-036",
+    "category": "scientific_and_complex",
+    "input": "imag((8+3i)*(4-7i))",
+    "reference_expression": "imag((8+3i)*(4-7i))",
+    "unquoted_safe": false,
+    "expect": {
+      "number": -44.0
+    },
+    "oracle": "Python complex multiplication, imaginary component."
+  },
+  {
+    "id": "final-037",
+    "category": "scientific_and_complex",
+    "input": "abs(8-15i)",
+    "reference_expression": "abs(8-15i)",
+    "unquoted_safe": false,
+    "expect": {
+      "number": 17.0
+    },
+    "oracle": "Complex modulus sqrt(8^2+15^2)."
+  },
+  {
+    "id": "final-038",
+    "category": "scientific_and_complex",
+    "input": "imag(sqrt(-121))",
+    "reference_expression": "imag(sqrt(-121))",
+    "unquoted_safe": false,
+    "expect": {
+      "number": 11.0
+    },
+    "oracle": "Principal square root of -121 is 11i."
+  },
+  {
+    "id": "final-039",
+    "category": "units_and_physics",
+    "input": "what is 7.25 km to m",
+    "reference_expression": "7.25 km to m",
+    "unquoted_safe": true,
+    "expect": {
+      "value": "7250 m",
+      "kind": "quantity",
+      "exact": true
+    },
+    "oracle": "SI prefix kilo = 1000."
+  },
+  {
+    "id": "final-040",
+    "category": "units_and_physics",
+    "input": "125 cm to m",
+    "reference_expression": "125 cm to m",
+    "unquoted_safe": true,
+    "expect": {
+      "value": "1.25 m",
+      "kind": "quantity",
+      "exact": true
+    },
+    "oracle": "SI prefix centi = 1/100."
+  },
+  {
+    "id": "final-041",
+    "category": "units_and_physics",
+    "input": "3600 s to hour",
+    "reference_expression": "3600 s to hour",
+    "unquoted_safe": true,
+    "expect": {
+      "value": "1 hour",
+      "kind": "quantity",
+      "exact": true
+    },
+    "oracle": "One hour is 3600 seconds."
+  },
+  {
+    "id": "final-042",
+    "category": "units_and_physics",
+    "input": "2.5 kg to g",
+    "reference_expression": "2.5 kg to g",
+    "unquoted_safe": true,
+    "expect": {
+      "value": "2500 g",
+      "kind": "quantity",
+      "exact": true
+    },
+    "oracle": "One kilogram is 1000 grams."
+  },
+  {
+    "id": "final-043",
+    "category": "units_and_physics",
+    "input": "7500 mL to L",
+    "reference_expression": "7500 mL to L",
+    "unquoted_safe": true,
+    "expect": {
+      "value": "7.5 L",
+      "kind": "quantity",
+      "exact": true
+    },
+    "oracle": "One litre is 1000 millilitres."
+  },
+  {
+    "id": "final-044",
+    "category": "units_and_physics",
+    "input": "(11 kg * (8 m/s)^2)/2 to J",
+    "reference_expression": "(11 kg*(8 m/s)^2)/2 to J",
+    "unquoted_safe": false,
+    "expect": {
+      "value": "352 J",
+      "kind": "quantity",
+      "exact": true
+    },
+    "oracle": "Kinetic energy = mass*speed^2/2; 1 J = kg*m^2/s^2."
+  },
+  {
+    "id": "final-045",
+    "category": "units_and_physics",
+    "input": "(24 V)*(3 A) to W",
+    "reference_expression": "(24 V)*(3 A) to W",
+    "unquoted_safe": false,
+    "expect": {
+      "value": "72 W",
+      "kind": "quantity",
+      "exact": true
+    },
+    "oracle": "Electrical power = voltage*current."
+  },
+  {
+    "id": "final-046",
+    "category": "units_and_physics",
+    "input": "68 degrees Fahrenheit to Celsius",
+    "reference_expression": "68 degrees Fahrenheit to Celsius",
+    "unquoted_safe": true,
+    "expect": {
+      "value": "20 \u00b0C",
+      "kind": "quantity",
+      "exact": true
+    },
+    "oracle": "Celsius = (Fahrenheit-32)*5/9; affine offset must be retained."
+  },
+  {
+    "id": "final-047",
+    "category": "units_and_physics",
+    "input": "-10 degrees Celsius to Kelvin",
+    "reference_expression": "-10 degrees Celsius to Kelvin",
+    "unquoted_safe": true,
+    "expect": {
+      "value": "263.15 K",
+      "kind": "quantity",
+      "exact": true
+    },
+    "oracle": "Kelvin = Celsius+273.15."
+  },
+  {
+    "id": "final-048",
+    "category": "matrices_and_vectors",
+    "input": "det([[7,2],[5,3]])",
+    "reference_expression": "det([[7,2],[5,3]])",
+    "unquoted_safe": false,
+    "expect": {
+      "number": 11.0,
+      "exact": false
+    },
+    "oracle": "Two-by-two determinant ad-bc."
+  },
+  {
+    "id": "final-049",
+    "category": "matrices_and_vectors",
+    "input": "inverse([[4,1],[2,1]])",
+    "reference_expression": "inverse([[4,1],[2,1]])",
+    "unquoted_safe": false,
+    "expect": {
+      "value": [
+        [
+          0.5,
+          -0.5
+        ],
+        [
+          -1,
+          2
+        ]
+      ],
+      "kind": "matrix",
+      "exact": false
+    },
+    "oracle": "Two-by-two adjugate divided by determinant 2; both matrix products give identity."
+  },
+  {
+    "id": "final-050",
+    "category": "matrices_and_vectors",
+    "input": "matmul([[2,5],[1,3]],[[4,1],[2,6]])",
+    "reference_expression": "matmul([[2,5],[1,3]],[[4,1],[2,6]])",
+    "unquoted_safe": false,
+    "expect": {
+      "value": [
+        [
+          18,
+          32
+        ],
+        [
+          10,
+          19
+        ]
+      ],
+      "kind": "matrix",
+      "exact": false
+    },
+    "oracle": "Independent row-by-column Python sums."
+  },
+  {
+    "id": "final-051",
+    "category": "matrices_and_vectors",
+    "input": "solve_linear([[3,2],[1,-1]],[16,2])",
+    "reference_expression": "solve_linear([[3,2],[1,-1]],[16,2])",
+    "unquoted_safe": false,
+    "expect": {
+      "value": [
+        4,
+        2
+      ],
+      "kind": "vector",
+      "exact": false
+    },
+    "oracle": "Substitution verifies 3*4+2*2=16 and 4-2=2."
+  },
+  {
+    "id": "final-052",
+    "category": "matrices_and_vectors",
+    "input": "dot([2,-3,7],[5,4,-2])",
+    "reference_expression": "dot([2,-3,7],[5,4,-2])",
+    "unquoted_safe": false,
+    "expect": {
+      "number": -16.0,
+      "exact": false
+    },
+    "oracle": "Independent scalar-product sum."
+  },
+  {
+    "id": "final-053",
+    "category": "matrices_and_vectors",
+    "input": "cross([2,1,0],[0,3,4])",
+    "reference_expression": "cross([2,1,0],[0,3,4])",
+    "unquoted_safe": false,
+    "expect": {
+      "value": [
+        4,
+        -8,
+        6
+      ],
+      "kind": "vector",
+      "exact": false
+    },
+    "oracle": "Right-handed determinant formula for cross product."
+  },
+  {
+    "id": "final-054",
+    "category": "matrices_and_vectors",
+    "input": "matrix_power([[1,2],[0,1]],4)",
+    "reference_expression": "matrix_power([[1,2],[0,1]],4)",
+    "unquoted_safe": false,
+    "expect": {
+      "value": [
+        [
+          1,
+          8
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "kind": "matrix",
+      "exact": false
+    },
+    "oracle": "For N^2=0, (I+N)^4=I+4N."
+  },
+  {
+    "id": "final-055",
+    "category": "statistics",
+    "input": "what is the mean of 3, 8, 14, 19",
+    "reference_expression": "mean([3,8,14,19])",
+    "unquoted_safe": true,
+    "expect": {
+      "number": 11.0,
+      "exact": false
+    },
+    "oracle": "Arithmetic mean."
+  },
+  {
+    "id": "final-056",
+    "category": "statistics",
+    "input": "median([19,2,17,5])",
+    "reference_expression": "median([19,2,17,5])",
+    "unquoted_safe": false,
+    "expect": {
+      "number": 11.0,
+      "exact": false
+    },
+    "oracle": "Middle pair after sorting: 2,5,17,19."
+  },
+  {
+    "id": "final-057",
+    "category": "statistics",
+    "input": "variance([2,6,10,14])",
+    "reference_expression": "variance([2,6,10,14])",
+    "unquoted_safe": false,
+    "expect": {
+      "number": 20.0,
+      "exact": false
+    },
+    "oracle": "Population variance divides squared deviations by n."
+  },
+  {
+    "id": "final-058",
+    "category": "statistics",
+    "input": "sample_variance([2,6,10,14])",
+    "reference_expression": "sample_variance([2,6,10,14])",
+    "unquoted_safe": false,
+    "expect": {
+      "number": 26.666666666666668,
+      "exact": false
+    },
+    "oracle": "Sample variance divides squared deviations by n-1."
+  },
+  {
+    "id": "final-059",
+    "category": "statistics",
+    "input": "quantile([3,7,11,15,19],0.375)",
+    "reference_expression": "quantile([3,7,11,15,19],0.375)",
+    "unquoted_safe": false,
+    "expect": {
+      "number": 9.0,
+      "exact": false
+    },
+    "oracle": "Linear interpolation at zero-based position 0.375*(5-1)=1.5."
+  },
+  {
+    "id": "final-060",
+    "category": "statistics",
+    "input": "sqrt(mean([49,49,49]))",
+    "reference_expression": "sqrt(mean([49,49,49]))",
+    "unquoted_safe": false,
+    "expect": {
+      "number": 7.0,
+      "exact": false
+    },
+    "oracle": "Mean is 49; positive square root is 7."
+  },
+  {
+    "id": "final-061",
+    "category": "statistics",
+    "input": "covariance([1,3,5],[4,8,12])",
+    "reference_expression": "covariance([1,3,5],[4,8,12])",
+    "unquoted_safe": false,
+    "expect": {
+      "number": 5.333333333333333,
+      "exact": false
+    },
+    "oracle": "Population paired covariance: (8+0+8)/3."
+  },
+  {
+    "id": "final-062",
+    "category": "probability",
+    "input": "normal_cdf(1.25)",
+    "reference_expression": "normal_cdf(1.25)",
+    "unquoted_safe": false,
+    "expect": {
+      "number": 0.8943502263331446,
+      "exact": false
+    },
+    "oracle": "Standard normal CDF relation to erf."
+  },
+  {
+    "id": "final-063",
+    "category": "probability",
+    "input": "normal_pdf(0,0,2)",
+    "reference_expression": "normal_pdf(0,0,2)",
+    "unquoted_safe": false,
+    "expect": {
+      "number": 0.19947114020071635,
+      "exact": false
+    },
+    "oracle": "Gaussian density at its mean with sigma=2."
+  },
+  {
+    "id": "final-064",
+    "category": "probability",
+    "input": "binomial_pmf(3,7,0.4)",
+    "reference_expression": "binomial_pmf(3,7,0.4)",
+    "unquoted_safe": false,
+    "expect": {
+      "number": 0.290304,
+      "exact": false
+    },
+    "oracle": "Binomial choose(n,k)*p^k*(1-p)^(n-k)."
+  },
+  {
+    "id": "final-065",
+    "category": "probability",
+    "input": "poisson_pmf(4,2)",
+    "reference_expression": "poisson_pmf(4,2)",
+    "unquoted_safe": false,
+    "expect": {
+      "number": 0.0902235221577418,
+      "exact": false
+    },
+    "oracle": "Poisson exp(-lambda)*lambda^k/k!."
+  },
+  {
+    "id": "final-066",
+    "category": "probability",
+    "input": "exponential_cdf(3,0.5)",
+    "reference_expression": "exponential_cdf(3,0.5)",
+    "unquoted_safe": false,
+    "expect": {
+      "number": 0.7768698398515702,
+      "exact": false
+    },
+    "oracle": "Rate-parameterized exponential CDF 1-exp(-rate*x)."
+  },
+  {
+    "id": "final-067",
+    "category": "numerical_calculus",
+    "input": "integrate(x^3-2*x+1,x,0,3)",
+    "reference_expression": "integrate(x^3-2*x+1,x,0,3)",
+    "unquoted_safe": false,
+    "expect": {
+      "number": 14.25,
+      "exact": false
+    },
+    "oracle": "Antiderivative x^4/4-x^2+x at endpoints."
+  },
+  {
+    "id": "final-068",
+    "category": "numerical_calculus",
+    "input": "integrate(cos(x)^2,x,0,pi)",
+    "reference_expression": "integrate(cos(x)^2,x,0,pi)",
+    "unquoted_safe": false,
+    "expect": {
+      "number": 1.5707963267948966,
+      "exact": false
+    },
+    "oracle": "cos^2(x)=(1+cos(2x))/2 over a half-period."
+  },
+  {
+    "id": "final-069",
+    "category": "numerical_calculus",
+    "input": "root(x^3-64,x,1,8)",
+    "reference_expression": "root(x^3-64,x,1,8)",
+    "unquoted_safe": false,
+    "expect": {
+      "number": 4.0,
+      "exact": false
+    },
+    "oracle": "Unique real cube root 4 inside the bracket."
+  },
+  {
+    "id": "final-070",
+    "category": "numerical_calculus",
+    "input": "derivative_at(x^4+sin(x),x,0)",
+    "reference_expression": "derivative_at(x^4+sin(x),x,0)",
+    "unquoted_safe": false,
+    "expect": {
+      "number": 1.0,
+      "exact": false
+    },
+    "oracle": "Derivative 4*x^3+cos(x), evaluated at zero."
+  },
+  {
+    "id": "final-071",
+    "category": "numerical_calculus",
+    "input": "summation(k^2,k,3,9)",
+    "reference_expression": "summation(k^2,k,3,9)",
+    "unquoted_safe": false,
+    "expect": {
+      "number": 280.0,
+      "exact": false
+    },
+    "oracle": "Independent finite integer sum, both endpoints included."
+  },
+  {
+    "id": "final-072",
+    "category": "numerical_calculus",
+    "input": "product_range(k,k,3,7)",
+    "reference_expression": "product_range(k,k,3,7)",
+    "unquoted_safe": false,
+    "expect": {
+      "number": 2520.0,
+      "exact": false
+    },
+    "oracle": "Independent finite integer product, both endpoints included."
+  },
+  {
+    "id": "final-073",
+    "category": "symbolic",
+    "input": "diff(13*x+4,x)",
+    "reference_expression": "diff(13*x+4,x)",
+    "unquoted_safe": false,
+    "expect": {
+      "number": 13.0,
+      "kind": "symbolic",
+      "exact": true
+    },
+    "oracle": "Derivative of a linear polynomial."
+  },
+  {
+    "id": "final-074",
+    "category": "symbolic",
+    "input": "diff(x^5,x,5)",
+    "reference_expression": "diff(x^5,x,5)",
+    "unquoted_safe": false,
+    "expect": {
+      "number": 120.0,
+      "kind": "symbolic",
+      "exact": true
+    },
+    "oracle": "The fifth derivative of x^5 is 5!."
+  },
+  {
+    "id": "final-075",
+    "category": "symbolic",
+    "input": "expand((x+4)^2-x^2-8*x)",
+    "reference_expression": "expand((x+4)^2-x^2-8*x)",
+    "unquoted_safe": false,
+    "expect": {
+      "number": 16.0,
+      "kind": "symbolic",
+      "exact": true
+    },
+    "oracle": "Binomial expansion leaves the constant 4^2."
+  },
+  {
+    "id": "final-076",
+    "category": "symbolic",
+    "input": "substitute(x^3-3*x+2,x,-3)",
+    "reference_expression": "substitute(x^3-3*x+2,x,-3)",
+    "unquoted_safe": false,
+    "expect": {
+      "number": -16.0,
+      "kind": "symbolic",
+      "exact": true
+    },
+    "oracle": "Direct integer substitution."
+  },
+  {
+    "id": "final-077",
+    "category": "symbolic",
+    "input": "solve(5*x-45=0,x)",
+    "reference_expression": "solve(5*x-45=0,x)",
+    "unquoted_safe": false,
+    "expect": {
+      "value": {
+        "variable": "x",
+        "solutions": [
+          "9"
+        ],
+        "all_values": false,
+        "domain": "complex"
+      },
+      "kind": "solutions",
+      "exact": true
+    },
+    "oracle": "Direct substitution and polynomial degree/discriminant verify the complete distinct root set."
+  },
+  {
+    "id": "final-078",
+    "category": "symbolic",
+    "input": "solve(x^2-10*x+25=0,x)",
+    "reference_expression": "solve(x^2-10*x+25=0,x)",
+    "unquoted_safe": false,
+    "expect": {
+      "value": {
+        "variable": "x",
+        "solutions": [
+          "5"
+        ],
+        "all_values": false,
+        "domain": "complex"
+      },
+      "kind": "solutions",
+      "exact": true
+    },
+    "oracle": "Direct substitution and polynomial degree/discriminant verify the complete distinct root set."
+  },
+  {
+    "id": "final-079",
+    "category": "symbolic",
+    "input": "integrate(1,x)",
+    "reference_expression": "integrate(1,x)",
+    "unquoted_safe": false,
+    "expect": {
+      "value": {
+        "expression": "x",
+        "constant": "C",
+        "variable": "x",
+        "domain": "real intervals where the input and antiderivative are defined",
+        "conditions": []
+      },
+      "kind": "antiderivative",
+      "exact": true
+    },
+    "oracle": "Antiderivative of one is x+C with no real-domain exclusions; chosen to avoid equivalent-form formatting ambiguity."
+  },
+  {
+    "id": "final-080",
+    "category": "bad_input",
+    "input": "what's the weather in Lyon",
+    "reference_expression": null,
+    "unquoted_safe": false,
+    "expect": {
+      "error": []
+    },
+    "oracle": "Outside mathematical calculator scope."
+  },
+  {
+    "id": "final-081",
+    "category": "bad_input",
+    "input": "open my documents",
+    "reference_expression": null,
+    "unquoted_safe": true,
+    "expect": {
+      "error": []
+    },
+    "oracle": "A file-management request is outside scope."
+  },
+  {
+    "id": "final-082",
+    "category": "bad_input",
+    "input": "write a poem about 7 plus 8",
+    "reference_expression": null,
+    "unquoted_safe": true,
+    "expect": {
+      "error": []
+    },
+    "oracle": "A mathematical mention does not turn a writing request into evaluation."
+  },
+  {
+    "id": "final-083",
+    "category": "bad_input",
+    "input": "what is 7 + 8 and email the answer",
+    "reference_expression": null,
+    "unquoted_safe": true,
+    "expect": {
+      "error": []
+    },
+    "oracle": "Mixed calculation and unsupported external action."
+  },
+  {
+    "id": "final-084",
+    "category": "bad_input",
+    "input": "do not calculate 14 plus 6",
+    "reference_expression": null,
+    "unquoted_safe": true,
+    "expect": {
+      "error": []
+    },
+    "oracle": "Explicitly negated calculation."
+  },
+  {
+    "id": "final-085",
+    "category": "bad_input",
+    "input": "what is",
+    "reference_expression": null,
+    "unquoted_safe": true,
+    "expect": {
+      "error": []
+    },
+    "oracle": "Missing expression."
+  },
+  {
+    "id": "final-086",
+    "category": "bad_input",
+    "input": "13 +",
+    "reference_expression": null,
+    "unquoted_safe": true,
+    "expect": {
+      "error": []
+    },
+    "oracle": "Missing right operand."
+  },
+  {
+    "id": "final-087",
+    "category": "bad_input",
+    "input": "(8+3",
+    "reference_expression": null,
+    "unquoted_safe": false,
+    "expect": {
+      "error": []
+    },
+    "oracle": "Unclosed grouping."
+  },
+  {
+    "id": "final-088",
+    "category": "bad_input",
+    "input": "mean([2,,7])",
+    "reference_expression": null,
+    "unquoted_safe": false,
+    "expect": {
+      "error": []
+    },
+    "oracle": "Missing interior list value; a trailing comma rule cannot repair this."
+  },
+  {
+    "id": "final-089",
+    "category": "bad_input",
+    "input": "mean([])",
+    "reference_expression": null,
+    "unquoted_safe": false,
+    "expect": {
+      "error": []
+    },
+    "oracle": "Undefined mean of an empty data set."
+  },
+  {
+    "id": "final-090",
+    "category": "bad_input",
+    "input": "variance([1e200,-1e200])",
+    "reference_expression": null,
+    "unquoted_safe": false,
+    "expect": {
+      "error": []
+    },
+    "oracle": "Variance is 1e400, outside finite f64 range; must not become zero."
+  },
+  {
+    "id": "final-091",
+    "category": "bad_input",
+    "input": "1/0",
+    "reference_expression": null,
+    "unquoted_safe": true,
+    "expect": {
+      "error": []
+    },
+    "oracle": "Division by zero."
+  },
+  {
+    "id": "final-092",
+    "category": "bad_input",
+    "input": "0^0",
+    "reference_expression": null,
+    "unquoted_safe": true,
+    "expect": {
+      "error": []
+    },
+    "oracle": "Undefined zero-to-zero convention required by the calculator."
+  },
+  {
+    "id": "final-093",
+    "category": "bad_input",
+    "input": "factorial(2.000000000000001)",
+    "reference_expression": null,
+    "unquoted_safe": false,
+    "expect": {
+      "error": []
+    },
+    "oracle": "Fractional argument is not an integer factorial."
+  },
+  {
+    "id": "final-094",
+    "category": "bad_input",
+    "input": "log(13,1)",
+    "reference_expression": null,
+    "unquoted_safe": false,
+    "expect": {
+      "error": []
+    },
+    "oracle": "A logarithm base cannot be one."
+  },
+  {
+    "id": "final-095",
+    "category": "bad_input",
+    "input": "atan2(0,0)",
+    "reference_expression": null,
+    "unquoted_safe": false,
+    "expect": {
+      "error": []
+    },
+    "oracle": "The zero vector has no defined angle."
+  },
+  {
+    "id": "final-096",
+    "category": "bad_input",
+    "input": "inverse([[1,2],[2,4]])",
+    "reference_expression": null,
+    "unquoted_safe": false,
+    "expect": {
+      "error": []
+    },
+    "oracle": "Singular matrix: second row is twice the first."
+  },
+  {
+    "id": "final-097",
+    "category": "bad_input",
+    "input": "matmul([[1,2]],[[3,4]])",
+    "reference_expression": null,
+    "unquoted_safe": false,
+    "expect": {
+      "error": []
+    },
+    "oracle": "Inner matrix dimensions do not agree."
+  },
+  {
+    "id": "final-098",
+    "category": "bad_input",
+    "input": "12 kg to seconds",
+    "reference_expression": null,
+    "unquoted_safe": true,
+    "expect": {
+      "error": []
+    },
+    "oracle": "Mass and time dimensions are incompatible."
+  },
+  {
+    "id": "final-099",
+    "category": "bad_input",
+    "input": "integrate(1/(x-0.41)^2,x,0,1)",
+    "reference_expression": null,
+    "unquoted_safe": false,
+    "expect": {
+      "error": []
+    },
+    "oracle": "A positive second-order pole makes the improper integral diverge."
+  },
+  {
+    "id": "final-100",
+    "category": "bad_input",
+    "input": "substitute(x/x,x,0)",
+    "reference_expression": null,
+    "unquoted_safe": false,
+    "expect": {
+      "error": []
+    },
+    "oracle": "Substitution cannot erase the excluded zero denominator."
+  }
+]

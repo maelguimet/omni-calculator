@@ -1,0 +1,1015 @@
+{"input": "wht is difference between the numbers -7013.25 and 7015", "label": 2, "intended_class": 2, "eligible": true, "category": "class_2_template_0", "split": "test"}
+{"input": "can  you  find  the  cube  root  of  the  value  7027e-3?", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_0", "split": "test"}
+{"input": "give  me  the  result  of  product  between  +7013e-3  and  7015", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_0", "split": "test"}
+{"input": "wht is the square root of the value 7001", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_0", "split": "test"}
+{"input": "give me the result of sqrt 7001?", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_1", "split": "test"}
+{"input": "wht  is  greatest  common  divisor  of  the  numbers  7013  and  -7015.0  please", "label": 12, "intended_class": 12, "eligible": true, "category": "class_12_template_0", "split": "test"}
+{"input": "can\tyou\tfind\tadd\tthe\tnumbers\t7013\tand\t7015?", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_1", "split": "test"}
+{"input": "give  me  the  result  of  my  age  is  7019  and  my  weight  is  7021", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_1", "split": "test"}
+{"input": "can  you  find  is  flight  7001  on  time  please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_0", "split": "test"}
+{"input": "can\tyou\tfind\t7019\tplus\twhat?", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_8", "split": "test"}
+{"input": "give  me  the  result  of  npr  of  the  numbers  7019.25  and  7021  please", "label": 16, "intended_class": 16, "eligible": true, "category": "class_16_template_0", "split": "test"}
+{"input": "wht  is  factorial  of  the  value  7027", "label": 10, "intended_class": 10, "eligible": true, "category": "class_10_template_0", "split": "test"}
+{"input": "could\tyou\tcompute\tleast\tcommon\tmultiple\tof\tthe\tnumbers\t7013\tand\t7015e2?", "label": 13, "intended_class": 13, "eligible": true, "category": "class_13_template_0", "split": "test"}
+{"input": "give  me  the  result  of  choose  7019  from  the  value  +7021.75  please", "label": 15, "intended_class": 15, "eligible": true, "category": "class_15_template_0", "split": "test"}
+{"input": "give  me  the  result  of  the  absolute  value  of  the  value  7027  please", "label": 19, "intended_class": 19, "eligible": true, "category": "class_19_template_0", "split": "test"}
+{"input": "could you compute permutations of 7027.25 from the value -7029.75?", "label": 17, "intended_class": 17, "eligible": true, "category": "class_17_template_0", "split": "test"}
+{"input": "wht  is  absolute  value  of  7001.0  times  7003.0", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_4", "split": "test"}
+{"input": "wht\tis\tdon't\tcalculate\t-7001e-3\tplus\t7003.0?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_7", "split": "test"}
+{"input": "give  me  the  result  of  the  value  +7001e-3  mod  +7003.75", "label": 11, "intended_class": 11, "eligible": true, "category": "class_11_template_0", "split": "test"}
+{"input": "could you compute is flight +7001.0 on time", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_0", "split": "test"}
+{"input": "could  you  compute  choose  7027e-3  from  the  value  7029?", "label": 15, "intended_class": 15, "eligible": true, "category": "class_15_template_0", "split": "test"}
+{"input": "wht  is  7013%  of  the  value  7015  please", "label": 18, "intended_class": 18, "eligible": true, "category": "class_18_template_0", "split": "test"}
+{"input": "give me the result of least common multiple of the numbers 7001.25 and 7003", "label": 13, "intended_class": 13, "eligible": true, "category": "class_13_template_0", "split": "test"}
+{"input": "could  you  compute  factorial  of  the  value  7013?", "label": 10, "intended_class": 10, "eligible": true, "category": "class_10_template_0", "split": "test"}
+{"input": "give me the result of subtract -7013e-3 from the value 7015.0?", "label": 3, "intended_class": 3, "eligible": true, "category": "class_3_template_0", "split": "test"}
+{"input": "could you compute factorial of the value 7013?", "label": 10, "intended_class": 10, "eligible": true, "category": "class_10_template_0", "split": "test"}
+{"input": "could you compute divide by -7001.25", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_2", "split": "test"}
+{"input": "give\tme\tthe\tresult\tof\t7019\tplus\twhat", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_8", "split": "test"}
+{"input": "could\tyou\tcompute\traise\tthe\tnumber\t7013\tto\tthe\tpower\tof\t7015.75\tplease", "label": 0, "intended_class": 7, "eligible": false, "category": "class_7_template_0", "split": "test"}
+{"input": "could  you  compute  is  flight  7001  on  time", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_0", "split": "test"}
+{"input": "can\tyou\tfind\tadd\tthe\tnumbers\t+7027.25\tand\t+7029.0\tplease", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_1", "split": "test"}
+{"input": "give  me  the  result  of  -7001.25  plus  what", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_8", "split": "test"}
+{"input": "could  you  compute  the  cube  root  of  the  value  7001.0?", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_0", "split": "test"}
+{"input": "could  you  compute  multiply  the  numbers  -7001.25  and  7003", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_1", "split": "test"}
+{"input": "could you compute my age is 7019 and my weight is -7021e2?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_1", "split": "test"}
+{"input": "give me the result of the absolute value of the value -7027.0?", "label": 19, "intended_class": 19, "eligible": true, "category": "class_19_template_0", "split": "test"}
+{"input": "could\tyou\tcompute\tdon't\tcalculate\t7027\tplus\t7029e2\tplease", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_7", "split": "test"}
+{"input": "could  you  compute  choose  7027e-3  from  -7029.75  people", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_5", "split": "test"}
+{"input": "can  you  find  choose  7013  from  7015  people", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_5", "split": "test"}
+{"input": "give\tme\tthe\tresult\tof\tnpr\tof\tthe\tnumbers\t-7027.25\tand\t7029\tplease", "label": 16, "intended_class": 16, "eligible": true, "category": "class_16_template_0", "split": "test"}
+{"input": "could  you  compute  choose  -7001.0  from  -7003e2  people?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_5", "split": "test"}
+{"input": "could you compute 7013 plus what?", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_8", "split": "test"}
+{"input": "could you compute divide 7019 into the value 7021.0", "label": 6, "intended_class": 6, "eligible": true, "category": "class_6_template_0", "split": "test"}
+{"input": "give\tme\tthe\tresult\tof\tchoose\t-7027.0\tfrom\tthe\tvalue\t7029\tplease", "label": 15, "intended_class": 15, "eligible": true, "category": "class_15_template_0", "split": "test"}
+{"input": "wht  is  ncr  of  the  numbers  7019  and  7021  please", "label": 14, "intended_class": 14, "eligible": true, "category": "class_14_template_0", "split": "test"}
+{"input": "could  you  compute  divide  -7027.25  divide  -7029.75  please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_10", "split": "test"}
+{"input": "give me the result of factorial of the value 7027.25?", "label": 10, "intended_class": 10, "eligible": true, "category": "class_10_template_0", "split": "test"}
+{"input": "can you find the square root of the value 7001 please", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_0", "split": "test"}
+{"input": "wht\tis\tchoose\t7013.0\tfrom\t-7015.75\tpeople?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_5", "split": "test"}
+{"input": "wht is what is 7013 plus seven?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_9", "split": "test"}
+{"input": "can you find subtract +7001.0 from the value 7003?", "label": 3, "intended_class": 3, "eligible": true, "category": "class_3_template_0", "split": "test"}
+{"input": "can  you  find  difference  between  the  numbers  +7013.0  and  -7015e2", "label": 2, "intended_class": 2, "eligible": true, "category": "class_2_template_0", "split": "test"}
+{"input": "could you compute don't calculate 7013 plus 7015 please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_7", "split": "test"}
+{"input": "wht  is  the  value  7027  mod  7029", "label": 11, "intended_class": 11, "eligible": true, "category": "class_11_template_0", "split": "test"}
+{"input": "could  you  compute  divide  7027  into  the  value  -7029e2  please", "label": 6, "intended_class": 6, "eligible": true, "category": "class_6_template_0", "split": "test"}
+{"input": "can you find multiply the numbers 7013 and 7015", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_1", "split": "test"}
+{"input": "wht  is  divide  +7013.0  into  the  value  +7015.0?", "label": 6, "intended_class": 6, "eligible": true, "category": "class_6_template_0", "split": "test"}
+{"input": "give  me  the  result  of  greatest  common  divisor  of  the  numbers  7013  and  -7015e2?", "label": 12, "intended_class": 12, "eligible": true, "category": "class_12_template_0", "split": "test"}
+{"input": "give me the result of my age is 7027 and my weight is 7029 please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_1", "split": "test"}
+{"input": "can  you  find  what  is  -7027e-3  plus  seven?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_9", "split": "test"}
+{"input": "can you find difference between the numbers +7001.25 and -7003.75 please", "label": 2, "intended_class": 2, "eligible": true, "category": "class_2_template_0", "split": "test"}
+{"input": "could you compute add the answer to -7013e-3?", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_3", "split": "test"}
+{"input": "could  you  compute  raise  the  number  +7013.0  to  the  power  of  7015  please", "label": 0, "intended_class": 7, "eligible": false, "category": "class_7_template_0", "split": "test"}
+{"input": "wht  is  least  common  multiple  of  the  numbers  7001  and  -7003.75?", "label": 13, "intended_class": 13, "eligible": true, "category": "class_13_template_0", "split": "test"}
+{"input": "can  you  find  ncr  of  the  numbers  -7019.25  and  -7021e2  please", "label": 14, "intended_class": 14, "eligible": true, "category": "class_14_template_0", "split": "test"}
+{"input": "give  me  the  result  of  absolute  value  of  7013.0  times  7015", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_4", "split": "test"}
+{"input": "wht  is  least  common  multiple  of  the  numbers  +7013.0  and  7015", "label": 13, "intended_class": 13, "eligible": true, "category": "class_13_template_0", "split": "test"}
+{"input": "could  you  compute  the  value  7013  mod  7015", "label": 11, "intended_class": 11, "eligible": true, "category": "class_11_template_0", "split": "test"}
+{"input": "wht is what is 7019 plus seven please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_9", "split": "test"}
+{"input": "give me the result of divide 7027 into the value -7029e2", "label": 6, "intended_class": 6, "eligible": true, "category": "class_6_template_0", "split": "test"}
+{"input": "give  me  the  result  of  raise  the  number  7013  to  the  power  of  7015?", "label": 0, "intended_class": 7, "eligible": false, "category": "class_7_template_0", "split": "test"}
+{"input": "wht  is  the  square  root  of  the  value  7027e-3", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_0", "split": "test"}
+{"input": "can  you  find  permutations  of  7013  from  the  value  7015?", "label": 17, "intended_class": 17, "eligible": true, "category": "class_17_template_0", "split": "test"}
+{"input": "could  you  compute  decrease  7001  percent  of  7003.0  please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_6", "split": "test"}
+{"input": "give me the result of divide 7001e-3 divide 7003 please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_10", "split": "test"}
+{"input": "give  me  the  result  of  7027  plus  what  please", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_8", "split": "test"}
+{"input": "can you find divide 7027 divide 7029?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_10", "split": "test"}
+{"input": "can you find cbrt 7001 please", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_1", "split": "test"}
+{"input": "can  you  find  the  cube  root  of  the  value  +7013e-3  please", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_0", "split": "test"}
+{"input": "could  you  compute  npr  of  the  numbers  7001  and  7003.0", "label": 16, "intended_class": 16, "eligible": true, "category": "class_16_template_0", "split": "test"}
+{"input": "can  you  find  7013e-3  plus  what", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_8", "split": "test"}
+{"input": "could you compute the absolute value of the value -7019.0?", "label": 19, "intended_class": 19, "eligible": true, "category": "class_19_template_0", "split": "test"}
+{"input": "could  you  compute  raise  the  number  +7019.0  to  the  power  of  7021e2?", "label": 0, "intended_class": 7, "eligible": false, "category": "class_7_template_0", "split": "test"}
+{"input": "give  me  the  result  of  subtract  7027  from  the  value  7029.0", "label": 3, "intended_class": 3, "eligible": true, "category": "class_3_template_0", "split": "test"}
+{"input": "give me the result of least common multiple of the numbers 7001 and +7003.0 please", "label": 13, "intended_class": 13, "eligible": true, "category": "class_13_template_0", "split": "test"}
+{"input": "can  you  find  don't  calculate  7001  plus  7003", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_7", "split": "test"}
+{"input": "can you find permutations of +7027e-3 from the value 7029 please", "label": 17, "intended_class": 17, "eligible": true, "category": "class_17_template_0", "split": "test"}
+{"input": "wht  is  divide  -7027e-3  divide  7029  please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_10", "split": "test"}
+{"input": "give  me  the  result  of  decrease  7001  percent  of  7003", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_6", "split": "test"}
+{"input": "wht is choose 7019 from the value 7021", "label": 15, "intended_class": 15, "eligible": true, "category": "class_15_template_0", "split": "test"}
+{"input": "could you compute divide 7013 divide 7015", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_10", "split": "test"}
+{"input": "give me the result of cbrt 7019", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_1", "split": "test"}
+{"input": "can\tyou\tfind\tmy\tage\tis\t+7019.0\tand\tmy\tweight\tis\t+7021.75", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_1", "split": "test"}
+{"input": "could\tyou\tcompute\t7027\tplus\twhat", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_8", "split": "test"}
+{"input": "could you compute divide the number 7019 by 7021 please", "label": 5, "intended_class": 5, "eligible": true, "category": "class_5_template_0", "split": "test"}
+{"input": "can  you  find  divide  by  7027  please", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_2", "split": "test"}
+{"input": "wht  is  raise  the  number  +7027.0  to  the  power  of  7029?", "label": 0, "intended_class": 7, "eligible": false, "category": "class_7_template_0", "split": "test"}
+{"input": "wht\tis\tnpr\tof\tthe\tnumbers\t7027\tand\t7029?", "label": 16, "intended_class": 16, "eligible": true, "category": "class_16_template_0", "split": "test"}
+{"input": "wht  is  divide  by  7001", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_2", "split": "test"}
+{"input": "wht\tis\tdon't\tcalculate\t7001\tplus\t7003", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_7", "split": "test"}
+{"input": "give  me  the  result  of  divide  the  number  7013  by  7015  please", "label": 5, "intended_class": 5, "eligible": true, "category": "class_5_template_0", "split": "test"}
+{"input": "can you find the cube root of the value 7027 please", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_0", "split": "test"}
+{"input": "give me the result of raise the number -7013.25 to the power of 7015", "label": 0, "intended_class": 7, "eligible": false, "category": "class_7_template_0", "split": "test"}
+{"input": "wht is difference between the numbers 7027 and 7029e2 please", "label": 2, "intended_class": 2, "eligible": true, "category": "class_2_template_0", "split": "test"}
+{"input": "wht\tis\tfactorial\tof\tthe\tvalue\t7019?", "label": 10, "intended_class": 10, "eligible": true, "category": "class_10_template_0", "split": "test"}
+{"input": "can you find what is 7027 plus seven please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_9", "split": "test"}
+{"input": "wht\tis\tfactorial\tof\tthe\tvalue\t+7001.0", "label": 10, "intended_class": 10, "eligible": true, "category": "class_10_template_0", "split": "test"}
+{"input": "wht  is  ncr  of  the  numbers  7019.25  and  7021?", "label": 14, "intended_class": 14, "eligible": true, "category": "class_14_template_0", "split": "test"}
+{"input": "could  you  compute  absolute  value  of  7019  times  -7021.0  please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_4", "split": "test"}
+{"input": "could\tyou\tcompute\tncr\tof\tthe\tnumbers\t7013.25\tand\t7015", "label": 14, "intended_class": 14, "eligible": true, "category": "class_14_template_0", "split": "test"}
+{"input": "could\tyou\tcompute\tthe\tabsolute\tvalue\tof\tthe\tvalue\t7013?", "label": 19, "intended_class": 19, "eligible": true, "category": "class_19_template_0", "split": "test"}
+{"input": "give  me  the  result  of  the  absolute  value  of  the  value  7013.0?", "label": 19, "intended_class": 19, "eligible": true, "category": "class_19_template_0", "split": "test"}
+{"input": "could\tyou\tcompute\tdifference\tbetween\tthe\tnumbers\t+7027.0\tand\t-7029.75\tplease", "label": 2, "intended_class": 2, "eligible": true, "category": "class_2_template_0", "split": "test"}
+{"input": "can  you  find  divide  7027  divide  7029?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_10", "split": "test"}
+{"input": "give  me  the  result  of  factorial  of  the  value  7019  please", "label": 10, "intended_class": 10, "eligible": true, "category": "class_10_template_0", "split": "test"}
+{"input": "could\tyou\tcompute\t7019.25\tplus\twhat\tplease", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_8", "split": "test"}
+{"input": "can you find factorial of the value 7001", "label": 10, "intended_class": 10, "eligible": true, "category": "class_10_template_0", "split": "test"}
+{"input": "wht is subtract 7013 from the value 7015", "label": 3, "intended_class": 3, "eligible": true, "category": "class_3_template_0", "split": "test"}
+{"input": "can\tyou\tfind\traise\tthe\tnumber\t7013\tto\tthe\tpower\tof\t7015\tplease", "label": 0, "intended_class": 7, "eligible": false, "category": "class_7_template_0", "split": "test"}
+{"input": "could you compute permutations of 7019.25 from the value 7021 please", "label": 17, "intended_class": 17, "eligible": true, "category": "class_17_template_0", "split": "test"}
+{"input": "could you compute is flight 7001 on time please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_0", "split": "test"}
+{"input": "could  you  compute  add  the  answer  to  7013?", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_3", "split": "test"}
+{"input": "wht  is  least  common  multiple  of  the  numbers  7019  and  7021  please", "label": 13, "intended_class": 13, "eligible": true, "category": "class_13_template_0", "split": "test"}
+{"input": "can  you  find  -7001e-3  plus  what  please", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_8", "split": "test"}
+{"input": "wht  is  sqrt  7019  please", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_1", "split": "test"}
+{"input": "can you find least common multiple of the numbers 7001 and 7003.75?", "label": 13, "intended_class": 13, "eligible": true, "category": "class_13_template_0", "split": "test"}
+{"input": "give me the result of sqrt 7019 please", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_1", "split": "test"}
+{"input": "could you compute the value 7027 mod 7029 please", "label": 11, "intended_class": 11, "eligible": true, "category": "class_11_template_0", "split": "test"}
+{"input": "can\tyou\tfind\tleast\tcommon\tmultiple\tof\tthe\tnumbers\t7001e-3\tand\t7003\tplease", "label": 13, "intended_class": 13, "eligible": true, "category": "class_13_template_0", "split": "test"}
+{"input": "give me the result of -7019.25% of the value 7021.75?", "label": 18, "intended_class": 18, "eligible": true, "category": "class_18_template_0", "split": "test"}
+{"input": "wht is divide 7013.0 into the value +7015.75", "label": 6, "intended_class": 6, "eligible": true, "category": "class_6_template_0", "split": "test"}
+{"input": "can  you  find  add  the  numbers  7027  and  +7029.75", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_1", "split": "test"}
+{"input": "can you find absolute value of 7013 times 7015 please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_4", "split": "test"}
+{"input": "could\tyou\tcompute\t7019\tplus\twhat?", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_8", "split": "test"}
+{"input": "could  you  compute  least  common  multiple  of  the  numbers  7013  and  7015", "label": 13, "intended_class": 13, "eligible": true, "category": "class_13_template_0", "split": "test"}
+{"input": "could  you  compute  choose  7013  from  the  value  7015  please", "label": 15, "intended_class": 15, "eligible": true, "category": "class_15_template_0", "split": "test"}
+{"input": "can you find 7001 plus what", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_8", "split": "test"}
+{"input": "can  you  find  the  square  root  of  the  value  -7019.25  please", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_0", "split": "test"}
+{"input": "give  me  the  result  of  is  flight  -7027e-3  on  time  please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_0", "split": "test"}
+{"input": "could you compute sqrt 7027?", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_1", "split": "test"}
+{"input": "wht\tis\taddition\tbetween\t-7019.25\tand\t7021\tplease", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_0", "split": "test"}
+{"input": "wht is divide the number 7001 by 7003 please", "label": 5, "intended_class": 5, "eligible": true, "category": "class_5_template_0", "split": "test"}
+{"input": "give\tme\tthe\tresult\tof\tfactorial\tof\tthe\tvalue\t7019", "label": 10, "intended_class": 10, "eligible": true, "category": "class_10_template_0", "split": "test"}
+{"input": "wht is add the numbers 7019 and +7021.0 please", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_1", "split": "test"}
+{"input": "could you compute product between 7027 and 7029?", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_0", "split": "test"}
+{"input": "give  me  the  result  of  npr  of  the  numbers  7027  and  -7029.75?", "label": 16, "intended_class": 16, "eligible": true, "category": "class_16_template_0", "split": "test"}
+{"input": "could you compute cbrt 7027.25?", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_1", "split": "test"}
+{"input": "give\tme\tthe\tresult\tof\tpermutations\tof\t7027\tfrom\tthe\tvalue\t7029?", "label": 17, "intended_class": 17, "eligible": true, "category": "class_17_template_0", "split": "test"}
+{"input": "can  you  find  my  age  is  7027  and  my  weight  is  7029?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_1", "split": "test"}
+{"input": "wht  is  permutations  of  7001.25  from  the  value  7003.75", "label": 17, "intended_class": 17, "eligible": true, "category": "class_17_template_0", "split": "test"}
+{"input": "give me the result of what is 7001 plus seven please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_9", "split": "test"}
+{"input": "give  me  the  result  of  7013%  of  the  value  7015", "label": 18, "intended_class": 18, "eligible": true, "category": "class_18_template_0", "split": "test"}
+{"input": "give  me  the  result  of  greatest  common  divisor  of  the  numbers  +7001e-3  and  -7003.0  please", "label": 12, "intended_class": 12, "eligible": true, "category": "class_12_template_0", "split": "test"}
+{"input": "give\tme\tthe\tresult\tof\tproduct\tbetween\t+7027e-3\tand\t7029", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_0", "split": "test"}
+{"input": "give me the result of factorial of the value +7027.0 please", "label": 10, "intended_class": 10, "eligible": true, "category": "class_10_template_0", "split": "test"}
+{"input": "give me the result of the square root of the value 7019", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_0", "split": "test"}
+{"input": "can you find choose 7019 from the value -7021e2 please", "label": 15, "intended_class": 15, "eligible": true, "category": "class_15_template_0", "split": "test"}
+{"input": "can you find absolute value of 7027 times +7029.0", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_4", "split": "test"}
+{"input": "wht\tis\tchoose\t7013\tfrom\t7015\tpeople\tplease", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_5", "split": "test"}
+{"input": "can\tyou\tfind\tncr\tof\tthe\tnumbers\t7019.0\tand\t7021\tplease", "label": 14, "intended_class": 14, "eligible": true, "category": "class_14_template_0", "split": "test"}
+{"input": "can  you  find  permutations  of  +7027.25  from  the  value  7029  please", "label": 17, "intended_class": 17, "eligible": true, "category": "class_17_template_0", "split": "test"}
+{"input": "wht  is  choose  7001  from  the  value  7003", "label": 15, "intended_class": 15, "eligible": true, "category": "class_15_template_0", "split": "test"}
+{"input": "wht\tis\tcbrt\t7019?", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_1", "split": "test"}
+{"input": "can\tyou\tfind\traise\tthe\tnumber\t7027\tto\tthe\tpower\tof\t7029?", "label": 0, "intended_class": 7, "eligible": false, "category": "class_7_template_0", "split": "test"}
+{"input": "could you compute choose 7001.0 from the value -7003.75 please", "label": 15, "intended_class": 15, "eligible": true, "category": "class_15_template_0", "split": "test"}
+{"input": "can\tyou\tfind\tdivide\t+7027.25\tinto\tthe\tvalue\t7029", "label": 6, "intended_class": 6, "eligible": true, "category": "class_6_template_0", "split": "test"}
+{"input": "could you compute 7027 plus what", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_8", "split": "test"}
+{"input": "can you find add the answer to +7027.25 please", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_3", "split": "test"}
+{"input": "could you compute decrease 7001 percent of -7003.0?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_6", "split": "test"}
+{"input": "give\tme\tthe\tresult\tof\tnpr\tof\tthe\tnumbers\t+7001e-3\tand\t7003", "label": 16, "intended_class": 16, "eligible": true, "category": "class_16_template_0", "split": "test"}
+{"input": "wht  is  my  age  is  7013  and  my  weight  is  -7015.75  please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_1", "split": "test"}
+{"input": "wht is choose 7001 from the value 7003 please", "label": 15, "intended_class": 15, "eligible": true, "category": "class_15_template_0", "split": "test"}
+{"input": "could  you  compute  greatest  common  divisor  of  the  numbers  7013  and  7015.0?", "label": 12, "intended_class": 12, "eligible": true, "category": "class_12_template_0", "split": "test"}
+{"input": "give  me  the  result  of  7027  plus  what?", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_8", "split": "test"}
+{"input": "wht is factorial of the value 7001?", "label": 10, "intended_class": 10, "eligible": true, "category": "class_10_template_0", "split": "test"}
+{"input": "give me the result of ncr of the numbers 7019 and 7021 please", "label": 14, "intended_class": 14, "eligible": true, "category": "class_14_template_0", "split": "test"}
+{"input": "could you compute choose 7019 from 7021 people", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_5", "split": "test"}
+{"input": "could\tyou\tcompute\tsubtract\t7001\tfrom\tthe\tvalue\t7003\tplease", "label": 3, "intended_class": 3, "eligible": true, "category": "class_3_template_0", "split": "test"}
+{"input": "wht  is  addition  between  7013.0  and  7015?", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_0", "split": "test"}
+{"input": "wht is divide by 7019 please", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_2", "split": "test"}
+{"input": "can\tyou\tfind\tthe\tvalue\t7027\tmod\t7029e2?", "label": 11, "intended_class": 11, "eligible": true, "category": "class_11_template_0", "split": "test"}
+{"input": "could you compute sqrt 7013.0 please", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_1", "split": "test"}
+{"input": "can you find don't calculate -7013.25 plus 7015?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_7", "split": "test"}
+{"input": "wht\tis\t+7019.25\tplus\twhat", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_8", "split": "test"}
+{"input": "wht  is  npr  of  the  numbers  7027  and  7029", "label": 16, "intended_class": 16, "eligible": true, "category": "class_16_template_0", "split": "test"}
+{"input": "could you compute addition between 7019.25 and 7021", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_0", "split": "test"}
+{"input": "give  me  the  result  of  what  is  7013  plus  seven  please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_9", "split": "test"}
+{"input": "give  me  the  result  of  don't  calculate  7019  plus  7021  please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_7", "split": "test"}
+{"input": "can you find my age is 7013 and my weight is -7015.0 please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_1", "split": "test"}
+{"input": "can  you  find  npr  of  the  numbers  7001  and  +7003e2", "label": 16, "intended_class": 16, "eligible": true, "category": "class_16_template_0", "split": "test"}
+{"input": "wht is the square root of the value +7027.0?", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_0", "split": "test"}
+{"input": "can  you  find  factorial  of  the  value  7019?", "label": 10, "intended_class": 10, "eligible": true, "category": "class_10_template_0", "split": "test"}
+{"input": "can you find multiply the numbers 7001 and 7003?", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_1", "split": "test"}
+{"input": "give\tme\tthe\tresult\tof\tthe\tabsolute\tvalue\tof\tthe\tvalue\t7001?", "label": 19, "intended_class": 19, "eligible": true, "category": "class_19_template_0", "split": "test"}
+{"input": "wht is the value 7027 mod 7029", "label": 11, "intended_class": 11, "eligible": true, "category": "class_11_template_0", "split": "test"}
+{"input": "can you find npr of the numbers -7027.25 and 7029.0", "label": 16, "intended_class": 16, "eligible": true, "category": "class_16_template_0", "split": "test"}
+{"input": "could you compute the cube root of the value 7019", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_0", "split": "test"}
+{"input": "could  you  compute  choose  7013  from  the  value  7015", "label": 15, "intended_class": 15, "eligible": true, "category": "class_15_template_0", "split": "test"}
+{"input": "wht is is flight 7027 on time", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_0", "split": "test"}
+{"input": "could\tyou\tcompute\tdifference\tbetween\tthe\tnumbers\t+7019.0\tand\t7021", "label": 2, "intended_class": 2, "eligible": true, "category": "class_2_template_0", "split": "test"}
+{"input": "give  me  the  result  of  addition  between  7019  and  -7021e2?", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_0", "split": "test"}
+{"input": "can  you  find  absolute  value  of  7027  times  7029  please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_4", "split": "test"}
+{"input": "could  you  compute  my  age  is  7001  and  my  weight  is  +7003.0?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_1", "split": "test"}
+{"input": "give\tme\tthe\tresult\tof\tdivide\tby\t7013", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_2", "split": "test"}
+{"input": "could you compute the value 7027 mod 7029", "label": 11, "intended_class": 11, "eligible": true, "category": "class_11_template_0", "split": "test"}
+{"input": "give me the result of the cube root of the value 7001 please", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_0", "split": "test"}
+{"input": "give me the result of is flight 7013 on time", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_0", "split": "test"}
+{"input": "give me the result of the cube root of the value 7001?", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_0", "split": "test"}
+{"input": "can  you  find  multiply  the  numbers  7027  and  7029", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_1", "split": "test"}
+{"input": "could  you  compute  add  the  answer  to  7027  please", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_3", "split": "test"}
+{"input": "can you find divide by 7027", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_2", "split": "test"}
+{"input": "wht  is  the  absolute  value  of  the  value  -7019e-3", "label": 19, "intended_class": 19, "eligible": true, "category": "class_19_template_0", "split": "test"}
+{"input": "could  you  compute  7001%  of  the  value  7003  please", "label": 18, "intended_class": 18, "eligible": true, "category": "class_18_template_0", "split": "test"}
+{"input": "give  me  the  result  of  the  cube  root  of  the  value  7001.0?", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_0", "split": "test"}
+{"input": "could you compute greatest common divisor of the numbers 7027 and -7029.0?", "label": 12, "intended_class": 12, "eligible": true, "category": "class_12_template_0", "split": "test"}
+{"input": "wht is divide the number 7001 by 7003", "label": 5, "intended_class": 5, "eligible": true, "category": "class_5_template_0", "split": "test"}
+{"input": "wht is choose 7019 from 7021 people", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_5", "split": "test"}
+{"input": "can you find greatest common divisor of the numbers 7013 and 7015.75 please", "label": 12, "intended_class": 12, "eligible": true, "category": "class_12_template_0", "split": "test"}
+{"input": "could you compute npr of the numbers 7013e-3 and 7015.0?", "label": 16, "intended_class": 16, "eligible": true, "category": "class_16_template_0", "split": "test"}
+{"input": "can  you  find  product  between  7027  and  7029.0?", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_0", "split": "test"}
+{"input": "give me the result of permutations of +7019.0 from the value 7021?", "label": 17, "intended_class": 17, "eligible": true, "category": "class_17_template_0", "split": "test"}
+{"input": "wht  is  multiply  the  numbers  7013  and  7015", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_1", "split": "test"}
+{"input": "can  you  find  greatest  common  divisor  of  the  numbers  7001  and  7003  please", "label": 12, "intended_class": 12, "eligible": true, "category": "class_12_template_0", "split": "test"}
+{"input": "could\tyou\tcompute\tdivide\tthe\tnumber\t7019\tby\t+7021e2\tplease", "label": 5, "intended_class": 5, "eligible": true, "category": "class_5_template_0", "split": "test"}
+{"input": "can  you  find  the  square  root  of  the  value  +7019.0", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_0", "split": "test"}
+{"input": "could you compute don't calculate 7019 plus 7021.0", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_7", "split": "test"}
+{"input": "can\tyou\tfind\tchoose\t7013\tfrom\tthe\tvalue\t7015?", "label": 15, "intended_class": 15, "eligible": true, "category": "class_15_template_0", "split": "test"}
+{"input": "could  you  compute  cbrt  7019?", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_1", "split": "test"}
+{"input": "wht\tis\tpermutations\tof\t7027.25\tfrom\tthe\tvalue\t7029\tplease", "label": 17, "intended_class": 17, "eligible": true, "category": "class_17_template_0", "split": "test"}
+{"input": "could  you  compute  divide  by  7013", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_2", "split": "test"}
+{"input": "give me the result of addition between 7001 and 7003?", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_0", "split": "test"}
+{"input": "could  you  compute  product  between  7019  and  7021?", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_0", "split": "test"}
+{"input": "give  me  the  result  of  cbrt  7019?", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_1", "split": "test"}
+{"input": "give\tme\tthe\tresult\tof\taddition\tbetween\t7001\tand\t7003.0", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_0", "split": "test"}
+{"input": "give\tme\tthe\tresult\tof\tproduct\tbetween\t7027\tand\t+7029.0?", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_0", "split": "test"}
+{"input": "could you compute divide +7019e-3 divide 7021 please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_10", "split": "test"}
+{"input": "could you compute difference between the numbers +7013.25 and 7015", "label": 2, "intended_class": 2, "eligible": true, "category": "class_2_template_0", "split": "test"}
+{"input": "wht  is  product  between  7027  and  7029.0  please", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_0", "split": "test"}
+{"input": "could you compute difference between the numbers 7013 and 7015?", "label": 2, "intended_class": 2, "eligible": true, "category": "class_2_template_0", "split": "test"}
+{"input": "wht is permutations of -7027.0 from the value 7029", "label": 17, "intended_class": 17, "eligible": true, "category": "class_17_template_0", "split": "test"}
+{"input": "wht  is  divide  the  number  7013e-3  by  7015?", "label": 5, "intended_class": 5, "eligible": true, "category": "class_5_template_0", "split": "test"}
+{"input": "wht is divide 7001 into the value +7003e2 please", "label": 6, "intended_class": 6, "eligible": true, "category": "class_6_template_0", "split": "test"}
+{"input": "wht is absolute value of +7019.25 times 7021 please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_4", "split": "test"}
+{"input": "can  you  find  sqrt  7027.25  please", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_1", "split": "test"}
+{"input": "can you find add the numbers 7019 and 7021 please", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_1", "split": "test"}
+{"input": "can  you  find  choose  7027  from  +7029.0  people?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_5", "split": "test"}
+{"input": "could  you  compute  is  flight  7027  on  time?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_0", "split": "test"}
+{"input": "wht  is  permutations  of  7001  from  the  value  7003?", "label": 17, "intended_class": 17, "eligible": true, "category": "class_17_template_0", "split": "test"}
+{"input": "could  you  compute  7001.25  plus  what", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_8", "split": "test"}
+{"input": "give me the result of multiply the numbers 7001 and 7003", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_1", "split": "test"}
+{"input": "can you find is flight 7019e-3 on time", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_0", "split": "test"}
+{"input": "can  you  find  what  is  -7013e-3  plus  seven  please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_9", "split": "test"}
+{"input": "give  me  the  result  of  sqrt  7019?", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_1", "split": "test"}
+{"input": "wht is sqrt 7001 please", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_1", "split": "test"}
+{"input": "give me the result of least common multiple of the numbers -7027.0 and 7029?", "label": 13, "intended_class": 13, "eligible": true, "category": "class_13_template_0", "split": "test"}
+{"input": "could you compute ncr of the numbers 7027 and 7029?", "label": 14, "intended_class": 14, "eligible": true, "category": "class_14_template_0", "split": "test"}
+{"input": "could you compute multiply the numbers 7019.25 and 7021?", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_1", "split": "test"}
+{"input": "could  you  compute  subtract  7013e-3  from  the  value  7015?", "label": 3, "intended_class": 3, "eligible": true, "category": "class_3_template_0", "split": "test"}
+{"input": "can you find sqrt 7027?", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_1", "split": "test"}
+{"input": "give  me  the  result  of  choose  +7013.25  from  the  value  7015", "label": 15, "intended_class": 15, "eligible": true, "category": "class_15_template_0", "split": "test"}
+{"input": "wht is 7001 plus what?", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_8", "split": "test"}
+{"input": "wht  is  -7013.0%  of  the  value  7015?", "label": 18, "intended_class": 18, "eligible": true, "category": "class_18_template_0", "split": "test"}
+{"input": "can you find is flight 7019 on time please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_0", "split": "test"}
+{"input": "can you find divide 7027 divide +7029.75 please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_10", "split": "test"}
+{"input": "give\tme\tthe\tresult\tof\tchoose\t+7013e-3\tfrom\tthe\tvalue\t7015", "label": 15, "intended_class": 15, "eligible": true, "category": "class_15_template_0", "split": "test"}
+{"input": "give  me  the  result  of  raise  the  number  7027e-3  to  the  power  of  7029", "label": 0, "intended_class": 7, "eligible": false, "category": "class_7_template_0", "split": "test"}
+{"input": "could you compute add the answer to -7013.25", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_3", "split": "test"}
+{"input": "give me the result of product between 7001 and -7003.75 please", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_0", "split": "test"}
+{"input": "could\tyou\tcompute\tdon't\tcalculate\t+7027.25\tplus\t7029?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_7", "split": "test"}
+{"input": "could you compute divide by 7019?", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_2", "split": "test"}
+{"input": "could  you  compute  difference  between  the  numbers  7013  and  7015  please", "label": 2, "intended_class": 2, "eligible": true, "category": "class_2_template_0", "split": "test"}
+{"input": "wht is divide by -7027.25", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_2", "split": "test"}
+{"input": "can  you  find  factorial  of  the  value  -7027.25", "label": 10, "intended_class": 10, "eligible": true, "category": "class_10_template_0", "split": "test"}
+{"input": "could  you  compute  npr  of  the  numbers  7013e-3  and  7015?", "label": 16, "intended_class": 16, "eligible": true, "category": "class_16_template_0", "split": "test"}
+{"input": "can  you  find  7013%  of  the  value  +7015.75  please", "label": 18, "intended_class": 18, "eligible": true, "category": "class_18_template_0", "split": "test"}
+{"input": "wht is divide 7013 into the value 7015.75?", "label": 6, "intended_class": 6, "eligible": true, "category": "class_6_template_0", "split": "test"}
+{"input": "can you find my age is +7001.25 and my weight is 7003.0", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_1", "split": "test"}
+{"input": "can\tyou\tfind\tdifference\tbetween\tthe\tnumbers\t7019\tand\t7021", "label": 2, "intended_class": 2, "eligible": true, "category": "class_2_template_0", "split": "test"}
+{"input": "give  me  the  result  of  difference  between  the  numbers  7027  and  7029?", "label": 2, "intended_class": 2, "eligible": true, "category": "class_2_template_0", "split": "test"}
+{"input": "wht is ncr of the numbers 7027e-3 and +7029.0?", "label": 14, "intended_class": 14, "eligible": true, "category": "class_14_template_0", "split": "test"}
+{"input": "can\tyou\tfind\tadd\tthe\tanswer\tto\t7001?", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_3", "split": "test"}
+{"input": "could\tyou\tcompute\tdivide\tthe\tnumber\t7019\tby\t7021?", "label": 5, "intended_class": 5, "eligible": true, "category": "class_5_template_0", "split": "test"}
+{"input": "could  you  compute  what  is  7001  plus  seven?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_9", "split": "test"}
+{"input": "wht is the cube root of the value 7013 please", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_0", "split": "test"}
+{"input": "could\tyou\tcompute\tproduct\tbetween\t7001\tand\t7003?", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_0", "split": "test"}
+{"input": "give\tme\tthe\tresult\tof\tmy\tage\tis\t7019\tand\tmy\tweight\tis\t+7021.0\tplease", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_1", "split": "test"}
+{"input": "can you find divide +7001.25 into the value 7003.75?", "label": 6, "intended_class": 6, "eligible": true, "category": "class_6_template_0", "split": "test"}
+{"input": "could\tyou\tcompute\tsqrt\t7013?", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_1", "split": "test"}
+{"input": "could  you  compute  permutations  of  7027  from  the  value  7029?", "label": 17, "intended_class": 17, "eligible": true, "category": "class_17_template_0", "split": "test"}
+{"input": "give me the result of raise the number 7001 to the power of -7003.0?", "label": 0, "intended_class": 7, "eligible": false, "category": "class_7_template_0", "split": "test"}
+{"input": "give  me  the  result  of  decrease  7027  percent  of  -7029e2?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_6", "split": "test"}
+{"input": "wht  is  divide  by  -7001.0?", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_2", "split": "test"}
+{"input": "wht is npr of the numbers 7019 and 7021?", "label": 16, "intended_class": 16, "eligible": true, "category": "class_16_template_0", "split": "test"}
+{"input": "can  you  find  subtract  7019  from  the  value  +7021.0", "label": 3, "intended_class": 3, "eligible": true, "category": "class_3_template_0", "split": "test"}
+{"input": "give me the result of choose 7019 from the value 7021", "label": 15, "intended_class": 15, "eligible": true, "category": "class_15_template_0", "split": "test"}
+{"input": "can you find my age is +7027.0 and my weight is 7029?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_1", "split": "test"}
+{"input": "can\tyou\tfind\tthe\tsquare\troot\tof\tthe\tvalue\t+7013.25\tplease", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_0", "split": "test"}
+{"input": "wht  is  is  flight  7001  on  time  please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_0", "split": "test"}
+{"input": "can you find decrease 7027 percent of 7029", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_6", "split": "test"}
+{"input": "could you compute divide -7001e-3 into the value 7003?", "label": 6, "intended_class": 6, "eligible": true, "category": "class_6_template_0", "split": "test"}
+{"input": "give  me  the  result  of  least  common  multiple  of  the  numbers  7027  and  7029", "label": 13, "intended_class": 13, "eligible": true, "category": "class_13_template_0", "split": "test"}
+{"input": "wht  is  7019e-3  plus  what", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_8", "split": "test"}
+{"input": "wht\tis\tleast\tcommon\tmultiple\tof\tthe\tnumbers\t7001\tand\t7003.0\tplease", "label": 13, "intended_class": 13, "eligible": true, "category": "class_13_template_0", "split": "test"}
+{"input": "give me the result of cbrt 7013?", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_1", "split": "test"}
+{"input": "can you find 7013 plus what?", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_8", "split": "test"}
+{"input": "wht\tis\tis\tflight\t+7013.25\ton\ttime\tplease", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_0", "split": "test"}
+{"input": "wht is greatest common divisor of the numbers 7027 and 7029 please", "label": 12, "intended_class": 12, "eligible": true, "category": "class_12_template_0", "split": "test"}
+{"input": "could you compute the cube root of the value +7001.25 please", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_0", "split": "test"}
+{"input": "can  you  find  divide  7001  into  the  value  7003.0?", "label": 6, "intended_class": 6, "eligible": true, "category": "class_6_template_0", "split": "test"}
+{"input": "could you compute factorial of the value 7013 please", "label": 10, "intended_class": 10, "eligible": true, "category": "class_10_template_0", "split": "test"}
+{"input": "could\tyou\tcompute\tdecrease\t+7027.25\tpercent\tof\t7029?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_6", "split": "test"}
+{"input": "can  you  find  add  the  answer  to  7001?", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_3", "split": "test"}
+{"input": "wht  is  npr  of  the  numbers  7027  and  7029  please", "label": 16, "intended_class": 16, "eligible": true, "category": "class_16_template_0", "split": "test"}
+{"input": "can  you  find  divide  by  7019e-3?", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_2", "split": "test"}
+{"input": "give  me  the  result  of  cbrt  7013  please", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_1", "split": "test"}
+{"input": "give me the result of don't calculate 7027 plus 7029", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_7", "split": "test"}
+{"input": "give  me  the  result  of  the  square  root  of  the  value  7001", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_0", "split": "test"}
+{"input": "wht  is  choose  7019.0  from  7021  people  please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_5", "split": "test"}
+{"input": "wht  is  difference  between  the  numbers  7019  and  7021", "label": 2, "intended_class": 2, "eligible": true, "category": "class_2_template_0", "split": "test"}
+{"input": "wht  is  add  the  answer  to  -7001.0?", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_3", "split": "test"}
+{"input": "give  me  the  result  of  subtract  +7013.25  from  the  value  -7015e2?", "label": 3, "intended_class": 3, "eligible": true, "category": "class_3_template_0", "split": "test"}
+{"input": "can  you  find  product  between  7027e-3  and  7029  please", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_0", "split": "test"}
+{"input": "could  you  compute  divide  by  7013?", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_2", "split": "test"}
+{"input": "can you find choose 7001 from 7003 people", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_5", "split": "test"}
+{"input": "wht  is  +7013.0  plus  what?", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_8", "split": "test"}
+{"input": "could  you  compute  my  age  is  7027.0  and  my  weight  is  7029", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_1", "split": "test"}
+{"input": "can  you  find  choose  +7001e-3  from  the  value  7003?", "label": 15, "intended_class": 15, "eligible": true, "category": "class_15_template_0", "split": "test"}
+{"input": "wht is greatest common divisor of the numbers 7013 and 7015", "label": 12, "intended_class": 12, "eligible": true, "category": "class_12_template_0", "split": "test"}
+{"input": "can you find least common multiple of the numbers 7001 and +7003e2", "label": 13, "intended_class": 13, "eligible": true, "category": "class_13_template_0", "split": "test"}
+{"input": "can you find divide by 7001?", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_2", "split": "test"}
+{"input": "give  me  the  result  of  subtract  7019  from  the  value  7021  please", "label": 3, "intended_class": 3, "eligible": true, "category": "class_3_template_0", "split": "test"}
+{"input": "wht  is  divide  7013.25  divide  7015", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_10", "split": "test"}
+{"input": "wht  is  difference  between  the  numbers  +7013e-3  and  7015.0  please", "label": 2, "intended_class": 2, "eligible": true, "category": "class_2_template_0", "split": "test"}
+{"input": "give  me  the  result  of  multiply  the  numbers  +7027.0  and  7029", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_1", "split": "test"}
+{"input": "could\tyou\tcompute\tthe\tabsolute\tvalue\tof\tthe\tvalue\t7013\tplease", "label": 19, "intended_class": 19, "eligible": true, "category": "class_19_template_0", "split": "test"}
+{"input": "wht  is  absolute  value  of  -7019.25  times  -7021e2  please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_4", "split": "test"}
+{"input": "could  you  compute  -7001.25  plus  what?", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_8", "split": "test"}
+{"input": "can  you  find  divide  the  number  7027e-3  by  7029  please", "label": 5, "intended_class": 5, "eligible": true, "category": "class_5_template_0", "split": "test"}
+{"input": "give  me  the  result  of  difference  between  the  numbers  7013  and  7015", "label": 2, "intended_class": 2, "eligible": true, "category": "class_2_template_0", "split": "test"}
+{"input": "could  you  compute  subtract  7001  from  the  value  7003", "label": 3, "intended_class": 3, "eligible": true, "category": "class_3_template_0", "split": "test"}
+{"input": "give  me  the  result  of  the  cube  root  of  the  value  7019", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_0", "split": "test"}
+{"input": "give  me  the  result  of  permutations  of  7001  from  the  value  -7003.0  please", "label": 17, "intended_class": 17, "eligible": true, "category": "class_17_template_0", "split": "test"}
+{"input": "can\tyou\tfind\tsubtract\t7001\tfrom\tthe\tvalue\t7003", "label": 3, "intended_class": 3, "eligible": true, "category": "class_3_template_0", "split": "test"}
+{"input": "wht  is  subtract  7013  from  the  value  7015  please", "label": 3, "intended_class": 3, "eligible": true, "category": "class_3_template_0", "split": "test"}
+{"input": "could\tyou\tcompute\tsqrt\t7001.25", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_1", "split": "test"}
+{"input": "could you compute what is +7001.25 plus seven", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_9", "split": "test"}
+{"input": "wht is add the numbers 7019.0 and 7021", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_1", "split": "test"}
+{"input": "wht  is  npr  of  the  numbers  7019.0  and  7021?", "label": 16, "intended_class": 16, "eligible": true, "category": "class_16_template_0", "split": "test"}
+{"input": "can\tyou\tfind\tgreatest\tcommon\tdivisor\tof\tthe\tnumbers\t+7027e-3\tand\t7029\tplease", "label": 12, "intended_class": 12, "eligible": true, "category": "class_12_template_0", "split": "test"}
+{"input": "could  you  compute  divide  the  number  7013  by  7015", "label": 5, "intended_class": 5, "eligible": true, "category": "class_5_template_0", "split": "test"}
+{"input": "could you compute sqrt 7001.25", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_1", "split": "test"}
+{"input": "can you find the absolute value of the value 7013", "label": 19, "intended_class": 19, "eligible": true, "category": "class_19_template_0", "split": "test"}
+{"input": "could you compute decrease 7001 percent of 7003", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_6", "split": "test"}
+{"input": "give  me  the  result  of  add  the  numbers  7013.0  and  7015", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_1", "split": "test"}
+{"input": "wht is product between 7019 and 7021.75 please", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_0", "split": "test"}
+{"input": "could you compute npr of the numbers -7001e-3 and 7003 please", "label": 16, "intended_class": 16, "eligible": true, "category": "class_16_template_0", "split": "test"}
+{"input": "could  you  compute  greatest  common  divisor  of  the  numbers  +7027e-3  and  -7029.75  please", "label": 12, "intended_class": 12, "eligible": true, "category": "class_12_template_0", "split": "test"}
+{"input": "give me the result of npr of the numbers 7019.25 and 7021.75 please", "label": 16, "intended_class": 16, "eligible": true, "category": "class_16_template_0", "split": "test"}
+{"input": "could  you  compute  raise  the  number  7001  to  the  power  of  -7003e2", "label": 0, "intended_class": 7, "eligible": false, "category": "class_7_template_0", "split": "test"}
+{"input": "give me the result of greatest common divisor of the numbers 7013 and 7015 please", "label": 12, "intended_class": 12, "eligible": true, "category": "class_12_template_0", "split": "test"}
+{"input": "give  me  the  result  of  ncr  of  the  numbers  7027  and  7029", "label": 14, "intended_class": 14, "eligible": true, "category": "class_14_template_0", "split": "test"}
+{"input": "give  me  the  result  of  greatest  common  divisor  of  the  numbers  7013  and  7015", "label": 12, "intended_class": 12, "eligible": true, "category": "class_12_template_0", "split": "test"}
+{"input": "wht is permutations of 7027 from the value -7029e2?", "label": 17, "intended_class": 17, "eligible": true, "category": "class_17_template_0", "split": "test"}
+{"input": "can you find ncr of the numbers 7027 and 7029 please", "label": 14, "intended_class": 14, "eligible": true, "category": "class_14_template_0", "split": "test"}
+{"input": "could  you  compute  difference  between  the  numbers  7013  and  7015", "label": 2, "intended_class": 2, "eligible": true, "category": "class_2_template_0", "split": "test"}
+{"input": "give\tme\tthe\tresult\tof\tnpr\tof\tthe\tnumbers\t7027\tand\t7029.0?", "label": 16, "intended_class": 16, "eligible": true, "category": "class_16_template_0", "split": "test"}
+{"input": "give  me  the  result  of  addition  between  7019e-3  and  7021  please", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_0", "split": "test"}
+{"input": "give  me  the  result  of  choose  7027  from  -7029.0  people", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_5", "split": "test"}
+{"input": "wht\tis\tdivide\t-7001.0\tdivide\t+7003e2?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_10", "split": "test"}
+{"input": "give me the result of decrease 7001 percent of 7003", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_6", "split": "test"}
+{"input": "could\tyou\tcompute\tsubtract\t7027\tfrom\tthe\tvalue\t7029", "label": 3, "intended_class": 3, "eligible": true, "category": "class_3_template_0", "split": "test"}
+{"input": "can you find don't calculate 7019e-3 plus 7021", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_7", "split": "test"}
+{"input": "can\tyou\tfind\taddition\tbetween\t7013\tand\t7015\tplease", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_0", "split": "test"}
+{"input": "could\tyou\tcompute\tchoose\t7027\tfrom\tthe\tvalue\t+7029.75", "label": 15, "intended_class": 15, "eligible": true, "category": "class_15_template_0", "split": "test"}
+{"input": "can you find sqrt 7013", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_1", "split": "test"}
+{"input": "could\tyou\tcompute\tnpr\tof\tthe\tnumbers\t7013\tand\t7015\tplease", "label": 16, "intended_class": 16, "eligible": true, "category": "class_16_template_0", "split": "test"}
+{"input": "wht is add the answer to 7027?", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_3", "split": "test"}
+{"input": "give me the result of difference between the numbers -7027e-3 and +7029.0?", "label": 2, "intended_class": 2, "eligible": true, "category": "class_2_template_0", "split": "test"}
+{"input": "could  you  compute  choose  7027  from  7029  people  please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_5", "split": "test"}
+{"input": "give\tme\tthe\tresult\tof\tis\tflight\t7001\ton\ttime", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_0", "split": "test"}
+{"input": "can\tyou\tfind\tcbrt\t+7027e-3", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_1", "split": "test"}
+{"input": "could  you  compute  ncr  of  the  numbers  +7013e-3  and  +7015.75  please", "label": 14, "intended_class": 14, "eligible": true, "category": "class_14_template_0", "split": "test"}
+{"input": "wht is factorial of the value 7027", "label": 10, "intended_class": 10, "eligible": true, "category": "class_10_template_0", "split": "test"}
+{"input": "can  you  find  decrease  7013.25  percent  of  7015e2  please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_6", "split": "test"}
+{"input": "can  you  find  add  the  answer  to  7001", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_3", "split": "test"}
+{"input": "wht  is  what  is  7027  plus  seven", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_9", "split": "test"}
+{"input": "can you find -7001.25 plus what please", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_8", "split": "test"}
+{"input": "could\tyou\tcompute\tthe\tcube\troot\tof\tthe\tvalue\t7019", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_0", "split": "test"}
+{"input": "could you compute -7019.0% of the value 7021 please", "label": 18, "intended_class": 18, "eligible": true, "category": "class_18_template_0", "split": "test"}
+{"input": "give me the result of add the answer to +7001.0 please", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_3", "split": "test"}
+{"input": "wht  is  7001%  of  the  value  +7003e2", "label": 18, "intended_class": 18, "eligible": true, "category": "class_18_template_0", "split": "test"}
+{"input": "give  me  the  result  of  divide  the  number  7019  by  7021?", "label": 5, "intended_class": 5, "eligible": true, "category": "class_5_template_0", "split": "test"}
+{"input": "can  you  find  divide  7019  divide  7021", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_10", "split": "test"}
+{"input": "could you compute absolute value of 7013 times 7015e2 please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_4", "split": "test"}
+{"input": "can you find add the numbers 7019 and 7021?", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_1", "split": "test"}
+{"input": "give  me  the  result  of  addition  between  7019  and  7021", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_0", "split": "test"}
+{"input": "can  you  find  divide  7027.0  divide  7029  please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_10", "split": "test"}
+{"input": "could you compute raise the number 7019 to the power of +7021.75 please", "label": 0, "intended_class": 7, "eligible": false, "category": "class_7_template_0", "split": "test"}
+{"input": "wht  is  add  the  numbers  7027  and  +7029.75?", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_1", "split": "test"}
+{"input": "can\tyou\tfind\tdivide\t7019\tdivide\t7021", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_10", "split": "test"}
+{"input": "wht  is  subtract  7001  from  the  value  -7003.75?", "label": 3, "intended_class": 3, "eligible": true, "category": "class_3_template_0", "split": "test"}
+{"input": "could\tyou\tcompute\tproduct\tbetween\t+7027e-3\tand\t7029.75\tplease", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_0", "split": "test"}
+{"input": "wht  is  the  value  +7027.25  mod  7029e2?", "label": 11, "intended_class": 11, "eligible": true, "category": "class_11_template_0", "split": "test"}
+{"input": "could  you  compute  sqrt  7027?", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_1", "split": "test"}
+{"input": "could  you  compute  the  square  root  of  the  value  -7027.25?", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_0", "split": "test"}
+{"input": "could you compute divide by 7027.25 please", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_2", "split": "test"}
+{"input": "can  you  find  cbrt  -7019.25?", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_1", "split": "test"}
+{"input": "can  you  find  cbrt  -7013.25  please", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_1", "split": "test"}
+{"input": "could\tyou\tcompute\tgreatest\tcommon\tdivisor\tof\tthe\tnumbers\t7001\tand\t-7003.0", "label": 12, "intended_class": 12, "eligible": true, "category": "class_12_template_0", "split": "test"}
+{"input": "could\tyou\tcompute\tmultiply\tthe\tnumbers\t+7013.25\tand\t7015\tplease", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_1", "split": "test"}
+{"input": "wht is the cube root of the value 7027", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_0", "split": "test"}
+{"input": "could\tyou\tcompute\tdecrease\t7013\tpercent\tof\t-7015e2\tplease", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_6", "split": "test"}
+{"input": "wht  is  divide  7001  into  the  value  7003", "label": 6, "intended_class": 6, "eligible": true, "category": "class_6_template_0", "split": "test"}
+{"input": "wht  is  choose  7013  from  7015  people?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_5", "split": "test"}
+{"input": "give  me  the  result  of  permutations  of  7019  from  the  value  7021?", "label": 17, "intended_class": 17, "eligible": true, "category": "class_17_template_0", "split": "test"}
+{"input": "give me the result of add the numbers 7001.25 and 7003?", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_1", "split": "test"}
+{"input": "wht is my age is 7027e-3 and my weight is 7029 please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_1", "split": "test"}
+{"input": "give  me  the  result  of  choose  +7019e-3  from  the  value  +7021.75?", "label": 15, "intended_class": 15, "eligible": true, "category": "class_15_template_0", "split": "test"}
+{"input": "wht\tis\tpermutations\tof\t7027\tfrom\tthe\tvalue\t7029.75?", "label": 17, "intended_class": 17, "eligible": true, "category": "class_17_template_0", "split": "test"}
+{"input": "wht\tis\tnpr\tof\tthe\tnumbers\t-7019.25\tand\t7021e2", "label": 16, "intended_class": 16, "eligible": true, "category": "class_16_template_0", "split": "test"}
+{"input": "wht  is  don't  calculate  +7027.0  plus  7029e2?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_7", "split": "test"}
+{"input": "wht\tis\tdecrease\t7019\tpercent\tof\t7021\tplease", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_6", "split": "test"}
+{"input": "can\tyou\tfind\tfactorial\tof\tthe\tvalue\t7027", "label": 10, "intended_class": 10, "eligible": true, "category": "class_10_template_0", "split": "test"}
+{"input": "wht\tis\twhat\tis\t7013\tplus\tseven", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_9", "split": "test"}
+{"input": "can you find the cube root of the value 7013", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_0", "split": "test"}
+{"input": "could you compute difference between the numbers 7019.25 and 7021 please", "label": 2, "intended_class": 2, "eligible": true, "category": "class_2_template_0", "split": "test"}
+{"input": "could  you  compute  divide  by  7019  please", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_2", "split": "test"}
+{"input": "could\tyou\tcompute\tthe\tvalue\t7013.25\tmod\t7015\tplease", "label": 11, "intended_class": 11, "eligible": true, "category": "class_11_template_0", "split": "test"}
+{"input": "give me the result of divide the number 7001 by 7003 please", "label": 5, "intended_class": 5, "eligible": true, "category": "class_5_template_0", "split": "test"}
+{"input": "wht is 7013.0 plus what", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_8", "split": "test"}
+{"input": "wht is decrease 7019 percent of -7021e2 please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_6", "split": "test"}
+{"input": "give me the result of absolute value of +7013.0 times -7015.0?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_4", "split": "test"}
+{"input": "give me the result of absolute value of 7013 times 7015", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_4", "split": "test"}
+{"input": "can  you  find  +7001.25  plus  what?", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_8", "split": "test"}
+{"input": "can\tyou\tfind\tnpr\tof\tthe\tnumbers\t7027\tand\t7029?", "label": 16, "intended_class": 16, "eligible": true, "category": "class_16_template_0", "split": "test"}
+{"input": "wht is multiply the numbers 7019 and 7021?", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_1", "split": "test"}
+{"input": "could you compute my age is -7013.25 and my weight is +7015.0 please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_1", "split": "test"}
+{"input": "wht  is  the  square  root  of  the  value  7001.0?", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_0", "split": "test"}
+{"input": "give me the result of addition between 7013 and 7015e2 please", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_0", "split": "test"}
+{"input": "could you compute the square root of the value 7019e-3", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_0", "split": "test"}
+{"input": "can  you  find  choose  7013  from  the  value  7015  please", "label": 15, "intended_class": 15, "eligible": true, "category": "class_15_template_0", "split": "test"}
+{"input": "could\tyou\tcompute\twhat\tis\t7019\tplus\tseven\tplease", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_9", "split": "test"}
+{"input": "can  you  find  what  is  7001  plus  seven", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_9", "split": "test"}
+{"input": "wht is 7001 plus what please", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_8", "split": "test"}
+{"input": "could  you  compute  cbrt  7019  please", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_1", "split": "test"}
+{"input": "can  you  find  multiply  the  numbers  7019  and  7021  please", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_1", "split": "test"}
+{"input": "could\tyou\tcompute\tdon't\tcalculate\t+7019e-3\tplus\t7021", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_7", "split": "test"}
+{"input": "wht  is  cbrt  7019e-3?", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_1", "split": "test"}
+{"input": "wht  is  cbrt  7001", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_1", "split": "test"}
+{"input": "can  you  find  7013%  of  the  value  7015?", "label": 18, "intended_class": 18, "eligible": true, "category": "class_18_template_0", "split": "test"}
+{"input": "wht is factorial of the value 7027 please", "label": 10, "intended_class": 10, "eligible": true, "category": "class_10_template_0", "split": "test"}
+{"input": "wht is don't calculate 7027.0 plus 7029 please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_7", "split": "test"}
+{"input": "give\tme\tthe\tresult\tof\tgreatest\tcommon\tdivisor\tof\tthe\tnumbers\t7027\tand\t-7029.75?", "label": 12, "intended_class": 12, "eligible": true, "category": "class_12_template_0", "split": "test"}
+{"input": "can\tyou\tfind\tthe\tvalue\t7001.25\tmod\t7003", "label": 11, "intended_class": 11, "eligible": true, "category": "class_11_template_0", "split": "test"}
+{"input": "wht is 7027% of the value 7029", "label": 18, "intended_class": 18, "eligible": true, "category": "class_18_template_0", "split": "test"}
+{"input": "wht  is  divide  the  number  7001  by  7003  please", "label": 5, "intended_class": 5, "eligible": true, "category": "class_5_template_0", "split": "test"}
+{"input": "could you compute add the numbers 7013 and -7015e2?", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_1", "split": "test"}
+{"input": "could\tyou\tcompute\tdivide\tby\t-7001.25", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_2", "split": "test"}
+{"input": "could  you  compute  divide  7027.25  divide  +7029e2?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_10", "split": "test"}
+{"input": "give  me  the  result  of  ncr  of  the  numbers  7027  and  7029?", "label": 14, "intended_class": 14, "eligible": true, "category": "class_14_template_0", "split": "test"}
+{"input": "can you find sqrt 7027 please", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_1", "split": "test"}
+{"input": "could you compute don't calculate 7027 plus 7029?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_7", "split": "test"}
+{"input": "give  me  the  result  of  the  square  root  of  the  value  7001.0  please", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_0", "split": "test"}
+{"input": "could you compute what is +7027.0 plus seven?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_9", "split": "test"}
+{"input": "could  you  compute  add  the  numbers  -7027e-3  and  -7029.75", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_1", "split": "test"}
+{"input": "could\tyou\tcompute\tis\tflight\t7027\ton\ttime", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_0", "split": "test"}
+{"input": "give  me  the  result  of  divide  7027  into  the  value  7029  please", "label": 6, "intended_class": 6, "eligible": true, "category": "class_6_template_0", "split": "test"}
+{"input": "can\tyou\tfind\tnpr\tof\tthe\tnumbers\t7001\tand\t7003\tplease", "label": 16, "intended_class": 16, "eligible": true, "category": "class_16_template_0", "split": "test"}
+{"input": "wht  is  divide  7019  divide  7021?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_10", "split": "test"}
+{"input": "wht  is  greatest  common  divisor  of  the  numbers  7027  and  7029", "label": 12, "intended_class": 12, "eligible": true, "category": "class_12_template_0", "split": "test"}
+{"input": "can you find product between +7027.25 and +7029.0", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_0", "split": "test"}
+{"input": "can you find subtract 7019 from the value 7021", "label": 3, "intended_class": 3, "eligible": true, "category": "class_3_template_0", "split": "test"}
+{"input": "could you compute addition between +7001e-3 and 7003 please", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_0", "split": "test"}
+{"input": "give me the result of ncr of the numbers +7013e-3 and +7015e2", "label": 14, "intended_class": 14, "eligible": true, "category": "class_14_template_0", "split": "test"}
+{"input": "give  me  the  result  of  don't  calculate  +7019e-3  plus  7021", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_7", "split": "test"}
+{"input": "wht  is  factorial  of  the  value  7001  please", "label": 10, "intended_class": 10, "eligible": true, "category": "class_10_template_0", "split": "test"}
+{"input": "can you find don't calculate -7013.25 plus 7015 please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_7", "split": "test"}
+{"input": "could you compute subtract 7027 from the value +7029e2 please", "label": 3, "intended_class": 3, "eligible": true, "category": "class_3_template_0", "split": "test"}
+{"input": "wht  is  raise  the  number  7027  to  the  power  of  7029.0", "label": 0, "intended_class": 7, "eligible": false, "category": "class_7_template_0", "split": "test"}
+{"input": "can you find permutations of 7001 from the value 7003", "label": 17, "intended_class": 17, "eligible": true, "category": "class_17_template_0", "split": "test"}
+{"input": "wht\tis\tdon't\tcalculate\t+7019e-3\tplus\t-7021.75\tplease", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_7", "split": "test"}
+{"input": "wht  is  choose  +7001.0  from  the  value  7003?", "label": 15, "intended_class": 15, "eligible": true, "category": "class_15_template_0", "split": "test"}
+{"input": "can\tyou\tfind\tadd\tthe\tnumbers\t7027.25\tand\t7029", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_1", "split": "test"}
+{"input": "can  you  find  difference  between  the  numbers  7027  and  7029?", "label": 2, "intended_class": 2, "eligible": true, "category": "class_2_template_0", "split": "test"}
+{"input": "give\tme\tthe\tresult\tof\tgreatest\tcommon\tdivisor\tof\tthe\tnumbers\t-7019e-3\tand\t-7021.0", "label": 12, "intended_class": 12, "eligible": true, "category": "class_12_template_0", "split": "test"}
+{"input": "can you find addition between 7001.25 and 7003?", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_0", "split": "test"}
+{"input": "give  me  the  result  of  is  flight  7027  on  time?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_0", "split": "test"}
+{"input": "wht is multiply the numbers 7027 and +7029.0", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_1", "split": "test"}
+{"input": "wht is addition between 7027 and 7029?", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_0", "split": "test"}
+{"input": "can  you  find  greatest  common  divisor  of  the  numbers  7019  and  +7021.75?", "label": 12, "intended_class": 12, "eligible": true, "category": "class_12_template_0", "split": "test"}
+{"input": "give\tme\tthe\tresult\tof\tadd\tthe\tnumbers\t-7001.0\tand\t7003e2", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_1", "split": "test"}
+{"input": "could you compute choose 7001 from the value 7003?", "label": 15, "intended_class": 15, "eligible": true, "category": "class_15_template_0", "split": "test"}
+{"input": "give me the result of subtract +7001.25 from the value 7003.0 please", "label": 3, "intended_class": 3, "eligible": true, "category": "class_3_template_0", "split": "test"}
+{"input": "could  you  compute  permutations  of  7027  from  the  value  7029e2  please", "label": 17, "intended_class": 17, "eligible": true, "category": "class_17_template_0", "split": "test"}
+{"input": "could you compute 7019% of the value 7021?", "label": 18, "intended_class": 18, "eligible": true, "category": "class_18_template_0", "split": "test"}
+{"input": "give me the result of don't calculate 7027 plus 7029 please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_7", "split": "test"}
+{"input": "can  you  find  least  common  multiple  of  the  numbers  +7013e-3  and  7015  please", "label": 13, "intended_class": 13, "eligible": true, "category": "class_13_template_0", "split": "test"}
+{"input": "wht is sqrt 7019", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_1", "split": "test"}
+{"input": "give\tme\tthe\tresult\tof\tcbrt\t7027", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_1", "split": "test"}
+{"input": "can\tyou\tfind\tadd\tthe\tanswer\tto\t7013.25", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_3", "split": "test"}
+{"input": "could  you  compute  ncr  of  the  numbers  -7019e-3  and  7021?", "label": 14, "intended_class": 14, "eligible": true, "category": "class_14_template_0", "split": "test"}
+{"input": "wht  is  decrease  7001e-3  percent  of  7003  please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_6", "split": "test"}
+{"input": "could you compute is flight 7001 on time?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_0", "split": "test"}
+{"input": "could you compute 7027% of the value 7029", "label": 18, "intended_class": 18, "eligible": true, "category": "class_18_template_0", "split": "test"}
+{"input": "wht\tis\tadd\tthe\tanswer\tto\t7019?", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_3", "split": "test"}
+{"input": "can you find divide the number 7027 by 7029 please", "label": 5, "intended_class": 5, "eligible": true, "category": "class_5_template_0", "split": "test"}
+{"input": "give\tme\tthe\tresult\tof\t7019\tplus\twhat\tplease", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_8", "split": "test"}
+{"input": "could you compute choose 7019 from 7021 people?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_5", "split": "test"}
+{"input": "wht is add the numbers 7027 and 7029?", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_1", "split": "test"}
+{"input": "give\tme\tthe\tresult\tof\traise\tthe\tnumber\t7027\tto\tthe\tpower\tof\t+7029.0", "label": 0, "intended_class": 7, "eligible": false, "category": "class_7_template_0", "split": "test"}
+{"input": "can  you  find  least  common  multiple  of  the  numbers  +7001.25  and  +7003.75", "label": 13, "intended_class": 13, "eligible": true, "category": "class_13_template_0", "split": "test"}
+{"input": "can  you  find  absolute  value  of  7027  times  7029", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_4", "split": "test"}
+{"input": "can you find divide -7001e-3 divide 7003", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_10", "split": "test"}
+{"input": "could you compute least common multiple of the numbers -7027e-3 and 7029.0", "label": 13, "intended_class": 13, "eligible": true, "category": "class_13_template_0", "split": "test"}
+{"input": "give me the result of add the answer to 7001?", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_3", "split": "test"}
+{"input": "give me the result of factorial of the value +7019.0", "label": 10, "intended_class": 10, "eligible": true, "category": "class_10_template_0", "split": "test"}
+{"input": "can you find 7013% of the value 7015.0", "label": 18, "intended_class": 18, "eligible": true, "category": "class_18_template_0", "split": "test"}
+{"input": "could  you  compute  subtract  7019  from  the  value  7021  please", "label": 3, "intended_class": 3, "eligible": true, "category": "class_3_template_0", "split": "test"}
+{"input": "could  you  compute  don't  calculate  7013  plus  7015  please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_7", "split": "test"}
+{"input": "give  me  the  result  of  multiply  the  numbers  7001  and  7003.75  please", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_1", "split": "test"}
+{"input": "could  you  compute  divide  7019  divide  7021", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_10", "split": "test"}
+{"input": "can  you  find  the  absolute  value  of  the  value  7001  please", "label": 19, "intended_class": 19, "eligible": true, "category": "class_19_template_0", "split": "test"}
+{"input": "give me the result of cbrt 7013 please", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_1", "split": "test"}
+{"input": "give  me  the  result  of  divide  by  7013?", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_2", "split": "test"}
+{"input": "wht is subtract 7001 from the value 7003.75?", "label": 3, "intended_class": 3, "eligible": true, "category": "class_3_template_0", "split": "test"}
+{"input": "wht is permutations of +7027.0 from the value 7029 please", "label": 17, "intended_class": 17, "eligible": true, "category": "class_17_template_0", "split": "test"}
+{"input": "wht is is flight 7001.0 on time?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_0", "split": "test"}
+{"input": "can you find is flight 7027 on time?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_0", "split": "test"}
+{"input": "can you find the square root of the value 7001?", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_0", "split": "test"}
+{"input": "wht  is  don't  calculate  7019  plus  7021  please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_7", "split": "test"}
+{"input": "wht is add the answer to 7001", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_3", "split": "test"}
+{"input": "give me the result of the square root of the value 7001 please", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_0", "split": "test"}
+{"input": "give me the result of product between 7013 and 7015.75", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_0", "split": "test"}
+{"input": "can you find raise the number 7019 to the power of 7021?", "label": 0, "intended_class": 7, "eligible": false, "category": "class_7_template_0", "split": "test"}
+{"input": "can  you  find  difference  between  the  numbers  7001  and  +7003.75  please", "label": 2, "intended_class": 2, "eligible": true, "category": "class_2_template_0", "split": "test"}
+{"input": "give me the result of divide -7019e-3 into the value 7021 please", "label": 6, "intended_class": 6, "eligible": true, "category": "class_6_template_0", "split": "test"}
+{"input": "could\tyou\tcompute\tmultiply\tthe\tnumbers\t7013\tand\t7015?", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_1", "split": "test"}
+{"input": "could\tyou\tcompute\tadd\tthe\tnumbers\t7001\tand\t7003", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_1", "split": "test"}
+{"input": "wht\tis\tthe\tsquare\troot\tof\tthe\tvalue\t7001?", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_0", "split": "test"}
+{"input": "wht\tis\tdivide\tby\t7001", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_2", "split": "test"}
+{"input": "can  you  find  7001%  of  the  value  +7003.0", "label": 18, "intended_class": 18, "eligible": true, "category": "class_18_template_0", "split": "test"}
+{"input": "wht  is  subtract  7019  from  the  value  -7021.75", "label": 3, "intended_class": 3, "eligible": true, "category": "class_3_template_0", "split": "test"}
+{"input": "can\tyou\tfind\t7001%\tof\tthe\tvalue\t7003\tplease", "label": 18, "intended_class": 18, "eligible": true, "category": "class_18_template_0", "split": "test"}
+{"input": "give me the result of -7019e-3 plus what?", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_8", "split": "test"}
+{"input": "wht is is flight -7027e-3 on time please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_0", "split": "test"}
+{"input": "give\tme\tthe\tresult\tof\tadd\tthe\tanswer\tto\t7013\tplease", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_3", "split": "test"}
+{"input": "wht is least common multiple of the numbers 7019.0 and +7021.0 please", "label": 13, "intended_class": 13, "eligible": true, "category": "class_13_template_0", "split": "test"}
+{"input": "could you compute npr of the numbers 7027 and -7029e2", "label": 16, "intended_class": 16, "eligible": true, "category": "class_16_template_0", "split": "test"}
+{"input": "could\tyou\tcompute\tdivide\t7013\tdivide\t7015\tplease", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_10", "split": "test"}
+{"input": "can  you  find  npr  of  the  numbers  7019  and  -7021.75  please", "label": 16, "intended_class": 16, "eligible": true, "category": "class_16_template_0", "split": "test"}
+{"input": "could  you  compute  the  square  root  of  the  value  7019", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_0", "split": "test"}
+{"input": "could  you  compute  my  age  is  7001  and  my  weight  is  7003  please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_1", "split": "test"}
+{"input": "wht is cbrt -7001e-3 please", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_1", "split": "test"}
+{"input": "can you find cbrt 7019?", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_1", "split": "test"}
+{"input": "could  you  compute  greatest  common  divisor  of  the  numbers  7001  and  7003", "label": 12, "intended_class": 12, "eligible": true, "category": "class_12_template_0", "split": "test"}
+{"input": "wht\tis\tadd\tthe\tnumbers\t7001\tand\t7003.0?", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_1", "split": "test"}
+{"input": "could  you  compute  cbrt  7001e-3", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_1", "split": "test"}
+{"input": "could  you  compute  npr  of  the  numbers  +7019.25  and  7021  please", "label": 16, "intended_class": 16, "eligible": true, "category": "class_16_template_0", "split": "test"}
+{"input": "could\tyou\tcompute\tthe\tsquare\troot\tof\tthe\tvalue\t7027?", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_0", "split": "test"}
+{"input": "give  me  the  result  of  cbrt  -7027.0", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_1", "split": "test"}
+{"input": "give  me  the  result  of  add  the  answer  to  7001.25", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_3", "split": "test"}
+{"input": "can you find greatest common divisor of the numbers 7001 and 7003?", "label": 12, "intended_class": 12, "eligible": true, "category": "class_12_template_0", "split": "test"}
+{"input": "give\tme\tthe\tresult\tof\tdivide\t7027\tdivide\t+7029.75\tplease", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_10", "split": "test"}
+{"input": "wht  is  factorial  of  the  value  7019?", "label": 10, "intended_class": 10, "eligible": true, "category": "class_10_template_0", "split": "test"}
+{"input": "can you find divide 7013e-3 into the value 7015e2 please", "label": 6, "intended_class": 6, "eligible": true, "category": "class_6_template_0", "split": "test"}
+{"input": "could\tyou\tcompute\tthe\tvalue\t-7001.0\tmod\t7003", "label": 11, "intended_class": 11, "eligible": true, "category": "class_11_template_0", "split": "test"}
+{"input": "can you find the value +7019.25 mod 7021", "label": 11, "intended_class": 11, "eligible": true, "category": "class_11_template_0", "split": "test"}
+{"input": "wht  is  raise  the  number  +7001.25  to  the  power  of  7003  please", "label": 0, "intended_class": 7, "eligible": false, "category": "class_7_template_0", "split": "test"}
+{"input": "give me the result of difference between the numbers 7001.0 and 7003", "label": 2, "intended_class": 2, "eligible": true, "category": "class_2_template_0", "split": "test"}
+{"input": "can  you  find  divide  -7001.0  into  the  value  -7003e2  please", "label": 6, "intended_class": 6, "eligible": true, "category": "class_6_template_0", "split": "test"}
+{"input": "wht  is  is  flight  7013  on  time", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_0", "split": "test"}
+{"input": "can\tyou\tfind\tdecrease\t7013.25\tpercent\tof\t7015", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_6", "split": "test"}
+{"input": "could you compute the value 7013 mod +7015e2?", "label": 11, "intended_class": 11, "eligible": true, "category": "class_11_template_0", "split": "test"}
+{"input": "can  you  find  multiply  the  numbers  7027.25  and  7029?", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_1", "split": "test"}
+{"input": "wht\tis\tadd\tthe\tanswer\tto\t7019\tplease", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_3", "split": "test"}
+{"input": "wht\tis\tthe\tvalue\t-7019.25\tmod\t7021", "label": 11, "intended_class": 11, "eligible": true, "category": "class_11_template_0", "split": "test"}
+{"input": "could\tyou\tcompute\tadd\tthe\tnumbers\t7013\tand\t7015?", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_1", "split": "test"}
+{"input": "could  you  compute  sqrt  +7019.0", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_1", "split": "test"}
+{"input": "give\tme\tthe\tresult\tof\tncr\tof\tthe\tnumbers\t7001\tand\t-7003.0", "label": 14, "intended_class": 14, "eligible": true, "category": "class_14_template_0", "split": "test"}
+{"input": "can you find divide 7001 into the value 7003", "label": 6, "intended_class": 6, "eligible": true, "category": "class_6_template_0", "split": "test"}
+{"input": "wht is my age is 7001 and my weight is 7003", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_1", "split": "test"}
+{"input": "give  me  the  result  of  divide  -7013e-3  divide  +7015.0  please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_10", "split": "test"}
+{"input": "wht is product between 7019 and -7021.75", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_0", "split": "test"}
+{"input": "can\tyou\tfind\t7013%\tof\tthe\tvalue\t-7015.75", "label": 18, "intended_class": 18, "eligible": true, "category": "class_18_template_0", "split": "test"}
+{"input": "can  you  find  choose  7013  from  7015  people  please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_5", "split": "test"}
+{"input": "can you find decrease +7013.0 percent of 7015.0?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_6", "split": "test"}
+{"input": "give  me  the  result  of  the  value  7019e-3  mod  7021  please", "label": 11, "intended_class": 11, "eligible": true, "category": "class_11_template_0", "split": "test"}
+{"input": "can you find add the answer to 7019", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_3", "split": "test"}
+{"input": "could\tyou\tcompute\t+7001.0%\tof\tthe\tvalue\t7003.75", "label": 18, "intended_class": 18, "eligible": true, "category": "class_18_template_0", "split": "test"}
+{"input": "give  me  the  result  of  is  flight  7001  on  time", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_0", "split": "test"}
+{"input": "give  me  the  result  of  least  common  multiple  of  the  numbers  7019  and  +7021e2  please", "label": 13, "intended_class": 13, "eligible": true, "category": "class_13_template_0", "split": "test"}
+{"input": "wht  is  add  the  numbers  7013  and  -7015.75", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_1", "split": "test"}
+{"input": "wht is raise the number 7027e-3 to the power of 7029.0 please", "label": 0, "intended_class": 7, "eligible": false, "category": "class_7_template_0", "split": "test"}
+{"input": "could  you  compute  sqrt  7027  please", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_1", "split": "test"}
+{"input": "could you compute the absolute value of the value -7019e-3 please", "label": 19, "intended_class": 19, "eligible": true, "category": "class_19_template_0", "split": "test"}
+{"input": "wht is least common multiple of the numbers +7013.0 and 7015?", "label": 13, "intended_class": 13, "eligible": true, "category": "class_13_template_0", "split": "test"}
+{"input": "give me the result of difference between the numbers 7001 and 7003 please", "label": 2, "intended_class": 2, "eligible": true, "category": "class_2_template_0", "split": "test"}
+{"input": "can  you  find  divide  +7019.25  into  the  value  7021.75", "label": 6, "intended_class": 6, "eligible": true, "category": "class_6_template_0", "split": "test"}
+{"input": "wht  is  choose  7013.0  from  7015  people", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_5", "split": "test"}
+{"input": "wht  is  add  the  answer  to  7001  please", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_3", "split": "test"}
+{"input": "give me the result of product between +7027.25 and 7029?", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_0", "split": "test"}
+{"input": "give me the result of divide 7013 divide -7015.75?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_10", "split": "test"}
+{"input": "could  you  compute  7001%  of  the  value  +7003.75?", "label": 18, "intended_class": 18, "eligible": true, "category": "class_18_template_0", "split": "test"}
+{"input": "wht is ncr of the numbers 7027e-3 and 7029", "label": 14, "intended_class": 14, "eligible": true, "category": "class_14_template_0", "split": "test"}
+{"input": "can  you  find  raise  the  number  7013  to  the  power  of  7015?", "label": 0, "intended_class": 7, "eligible": false, "category": "class_7_template_0", "split": "test"}
+{"input": "could  you  compute  permutations  of  7027  from  the  value  7029", "label": 17, "intended_class": 17, "eligible": true, "category": "class_17_template_0", "split": "test"}
+{"input": "can you find raise the number 7027 to the power of 7029.0 please", "label": 0, "intended_class": 7, "eligible": false, "category": "class_7_template_0", "split": "test"}
+{"input": "could you compute what is 7013 plus seven please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_9", "split": "test"}
+{"input": "wht\tis\tleast\tcommon\tmultiple\tof\tthe\tnumbers\t+7013e-3\tand\t7015", "label": 13, "intended_class": 13, "eligible": true, "category": "class_13_template_0", "split": "test"}
+{"input": "wht  is  the  cube  root  of  the  value  7001?", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_0", "split": "test"}
+{"input": "give  me  the  result  of  add  the  answer  to  7013.25  please", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_3", "split": "test"}
+{"input": "wht is divide +7019.25 divide -7021.75", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_10", "split": "test"}
+{"input": "could  you  compute  add  the  numbers  7013  and  +7015.0?", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_1", "split": "test"}
+{"input": "could\tyou\tcompute\tcbrt\t7001.25?", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_1", "split": "test"}
+{"input": "could you compute divide the number 7019.0 by 7021", "label": 5, "intended_class": 5, "eligible": true, "category": "class_5_template_0", "split": "test"}
+{"input": "can\tyou\tfind\t-7001.0\tplus\twhat\tplease", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_8", "split": "test"}
+{"input": "can  you  find  divide  by  7019e-3", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_2", "split": "test"}
+{"input": "could  you  compute  7001  plus  what  please", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_8", "split": "test"}
+{"input": "give\tme\tthe\tresult\tof\tncr\tof\tthe\tnumbers\t7027\tand\t+7029.0\tplease", "label": 14, "intended_class": 14, "eligible": true, "category": "class_14_template_0", "split": "test"}
+{"input": "give  me  the  result  of  the  absolute  value  of  the  value  7019", "label": 19, "intended_class": 19, "eligible": true, "category": "class_19_template_0", "split": "test"}
+{"input": "can  you  find  cbrt  7013", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_1", "split": "test"}
+{"input": "wht is the square root of the value 7013 please", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_0", "split": "test"}
+{"input": "could  you  compute  add  the  numbers  7019  and  7021  please", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_1", "split": "test"}
+{"input": "give  me  the  result  of  absolute  value  of  7027  times  7029.75?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_4", "split": "test"}
+{"input": "wht is multiply the numbers -7019.25 and 7021 please", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_1", "split": "test"}
+{"input": "can  you  find  decrease  7019  percent  of  +7021e2", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_6", "split": "test"}
+{"input": "give  me  the  result  of  the  square  root  of  the  value  7013?", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_0", "split": "test"}
+{"input": "give\tme\tthe\tresult\tof\tthe\tabsolute\tvalue\tof\tthe\tvalue\t7019", "label": 19, "intended_class": 19, "eligible": true, "category": "class_19_template_0", "split": "test"}
+{"input": "wht  is  my  age  is  7013  and  my  weight  is  7015e2", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_1", "split": "test"}
+{"input": "wht  is  the  cube  root  of  the  value  +7027e-3", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_0", "split": "test"}
+{"input": "could  you  compute  what  is  7013  plus  seven", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_9", "split": "test"}
+{"input": "can you find divide by 7027 please", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_2", "split": "test"}
+{"input": "give\tme\tthe\tresult\tof\tthe\tcube\troot\tof\tthe\tvalue\t+7013e-3\tplease", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_0", "split": "test"}
+{"input": "can you find 7013% of the value 7015 please", "label": 18, "intended_class": 18, "eligible": true, "category": "class_18_template_0", "split": "test"}
+{"input": "could you compute the square root of the value 7027 please", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_0", "split": "test"}
+{"input": "wht is addition between +7001.0 and 7003 please", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_0", "split": "test"}
+{"input": "give\tme\tthe\tresult\tof\tdon't\tcalculate\t7001\tplus\t7003\tplease", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_7", "split": "test"}
+{"input": "wht is +7013.25% of the value 7015?", "label": 18, "intended_class": 18, "eligible": true, "category": "class_18_template_0", "split": "test"}
+{"input": "could you compute my age is +7027.0 and my weight is 7029", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_1", "split": "test"}
+{"input": "wht  is  decrease  7001  percent  of  -7003e2?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_6", "split": "test"}
+{"input": "give me the result of divide 7027 into the value +7029.0?", "label": 6, "intended_class": 6, "eligible": true, "category": "class_6_template_0", "split": "test"}
+{"input": "wht\tis\tabsolute\tvalue\tof\t7019.25\ttimes\t7021?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_4", "split": "test"}
+{"input": "wht  is  addition  between  7001  and  -7003.75  please", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_0", "split": "test"}
+{"input": "give  me  the  result  of  npr  of  the  numbers  7001  and  7003.0", "label": 16, "intended_class": 16, "eligible": true, "category": "class_16_template_0", "split": "test"}
+{"input": "wht  is  add  the  numbers  -7019.25  and  7021  please", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_1", "split": "test"}
+{"input": "can  you  find  divide  the  number  7019  by  -7021.75", "label": 5, "intended_class": 5, "eligible": true, "category": "class_5_template_0", "split": "test"}
+{"input": "give me the result of divide by -7027e-3?", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_2", "split": "test"}
+{"input": "wht is ncr of the numbers +7001.0 and 7003 please", "label": 14, "intended_class": 14, "eligible": true, "category": "class_14_template_0", "split": "test"}
+{"input": "give  me  the  result  of  my  age  is  7001  and  my  weight  is  +7003.0  please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_1", "split": "test"}
+{"input": "could you compute greatest common divisor of the numbers 7019 and 7021 please", "label": 12, "intended_class": 12, "eligible": true, "category": "class_12_template_0", "split": "test"}
+{"input": "could you compute least common multiple of the numbers 7019 and 7021?", "label": 13, "intended_class": 13, "eligible": true, "category": "class_13_template_0", "split": "test"}
+{"input": "give  me  the  result  of  divide  7001  into  the  value  7003.75?", "label": 6, "intended_class": 6, "eligible": true, "category": "class_6_template_0", "split": "test"}
+{"input": "give  me  the  result  of  divide  7027.25  divide  7029", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_10", "split": "test"}
+{"input": "could you compute permutations of 7001 from the value 7003.75", "label": 17, "intended_class": 17, "eligible": true, "category": "class_17_template_0", "split": "test"}
+{"input": "could  you  compute  absolute  value  of  7013  times  7015?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_4", "split": "test"}
+{"input": "wht  is  ncr  of  the  numbers  7001  and  7003", "label": 14, "intended_class": 14, "eligible": true, "category": "class_14_template_0", "split": "test"}
+{"input": "give me the result of the value 7019 mod 7021", "label": 11, "intended_class": 11, "eligible": true, "category": "class_11_template_0", "split": "test"}
+{"input": "wht is npr of the numbers 7001e-3 and 7003 please", "label": 16, "intended_class": 16, "eligible": true, "category": "class_16_template_0", "split": "test"}
+{"input": "could you compute the absolute value of the value 7013", "label": 19, "intended_class": 19, "eligible": true, "category": "class_19_template_0", "split": "test"}
+{"input": "give me the result of is flight 7027 on time please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_0", "split": "test"}
+{"input": "can  you  find  add  the  answer  to  -7013e-3  please", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_3", "split": "test"}
+{"input": "wht is cbrt -7013e-3?", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_1", "split": "test"}
+{"input": "wht\tis\tncr\tof\tthe\tnumbers\t7001\tand\t7003\tplease", "label": 14, "intended_class": 14, "eligible": true, "category": "class_14_template_0", "split": "test"}
+{"input": "give  me  the  result  of  choose  7019  from  7021  people  please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_5", "split": "test"}
+{"input": "give me the result of multiply the numbers 7013 and -7015.75 please", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_1", "split": "test"}
+{"input": "wht  is  my  age  is  7001  and  my  weight  is  7003e2?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_1", "split": "test"}
+{"input": "give\tme\tthe\tresult\tof\tdivide\tthe\tnumber\t7001\tby\t-7003.75\tplease", "label": 5, "intended_class": 5, "eligible": true, "category": "class_5_template_0", "split": "test"}
+{"input": "give\tme\tthe\tresult\tof\taddition\tbetween\t7013\tand\t7015?", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_0", "split": "test"}
+{"input": "give me the result of npr of the numbers 7001 and -7003.75?", "label": 16, "intended_class": 16, "eligible": true, "category": "class_16_template_0", "split": "test"}
+{"input": "could you compute divide 7013 divide 7015?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_10", "split": "test"}
+{"input": "give me the result of add the numbers 7013 and 7015", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_1", "split": "test"}
+{"input": "can  you  find  subtract  7019  from  the  value  7021?", "label": 3, "intended_class": 3, "eligible": true, "category": "class_3_template_0", "split": "test"}
+{"input": "give me the result of decrease 7027 percent of -7029.0 please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_6", "split": "test"}
+{"input": "give me the result of decrease 7019 percent of 7021?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_6", "split": "test"}
+{"input": "wht  is  product  between  -7019.25  and  7021", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_0", "split": "test"}
+{"input": "give me the result of choose +7013.0 from the value +7015e2 please", "label": 15, "intended_class": 15, "eligible": true, "category": "class_15_template_0", "split": "test"}
+{"input": "wht  is  divide  7027  into  the  value  7029  please", "label": 6, "intended_class": 6, "eligible": true, "category": "class_6_template_0", "split": "test"}
+{"input": "give  me  the  result  of  least  common  multiple  of  the  numbers  7019  and  7021?", "label": 13, "intended_class": 13, "eligible": true, "category": "class_13_template_0", "split": "test"}
+{"input": "can\tyou\tfind\tcbrt\t-7013.0\tplease", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_1", "split": "test"}
+{"input": "could you compute factorial of the value 7019", "label": 10, "intended_class": 10, "eligible": true, "category": "class_10_template_0", "split": "test"}
+{"input": "give  me  the  result  of  divide  by  7027  please", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_2", "split": "test"}
+{"input": "could  you  compute  factorial  of  the  value  7001  please", "label": 10, "intended_class": 10, "eligible": true, "category": "class_10_template_0", "split": "test"}
+{"input": "give me the result of what is 7001.0 plus seven", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_9", "split": "test"}
+{"input": "wht is divide the number -7001.0 by 7003?", "label": 5, "intended_class": 5, "eligible": true, "category": "class_5_template_0", "split": "test"}
+{"input": "can  you  find  raise  the  number  7027  to  the  power  of  7029", "label": 0, "intended_class": 7, "eligible": false, "category": "class_7_template_0", "split": "test"}
+{"input": "give me the result of divide the number 7027 by +7029.75", "label": 5, "intended_class": 5, "eligible": true, "category": "class_5_template_0", "split": "test"}
+{"input": "wht  is  product  between  7001  and  7003?", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_0", "split": "test"}
+{"input": "could you compute -7027.25 plus what please", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_8", "split": "test"}
+{"input": "could  you  compute  decrease  7001.25  percent  of  -7003e2?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_6", "split": "test"}
+{"input": "wht is choose 7001.0 from the value 7003?", "label": 15, "intended_class": 15, "eligible": true, "category": "class_15_template_0", "split": "test"}
+{"input": "could  you  compute  difference  between  the  numbers  7013  and  7015?", "label": 2, "intended_class": 2, "eligible": true, "category": "class_2_template_0", "split": "test"}
+{"input": "give me the result of 7019 plus what please", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_8", "split": "test"}
+{"input": "give\tme\tthe\tresult\tof\tthe\tcube\troot\tof\tthe\tvalue\t7027", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_0", "split": "test"}
+{"input": "wht is npr of the numbers 7001 and 7003.0", "label": 16, "intended_class": 16, "eligible": true, "category": "class_16_template_0", "split": "test"}
+{"input": "wht  is  cbrt  7001  please", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_1", "split": "test"}
+{"input": "can\tyou\tfind\tsubtract\t7001\tfrom\tthe\tvalue\t+7003e2\tplease", "label": 3, "intended_class": 3, "eligible": true, "category": "class_3_template_0", "split": "test"}
+{"input": "can you find npr of the numbers 7019 and -7021.75?", "label": 16, "intended_class": 16, "eligible": true, "category": "class_16_template_0", "split": "test"}
+{"input": "can  you  find  choose  7013  from  the  value  -7015.0", "label": 15, "intended_class": 15, "eligible": true, "category": "class_15_template_0", "split": "test"}
+{"input": "could\tyou\tcompute\tabsolute\tvalue\tof\t7027\ttimes\t7029.75?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_4", "split": "test"}
+{"input": "could you compute cbrt +7027.25", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_1", "split": "test"}
+{"input": "can you find difference between the numbers 7027 and 7029.75", "label": 2, "intended_class": 2, "eligible": true, "category": "class_2_template_0", "split": "test"}
+{"input": "wht is divide 7013 divide 7015 please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_10", "split": "test"}
+{"input": "give me the result of divide the number 7013.0 by -7015.75?", "label": 5, "intended_class": 5, "eligible": true, "category": "class_5_template_0", "split": "test"}
+{"input": "give me the result of the absolute value of the value 7019 please", "label": 19, "intended_class": 19, "eligible": true, "category": "class_19_template_0", "split": "test"}
+{"input": "could  you  compute  add  the  answer  to  7019.0", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_3", "split": "test"}
+{"input": "can you find raise the number 7027 to the power of +7029e2", "label": 0, "intended_class": 7, "eligible": false, "category": "class_7_template_0", "split": "test"}
+{"input": "wht is 7027.0% of the value -7029.0 please", "label": 18, "intended_class": 18, "eligible": true, "category": "class_18_template_0", "split": "test"}
+{"input": "could  you  compute  divide  the  number  7027.0  by  7029  please", "label": 5, "intended_class": 5, "eligible": true, "category": "class_5_template_0", "split": "test"}
+{"input": "give  me  the  result  of  multiply  the  numbers  7019  and  7021?", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_1", "split": "test"}
+{"input": "can you find npr of the numbers 7013 and +7015e2 please", "label": 16, "intended_class": 16, "eligible": true, "category": "class_16_template_0", "split": "test"}
+{"input": "can you find multiply the numbers 7013.25 and +7015e2 please", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_1", "split": "test"}
+{"input": "can\tyou\tfind\tthe\tcube\troot\tof\tthe\tvalue\t7001\tplease", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_0", "split": "test"}
+{"input": "wht\tis\tadd\tthe\tanswer\tto\t+7013.25", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_3", "split": "test"}
+{"input": "could  you  compute  the  absolute  value  of  the  value  7027  please", "label": 19, "intended_class": 19, "eligible": true, "category": "class_19_template_0", "split": "test"}
+{"input": "wht is my age is +7013.25 and my weight is 7015?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_1", "split": "test"}
+{"input": "could  you  compute  multiply  the  numbers  7019  and  7021?", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_1", "split": "test"}
+{"input": "give me the result of sqrt 7013", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_1", "split": "test"}
+{"input": "wht\tis\tsqrt\t-7027e-3?", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_1", "split": "test"}
+{"input": "can  you  find  greatest  common  divisor  of  the  numbers  +7001.0  and  7003", "label": 12, "intended_class": 12, "eligible": true, "category": "class_12_template_0", "split": "test"}
+{"input": "could you compute product between +7019.25 and 7021", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_0", "split": "test"}
+{"input": "can you find ncr of the numbers 7019 and 7021", "label": 14, "intended_class": 14, "eligible": true, "category": "class_14_template_0", "split": "test"}
+{"input": "wht\tis\tncr\tof\tthe\tnumbers\t7013\tand\t7015", "label": 14, "intended_class": 14, "eligible": true, "category": "class_14_template_0", "split": "test"}
+{"input": "can  you  find  addition  between  7019  and  7021  please", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_0", "split": "test"}
+{"input": "give\tme\tthe\tresult\tof\tis\tflight\t7027.0\ton\ttime?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_0", "split": "test"}
+{"input": "give\tme\tthe\tresult\tof\tthe\tabsolute\tvalue\tof\tthe\tvalue\t7013\tplease", "label": 19, "intended_class": 19, "eligible": true, "category": "class_19_template_0", "split": "test"}
+{"input": "give  me  the  result  of  difference  between  the  numbers  -7027.25  and  +7029.75  please", "label": 2, "intended_class": 2, "eligible": true, "category": "class_2_template_0", "split": "test"}
+{"input": "give  me  the  result  of  my  age  is  7013  and  my  weight  is  7015?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_1", "split": "test"}
+{"input": "give me the result of my age is +7013.25 and my weight is 7015", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_1", "split": "test"}
+{"input": "could you compute the square root of the value 7001?", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_0", "split": "test"}
+{"input": "wht  is  the  square  root  of  the  value  7001.0  please", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_0", "split": "test"}
+{"input": "can  you  find  raise  the  number  7001  to  the  power  of  7003  please", "label": 0, "intended_class": 7, "eligible": false, "category": "class_7_template_0", "split": "test"}
+{"input": "give  me  the  result  of  add  the  numbers  -7027e-3  and  +7029e2  please", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_1", "split": "test"}
+{"input": "can  you  find  the  value  -7019e-3  mod  7021  please", "label": 11, "intended_class": 11, "eligible": true, "category": "class_11_template_0", "split": "test"}
+{"input": "give me the result of greatest common divisor of the numbers 7001 and 7003", "label": 12, "intended_class": 12, "eligible": true, "category": "class_12_template_0", "split": "test"}
+{"input": "could  you  compute  least  common  multiple  of  the  numbers  -7027e-3  and  7029?", "label": 13, "intended_class": 13, "eligible": true, "category": "class_13_template_0", "split": "test"}
+{"input": "wht is the value -7013.0 mod 7015.75 please", "label": 11, "intended_class": 11, "eligible": true, "category": "class_11_template_0", "split": "test"}
+{"input": "give\tme\tthe\tresult\tof\tdivide\tby\t+7013.25\tplease", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_2", "split": "test"}
+{"input": "could  you  compute  absolute  value  of  7027  times  +7029.0", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_4", "split": "test"}
+{"input": "can  you  find  the  absolute  value  of  the  value  7027.25", "label": 19, "intended_class": 19, "eligible": true, "category": "class_19_template_0", "split": "test"}
+{"input": "give  me  the  result  of  raise  the  number  7027  to  the  power  of  +7029.0  please", "label": 0, "intended_class": 7, "eligible": false, "category": "class_7_template_0", "split": "test"}
+{"input": "wht  is  what  is  7013  plus  seven?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_9", "split": "test"}
+{"input": "can you find addition between 7001 and 7003", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_0", "split": "test"}
+{"input": "wht  is  add  the  answer  to  +7027.0", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_3", "split": "test"}
+{"input": "give me the result of add the answer to 7027", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_3", "split": "test"}
+{"input": "can\tyou\tfind\tdon't\tcalculate\t7027.25\tplus\t7029?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_7", "split": "test"}
+{"input": "wht is the absolute value of the value 7027", "label": 19, "intended_class": 19, "eligible": true, "category": "class_19_template_0", "split": "test"}
+{"input": "wht is the absolute value of the value -7001.25 please", "label": 19, "intended_class": 19, "eligible": true, "category": "class_19_template_0", "split": "test"}
+{"input": "give me the result of subtract -7019.0 from the value 7021.0", "label": 3, "intended_class": 3, "eligible": true, "category": "class_3_template_0", "split": "test"}
+{"input": "could  you  compute  what  is  7027  plus  seven  please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_9", "split": "test"}
+{"input": "can  you  find  is  flight  -7027e-3  on  time?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_0", "split": "test"}
+{"input": "could\tyou\tcompute\tis\tflight\t-7001.25\ton\ttime\tplease", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_0", "split": "test"}
+{"input": "can  you  find  the  value  -7019.0  mod  7021?", "label": 11, "intended_class": 11, "eligible": true, "category": "class_11_template_0", "split": "test"}
+{"input": "can you find choose -7019.0 from the value 7021?", "label": 15, "intended_class": 15, "eligible": true, "category": "class_15_template_0", "split": "test"}
+{"input": "wht is raise the number 7001e-3 to the power of 7003?", "label": 0, "intended_class": 7, "eligible": false, "category": "class_7_template_0", "split": "test"}
+{"input": "wht  is  absolute  value  of  +7027e-3  times  +7029.0?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_4", "split": "test"}
+{"input": "wht\tis\tmultiply\tthe\tnumbers\t+7013.25\tand\t7015\tplease", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_1", "split": "test"}
+{"input": "wht is decrease 7001e-3 percent of -7003.0", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_6", "split": "test"}
+{"input": "give me the result of the square root of the value +7013.25?", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_0", "split": "test"}
+{"input": "can you find decrease 7001 percent of 7003 please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_6", "split": "test"}
+{"input": "give me the result of divide -7013e-3 divide 7015", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_10", "split": "test"}
+{"input": "can  you  find  my  age  is  7027  and  my  weight  is  7029", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_1", "split": "test"}
+{"input": "can  you  find  divide  the  number  -7001.25  by  7003?", "label": 5, "intended_class": 5, "eligible": true, "category": "class_5_template_0", "split": "test"}
+{"input": "give me the result of choose 7001e-3 from 7003 people", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_5", "split": "test"}
+{"input": "wht\tis\tchoose\t7027\tfrom\tthe\tvalue\t7029\tplease", "label": 15, "intended_class": 15, "eligible": true, "category": "class_15_template_0", "split": "test"}
+{"input": "could you compute choose +7001e-3 from 7003.75 people please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_5", "split": "test"}
+{"input": "wht  is  the  absolute  value  of  the  value  7027  please", "label": 19, "intended_class": 19, "eligible": true, "category": "class_19_template_0", "split": "test"}
+{"input": "could you compute addition between 7001 and -7003e2?", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_0", "split": "test"}
+{"input": "can  you  find  sqrt  7027?", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_1", "split": "test"}
+{"input": "can\tyou\tfind\tcbrt\t+7013.0?", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_1", "split": "test"}
+{"input": "give\tme\tthe\tresult\tof\tabsolute\tvalue\tof\t7027\ttimes\t7029\tplease", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_4", "split": "test"}
+{"input": "could\tyou\tcompute\tdecrease\t-7019.0\tpercent\tof\t7021", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_6", "split": "test"}
+{"input": "wht  is  divide  the  number  +7001e-3  by  7003", "label": 5, "intended_class": 5, "eligible": true, "category": "class_5_template_0", "split": "test"}
+{"input": "can  you  find  my  age  is  7019  and  my  weight  is  7021  please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_1", "split": "test"}
+{"input": "could you compute greatest common divisor of the numbers 7013 and 7015", "label": 12, "intended_class": 12, "eligible": true, "category": "class_12_template_0", "split": "test"}
+{"input": "can\tyou\tfind\tdivide\t7027\tdivide\t7029.75\tplease", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_10", "split": "test"}
+{"input": "can  you  find  addition  between  7019  and  +7021.75", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_0", "split": "test"}
+{"input": "give  me  the  result  of  the  cube  root  of  the  value  7027  please", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_0", "split": "test"}
+{"input": "could you compute choose 7001 from the value 7003", "label": 15, "intended_class": 15, "eligible": true, "category": "class_15_template_0", "split": "test"}
+{"input": "give\tme\tthe\tresult\tof\t7013\tplus\twhat?", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_8", "split": "test"}
+{"input": "can you find permutations of 7027 from the value +7029.0?", "label": 17, "intended_class": 17, "eligible": true, "category": "class_17_template_0", "split": "test"}
+{"input": "give me the result of the absolute value of the value 7027", "label": 19, "intended_class": 19, "eligible": true, "category": "class_19_template_0", "split": "test"}
+{"input": "can\tyou\tfind\tis\tflight\t7001e-3\ton\ttime?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_0", "split": "test"}
+{"input": "give me the result of npr of the numbers 7001 and 7003", "label": 16, "intended_class": 16, "eligible": true, "category": "class_16_template_0", "split": "test"}
+{"input": "give me the result of the cube root of the value 7001.25", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_0", "split": "test"}
+{"input": "can you find product between 7019 and -7021.75 please", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_0", "split": "test"}
+{"input": "give\tme\tthe\tresult\tof\tncr\tof\tthe\tnumbers\t7027\tand\t7029?", "label": 14, "intended_class": 14, "eligible": true, "category": "class_14_template_0", "split": "test"}
+{"input": "can  you  find  is  flight  +7013.25  on  time", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_0", "split": "test"}
+{"input": "wht\tis\tgreatest\tcommon\tdivisor\tof\tthe\tnumbers\t7013\tand\t7015?", "label": 12, "intended_class": 12, "eligible": true, "category": "class_12_template_0", "split": "test"}
+{"input": "could\tyou\tcompute\tadd\tthe\tanswer\tto\t7019\tplease", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_3", "split": "test"}
+{"input": "can  you  find  add  the  numbers  7001  and  +7003.0  please", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_1", "split": "test"}
+{"input": "could\tyou\tcompute\tchoose\t+7027.25\tfrom\t7029e2\tpeople\tplease", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_5", "split": "test"}
+{"input": "wht is raise the number 7001.0 to the power of 7003", "label": 0, "intended_class": 7, "eligible": false, "category": "class_7_template_0", "split": "test"}
+{"input": "could\tyou\tcompute\traise\tthe\tnumber\t+7013e-3\tto\tthe\tpower\tof\t7015?", "label": 0, "intended_class": 7, "eligible": false, "category": "class_7_template_0", "split": "test"}
+{"input": "can  you  find  npr  of  the  numbers  7027  and  -7029.75?", "label": 16, "intended_class": 16, "eligible": true, "category": "class_16_template_0", "split": "test"}
+{"input": "can\tyou\tfind\tdivide\t7013e-3\tinto\tthe\tvalue\t-7015.0\tplease", "label": 6, "intended_class": 6, "eligible": true, "category": "class_6_template_0", "split": "test"}
+{"input": "wht is the cube root of the value 7013?", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_0", "split": "test"}
+{"input": "can  you  find  don't  calculate  +7019e-3  plus  7021e2?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_7", "split": "test"}
+{"input": "can\tyou\tfind\tmultiply\tthe\tnumbers\t7027\tand\t7029", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_1", "split": "test"}
+{"input": "can  you  find  don't  calculate  7001  plus  7003  please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_7", "split": "test"}
+{"input": "could you compute add the answer to 7019 please", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_3", "split": "test"}
+{"input": "could  you  compute  the  absolute  value  of  the  value  7001e-3?", "label": 19, "intended_class": 19, "eligible": true, "category": "class_19_template_0", "split": "test"}
+{"input": "could  you  compute  factorial  of  the  value  +7013.25", "label": 10, "intended_class": 10, "eligible": true, "category": "class_10_template_0", "split": "test"}
+{"input": "give\tme\tthe\tresult\tof\tproduct\tbetween\t7013.0\tand\t7015\tplease", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_0", "split": "test"}
+{"input": "can  you  find  the  square  root  of  the  value  7019?", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_0", "split": "test"}
+{"input": "can you find choose +7013.0 from the value -7015e2", "label": 15, "intended_class": 15, "eligible": true, "category": "class_15_template_0", "split": "test"}
+{"input": "wht  is  the  cube  root  of  the  value  -7001.25  please", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_0", "split": "test"}
+{"input": "can  you  find  absolute  value  of  7027  times  7029e2?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_4", "split": "test"}
+{"input": "wht  is  permutations  of  7013  from  the  value  7015  please", "label": 17, "intended_class": 17, "eligible": true, "category": "class_17_template_0", "split": "test"}
+{"input": "wht is the absolute value of the value 7013e-3?", "label": 19, "intended_class": 19, "eligible": true, "category": "class_19_template_0", "split": "test"}
+{"input": "give  me  the  result  of  factorial  of  the  value  7027", "label": 10, "intended_class": 10, "eligible": true, "category": "class_10_template_0", "split": "test"}
+{"input": "can you find the square root of the value 7013", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_0", "split": "test"}
+{"input": "could  you  compute  the  cube  root  of  the  value  7019", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_0", "split": "test"}
+{"input": "wht  is  multiply  the  numbers  7001  and  +7003.0?", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_1", "split": "test"}
+{"input": "can\tyou\tfind\tdivide\tby\t+7019.25?", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_2", "split": "test"}
+{"input": "can  you  find  decrease  7019  percent  of  7021?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_6", "split": "test"}
+{"input": "wht is divide +7019e-3 divide +7021e2?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_10", "split": "test"}
+{"input": "give  me  the  result  of  absolute  value  of  7019  times  7021  please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_4", "split": "test"}
+{"input": "can you find product between 7027 and 7029?", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_0", "split": "test"}
+{"input": "give  me  the  result  of  factorial  of  the  value  7013?", "label": 10, "intended_class": 10, "eligible": true, "category": "class_10_template_0", "split": "test"}
+{"input": "give\tme\tthe\tresult\tof\tcbrt\t7027?", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_1", "split": "test"}
+{"input": "can  you  find  the  cube  root  of  the  value  -7019.0", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_0", "split": "test"}
+{"input": "could you compute divide -7001.25 into the value 7003 please", "label": 6, "intended_class": 6, "eligible": true, "category": "class_6_template_0", "split": "test"}
+{"input": "wht  is  greatest  common  divisor  of  the  numbers  7019  and  7021?", "label": 12, "intended_class": 12, "eligible": true, "category": "class_12_template_0", "split": "test"}
+{"input": "can  you  find  product  between  7019  and  7021", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_0", "split": "test"}
+{"input": "give me the result of the value 7027 mod 7029 please", "label": 11, "intended_class": 11, "eligible": true, "category": "class_11_template_0", "split": "test"}
+{"input": "can you find ncr of the numbers +7001.0 and -7003.75?", "label": 14, "intended_class": 14, "eligible": true, "category": "class_14_template_0", "split": "test"}
+{"input": "give  me  the  result  of  the  value  7001  mod  7003?", "label": 11, "intended_class": 11, "eligible": true, "category": "class_11_template_0", "split": "test"}
+{"input": "wht is sqrt +7019.25?", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_1", "split": "test"}
+{"input": "wht is difference between the numbers 7013 and -7015.75?", "label": 2, "intended_class": 2, "eligible": true, "category": "class_2_template_0", "split": "test"}
+{"input": "give\tme\tthe\tresult\tof\tmultiply\tthe\tnumbers\t7019e-3\tand\t-7021.75", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_1", "split": "test"}
+{"input": "can  you  find  factorial  of  the  value  7027  please", "label": 10, "intended_class": 10, "eligible": true, "category": "class_10_template_0", "split": "test"}
+{"input": "can\tyou\tfind\tmultiply\tthe\tnumbers\t7013\tand\t7015?", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_1", "split": "test"}
+{"input": "give me the result of the value 7001 mod 7003?", "label": 11, "intended_class": 11, "eligible": true, "category": "class_11_template_0", "split": "test"}
+{"input": "can you find add the answer to 7019?", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_3", "split": "test"}
+{"input": "wht\tis\tsubtract\t7019\tfrom\tthe\tvalue\t7021.0\tplease", "label": 3, "intended_class": 3, "eligible": true, "category": "class_3_template_0", "split": "test"}
+{"input": "wht is greatest common divisor of the numbers 7001 and 7003?", "label": 12, "intended_class": 12, "eligible": true, "category": "class_12_template_0", "split": "test"}
+{"input": "give  me  the  result  of  product  between  7019  and  7021?", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_0", "split": "test"}
+{"input": "could  you  compute  product  between  +7019.25  and  -7021e2  please", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_0", "split": "test"}
+{"input": "give\tme\tthe\tresult\tof\tdivide\t7019\tinto\tthe\tvalue\t-7021.0\tplease", "label": 6, "intended_class": 6, "eligible": true, "category": "class_6_template_0", "split": "test"}
+{"input": "can you find the absolute value of the value 7001 please", "label": 19, "intended_class": 19, "eligible": true, "category": "class_19_template_0", "split": "test"}
+{"input": "give me the result of what is 7019 plus seven?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_9", "split": "test"}
+{"input": "could  you  compute  addition  between  7019  and  7021?", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_0", "split": "test"}
+{"input": "give me the result of permutations of 7019.0 from the value -7021.75 please", "label": 17, "intended_class": 17, "eligible": true, "category": "class_17_template_0", "split": "test"}
+{"input": "could  you  compute  the  cube  root  of  the  value  +7019.25  please", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_0", "split": "test"}
+{"input": "wht is absolute value of -7019.0 times +7021.75?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_4", "split": "test"}
+{"input": "could\tyou\tcompute\tfactorial\tof\tthe\tvalue\t7019?", "label": 10, "intended_class": 10, "eligible": true, "category": "class_10_template_0", "split": "test"}
+{"input": "can  you  find  least  common  multiple  of  the  numbers  7013  and  +7015e2?", "label": 13, "intended_class": 13, "eligible": true, "category": "class_13_template_0", "split": "test"}
+{"input": "give\tme\tthe\tresult\tof\tdon't\tcalculate\t7001e-3\tplus\t7003.75", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_7", "split": "test"}
+{"input": "wht  is  is  flight  7019  on  time?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_0", "split": "test"}
+{"input": "could you compute product between 7019 and 7021 please", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_0", "split": "test"}
+{"input": "can\tyou\tfind\tabsolute\tvalue\tof\t7027.25\ttimes\t+7029.75", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_4", "split": "test"}
+{"input": "could  you  compute  is  flight  7027  on  time  please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_0", "split": "test"}
+{"input": "could you compute ncr of the numbers 7013 and 7015", "label": 14, "intended_class": 14, "eligible": true, "category": "class_14_template_0", "split": "test"}
+{"input": "could  you  compute  addition  between  7001  and  -7003.0  please", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_0", "split": "test"}
+{"input": "give me the result of multiply the numbers -7019.0 and 7021?", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_1", "split": "test"}
+{"input": "could  you  compute  addition  between  +7027.0  and  7029e2", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_0", "split": "test"}
+{"input": "can\tyou\tfind\tdon't\tcalculate\t7027\tplus\t-7029.0", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_7", "split": "test"}
+{"input": "could you compute ncr of the numbers +7019.25 and 7021 please", "label": 14, "intended_class": 14, "eligible": true, "category": "class_14_template_0", "split": "test"}
+{"input": "wht  is  sqrt  7019", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_1", "split": "test"}
+{"input": "can\tyou\tfind\tdecrease\t7001\tpercent\tof\t7003\tplease", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_6", "split": "test"}
+{"input": "can  you  find  ncr  of  the  numbers  7013  and  +7015e2?", "label": 14, "intended_class": 14, "eligible": true, "category": "class_14_template_0", "split": "test"}
+{"input": "wht  is  addition  between  +7001.0  and  7003", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_0", "split": "test"}
+{"input": "give me the result of my age is 7027 and my weight is -7029.0?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_1", "split": "test"}
+{"input": "give me the result of ncr of the numbers 7027 and +7029e2?", "label": 14, "intended_class": 14, "eligible": true, "category": "class_14_template_0", "split": "test"}
+{"input": "could  you  compute  divide  7019  into  the  value  7021", "label": 6, "intended_class": 6, "eligible": true, "category": "class_6_template_0", "split": "test"}
+{"input": "wht  is  sqrt  -7027.0?", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_1", "split": "test"}
+{"input": "give  me  the  result  of  what  is  7027  plus  seven", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_9", "split": "test"}
+{"input": "could  you  compute  the  square  root  of  the  value  7001  please", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_0", "split": "test"}
+{"input": "give  me  the  result  of  don't  calculate  7027  plus  7029?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_7", "split": "test"}
+{"input": "can you find 7001% of the value -7003.75?", "label": 18, "intended_class": 18, "eligible": true, "category": "class_18_template_0", "split": "test"}
+{"input": "wht\tis\taddition\tbetween\t7019\tand\t7021?", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_0", "split": "test"}
+{"input": "wht is the value 7019 mod 7021?", "label": 11, "intended_class": 11, "eligible": true, "category": "class_11_template_0", "split": "test"}
+{"input": "can you find the cube root of the value 7019?", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_0", "split": "test"}
+{"input": "could you compute add the numbers +7027.0 and 7029 please", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_1", "split": "test"}
+{"input": "give me the result of add the numbers 7001 and 7003 please", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_1", "split": "test"}
+{"input": "wht is choose 7013 from 7015 people please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_5", "split": "test"}
+{"input": "can\tyou\tfind\t7001\tplus\twhat", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_8", "split": "test"}
+{"input": "could  you  compute  product  between  +7027e-3  and  7029", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_0", "split": "test"}
+{"input": "could you compute subtract +7001.0 from the value 7003", "label": 3, "intended_class": 3, "eligible": true, "category": "class_3_template_0", "split": "test"}
+{"input": "could  you  compute  ncr  of  the  numbers  -7019.25  and  7021", "label": 14, "intended_class": 14, "eligible": true, "category": "class_14_template_0", "split": "test"}
+{"input": "wht is don't calculate 7027 plus -7029.75?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_7", "split": "test"}
+{"input": "give\tme\tthe\tresult\tof\tdifference\tbetween\tthe\tnumbers\t7019\tand\t7021.75", "label": 2, "intended_class": 2, "eligible": true, "category": "class_2_template_0", "split": "test"}
+{"input": "can you find greatest common divisor of the numbers 7019 and +7021.75", "label": 12, "intended_class": 12, "eligible": true, "category": "class_12_template_0", "split": "test"}
+{"input": "give  me  the  result  of  add  the  numbers  +7013.25  and  7015?", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_1", "split": "test"}
+{"input": "could  you  compute  don't  calculate  7019  plus  7021.75", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_7", "split": "test"}
+{"input": "can you find factorial of the value 7001 please", "label": 10, "intended_class": 10, "eligible": true, "category": "class_10_template_0", "split": "test"}
+{"input": "wht  is  the  absolute  value  of  the  value  7019?", "label": 19, "intended_class": 19, "eligible": true, "category": "class_19_template_0", "split": "test"}
+{"input": "could you compute absolute value of 7027 times 7029?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_4", "split": "test"}
+{"input": "can\tyou\tfind\tchoose\t7013\tfrom\t-7015.75\tpeople\tplease", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_5", "split": "test"}
+{"input": "wht is cbrt 7001", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_1", "split": "test"}
+{"input": "give me the result of absolute value of 7019 times 7021 please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_4", "split": "test"}
+{"input": "give\tme\tthe\tresult\tof\tsqrt\t-7027.25?", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_1", "split": "test"}
+{"input": "could  you  compute  least  common  multiple  of  the  numbers  7001  and  7003.0  please", "label": 13, "intended_class": 13, "eligible": true, "category": "class_13_template_0", "split": "test"}
+{"input": "give me the result of 7027 plus what", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_8", "split": "test"}
+{"input": "can  you  find  permutations  of  7013  from  the  value  -7015.75", "label": 17, "intended_class": 17, "eligible": true, "category": "class_17_template_0", "split": "test"}
+{"input": "wht\tis\traise\tthe\tnumber\t7019\tto\tthe\tpower\tof\t7021\tplease", "label": 0, "intended_class": 7, "eligible": false, "category": "class_7_template_0", "split": "test"}
+{"input": "can you find what is -7001.0 plus seven?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_9", "split": "test"}
+{"input": "give  me  the  result  of  choose  7027  from  7029.0  people?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_5", "split": "test"}
+{"input": "wht\tis\tcbrt\t7001.25\tplease", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_1", "split": "test"}
+{"input": "give  me  the  result  of  permutations  of  7027  from  the  value  -7029.75", "label": 17, "intended_class": 17, "eligible": true, "category": "class_17_template_0", "split": "test"}
+{"input": "could you compute the cube root of the value +7013e-3?", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_0", "split": "test"}
+{"input": "wht\tis\tdivide\t-7027e-3\tdivide\t7029\tplease", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_10", "split": "test"}
+{"input": "can you find what is 7019 plus seven", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_9", "split": "test"}
+{"input": "can you find divide the number 7001e-3 by 7003?", "label": 5, "intended_class": 5, "eligible": true, "category": "class_5_template_0", "split": "test"}
+{"input": "give me the result of divide by 7027", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_2", "split": "test"}
+{"input": "wht is absolute value of +7019.0 times +7021.0", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_4", "split": "test"}
+{"input": "can  you  find  ncr  of  the  numbers  7001.0  and  7003", "label": 14, "intended_class": 14, "eligible": true, "category": "class_14_template_0", "split": "test"}
+{"input": "can\tyou\tfind\twhat\tis\t7027\tplus\tseven?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_9", "split": "test"}
+{"input": "wht\tis\tthe\tcube\troot\tof\tthe\tvalue\t7001?", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_0", "split": "test"}
+{"input": "can  you  find  subtract  7027  from  the  value  +7029.0  please", "label": 3, "intended_class": 3, "eligible": true, "category": "class_3_template_0", "split": "test"}
+{"input": "wht is decrease -7027.0 percent of 7029?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_6", "split": "test"}
+{"input": "give\tme\tthe\tresult\tof\tmultiply\tthe\tnumbers\t7001\tand\t-7003.0?", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_1", "split": "test"}
+{"input": "could\tyou\tcompute\tcbrt\t7027\tplease", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_1", "split": "test"}
+{"input": "could  you  compute  multiply  the  numbers  7013  and  -7015e2  please", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_1", "split": "test"}
+{"input": "give  me  the  result  of  what  is  7001  plus  seven?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_9", "split": "test"}
+{"input": "wht  is  difference  between  the  numbers  +7027.25  and  +7029.75?", "label": 2, "intended_class": 2, "eligible": true, "category": "class_2_template_0", "split": "test"}
+{"input": "wht  is  multiply  the  numbers  7019.25  and  7021  please", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_1", "split": "test"}
+{"input": "can\tyou\tfind\tfactorial\tof\tthe\tvalue\t7019.25\tplease", "label": 10, "intended_class": 10, "eligible": true, "category": "class_10_template_0", "split": "test"}
+{"input": "give  me  the  result  of  sqrt  7019", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_1", "split": "test"}
+{"input": "could you compute raise the number 7019 to the power of -7021.75?", "label": 0, "intended_class": 7, "eligible": false, "category": "class_7_template_0", "split": "test"}
+{"input": "can you find the value 7027 mod +7029.75 please", "label": 11, "intended_class": 11, "eligible": true, "category": "class_11_template_0", "split": "test"}
+{"input": "can\tyou\tfind\tchoose\t-7019.25\tfrom\tthe\tvalue\t7021", "label": 15, "intended_class": 15, "eligible": true, "category": "class_15_template_0", "split": "test"}
+{"input": "could you compute multiply the numbers +7013.25 and 7015", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_1", "split": "test"}
+{"input": "give me the result of don't calculate 7013 plus 7015?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_7", "split": "test"}
+{"input": "could you compute cbrt +7013.25 please", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_1", "split": "test"}
+{"input": "can\tyou\tfind\tsqrt\t+7019e-3", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_1", "split": "test"}
+{"input": "wht  is  decrease  +7001e-3  percent  of  7003", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_6", "split": "test"}
+{"input": "can you find subtract -7027e-3 from the value 7029 please", "label": 3, "intended_class": 3, "eligible": true, "category": "class_3_template_0", "split": "test"}
+{"input": "can\tyou\tfind\tmultiply\tthe\tnumbers\t+7001.25\tand\t+7003e2\tplease", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_1", "split": "test"}
+{"input": "can  you  find  the  value  7001  mod  7003", "label": 11, "intended_class": 11, "eligible": true, "category": "class_11_template_0", "split": "test"}
+{"input": "wht  is  what  is  7013  plus  seven  please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_9", "split": "test"}
+{"input": "give\tme\tthe\tresult\tof\tabsolute\tvalue\tof\t7001\ttimes\t7003?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_4", "split": "test"}
+{"input": "can  you  find  the  absolute  value  of  the  value  7001.0?", "label": 19, "intended_class": 19, "eligible": true, "category": "class_19_template_0", "split": "test"}
+{"input": "could  you  compute  the  value  -7027.0  mod  7029  please", "label": 11, "intended_class": 11, "eligible": true, "category": "class_11_template_0", "split": "test"}
+{"input": "wht is addition between +7019e-3 and +7021e2", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_0", "split": "test"}
+{"input": "could you compute least common multiple of the numbers -7001.25 and 7003 please", "label": 13, "intended_class": 13, "eligible": true, "category": "class_13_template_0", "split": "test"}
+{"input": "could  you  compute  decrease  7001  percent  of  7003.75", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_6", "split": "test"}
+{"input": "wht is choose 7027.0 from 7029 people?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_5", "split": "test"}
+{"input": "give me the result of divide by +7027.0 please", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_2", "split": "test"}
+{"input": "could  you  compute  don't  calculate  7019  plus  7021?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_7", "split": "test"}
+{"input": "give me the result of choose 7019 from the value 7021e2?", "label": 15, "intended_class": 15, "eligible": true, "category": "class_15_template_0", "split": "test"}
+{"input": "could  you  compute  7019%  of  the  value  7021", "label": 18, "intended_class": 18, "eligible": true, "category": "class_18_template_0", "split": "test"}
+{"input": "could\tyou\tcompute\tmy\tage\tis\t7001\tand\tmy\tweight\tis\t-7003.75", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_1", "split": "test"}
+{"input": "give  me  the  result  of  product  between  7027  and  7029  please", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_0", "split": "test"}
+{"input": "could\tyou\tcompute\tnpr\tof\tthe\tnumbers\t7019\tand\t7021", "label": 16, "intended_class": 16, "eligible": true, "category": "class_16_template_0", "split": "test"}
+{"input": "wht\tis\tmy\tage\tis\t7013\tand\tmy\tweight\tis\t-7015.75", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_1", "split": "test"}
+{"input": "wht is least common multiple of the numbers -7027.25 and -7029.75", "label": 13, "intended_class": 13, "eligible": true, "category": "class_13_template_0", "split": "test"}
+{"input": "give  me  the  result  of  decrease  7027  percent  of  7029  please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_6", "split": "test"}
+{"input": "give  me  the  result  of  add  the  answer  to  7027?", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_3", "split": "test"}
+{"input": "can\tyou\tfind\tis\tflight\t7027\ton\ttime", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_0", "split": "test"}
+{"input": "give me the result of addition between 7027 and 7029", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_0", "split": "test"}
+{"input": "can you find cbrt 7013", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_1", "split": "test"}
+{"input": "could you compute divide the number +7027e-3 by 7029?", "label": 5, "intended_class": 5, "eligible": true, "category": "class_5_template_0", "split": "test"}
+{"input": "could you compute decrease +7013.0 percent of +7015e2 please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_6", "split": "test"}
+{"input": "can you find add the numbers 7027 and +7029e2", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_1", "split": "test"}
+{"input": "could\tyou\tcompute\tchoose\t-7013e-3\tfrom\t7015\tpeople?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_5", "split": "test"}
+{"input": "can you find choose 7013 from 7015 people?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_5", "split": "test"}
+{"input": "could\tyou\tcompute\taddition\tbetween\t+7027.0\tand\t7029e2?", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_0", "split": "test"}
+{"input": "wht  is  choose  7019  from  the  value  7021  please", "label": 15, "intended_class": 15, "eligible": true, "category": "class_15_template_0", "split": "test"}
+{"input": "can you find divide the number +7019e-3 by 7021", "label": 5, "intended_class": 5, "eligible": true, "category": "class_5_template_0", "split": "test"}
+{"input": "give me the result of is flight +7013.0 on time?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_0", "split": "test"}
+{"input": "wht is add the answer to 7019 please", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_3", "split": "test"}
+{"input": "give me the result of 7027% of the value -7029.75 please", "label": 18, "intended_class": 18, "eligible": true, "category": "class_18_template_0", "split": "test"}
+{"input": "can  you  find  sqrt  7027", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_1", "split": "test"}
+{"input": "can you find the absolute value of the value 7019?", "label": 19, "intended_class": 19, "eligible": true, "category": "class_19_template_0", "split": "test"}
+{"input": "wht  is  divide  by  7019  please", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_2", "split": "test"}
+{"input": "can\tyou\tfind\tadd\tthe\tanswer\tto\t7027\tplease", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_3", "split": "test"}
+{"input": "can you find choose 7027 from 7029 people please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_5", "split": "test"}
+{"input": "could  you  compute  the  value  7013  mod  -7015.0?", "label": 11, "intended_class": 11, "eligible": true, "category": "class_11_template_0", "split": "test"}
+{"input": "give me the result of raise the number 7013 to the power of +7015.0 please", "label": 0, "intended_class": 7, "eligible": false, "category": "class_7_template_0", "split": "test"}
+{"input": "can\tyou\tfind\tleast\tcommon\tmultiple\tof\tthe\tnumbers\t7027.0\tand\t7029", "label": 13, "intended_class": 13, "eligible": true, "category": "class_13_template_0", "split": "test"}
+{"input": "can  you  find  addition  between  7013e-3  and  7015e2?", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_0", "split": "test"}
+{"input": "wht is product between 7019 and 7021?", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_0", "split": "test"}
+{"input": "give me the result of choose 7027.25 from 7029 people?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_5", "split": "test"}
+{"input": "give  me  the  result  of  divide  by  7019", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_2", "split": "test"}
+{"input": "wht  is  the  value  -7019.0  mod  7021.75  please", "label": 11, "intended_class": 11, "eligible": true, "category": "class_11_template_0", "split": "test"}
+{"input": "can you find addition between 7001.0 and 7003 please", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_0", "split": "test"}
+{"input": "wht\tis\tthe\tcube\troot\tof\tthe\tvalue\t7013", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_0", "split": "test"}
+{"input": "can\tyou\tfind\taddition\tbetween\t7001\tand\t7003?", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_0", "split": "test"}
+{"input": "can you find factorial of the value 7019?", "label": 10, "intended_class": 10, "eligible": true, "category": "class_10_template_0", "split": "test"}
+{"input": "could you compute add the numbers 7019 and 7021", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_1", "split": "test"}
+{"input": "can you find absolute value of 7027 times 7029?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_4", "split": "test"}
+{"input": "can\tyou\tfind\taddition\tbetween\t7019\tand\t7021", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_0", "split": "test"}
+{"input": "can you find the value -7001.25 mod 7003?", "label": 11, "intended_class": 11, "eligible": true, "category": "class_11_template_0", "split": "test"}
+{"input": "could  you  compute  the  absolute  value  of  the  value  +7019.0", "label": 19, "intended_class": 19, "eligible": true, "category": "class_19_template_0", "split": "test"}
+{"input": "could you compute raise the number 7027 to the power of -7029e2", "label": 0, "intended_class": 7, "eligible": false, "category": "class_7_template_0", "split": "test"}
+{"input": "give  me  the  result  of  divide  the  number  7019  by  7021", "label": 5, "intended_class": 5, "eligible": true, "category": "class_5_template_0", "split": "test"}
+{"input": "wht is don't calculate 7019 plus 7021", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_7", "split": "test"}
+{"input": "give  me  the  result  of  7001%  of  the  value  7003?", "label": 18, "intended_class": 18, "eligible": true, "category": "class_18_template_0", "split": "test"}
+{"input": "can you find least common multiple of the numbers 7019 and 7021 please", "label": 13, "intended_class": 13, "eligible": true, "category": "class_13_template_0", "split": "test"}
+{"input": "could you compute subtract +7013.25 from the value 7015?", "label": 3, "intended_class": 3, "eligible": true, "category": "class_3_template_0", "split": "test"}
+{"input": "give  me  the  result  of  sqrt  7027  please", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_1", "split": "test"}
+{"input": "wht is what is -7027.25 plus seven", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_9", "split": "test"}
+{"input": "give me the result of choose 7001 from -7003e2 people please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_5", "split": "test"}
+{"input": "can\tyou\tfind\tthe\tsquare\troot\tof\tthe\tvalue\t7001?", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_0", "split": "test"}
+{"input": "could  you  compute  divide  7027  into  the  value  +7029.0?", "label": 6, "intended_class": 6, "eligible": true, "category": "class_6_template_0", "split": "test"}
+{"input": "give  me  the  result  of  ncr  of  the  numbers  7027  and  7029  please", "label": 14, "intended_class": 14, "eligible": true, "category": "class_14_template_0", "split": "test"}
+{"input": "give me the result of 7027% of the value 7029", "label": 18, "intended_class": 18, "eligible": true, "category": "class_18_template_0", "split": "test"}
+{"input": "give  me  the  result  of  7019%  of  the  value  7021  please", "label": 18, "intended_class": 18, "eligible": true, "category": "class_18_template_0", "split": "test"}
+{"input": "can you find difference between the numbers 7013 and 7015?", "label": 2, "intended_class": 2, "eligible": true, "category": "class_2_template_0", "split": "test"}
+{"input": "wht is subtract -7013.0 from the value 7015 please", "label": 3, "intended_class": 3, "eligible": true, "category": "class_3_template_0", "split": "test"}
+{"input": "give  me  the  result  of  divide  7013  divide  7015?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_10", "split": "test"}
+{"input": "wht  is  don't  calculate  7013  plus  -7015e2", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_7", "split": "test"}
+{"input": "could you compute absolute value of 7013.0 times -7015.0", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_4", "split": "test"}
+{"input": "wht is divide by 7019.0?", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_2", "split": "test"}
+{"input": "could\tyou\tcompute\tmy\tage\tis\t7013.25\tand\tmy\tweight\tis\t7015\tplease", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_1", "split": "test"}
+{"input": "give  me  the  result  of  divide  7019  into  the  value  -7021e2", "label": 6, "intended_class": 6, "eligible": true, "category": "class_6_template_0", "split": "test"}
+{"input": "wht\tis\tthe\tabsolute\tvalue\tof\tthe\tvalue\t7013\tplease", "label": 19, "intended_class": 19, "eligible": true, "category": "class_19_template_0", "split": "test"}
+{"input": "could you compute multiply the numbers +7013e-3 and +7015.75 please", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_1", "split": "test"}
+{"input": "give me the result of greatest common divisor of the numbers 7001 and -7003.0?", "label": 12, "intended_class": 12, "eligible": true, "category": "class_12_template_0", "split": "test"}
+{"input": "give me the result of permutations of -7013.25 from the value -7015.0", "label": 17, "intended_class": 17, "eligible": true, "category": "class_17_template_0", "split": "test"}
+{"input": "can\tyou\tfind\tdivide\t+7019e-3\tdivide\t7021?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_10", "split": "test"}
+{"input": "can  you  find  add  the  numbers  7019  and  -7021.0?", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_1", "split": "test"}
+{"input": "could  you  compute  divide  the  number  7027  by  -7029e2?", "label": 5, "intended_class": 5, "eligible": true, "category": "class_5_template_0", "split": "test"}
+{"input": "wht  is  7019  plus  what  please", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_8", "split": "test"}

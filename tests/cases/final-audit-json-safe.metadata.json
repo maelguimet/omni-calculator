@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "original_corpus": "tests/cases/final-audit.json",
+  "original_cases_sha256": "1b7d4cb0be89e49ba3b4761b1f664682981f11d7fc15c6d5b53df99efa30099a",
+  "corrected_corpus": "tests/cases/final-audit-json-safe.json",
+  "corrected_cases_sha256": "ce1c6c0b07ab140c73715e5b3b87656a8c17e36723bf00016a37b2377ce2af98",
+  "case_count": 100,
+  "changes": [
+    {
+      "id": "final-009",
+      "path": "expect.value",
+      "old_json_value": 9007199254741019,
+      "new_json_value": "9007199254741019",
+      "reason": "Exact integers outside the IEEE754 safe-integer interval are now represented as decimal strings in JSON so JS clients preserve precision. The expected integer, display, input, kind, and exactness are unchanged."
+    }
+  ],
+  "other_case_fields_changed": false,
+  "original_first_run_report_preserved": "reports/independent-audit-initial.json",
+  "original_corrected_run_report_preserved": "reports/independent-audit-corrected.json"
+}

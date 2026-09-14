@@ -1,0 +1,215 @@
+{
+  "schema_version": 1,
+  "baseline_date": "2026-09-14",
+  "baseline_binary_sha256": "bb8d4a5cc7cff5783fc7967a32ef1fd3e2750baff8f70b7a4edf46fa650cd07a",
+  "policy": "Originals retained locally unchanged. Public copies redact author workspace/home prefixes and rewrite included evidence references. Numerical values and original recorded hashes are preserved.",
+  "files": [
+    {
+      "source": "reports/acceptance-final.json",
+      "source_sha256": "94d9d8090d3f205cb03bd6274bc56a1c4e0af9950b992603c140ec6b43d188a3",
+      "public_path": "docs/evidence/acceptance-final.json",
+      "public_sha256": "94d9d8090d3f205cb03bd6274bc56a1c4e0af9950b992603c140ec6b43d188a3",
+      "changes": []
+    },
+    {
+      "source": "reports/check-release-clippy-default.log",
+      "source_sha256": "3198dd47fcb53e9972809db2fd452786c77bdeead8724d5b0f7cb94253d66234",
+      "public_path": "docs/evidence/check-release-clippy-default.log",
+      "public_sha256": "9ab6fdcc485645ac28639e0a254cd382dd8345f91519a97cc437b41594112974",
+      "changes": [
+        {
+          "category": "author workspace prefix",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "source": "reports/check-release-clippy-no-default.log",
+      "source_sha256": "736e2582f563605dd272e5fb977840b0c0767377d27b6940c440caf75eec7157",
+      "public_path": "docs/evidence/check-release-clippy-no-default.log",
+      "public_sha256": "736e2582f563605dd272e5fb977840b0c0767377d27b6940c440caf75eec7157",
+      "changes": []
+    },
+    {
+      "source": "reports/check-release-fmt.log",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_path": "docs/evidence/check-release-fmt.log",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "changes": []
+    },
+    {
+      "source": "reports/check-release-test-default.log",
+      "source_sha256": "4dc08d2f4fd5f638c8d6059f29731d464bfd024e307a28bedd6b488e1a383242",
+      "public_path": "docs/evidence/check-release-test-default.log",
+      "public_sha256": "daeb1c2146cdb908baa7118d6eb8d3fdff3bf204e273d14159dd31ab0e05699c",
+      "changes": [
+        {
+          "category": "author workspace prefix",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "source": "reports/check-release-test-no-default.log",
+      "source_sha256": "3a065af1eb51c3b94ba7fbbd36c05ac7013e30f251f134f02ee4108a648d073a",
+      "public_path": "docs/evidence/check-release-test-no-default.log",
+      "public_sha256": "fb107f06eedd46927fa1b6a94ad82bcf8b4f400bd94fda50d60aafa7c18c46d0",
+      "changes": [
+        {
+          "category": "author workspace prefix",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "source": "reports/check-release-test-release.log",
+      "source_sha256": "0f8c2ce427c9d8628d958afd8ca42fe6935440c33275a5040c4bf40149b4d248",
+      "public_path": "docs/evidence/check-release-test-release.log",
+      "public_sha256": "6ff7d6a6349f6a0f83c267aa80b735e0a2167eefb7cd29930738877741accf85",
+      "changes": [
+        {
+          "category": "author workspace prefix",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "source": "reports/final-cli-smoke.json",
+      "source_sha256": "54734d8a9e8ea2004ec4dc517c0b3687c0a7cf133431fff71e3a33363a6955c0",
+      "public_path": "docs/evidence/final-cli-smoke.json",
+      "public_sha256": "54734d8a9e8ea2004ec4dc517c0b3687c0a7cf133431fff71e3a33363a6955c0",
+      "changes": []
+    },
+    {
+      "source": "reports/final-verification-review.json",
+      "source_sha256": "f40edbf922a553f5ad1bc4e3dfcff5c230bd715cec36e6e110139514c4537aaa",
+      "public_path": "docs/evidence/final-verification-review.json",
+      "public_sha256": "55d07e8bc2b5902d8bc54bc6f737cbef97c12cc877e03c381f23f836ef3998e3",
+      "changes": [
+        {
+          "category": "public evidence attachment path",
+          "occurrences": 1
+        },
+        {
+          "category": "public evidence attachment path",
+          "occurrences": 1
+        },
+        {
+          "category": "public evidence attachment path",
+          "occurrences": 2
+        }
+      ]
+    },
+    {
+      "source": "reports/independent-audit-final.json",
+      "source_sha256": "0305b1a97e02a7de3d1284285655bdf0494f612031dc5adc3ddb80cae7c2fbb6",
+      "public_path": "docs/evidence/independent-audit-final.json",
+      "public_sha256": "0305b1a97e02a7de3d1284285655bdf0494f612031dc5adc3ddb80cae7c2fbb6",
+      "changes": []
+    },
+    {
+      "source": "reports/independent-audit-initial.json",
+      "source_sha256": "ed452dcf3c0e8df56fc822a4425d18b992e39fcfdd8dbd1b2cd5e503d607c38a",
+      "public_path": "docs/evidence/independent-audit-initial.json",
+      "public_sha256": "ed452dcf3c0e8df56fc822a4425d18b992e39fcfdd8dbd1b2cd5e503d607c38a",
+      "changes": []
+    },
+    {
+      "source": "reports/local-final.json",
+      "source_sha256": "2a3462ba77d281245fdc0c4e69d14aa9ef83cbf01096868bca9b4cbc9b4025da",
+      "public_path": "docs/evidence/local-final.json",
+      "public_sha256": "2a3462ba77d281245fdc0c4e69d14aa9ef83cbf01096868bca9b4cbc9b4025da",
+      "changes": []
+    },
+    {
+      "source": "reports/offline-network.trace",
+      "source_sha256": "21a042a77f6290bba9990cb8c30d5232c50b5d82ac24afd308b15782ed9718b4",
+      "public_path": "docs/evidence/offline-network.trace",
+      "public_sha256": "21a042a77f6290bba9990cb8c30d5232c50b5d82ac24afd308b15782ed9718b4",
+      "changes": []
+    },
+    {
+      "source": "reports/offline-verification.json",
+      "source_sha256": "a5baa32234388eea3106cffc2c46ae6674d651605591f48bdccc3060a97d4e5e",
+      "public_path": "docs/evidence/offline-verification.json",
+      "public_sha256": "17f3903a087f789af963c4630573403e1fbf324032264d32b04f7d47cc1a375b",
+      "changes": [
+        {
+          "category": "author workspace prefix",
+          "occurrences": 2
+        },
+        {
+          "category": "public evidence attachment path",
+          "occurrences": 2
+        }
+      ]
+    },
+    {
+      "source": "reports/order-ood-audit-final.json",
+      "source_sha256": "5a6b232510c9674699258f622829a788f92c03797175eccb2a6be3425fc88d12",
+      "public_path": "docs/evidence/order-ood-audit-final.json",
+      "public_sha256": "5a6b232510c9674699258f622829a788f92c03797175eccb2a6be3425fc88d12",
+      "changes": []
+    },
+    {
+      "source": "reports/order-ood-audit-initial.json",
+      "source_sha256": "d8e2fea47a09db22230d8611e2700f6067ff54c0e5a2fdc599aeb174ea59f516",
+      "public_path": "docs/evidence/order-ood-audit-initial.json",
+      "public_sha256": "d8e2fea47a09db22230d8611e2700f6067ff54c0e5a2fdc599aeb174ea59f516",
+      "changes": []
+    },
+    {
+      "source": "reports/package-verification.json",
+      "source_sha256": "58958e1b32d359b30b07e45f26776ce153fda8a6b699d3acdacb5e96208d3356",
+      "public_path": "docs/evidence/package-verification.json",
+      "public_sha256": "58958e1b32d359b30b07e45f26776ce153fda8a6b699d3acdacb5e96208d3356",
+      "changes": []
+    },
+    {
+      "source": "reports/rust-checks-final.json",
+      "source_sha256": "d86f3e0437dd2717bcc109541e89b8b48d1b90e441db7780dac9ac947a9757ed",
+      "public_path": "docs/evidence/rust-checks-final.json",
+      "public_sha256": "186b8056e28d775ed4b1b9705654fcc3e12c287a2e90dfd3bfb2625f145db247",
+      "changes": [
+        {
+          "category": "public evidence attachment path",
+          "occurrences": 1
+        },
+        {
+          "category": "public evidence attachment path",
+          "occurrences": 1
+        },
+        {
+          "category": "public evidence attachment path",
+          "occurrences": 1
+        },
+        {
+          "category": "public evidence attachment path",
+          "occurrences": 1
+        },
+        {
+          "category": "public evidence attachment path",
+          "occurrences": 1
+        },
+        {
+          "category": "public evidence attachment path",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "source": "reports/vps-cleanup.json",
+      "source_sha256": "829515a605a6431daa84dddbd1e32476cc09795b2d3ea3bc7d9a6992dbb40feb",
+      "public_path": "docs/evidence/vps-cleanup.json",
+      "public_sha256": "829515a605a6431daa84dddbd1e32476cc09795b2d3ea3bc7d9a6992dbb40feb",
+      "changes": []
+    },
+    {
+      "source": "reports/vps-final.json",
+      "source_sha256": "26829ba78944f0fecdde3f2113f0dcbc2c66009e9555f691aed67f7c1c730ee8",
+      "public_path": "docs/evidence/vps-final.json",
+      "public_sha256": "26829ba78944f0fecdde3f2113f0dcbc2c66009e9555f691aed67f7c1c730ee8",
+      "changes": []
+    }
+  ]
+}

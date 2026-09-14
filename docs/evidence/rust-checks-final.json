@@ -1,0 +1,488 @@
+{
+  "started_at": "2026-09-14T01:52:11.756166+00:00",
+  "checks": [
+    {
+      "name": "fmt",
+      "command": [
+        "cargo",
+        "fmt",
+        "--package",
+        "omni-calc",
+        "--",
+        "--check"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.2180599040002562,
+      "log": "docs/evidence/check-release-fmt.log",
+      "summary": []
+    },
+    {
+      "name": "test-default",
+      "command": [
+        "cargo",
+        "test",
+        "--locked",
+        "-j",
+        "4",
+        "--",
+        "--test-threads=4"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 2.0757511419978982,
+      "log": "docs/evidence/check-release-test-default.log",
+      "summary": [
+        "test result: ok. 15 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.01s",
+        "test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s",
+        "test result: ok. 4 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s",
+        "test result: ok. 33 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.05s",
+        "test result: ok. 4 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.01s",
+        "test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s",
+        "test result: ok. 13 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.18s",
+        "test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.16s",
+        "test result: ok. 4 passed; 0 failed; 1 ignored; 0 measured; 0 filtered out; finished in 0.07s",
+        "test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s",
+        "test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.01s",
+        "test result: ok. 4 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.15s",
+        "test result: ok. 9 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.01s",
+        "test result: ok. 15 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.13s",
+        "test result: ok. 11 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.04s",
+        "test result: ok. 6 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.01s",
+        "test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s",
+        "test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s"
+      ]
+    },
+    {
+      "name": "test-no-default",
+      "command": [
+        "cargo",
+        "test",
+        "--no-default-features",
+        "--locked",
+        "-j",
+        "4",
+        "--",
+        "--test-threads=4"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 1.5775857229964458,
+      "log": "docs/evidence/check-release-test-no-default.log",
+      "summary": [
+        "test result: ok. 13 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.01s",
+        "test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s",
+        "test result: ok. 4 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s",
+        "test result: ok. 33 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.05s",
+        "test result: ok. 4 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.01s",
+        "test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s",
+        "test result: ok. 13 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.22s",
+        "test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.18s",
+        "test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s",
+        "test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s",
+        "test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s",
+        "test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s",
+        "test result: ok. 9 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.01s",
+        "test result: ok. 15 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.11s",
+        "test result: ok. 11 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.04s",
+        "test result: ok. 6 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.01s",
+        "test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s",
+        "test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s"
+      ]
+    },
+    {
+      "name": "test-release",
+      "command": [
+        "cargo",
+        "test",
+        "--release",
+        "--locked",
+        "-j",
+        "4",
+        "--",
+        "--test-threads=4"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 58.1731147290011,
+      "log": "docs/evidence/check-release-test-release.log",
+      "summary": [
+        "test result: ok. 15 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s",
+        "test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s",
+        "test result: ok. 4 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s",
+        "test result: ok. 33 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.02s",
+        "test result: ok. 4 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s",
+        "test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.01s",
+        "test result: ok. 13 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.03s",
+        "test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.02s",
+        "test result: ok. 4 passed; 0 failed; 1 ignored; 0 measured; 0 filtered out; finished in 0.00s",
+        "test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s",
+        "test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s",
+        "test result: ok. 4 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.02s",
+        "test result: ok. 9 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s",
+        "test result: ok. 15 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.13s",
+        "test result: ok. 11 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.02s",
+        "test result: ok. 6 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s",
+        "test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s",
+        "test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s"
+      ]
+    },
+    {
+      "name": "clippy-default",
+      "command": [
+        "cargo",
+        "clippy",
+        "--locked",
+        "--all-targets",
+        "-j",
+        "4",
+        "--",
+        "-D",
+        "warnings"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 1.0711879680020502,
+      "log": "docs/evidence/check-release-clippy-default.log",
+      "summary": []
+    },
+    {
+      "name": "clippy-no-default",
+      "command": [
+        "cargo",
+        "clippy",
+        "--no-default-features",
+        "--locked",
+        "--all-targets",
+        "-j",
+        "4",
+        "--",
+        "-D",
+        "warnings"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.11884033800015459,
+      "log": "docs/evidence/check-release-clippy-no-default.log",
+      "summary": []
+    }
+  ],
+  "source_files": [
+    {
+      "path": "Cargo.lock",
+      "sha256": "095d75b1cf88967b7ea8bf7b6f52228512eea4da6b7865e3b772939ac8697ffe"
+    },
+    {
+      "path": "Cargo.toml",
+      "sha256": "27bc4edced28a28fd355c4f70b805484e61acb6d536d763184787c0196a0ef8d"
+    },
+    {
+      "path": "assets/intent.bin",
+      "sha256": "97d0df5d619f5f8badfb1aa6d5c6d72a77ba4b248b63b6caad18c05321e46dd2"
+    },
+    {
+      "path": "assets/router-v2.bin",
+      "sha256": "d3b0c2c0d30daa38dd9f3cc2411f7b1cc842c4a1b2c07b56dfdcc57a8cf5cc14"
+    },
+    {
+      "path": "assets/router.bin",
+      "sha256": "a5d6e9d61a232e96b07280ffa458607b6b79dd32aed33ca29db715c3a7204f29"
+    },
+    {
+      "path": "assets/system.txt",
+      "sha256": "54fd9c96eb8dee82d28893a4fc13297bf2eb544660a872a9c0a8787962c17c3e"
+    },
+    {
+      "path": "assets/tools.json",
+      "sha256": "a17e5a3cb12c6dd19e954e8bb9817be0886c39365de178f487e4bac8f1ac2b22"
+    },
+    {
+      "path": "build.rs",
+      "sha256": "f9a21999f1ec72330daa2a6ebfbf96f47cdd61733494a612253e3ef6ddfe0f02"
+    },
+    {
+      "path": "models/omni.cact",
+      "sha256": "1852739bfbb36f945eed2bca5c3ddfd364fab276cf7914ccbe793df4746e46e4"
+    },
+    {
+      "path": "src/engine/calculus.rs",
+      "sha256": "765670f2606b363292ac1e101785b092ebba59754d81c1d4550695a216ac58ba"
+    },
+    {
+      "path": "src/engine/extensions.rs",
+      "sha256": "accc5bc5f41f67f3af0d5780e2714fcdf388b3ed8ba56099e6c75abd7fcaed16"
+    },
+    {
+      "path": "src/engine/matrix.rs",
+      "sha256": "423d69783f8ed6a07b6d444d1e3beea7604bab0b6d5a87b0b2677acc6b809ea1"
+    },
+    {
+      "path": "src/engine/statistics.rs",
+      "sha256": "1b95b7db97be0b1b0df4d4131b2c49fa7a43cece56bfa0ea65338cb34b1c2ab5"
+    },
+    {
+      "path": "src/engine.rs",
+      "sha256": "d8f3cc6b5877bd17e0b31d9c64153d01235a649068730223a2975b46df46b0ca"
+    },
+    {
+      "path": "src/error.rs",
+      "sha256": "9a5c5848ab8f8d2e24eec06be54d09b774e609ad370dab80a859c546d529fb42"
+    },
+    {
+      "path": "src/intent.rs",
+      "sha256": "994f854418110892d967c8cee89cb9414f12d29874f12c2644f4c865f3e9f95c"
+    },
+    {
+      "path": "src/lib.rs",
+      "sha256": "8eb095d4e0a6fc6d12d7d7a75309e6629cc087e731a041dbc5a07cecc4828de5"
+    },
+    {
+      "path": "src/main.rs",
+      "sha256": "3ec20d7bd4cf53bb76fa86eb488c022508558d6b139e20c9e407d6f211692412"
+    },
+    {
+      "path": "src/model.rs",
+      "sha256": "9e89b038bd933340028b03ed19feb155b16935b7be292b7fcc7055d395637298"
+    },
+    {
+      "path": "src/planner/grounding.rs",
+      "sha256": "7d34dc7c37d714020bc034ebd773ed134e7eb5bb43c7949f4488892ef7ad7085"
+    },
+    {
+      "path": "src/planner.rs",
+      "sha256": "991aa97e28d78d5c02e259aa10911d90ae3e8ac605c41879be906f8568fd48ba"
+    },
+    {
+      "path": "src/protocol.rs",
+      "sha256": "c15ce588dc40a2f243ebf1caf64d55c4c665e3a29ff68bd452c9c0b3a6331746"
+    },
+    {
+      "path": "src/router.rs",
+      "sha256": "9a8001b98a6ebc2ddd26f75158419da737a58ee3cd9fd7c5bc6a883afa6013dc"
+    },
+    {
+      "path": "src/service.rs",
+      "sha256": "c375359bddc7cc80c0af1f433f93a1fbb3902700c1859502f86219a90f6d2ab6"
+    },
+    {
+      "path": "src/symbolic.rs",
+      "sha256": "0d9e376b1c4e1b24b2c34a324635e92b11f04bbcd8a8cf3390a8afa5f398bd93"
+    },
+    {
+      "path": "tests/acceptance_math.rs",
+      "sha256": "cbe8afb71feffa7cac628783be72f1cdf888dc92986cb605e3029b7eec11afba"
+    },
+    {
+      "path": "tests/cli_audit.rs",
+      "sha256": "914bec073e23ada7f2eb998c13c8c1ec29935661fb164298d8142063183523fc"
+    },
+    {
+      "path": "tests/cli_contract.rs",
+      "sha256": "e9ba76ec2e241fceceb9473d8d8235be2f796efdce87ae386274254ded453214"
+    },
+    {
+      "path": "tests/config_contract.rs",
+      "sha256": "72608f2ad9c5ec33582fe0433af7128aa6d18ccad334a8c91319c80e96e94fa0"
+    },
+    {
+      "path": "tests/engine_audit.rs",
+      "sha256": "38249bc15f3fc3d08c43cece6becf85e3c673eb80936da11a03201f301da5cc1"
+    },
+    {
+      "path": "tests/exact_arithmetic.rs",
+      "sha256": "4c0e1df7381902dd9c823e84a4ab5346310b2439b72d8fec18945475a4322e53"
+    },
+    {
+      "path": "tests/intent.rs",
+      "sha256": "2170764d959a262d1bb7b6e220d0f1c2a52e854262997be665c0a10332a0e2d6"
+    },
+    {
+      "path": "tests/json_precision.rs",
+      "sha256": "4087e2ecfa181a858d555e262b2102c00c8b10297fc428f5f168ab22a02f6637"
+    },
+    {
+      "path": "tests/jsonl_ids.rs",
+      "sha256": "67cc23c1c5a836eb838402373c223b2b517b5dd7c6679d385cdf33783515349f"
+    },
+    {
+      "path": "tests/router.rs",
+      "sha256": "63346def4dd4afb1e42d918e7ef020b2918a294fa500eca49f23f43c711dd9b3"
+    },
+    {
+      "path": "tests/scientific.rs",
+      "sha256": "bce0cfb86db7d9bda160ba0bb0f3a81531aae7742fd6bc0199d0a76082a57563"
+    },
+    {
+      "path": "tests/service_contract.rs",
+      "sha256": "2181045b24fb35547f6f722864580db5a1472a21d56a5344bd5732abbbe10525"
+    },
+    {
+      "path": "tests/symbolic.rs",
+      "sha256": "7d7980d000a7ea1835bb2ce67b54abab2b9378f84f8b8f15248eef989bcb21b7"
+    },
+    {
+      "path": "tests/symbolic_audit.rs",
+      "sha256": "ed862774ee44c7692fcecd0e1a317d4e4822c4f04fd6197aadc056023d4b9de6"
+    },
+    {
+      "path": "tests/trailing_commas.rs",
+      "sha256": "be20692c3a0eda53bc543424e3977aa8f68fc9ed2e929fc8e921220f9eaca7ba"
+    },
+    {
+      "path": "training/intent/operation-cues.txt",
+      "sha256": "c61ac113c47a02c7825d4e69eaa5448782d0bdbe37d1b671acbc9fa13ecc7f59"
+    },
+    {
+      "path": "training/intent/vocabulary.txt",
+      "sha256": "727955d9c6407aab454125314c45d019260a0a343d9799ecd47e097643e2e964"
+    },
+    {
+      "path": "vendor/fend-core/src/ast.rs",
+      "sha256": "ddba5b864c2a097efecc60373076f633366f800fd6e34751c64b2499e42a6ec8"
+    },
+    {
+      "path": "vendor/fend-core/src/date/day.rs",
+      "sha256": "5a762aa5846b4373cbc4bcc5bbaafd04747fe7cda5382de6da3709bf2ce1645d"
+    },
+    {
+      "path": "vendor/fend-core/src/date/day_of_week.rs",
+      "sha256": "557d17145ef9541fef8b0eca17b06fd54d5311b0d47911f8b96cf806afa28d74"
+    },
+    {
+      "path": "vendor/fend-core/src/date/month.rs",
+      "sha256": "fbe1e67efee64059ec12e7d3b74a94ee066f88d203c1b12f31b25864d1a225b1"
+    },
+    {
+      "path": "vendor/fend-core/src/date/parser.rs",
+      "sha256": "284ee9edf4eb82e0b77f5512a0158279c5af6c6c03724147a0e70f09b11dcd6d"
+    },
+    {
+      "path": "vendor/fend-core/src/date/year.rs",
+      "sha256": "0ef15d53bdb530ebc8c8f2c6bed1592b22b8b9297d9ba9536f788b72c5d823c0"
+    },
+    {
+      "path": "vendor/fend-core/src/date.rs",
+      "sha256": "a1a4d06fc402505863d4222b280381d9a85887b5a90f45bdec1dc02e72573b67"
+    },
+    {
+      "path": "vendor/fend-core/src/error.rs",
+      "sha256": "005b4a45830c1afe9d1a258f49c91716b4468767195ebc2645d4e59572a4ac1c"
+    },
+    {
+      "path": "vendor/fend-core/src/eval.rs",
+      "sha256": "aac6ec3c1d167c18ba49f4c138392c43d8361a8c90f1639ac92a56e5b1cfecdd"
+    },
+    {
+      "path": "vendor/fend-core/src/format.rs",
+      "sha256": "3c6d39bafc24992958a519a03c092de5e8daca6d000ed84115c41734faae635b"
+    },
+    {
+      "path": "vendor/fend-core/src/ident.rs",
+      "sha256": "670d420be4ee484899d0048868732f71c1b5d1ff16bc7bbc09fcde3664084eec"
+    },
+    {
+      "path": "vendor/fend-core/src/inline_substitutions.rs",
+      "sha256": "2709d70c42e7d75c3ca614a06e5782852829e783d4ede40bc257c173ca712ad1"
+    },
+    {
+      "path": "vendor/fend-core/src/interrupt.rs",
+      "sha256": "f8019554ff0b757a768fb2b6790bbf51bf6dff437694190da4a24f4df7a5fb47"
+    },
+    {
+      "path": "vendor/fend-core/src/json.rs",
+      "sha256": "57a65c1f8f7f5e8fd40c21f3743e62373b22489e6df48ddb23fbd10015b63d35"
+    },
+    {
+      "path": "vendor/fend-core/src/lexer.rs",
+      "sha256": "54ec3361147470caefe3baf88ccda450e8d75e0ccb3b31fad6360759ae66b5aa"
+    },
+    {
+      "path": "vendor/fend-core/src/lib.rs",
+      "sha256": "02e4c1aa525dc608217f0e413992ed9af23703a4442220c42cbca6fd9beff493"
+    },
+    {
+      "path": "vendor/fend-core/src/num/base.rs",
+      "sha256": "9d6433255b5a7ec8cc1a132a8444839a4b81400e1ca7b3248473976a5fc09e21"
+    },
+    {
+      "path": "vendor/fend-core/src/num/bigrat.rs",
+      "sha256": "9a6dfbf538bdd4b8398d224da2a632696045bc1f4c1d9f16f1a0cecded44c16b"
+    },
+    {
+      "path": "vendor/fend-core/src/num/biguint.rs",
+      "sha256": "ce977656611543970e4941cb9697d1ca398321a53636b24cc3c3f0567ac1958e"
+    },
+    {
+      "path": "vendor/fend-core/src/num/complex.rs",
+      "sha256": "608c6f4ca3414874349f8eabb0a4e379f5ddda3662553714ebf806d24b401b3b"
+    },
+    {
+      "path": "vendor/fend-core/src/num/continued_fraction.rs",
+      "sha256": "12ef275f2b3b14c9224ec3d8aa3a82bb2e13068220ff6af1ca8713b05bf73ff6"
+    },
+    {
+      "path": "vendor/fend-core/src/num/dist.rs",
+      "sha256": "d3ea33c593bf633a11d140119b6e4680a4fbce5d84908cbda362b58ea3083f5d"
+    },
+    {
+      "path": "vendor/fend-core/src/num/exact.rs",
+      "sha256": "dc82f181d6ad912aaf50a23c3b71378b9ee2dfd7b7c56bd97086a47388fae342"
+    },
+    {
+      "path": "vendor/fend-core/src/num/formatting_style.rs",
+      "sha256": "e4581c8a72df0a8049e19a316768b7080a86725b0664c1a49130dd247c90fd24"
+    },
+    {
+      "path": "vendor/fend-core/src/num/real.rs",
+      "sha256": "64115bd590e744b500f03b7f014953b270153ee18fd020ba6215592869d99baa"
+    },
+    {
+      "path": "vendor/fend-core/src/num/unit/base_unit.rs",
+      "sha256": "c351addfb8e5693265273d178d22e720a0619ffc2a9482000221af9bd00e8ef1"
+    },
+    {
+      "path": "vendor/fend-core/src/num/unit/named_unit.rs",
+      "sha256": "9f9dccf0ea893b069dc0c5dca02a49725c491a547509df05a7e058691d63709b"
+    },
+    {
+      "path": "vendor/fend-core/src/num/unit/unit_exponent.rs",
+      "sha256": "a381aec73220d12a46fb95006a16d7b725ebd695332abccc64575f8da5ab368e"
+    },
+    {
+      "path": "vendor/fend-core/src/num/unit.rs",
+      "sha256": "1f61355cf29d5c560af7a2c8f4c62df00d88f5e05f734e36b17be7701d5d0680"
+    },
+    {
+      "path": "vendor/fend-core/src/num.rs",
+      "sha256": "3d6c5aa93674be88b8d5aef88206c354ae38afb49b08bfbdc16b8a3e2d37cf56"
+    },
+    {
+      "path": "vendor/fend-core/src/parser.rs",
+      "sha256": "cd68a6704a8e847c3ecf8abcdd1b16d5f6ce72e851997605ccdbcd42f26619ff"
+    },
+    {
+      "path": "vendor/fend-core/src/result.rs",
+      "sha256": "2c118a66fa831a172edd46d9579473387f131bbee14ec33597c2d2e466c26523"
+    },
+    {
+      "path": "vendor/fend-core/src/scope.rs",
+      "sha256": "50691b497a99a0a9d5a9ffae76b0241257a5b44e9c5dc213728692f0eea6224a"
+    },
+    {
+      "path": "vendor/fend-core/src/serialize.rs",
+      "sha256": "c24796bc4890e1eabdca580bcc927adcb6833a81e506ba02cfbcf75e0b7f6ee3"
+    },
+    {
+      "path": "vendor/fend-core/src/units/builtin.rs",
+      "sha256": "e022249ba6a2be7a427da3ce4782b41a1c698f1be7d8c0dec7a9152c8746cbbb"
+    },
+    {
+      "path": "vendor/fend-core/src/units.rs",
+      "sha256": "83371ea01ef302880f02f66df2478987c1a68c525836e49f42cd031ac70828de"
+    },
+    {
+      "path": "vendor/fend-core/src/value/built_in_function.rs",
+      "sha256": "2bbaa59049120c1a4bf731585d1a2c427eb488a2460258df7f344769c20d35e0"
+    },
+    {
+      "path": "vendor/fend-core/src/value.rs",
+      "sha256": "892698c6f5df28128bf8006e538bb2eb9bfe5a249a4d81a2e98967d5a9af4583"
+    }
+  ],
+  "binary_sha256": "bb8d4a5cc7cff5783fc7967a32ef1fd3e2750baff8f70b7a4edf46fa650cd07a",
+  "completed_at": "2026-09-14T01:53:15.073634+00:00"
+}

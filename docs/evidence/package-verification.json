@@ -1,0 +1,8 @@
+{
+  "binary_sha256": "bb8d4a5cc7cff5783fc7967a32ef1fd3e2750baff8f70b7a4edf46fa650cd07a",
+  "archive": "dist/omni-calc-0.1.0-linux-x86_64.tar.gz",
+  "archive_sha256": "36bf9d0454c80ce8b55fd23210b425dd2009a63b7d101365b5edaff05f8d8167",
+  "verified_files": 148,
+  "embedded_models_verified": true,
+  "all_hashes_match": true
+}

@@ -1,0 +1,71 @@
+{
+  "seed": 20260917,
+  "policy": "Frozen post-selection model and threshold; fresh templates and curated cases; disjoint 5003..5099 number pool; includes expression depth6; no optimization or threshold revision based on this audit.",
+  "model_sha256": "a5d6e9d61a232e96b07280ffa458607b6b79dd32aed33ca29db715c3a7204f29",
+  "script_sha256": "0e8e4e91d5cd8c559bb763a3f7931e72e9456105dddd505c6fbf4634efdb8802",
+  "data_sha256": "27b492d341e143d2c6a51059ba554c85023079064f4d567f5941b6d32a502767",
+  "overall": {
+    "threshold": 0.98,
+    "count": 2442,
+    "tp": 800,
+    "fp": 7,
+    "fn": 416,
+    "tn": 1219,
+    "precision": 0.9913258983890955,
+    "recall": 0.6578947368421053,
+    "false_positives": [
+      {
+        "input": "5099+5077 but do not calculate it",
+        "confidence": 0.9936248064041138,
+        "category": "fresh_template"
+      },
+      {
+        "input": "5023+5077 but do not calculate it",
+        "confidence": 0.9800536036491394,
+        "category": "fresh_template"
+      },
+      {
+        "input": "5003+5077 but do not calculate it",
+        "confidence": 0.9935469031333923,
+        "category": "fresh_template"
+      },
+      {
+        "input": "5077+5077 but do not calculate it",
+        "confidence": 0.9804932475090027,
+        "category": "fresh_template"
+      },
+      {
+        "input": "5087+5077 but do not calculate it",
+        "confidence": 0.9806615114212036,
+        "category": "fresh_template"
+      },
+      {
+        "input": "5039+5077 but do not calculate it",
+        "confidence": 0.9894692897796631,
+        "category": "fresh_template"
+      },
+      {
+        "input": "7+9 but don't calculate it",
+        "confidence": 0.9860466122627258,
+        "category": "fresh_curated"
+      }
+    ]
+  },
+  "curated": {
+    "threshold": 0.98,
+    "count": 42,
+    "tp": 8,
+    "fp": 1,
+    "fn": 8,
+    "tn": 25,
+    "precision": 0.8888888888888888,
+    "recall": 0.5,
+    "false_positives": [
+      {
+        "input": "7+9 but don't calculate it",
+        "confidence": 0.9860466122627258,
+        "category": "fresh_curated"
+      }
+    ]
+  }
+}

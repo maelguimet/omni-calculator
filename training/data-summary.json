@@ -1,0 +1,36 @@
+{
+  "seed": 812714,
+  "schema_sha256": "0a2f6dba5eac5ddb3deb4b77a920ea8553dc3c178fda5bd95e040f8525f353dc",
+  "train": 7680,
+  "heldout": 768,
+  "families": {
+    "train": {
+      "explicit": 969,
+      "off_topic": 713,
+      "unary": 949,
+      "binary": 1177,
+      "units": 471,
+      "statistics": 569,
+      "algebra": 691,
+      "distribution": 356,
+      "numberwords": 521,
+      "composition": 904,
+      "matrix": 360
+    },
+    "heldout": {
+      "statistics": 61,
+      "off_topic": 97,
+      "algebra": 61,
+      "explicit": 93,
+      "binary": 122,
+      "unary": 93,
+      "composition": 79,
+      "matrix": 38,
+      "units": 44,
+      "numberwords": 58,
+      "distribution": 22
+    }
+  },
+  "train_sha256": "64ae3c22bf67010509bba922ae0d65a80d213b2206a617c0ebde2a9143ad970e",
+  "heldout_sha256": "ad5bef881c08d8b688ffb378cb0b55379c5ddcd08f1a3c4b31c03cf39a5d44de"
+}

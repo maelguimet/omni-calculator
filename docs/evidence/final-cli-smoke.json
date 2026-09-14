@@ -1,0 +1,160 @@
+{
+  "binary_sha256": "bb8d4a5cc7cff5783fc7967a32ef1fd3e2750baff8f70b7a4edf46fa650cd07a",
+  "passed": true,
+  "records": [
+    {
+      "argv": [
+        "what",
+        "is",
+        "1",
+        "+",
+        "1"
+      ],
+      "exit_code": 0,
+      "stdout": "2\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "wat",
+        "iz",
+        "1+1"
+      ],
+      "exit_code": 0,
+      "stdout": "2\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "42-9"
+      ],
+      "exit_code": 0,
+      "stdout": "33\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "what",
+        "is",
+        "the",
+        "weather"
+      ],
+      "exit_code": 2,
+      "stdout": "",
+      "stderr": "calc: This request asks for a task outside the calculator's scope. Ask explicitly for a calculation. (unsupported_input)\n"
+    },
+    {
+      "argv": [
+        "what",
+        "is",
+        "1",
+        "+",
+        "1",
+        "--json"
+      ],
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "what is 1 + 1",
+        "expression": "1 + 1",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "2",
+          "value": 2,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.308669,
+          "model_ms": 0.024541,
+          "compute_ms": 0.047972
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.9994450539341496
+      }
+    },
+    {
+      "argv": [
+        "--jsonl"
+      ],
+      "responses": [
+        {
+          "schema_version": 1,
+          "ok": true,
+          "id": null,
+          "input": "1+1",
+          "expression": "1+1",
+          "tool_call": {
+            "name": "evaluate",
+            "arguments": {}
+          },
+          "result": {
+            "display": "2",
+            "value": 2,
+            "kind": "integer",
+            "exact": true
+          },
+          "attempts": 1,
+          "retries": 0,
+          "timing": {
+            "total_ms": 0.28301699999999996,
+            "model_ms": 0.009165,
+            "compute_ms": 0.031531
+          },
+          "model": "omni-reference-router-v2",
+          "confidence": 0.999859903405266
+        },
+        {
+          "schema_version": 1,
+          "ok": false,
+          "input": "",
+          "error": {
+            "code": "invalid_input",
+            "message": "Invalid JSONL request: expected ident at line 1 column 2",
+            "retryable": false
+          },
+          "attempts": 0,
+          "retries": 0,
+          "timing": {
+            "total_ms": 0.0,
+            "model_ms": 0.0,
+            "compute_ms": 0.0
+          },
+          "model": "none"
+        },
+        {
+          "schema_version": 1,
+          "ok": true,
+          "id": "large",
+          "input": "2^53+1",
+          "expression": "2^53+1",
+          "tool_call": {
+            "name": "evaluate",
+            "arguments": {}
+          },
+          "result": {
+            "display": "9007199254740993",
+            "value": "9007199254740993",
+            "kind": "integer",
+            "exact": true
+          },
+          "attempts": 1,
+          "retries": 0,
+          "timing": {
+            "total_ms": 0.26672799999999997,
+            "model_ms": 0.008761,
+            "compute_ms": 0.048278
+          },
+          "model": "omni-reference-router-v2",
+          "confidence": 0.9998523569691974
+        }
+      ],
+      "exit_code": 2
+    }
+  ]
+}

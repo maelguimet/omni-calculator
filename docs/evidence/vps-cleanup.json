@@ -1,0 +1,12 @@
+{
+  "removed_task_directory": "/tmp/omni-calc-bench.tFCMWX",
+  "directory_absent": true,
+  "remaining_owned_workers": [],
+  "loadavg": "0.01 0.03 0.00 1/343 2445015",
+  "memory_kib": {
+    "MemTotal": 3917700,
+    "MemAvailable": 2506400,
+    "SwapTotal": 4194296,
+    "SwapFree": 3272264
+  }
+}

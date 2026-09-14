@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "purpose": "Fresh neighboring regression audit after two semantic failures in the frozen final 100-case application audit.",
+  "case_count": 25,
+  "categories": {
+    "division_order": 7,
+    "subtraction_order": 4,
+    "power_order": 2,
+    "explicit_calculation_context": 4,
+    "noncalculation_intent": 8
+  },
+  "cases_sha256": "0384b2fe85e77bb5c144f2f591daa6fbd8f5d96309b27d8390bd08e640e39876",
+  "oracle_policy": "Python Fraction and integer arithmetic, plus explicit action/operand-order semantics. No app output was used to choose expectations.",
+  "not_run_on_model_at_freeze": true,
+  "source_review": [
+    "src/planner.rs",
+    "src/planner/grounding.rs"
+  ],
+  "training_data_read": false,
+  "existing_parent_acceptance_corpus_read": false,
+  "original_final_audit_cases_sha256": "1b7d4cb0be89e49ba3b4761b1f664682981f11d7fc15c6d5b53df99efa30099a",
+  "original_final_audit_initial_report_sha256": "ed452dcf3c0e8df56fc822a4425d18b992e39fcfdd8dbd1b2cd5e503d607c38a"
+}

@@ -1,0 +1,233 @@
+[
+  {
+    "input": "what is 1+1",
+    "label": 1,
+    "category": "fresh_curated",
+    "split": "curated",
+    "confidence": 0.9920300245285034
+  },
+  {
+    "input": "wat iz 1 + 1",
+    "label": 1,
+    "category": "fresh_curated",
+    "split": "curated",
+    "confidence": 0.9856244325637817
+  },
+  {
+    "input": "-sin(pi/6)^2+2^-3",
+    "label": 1,
+    "category": "fresh_curated",
+    "split": "curated",
+    "confidence": 0.9999402761459351
+  },
+  {
+    "input": "sqrt(mean([17,31]))",
+    "label": 1,
+    "category": "fresh_curated",
+    "split": "curated",
+    "confidence": 0.9994239807128906
+  },
+  {
+    "input": "what is (1/2*83 kg*(37 km/h)^2) to J",
+    "label": 1,
+    "category": "fresh_curated",
+    "split": "curated",
+    "confidence": 0.9998989105224609
+  },
+  {
+    "input": "diff(ln(x)/ln(7),x)",
+    "label": 1,
+    "category": "fresh_curated",
+    "split": "curated",
+    "confidence": 0.9994040727615356
+  },
+  {
+    "input": "solve((x+17)*(x-29)*(x^2+1),x)",
+    "label": 1,
+    "category": "fresh_curated",
+    "split": "curated",
+    "confidence": 0.999962329864502
+  },
+  {
+    "input": "normal_quantile(0.975,17,3)",
+    "label": 1,
+    "category": "fresh_curated",
+    "split": "curated",
+    "confidence": 0.9856739640235901
+  },
+  {
+    "input": "matmul([[1,2],[3,4]],[[5],[6]])",
+    "label": 1,
+    "category": "fresh_curated",
+    "split": "curated",
+    "confidence": 0.99968421459198
+  },
+  {
+    "input": "what is 20 °C to °F",
+    "label": 1,
+    "category": "fresh_curated",
+    "split": "curated",
+    "confidence": 0.9983943104743958
+  },
+  {
+    "input": "1/0",
+    "label": 1,
+    "category": "fresh_curated",
+    "split": "curated",
+    "confidence": 0.9989470839500427
+  },
+  {
+    "input": "compute (1+2",
+    "label": 1,
+    "category": "fresh_curated",
+    "split": "curated",
+    "confidence": 0.9998099207878113
+  },
+  {
+    "input": "PI",
+    "label": 1,
+    "category": "fresh_curated",
+    "split": "curated",
+    "confidence": 0.9869328141212463
+  },
+  {
+    "input": "what's the weather",
+    "label": 0,
+    "category": "fresh_curated",
+    "split": "curated",
+    "confidence": 0.0017796108731999993
+  },
+  {
+    "input": "wat iz the weathr",
+    "label": 0,
+    "category": "fresh_curated",
+    "split": "curated",
+    "confidence": 0.011964648962020874
+  },
+  {
+    "input": "what is two plus two",
+    "label": 0,
+    "category": "fresh_curated",
+    "split": "curated",
+    "confidence": 0.0002251064288429916
+  },
+  {
+    "input": "1 plus 2",
+    "label": 0,
+    "category": "fresh_curated",
+    "split": "curated",
+    "confidence": 3.471928039289196e-06
+  },
+  {
+    "input": "the square root of 121",
+    "label": 0,
+    "category": "fresh_curated",
+    "split": "curated",
+    "confidence": 5.523368145077256e-07
+  },
+  {
+    "input": "1+1 then delete my files",
+    "label": 0,
+    "category": "fresh_curated",
+    "split": "curated",
+    "confidence": 7.723481303401059e-07
+  },
+  {
+    "input": "1+1 and what's the weather",
+    "label": 0,
+    "category": "fresh_curated",
+    "split": "curated",
+    "confidence": 0.00016893346037250012
+  },
+  {
+    "input": "send 1+1 to my friend",
+    "label": 0,
+    "category": "fresh_curated",
+    "split": "curated",
+    "confidence": 0.027467429637908936
+  },
+  {
+    "input": "37 kg of flour costs 41 euros",
+    "label": 0,
+    "category": "fresh_curated",
+    "split": "curated",
+    "confidence": 0.0010787952924147248
+  },
+  {
+    "input": "is 1+1 really 2",
+    "label": 0,
+    "category": "fresh_curated",
+    "split": "curated",
+    "confidence": 0.011141806840896606
+  },
+  {
+    "input": "why is sin(pi) zero",
+    "label": 0,
+    "category": "fresh_curated",
+    "split": "curated",
+    "confidence": 0.0006262643146328628
+  },
+  {
+    "input": "call weather(17)",
+    "label": 0,
+    "category": "fresh_curated",
+    "split": "curated",
+    "confidence": 0.006902170833200216
+  },
+  {
+    "input": "weather(17)",
+    "label": 0,
+    "category": "fresh_curated",
+    "split": "curated",
+    "confidence": 0.0006200200878083706
+  },
+  {
+    "input": "3 divided by",
+    "label": 0,
+    "category": "fresh_curated",
+    "split": "curated",
+    "confidence": 1.6655516446917318e-05
+  },
+  {
+    "input": "125% of 84",
+    "label": 0,
+    "category": "fresh_curated",
+    "split": "curated",
+    "confidence": 0.00249304436147213
+  },
+  {
+    "input": "e mail me at 5",
+    "label": 0,
+    "category": "fresh_curated",
+    "split": "curated",
+    "confidence": 0.00013031384150963277
+  },
+  {
+    "input": "pi chart of revenue",
+    "label": 0,
+    "category": "fresh_curated",
+    "split": "curated",
+    "confidence": 7.590533641632646e-05
+  },
+  {
+    "input": "open(123)",
+    "label": 0,
+    "category": "fresh_curated",
+    "split": "curated",
+    "confidence": 0.0028422875329852104
+  },
+  {
+    "input": "print(2)",
+    "label": 0,
+    "category": "fresh_curated",
+    "split": "curated",
+    "confidence": 0.7973513007164001
+  },
+  {
+    "input": "3+4 dollars of groceries",
+    "label": 0,
+    "category": "fresh_curated",
+    "split": "curated",
+    "confidence": 6.603791553061455e-05
+  }
+]

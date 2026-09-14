@@ -1,0 +1,43 @@
+{
+  "selection": "Final release: original V2 epoch3 plus reference V2 and intent V1. Selected by real CLI development correctness; alignment experiments improved synthetic rates but retained observed composition regressions.",
+  "base_repository": "Cactus-Compute/needle2",
+  "base_revision": "32e9e3a93b205f786929697446ae669cf0a84579",
+  "runtime": "Needle2 engine 2.0.4",
+  "runtime_sha256": "9fa5386d3e3a8ee17914fb23643bc5f5c906b683fa33561e79c5445dd78bc389",
+  "schema_sha256": "a17e5a3cb12c6dd19e954e8bb9817be0886c39365de178f487e4bac8f1ac2b22",
+  "system_sha256": "54fd9c96eb8dee82d28893a4fc13297bf2eb544660a872a9c0a8787962c17c3e",
+  "models": [
+    {
+      "model": "omni-reference-router-v2",
+      "path": "assets/router-v2.bin",
+      "bytes": 393848,
+      "sha256": "d3b0c2c0d30daa38dd9f3cc2411f7b1cc842c4a1b2c07b56dfdcc57a8cf5cc14",
+      "origin": "training/reference-v2",
+      "license": "MIT"
+    },
+    {
+      "model": "omni-intent-v1",
+      "path": "assets/intent.bin",
+      "bytes": 264960,
+      "sha256": "97d0df5d619f5f8badfb1aa6d5c6d72a77ba4b248b63b6caad18c05321e46dd2",
+      "origin": "training/intent",
+      "license": "MIT"
+    },
+    {
+      "model": "needle2-tuned",
+      "path": "models/omni.cact",
+      "bytes": 13737807,
+      "sha256": "1852739bfbb36f945eed2bca5c3ddfd364fab276cf7914ccbe793df4746e46e4",
+      "origin": "training/runs/v2/epoch-03.cact",
+      "license": "Apache-2.0"
+    }
+  ],
+  "needle_training": {
+    "adapter": "training/runs/v2/epoch-03.pkl",
+    "adapter_sha256": "5b66c5c86bcef22e04beef577131bebd055ef36a99b41b1f818af59044571255",
+    "data": "training/data/v2/mixed.jsonl",
+    "data_sha256": "fb7e08ecfe117b9ca278f579ff1d28206feaac53f7533f981e9cd11064352949",
+    "run": "training/runs/v2/run.json",
+    "run_sha256": "e674761ef6c46f925d4df6032f586a4f3c18b4bdf8686217241ce69502aafc0b"
+  }
+}

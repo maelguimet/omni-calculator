@@ -1,0 +1,7 @@
+/.venv/
+/.uv-cache/
+/.hf-cache/
+/base/*
+!/base/manifest.json
+/runs/
+__pycache__/

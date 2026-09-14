@@ -1,0 +1,2339 @@
+{
+  "binary_sha256": "bb8d4a5cc7cff5783fc7967a32ef1fd3e2750baff8f70b7a4edf46fa650cd07a",
+  "binary_bytes": 31585552,
+  "platform": "Linux-6.12.96+deb13-cloud-amd64-x86_64-with-glibc2.41",
+  "cpu_affinity": [
+    0
+  ],
+  "model_threads": 1,
+  "backend": "auto",
+  "model_sha256": null,
+  "cold_ms": 6.709367,
+  "first_language_ms": 3.537494,
+  "first_generative_ms": 2977.55624,
+  "router_status": {
+    "loaded": true,
+    "needle_loaded": false,
+    "ok": true,
+    "pid": 2444591,
+    "running": true,
+    "memory_kib": {
+      "VmSize": 102520,
+      "VmHWM": 5800,
+      "VmRSS": 5800
+    }
+  },
+  "fast_status": {
+    "loaded": true,
+    "needle_loaded": false,
+    "ok": true,
+    "pid": 2444591,
+    "running": true,
+    "memory_kib": {
+      "VmSize": 103044,
+      "VmHWM": 6584,
+      "VmRSS": 6584
+    }
+  },
+  "worker_status": {
+    "loaded": true,
+    "needle_loaded": true,
+    "ok": true,
+    "pid": 2444591,
+    "running": true,
+    "memory_kib": {
+      "VmSize": 146696,
+      "VmHWM": 61268,
+      "VmRSS": 61268
+    }
+  },
+  "summary": {
+    "warm_literal": {
+      "requests": 20,
+      "correct": 20,
+      "median_ms": 1.800469,
+      "p95_ms": 3.285624,
+      "min_ms": 1.468379,
+      "max_ms": 3.341914,
+      "backends": {
+        "omni-reference-router-v2": 20
+      }
+    },
+    "warm_language": {
+      "requests": 20,
+      "correct": 20,
+      "median_ms": 2.748544,
+      "p95_ms": 3.199046,
+      "min_ms": 1.647897,
+      "max_ms": 3.496034,
+      "backends": {
+        "omni-intent-v1": 20
+      }
+    },
+    "warm_generative": {
+      "requests": 20,
+      "correct": 20,
+      "median_ms": 377.4881295,
+      "p95_ms": 386.794599,
+      "min_ms": 342.02867,
+      "max_ms": 394.048195,
+      "backends": {
+        "needle2-tuned": 20
+      }
+    }
+  },
+  "records": [
+    {
+      "kind": "cold_literal",
+      "query": "what is 1 + 1",
+      "wall_ms": 6.709367,
+      "exit_code": 0,
+      "correct": true,
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "what is 1 + 1",
+        "expression": "1 + 1",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "2",
+          "value": 2,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 4.029602000000001,
+          "model_ms": 0.8444630000000001,
+          "compute_ms": 0.17953899999999998
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.9994450539341496
+      }
+    },
+    {
+      "kind": "first_language",
+      "query": "what is the square root of 1089",
+      "wall_ms": 3.537494,
+      "exit_code": 0,
+      "correct": true,
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "what is the square root of 1089",
+        "expression": "sqrt(1089)",
+        "tool_call": {
+          "name": "function",
+          "arguments": {
+            "arguments": [
+              "1089"
+            ],
+            "function": "sqrt"
+          }
+        },
+        "result": {
+          "display": "33",
+          "value": 33,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 1.285801,
+          "model_ms": 0.50421,
+          "compute_ms": 0.0924
+        },
+        "model": "omni-intent-v1",
+        "confidence": 0.996504964556508
+      }
+    },
+    {
+      "kind": "warm_literal",
+      "query": "wat iz 37+19",
+      "wall_ms": 2.113323,
+      "exit_code": 0,
+      "correct": true,
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "wat iz 37+19",
+        "expression": "37+19",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "56",
+          "value": 56,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.789446,
+          "model_ms": 0.012605,
+          "compute_ms": 0.053624
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.9999734656161928
+      }
+    },
+    {
+      "kind": "warm_language",
+      "query": "what is the square root of 121",
+      "wall_ms": 3.195227,
+      "exit_code": 0,
+      "correct": true,
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "what is the square root of 121",
+        "expression": "sqrt(121)",
+        "tool_call": {
+          "name": "function",
+          "arguments": {
+            "arguments": [
+              "121"
+            ],
+            "function": "sqrt"
+          }
+        },
+        "result": {
+          "display": "11",
+          "value": 11,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.905472,
+          "model_ms": 0.113761,
+          "compute_ms": 0.06334300000000001
+        },
+        "model": "omni-intent-v1",
+        "confidence": 0.996504964556508
+      }
+    },
+    {
+      "kind": "warm_literal",
+      "query": "wat iz 38+20",
+      "wall_ms": 2.234438,
+      "exit_code": 0,
+      "correct": true,
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "wat iz 38+20",
+        "expression": "38+20",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "58",
+          "value": 58,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.85796,
+          "model_ms": 0.010791,
+          "compute_ms": 0.037633
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.9999734656161928
+      }
+    },
+    {
+      "kind": "warm_language",
+      "query": "what is the square root of 144",
+      "wall_ms": 2.28651,
+      "exit_code": 0,
+      "correct": true,
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "what is the square root of 144",
+        "expression": "sqrt(144)",
+        "tool_call": {
+          "name": "function",
+          "arguments": {
+            "arguments": [
+              "144"
+            ],
+            "function": "sqrt"
+          }
+        },
+        "result": {
+          "display": "12",
+          "value": 12,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.8578210000000001,
+          "model_ms": 0.141516,
+          "compute_ms": 0.063915
+        },
+        "model": "omni-intent-v1",
+        "confidence": 0.996504964556508
+      }
+    },
+    {
+      "kind": "warm_literal",
+      "query": "wat iz 39+21",
+      "wall_ms": 2.969649,
+      "exit_code": 0,
+      "correct": true,
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "wat iz 39+21",
+        "expression": "39+21",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "60",
+          "value": 60,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.708018,
+          "model_ms": 0.009608,
+          "compute_ms": 0.040108000000000005
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.9999734656161928
+      }
+    },
+    {
+      "kind": "warm_language",
+      "query": "what is the square root of 169",
+      "wall_ms": 2.687882,
+      "exit_code": 0,
+      "correct": true,
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "what is the square root of 169",
+        "expression": "sqrt(169)",
+        "tool_call": {
+          "name": "function",
+          "arguments": {
+            "arguments": [
+              "169"
+            ],
+            "function": "sqrt"
+          }
+        },
+        "result": {
+          "display": "13",
+          "value": 13,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 1.226186,
+          "model_ms": 0.101228,
+          "compute_ms": 0.063583
+        },
+        "model": "omni-intent-v1",
+        "confidence": 0.996504964556508
+      }
+    },
+    {
+      "kind": "warm_literal",
+      "query": "wat iz 40+22",
+      "wall_ms": 3.285624,
+      "exit_code": 0,
+      "correct": true,
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "wat iz 40+22",
+        "expression": "40+22",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "62",
+          "value": 62,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.717626,
+          "model_ms": 0.008507,
+          "compute_ms": 0.037473
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.9999734656161928
+      }
+    },
+    {
+      "kind": "warm_language",
+      "query": "what is the square root of 196",
+      "wall_ms": 3.496034,
+      "exit_code": 0,
+      "correct": true,
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "what is the square root of 196",
+        "expression": "sqrt(196)",
+        "tool_call": {
+          "name": "function",
+          "arguments": {
+            "arguments": [
+              "196"
+            ],
+            "function": "sqrt"
+          }
+        },
+        "result": {
+          "display": "14",
+          "value": 14,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 1.548022,
+          "model_ms": 0.14942,
+          "compute_ms": 0.093974
+        },
+        "model": "omni-intent-v1",
+        "confidence": 0.996504964556508
+      }
+    },
+    {
+      "kind": "warm_literal",
+      "query": "wat iz 41+23",
+      "wall_ms": 3.188345,
+      "exit_code": 0,
+      "correct": true,
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "wat iz 41+23",
+        "expression": "41+23",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "64",
+          "value": 64,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 1.088529,
+          "model_ms": 0.014418,
+          "compute_ms": 0.059957
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.9999734656161928
+      }
+    },
+    {
+      "kind": "warm_language",
+      "query": "what is the square root of 225",
+      "wall_ms": 3.199046,
+      "exit_code": 0,
+      "correct": true,
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "what is the square root of 225",
+        "expression": "sqrt(225)",
+        "tool_call": {
+          "name": "function",
+          "arguments": {
+            "arguments": [
+              "225"
+            ],
+            "function": "sqrt"
+          }
+        },
+        "result": {
+          "display": "15",
+          "value": 15,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 1.376679,
+          "model_ms": 0.147256,
+          "compute_ms": 0.093332
+        },
+        "model": "omni-intent-v1",
+        "confidence": 0.996504964556508
+      }
+    },
+    {
+      "kind": "warm_literal",
+      "query": "wat iz 42+24",
+      "wall_ms": 3.341914,
+      "exit_code": 0,
+      "correct": true,
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "wat iz 42+24",
+        "expression": "42+24",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "66",
+          "value": 66,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.701785,
+          "model_ms": 0.007856,
+          "compute_ms": 0.033415
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.9999734656161928
+      }
+    },
+    {
+      "kind": "warm_language",
+      "query": "what is the square root of 256",
+      "wall_ms": 2.89762,
+      "exit_code": 0,
+      "correct": true,
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "what is the square root of 256",
+        "expression": "sqrt(256)",
+        "tool_call": {
+          "name": "function",
+          "arguments": {
+            "arguments": [
+              "256"
+            ],
+            "function": "sqrt"
+          }
+        },
+        "result": {
+          "display": "16",
+          "value": 16,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.8047259999999999,
+          "model_ms": 0.08926300000000001,
+          "compute_ms": 0.05143
+        },
+        "model": "omni-intent-v1",
+        "confidence": 0.996504964556508
+      }
+    },
+    {
+      "kind": "warm_literal",
+      "query": "wat iz 43+25",
+      "wall_ms": 1.562652,
+      "exit_code": 0,
+      "correct": true,
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "wat iz 43+25",
+        "expression": "43+25",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "68",
+          "value": 68,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.608724,
+          "model_ms": 0.007675,
+          "compute_ms": 0.032644
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.9999734656161928
+      }
+    },
+    {
+      "kind": "warm_language",
+      "query": "what is the square root of 289",
+      "wall_ms": 1.774523,
+      "exit_code": 0,
+      "correct": true,
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "what is the square root of 289",
+        "expression": "sqrt(289)",
+        "tool_call": {
+          "name": "function",
+          "arguments": {
+            "arguments": [
+              "289"
+            ],
+            "function": "sqrt"
+          }
+        },
+        "result": {
+          "display": "17",
+          "value": 17,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.643042,
+          "model_ms": 0.080236,
+          "compute_ms": 0.052842
+        },
+        "model": "omni-intent-v1",
+        "confidence": 0.996504964556508
+      }
+    },
+    {
+      "kind": "warm_literal",
+      "query": "wat iz 44+26",
+      "wall_ms": 1.534737,
+      "exit_code": 0,
+      "correct": true,
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "wat iz 44+26",
+        "expression": "44+26",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "70",
+          "value": 70,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.5039,
+          "model_ms": 0.006843,
+          "compute_ms": 0.032734
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.9999734656161928
+      }
+    },
+    {
+      "kind": "warm_language",
+      "query": "what is the square root of 324",
+      "wall_ms": 2.850037,
+      "exit_code": 0,
+      "correct": true,
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "what is the square root of 324",
+        "expression": "sqrt(324)",
+        "tool_call": {
+          "name": "function",
+          "arguments": {
+            "arguments": [
+              "324"
+            ],
+            "function": "sqrt"
+          }
+        },
+        "result": {
+          "display": "18",
+          "value": 18,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.798604,
+          "model_ms": 0.118831,
+          "compute_ms": 0.067301
+        },
+        "model": "omni-intent-v1",
+        "confidence": 0.996504964556508
+      }
+    },
+    {
+      "kind": "warm_literal",
+      "query": "wat iz 45+27",
+      "wall_ms": 1.567681,
+      "exit_code": 0,
+      "correct": true,
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "wat iz 45+27",
+        "expression": "45+27",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "72",
+          "value": 72,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.605278,
+          "model_ms": 0.0069229999999999995,
+          "compute_ms": 0.032784
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.9999734656161928
+      }
+    },
+    {
+      "kind": "warm_language",
+      "query": "what is the square root of 361",
+      "wall_ms": 2.73354,
+      "exit_code": 0,
+      "correct": true,
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "what is the square root of 361",
+        "expression": "sqrt(361)",
+        "tool_call": {
+          "name": "function",
+          "arguments": {
+            "arguments": [
+              "361"
+            ],
+            "function": "sqrt"
+          }
+        },
+        "result": {
+          "display": "19",
+          "value": 19,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.711774,
+          "model_ms": 0.083172,
+          "compute_ms": 0.05127
+        },
+        "model": "omni-intent-v1",
+        "confidence": 0.996504964556508
+      }
+    },
+    {
+      "kind": "warm_literal",
+      "query": "wat iz 46+28",
+      "wall_ms": 1.60771,
+      "exit_code": 0,
+      "correct": true,
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "wat iz 46+28",
+        "expression": "46+28",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "74",
+          "value": 74,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.602133,
+          "model_ms": 0.006873,
+          "compute_ms": 0.033055
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.9999734656161928
+      }
+    },
+    {
+      "kind": "warm_language",
+      "query": "what is the square root of 400",
+      "wall_ms": 2.717098,
+      "exit_code": 0,
+      "correct": true,
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "what is the square root of 400",
+        "expression": "sqrt(400)",
+        "tool_call": {
+          "name": "function",
+          "arguments": {
+            "arguments": [
+              "400"
+            ],
+            "function": "sqrt"
+          }
+        },
+        "result": {
+          "display": "20",
+          "value": 20,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.669052,
+          "model_ms": 0.08011700000000001,
+          "compute_ms": 0.046099
+        },
+        "model": "omni-intent-v1",
+        "confidence": 0.996504964556508
+      }
+    },
+    {
+      "kind": "warm_literal",
+      "query": "wat iz 47+29",
+      "wall_ms": 1.937952,
+      "exit_code": 0,
+      "correct": true,
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "wat iz 47+29",
+        "expression": "47+29",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "76",
+          "value": 76,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.7319549999999999,
+          "model_ms": 0.007043,
+          "compute_ms": 0.032905
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.9999734656161928
+      }
+    },
+    {
+      "kind": "warm_language",
+      "query": "what is the square root of 441",
+      "wall_ms": 3.013675,
+      "exit_code": 0,
+      "correct": true,
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "what is the square root of 441",
+        "expression": "sqrt(441)",
+        "tool_call": {
+          "name": "function",
+          "arguments": {
+            "arguments": [
+              "441"
+            ],
+            "function": "sqrt"
+          }
+        },
+        "result": {
+          "display": "21",
+          "value": 21,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.737726,
+          "model_ms": 0.08162,
+          "compute_ms": 0.0516
+        },
+        "model": "omni-intent-v1",
+        "confidence": 0.996504964556508
+      }
+    },
+    {
+      "kind": "warm_literal",
+      "query": "wat iz 48+30",
+      "wall_ms": 1.622608,
+      "exit_code": 0,
+      "correct": true,
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "wat iz 48+30",
+        "expression": "48+30",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "78",
+          "value": 78,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.6051179999999999,
+          "model_ms": 0.018477,
+          "compute_ms": 0.030839
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.9999734656161928
+      }
+    },
+    {
+      "kind": "warm_language",
+      "query": "what is the square root of 484",
+      "wall_ms": 1.668698,
+      "exit_code": 0,
+      "correct": true,
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "what is the square root of 484",
+        "expression": "sqrt(484)",
+        "tool_call": {
+          "name": "function",
+          "arguments": {
+            "arguments": [
+              "484"
+            ],
+            "function": "sqrt"
+          }
+        },
+        "result": {
+          "display": "22",
+          "value": 22,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.659764,
+          "model_ms": 0.08216,
+          "compute_ms": 0.051629999999999995
+        },
+        "model": "omni-intent-v1",
+        "confidence": 0.996504964556508
+      }
+    },
+    {
+      "kind": "warm_literal",
+      "query": "wat iz 49+31",
+      "wall_ms": 2.544101,
+      "exit_code": 0,
+      "correct": true,
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "wat iz 49+31",
+        "expression": "49+31",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "80",
+          "value": 80,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.530381,
+          "model_ms": 0.0067020000000000005,
+          "compute_ms": 0.032814
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.9999734656161928
+      }
+    },
+    {
+      "kind": "warm_language",
+      "query": "what is the square root of 529",
+      "wall_ms": 1.800744,
+      "exit_code": 0,
+      "correct": true,
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "what is the square root of 529",
+        "expression": "sqrt(529)",
+        "tool_call": {
+          "name": "function",
+          "arguments": {
+            "arguments": [
+              "529"
+            ],
+            "function": "sqrt"
+          }
+        },
+        "result": {
+          "display": "23",
+          "value": 23,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.772835,
+          "model_ms": 0.083122,
+          "compute_ms": 0.051561
+        },
+        "model": "omni-intent-v1",
+        "confidence": 0.996504964556508
+      }
+    },
+    {
+      "kind": "warm_literal",
+      "query": "wat iz 50+32",
+      "wall_ms": 1.475782,
+      "exit_code": 0,
+      "correct": true,
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "wat iz 50+32",
+        "expression": "50+32",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "82",
+          "value": 82,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.513819,
+          "model_ms": 0.007285,
+          "compute_ms": 0.030809999999999997
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.9999734656161928
+      }
+    },
+    {
+      "kind": "warm_language",
+      "query": "what is the square root of 576",
+      "wall_ms": 2.839666,
+      "exit_code": 0,
+      "correct": true,
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "what is the square root of 576",
+        "expression": "sqrt(576)",
+        "tool_call": {
+          "name": "function",
+          "arguments": {
+            "arguments": [
+              "576"
+            ],
+            "function": "sqrt"
+          }
+        },
+        "result": {
+          "display": "24",
+          "value": 24,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.779466,
+          "model_ms": 0.08123799999999999,
+          "compute_ms": 0.05127
+        },
+        "model": "omni-intent-v1",
+        "confidence": 0.996504964556508
+      }
+    },
+    {
+      "kind": "warm_literal",
+      "query": "wat iz 51+33",
+      "wall_ms": 1.630253,
+      "exit_code": 0,
+      "correct": true,
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "wat iz 51+33",
+        "expression": "51+33",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "84",
+          "value": 84,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.611711,
+          "model_ms": 0.007345,
+          "compute_ms": 0.032813
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.9999734656161928
+      }
+    },
+    {
+      "kind": "warm_language",
+      "query": "what is the square root of 625",
+      "wall_ms": 2.792785,
+      "exit_code": 0,
+      "correct": true,
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "what is the square root of 625",
+        "expression": "sqrt(625)",
+        "tool_call": {
+          "name": "function",
+          "arguments": {
+            "arguments": [
+              "625"
+            ],
+            "function": "sqrt"
+          }
+        },
+        "result": {
+          "display": "25",
+          "value": 25,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.697396,
+          "model_ms": 0.081028,
+          "compute_ms": 0.051271
+        },
+        "model": "omni-intent-v1",
+        "confidence": 0.996504964556508
+      }
+    },
+    {
+      "kind": "warm_literal",
+      "query": "wat iz 52+34",
+      "wall_ms": 1.940516,
+      "exit_code": 0,
+      "correct": true,
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "wat iz 52+34",
+        "expression": "52+34",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "86",
+          "value": 86,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.946161,
+          "model_ms": 0.010631,
+          "compute_ms": 0.033624999999999995
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.9999734656161928
+      }
+    },
+    {
+      "kind": "warm_language",
+      "query": "what is the square root of 676",
+      "wall_ms": 2.730083,
+      "exit_code": 0,
+      "correct": true,
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "what is the square root of 676",
+        "expression": "sqrt(676)",
+        "tool_call": {
+          "name": "function",
+          "arguments": {
+            "arguments": [
+              "676"
+            ],
+            "function": "sqrt"
+          }
+        },
+        "result": {
+          "display": "26",
+          "value": 26,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.708279,
+          "model_ms": 0.08291100000000001,
+          "compute_ms": 0.051751
+        },
+        "model": "omni-intent-v1",
+        "confidence": 0.996504964556508
+      }
+    },
+    {
+      "kind": "warm_literal",
+      "query": "wat iz 53+35",
+      "wall_ms": 1.662986,
+      "exit_code": 0,
+      "correct": true,
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "wat iz 53+35",
+        "expression": "53+35",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "88",
+          "value": 88,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.589768,
+          "model_ms": 0.009609,
+          "compute_ms": 0.033305
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.9999734656161928
+      }
+    },
+    {
+      "kind": "warm_language",
+      "query": "what is the square root of 729",
+      "wall_ms": 1.647897,
+      "exit_code": 0,
+      "correct": true,
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "what is the square root of 729",
+        "expression": "sqrt(729)",
+        "tool_call": {
+          "name": "function",
+          "arguments": {
+            "arguments": [
+              "729"
+            ],
+            "function": "sqrt"
+          }
+        },
+        "result": {
+          "display": "27",
+          "value": 27,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.665274,
+          "model_ms": 0.083343,
+          "compute_ms": 0.051471
+        },
+        "model": "omni-intent-v1",
+        "confidence": 0.996504964556508
+      }
+    },
+    {
+      "kind": "warm_literal",
+      "query": "wat iz 54+36",
+      "wall_ms": 2.776293,
+      "exit_code": 0,
+      "correct": true,
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "wat iz 54+36",
+        "expression": "54+36",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "90",
+          "value": 90,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.511566,
+          "model_ms": 0.008617000000000001,
+          "compute_ms": 0.032434000000000004
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.9999734656161928
+      }
+    },
+    {
+      "kind": "warm_language",
+      "query": "what is the square root of 784",
+      "wall_ms": 1.802647,
+      "exit_code": 0,
+      "correct": true,
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "what is the square root of 784",
+        "expression": "sqrt(784)",
+        "tool_call": {
+          "name": "function",
+          "arguments": {
+            "arguments": [
+              "784"
+            ],
+            "function": "sqrt"
+          }
+        },
+        "result": {
+          "display": "28",
+          "value": 28,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.816349,
+          "model_ms": 0.081219,
+          "compute_ms": 0.066028
+        },
+        "model": "omni-intent-v1",
+        "confidence": 0.996504964556508
+      }
+    },
+    {
+      "kind": "warm_literal",
+      "query": "wat iz 55+37",
+      "wall_ms": 1.468379,
+      "exit_code": 0,
+      "correct": true,
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "wat iz 55+37",
+        "expression": "55+37",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "92",
+          "value": 92,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.48233899999999996,
+          "model_ms": 0.007915,
+          "compute_ms": 0.032523
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.9999734656161928
+      }
+    },
+    {
+      "kind": "warm_language",
+      "query": "what is the square root of 841",
+      "wall_ms": 2.782675,
+      "exit_code": 0,
+      "correct": true,
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "what is the square root of 841",
+        "expression": "sqrt(841)",
+        "tool_call": {
+          "name": "function",
+          "arguments": {
+            "arguments": [
+              "841"
+            ],
+            "function": "sqrt"
+          }
+        },
+        "result": {
+          "display": "29",
+          "value": 29,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.746633,
+          "model_ms": 0.093612,
+          "compute_ms": 0.0511
+        },
+        "model": "omni-intent-v1",
+        "confidence": 0.996504964556508
+      }
+    },
+    {
+      "kind": "warm_literal",
+      "query": "wat iz 56+38",
+      "wall_ms": 1.569985,
+      "exit_code": 0,
+      "correct": true,
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "wat iz 56+38",
+        "expression": "56+38",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "94",
+          "value": 94,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.5745589999999999,
+          "model_ms": 0.007023000000000001,
+          "compute_ms": 0.032714
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.9999734656161928
+      }
+    },
+    {
+      "kind": "warm_language",
+      "query": "what is the square root of 900",
+      "wall_ms": 2.763548,
+      "exit_code": 0,
+      "correct": true,
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "what is the square root of 900",
+        "expression": "sqrt(900)",
+        "tool_call": {
+          "name": "function",
+          "arguments": {
+            "arguments": [
+              "900"
+            ],
+            "function": "sqrt"
+          }
+        },
+        "result": {
+          "display": "30",
+          "value": 30,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.696445,
+          "model_ms": 0.07982500000000001,
+          "compute_ms": 0.046211
+        },
+        "model": "omni-intent-v1",
+        "confidence": 0.996504964556508
+      }
+    },
+    {
+      "kind": "first_generative",
+      "query": "convert 2.75 km to m",
+      "wall_ms": 2977.55624,
+      "exit_code": 0,
+      "correct": true,
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "convert 2.75 km to m",
+        "expression": "(2.75 km) to m",
+        "tool_call": {
+          "name": "convert",
+          "arguments": {
+            "unit": "m",
+            "value": "2.75 km"
+          }
+        },
+        "result": {
+          "display": "2750 m",
+          "value": "2750 m",
+          "kind": "quantity",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 2976.115005,
+          "model_ms": 2974.3875829999997,
+          "compute_ms": 0.128672
+        },
+        "model": "needle2-tuned"
+      }
+    },
+    {
+      "kind": "warm_generative",
+      "query": "convert 37 km to m",
+      "wall_ms": 380.624702,
+      "exit_code": 0,
+      "correct": true,
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "convert 37 km to m",
+        "expression": "(37 km) to m",
+        "tool_call": {
+          "name": "convert",
+          "arguments": {
+            "unit": "m",
+            "value": "37 km"
+          }
+        },
+        "result": {
+          "display": "37000 m",
+          "value": "37000 m",
+          "kind": "quantity",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 377.83948200000003,
+          "model_ms": 377.0686730000001,
+          "compute_ms": 0.105505
+        },
+        "model": "needle2-tuned"
+      }
+    },
+    {
+      "kind": "warm_generative",
+      "query": "convert 38 km to m",
+      "wall_ms": 378.510047,
+      "exit_code": 0,
+      "correct": true,
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "convert 38 km to m",
+        "expression": "(38 km) to m",
+        "tool_call": {
+          "name": "convert",
+          "arguments": {
+            "unit": "m",
+            "value": "38 km"
+          }
+        },
+        "result": {
+          "display": "38000 m",
+          "value": "38000 m",
+          "kind": "quantity",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 377.033061,
+          "model_ms": 376.358309,
+          "compute_ms": 0.100605
+        },
+        "model": "needle2-tuned"
+      }
+    },
+    {
+      "kind": "warm_generative",
+      "query": "convert 39 km to m",
+      "wall_ms": 386.794599,
+      "exit_code": 0,
+      "correct": true,
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "convert 39 km to m",
+        "expression": "(39 km) to m",
+        "tool_call": {
+          "name": "convert",
+          "arguments": {
+            "unit": "m",
+            "value": "39 km"
+          }
+        },
+        "result": {
+          "display": "39000 m",
+          "value": "39000 m",
+          "kind": "quantity",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 384.219928,
+          "model_ms": 383.334706,
+          "compute_ms": 0.170803
+        },
+        "model": "needle2-tuned"
+      }
+    },
+    {
+      "kind": "warm_generative",
+      "query": "convert 40 km to m",
+      "wall_ms": 365.433989,
+      "exit_code": 0,
+      "correct": true,
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "convert 40 km to m",
+        "expression": "(40 km) to m",
+        "tool_call": {
+          "name": "convert",
+          "arguments": {
+            "unit": "m",
+            "value": "40 km"
+          }
+        },
+        "result": {
+          "display": "40000 m",
+          "value": "40000 m",
+          "kind": "quantity",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 363.82068,
+          "model_ms": 362.994302,
+          "compute_ms": 0.094663
+        },
+        "model": "needle2-tuned"
+      }
+    },
+    {
+      "kind": "warm_generative",
+      "query": "convert 41 km to m",
+      "wall_ms": 384.744881,
+      "exit_code": 0,
+      "correct": true,
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "convert 41 km to m",
+        "expression": "(41 km) to m",
+        "tool_call": {
+          "name": "convert",
+          "arguments": {
+            "unit": "m",
+            "value": "41 km"
+          }
+        },
+        "result": {
+          "display": "41000 m",
+          "value": "41000 m",
+          "kind": "quantity",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 382.232131,
+          "model_ms": 381.431722,
+          "compute_ms": 0.103301
+        },
+        "model": "needle2-tuned"
+      }
+    },
+    {
+      "kind": "warm_generative",
+      "query": "convert 42 km to m",
+      "wall_ms": 379.863441,
+      "exit_code": 0,
+      "correct": true,
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "convert 42 km to m",
+        "expression": "(42 km) to m",
+        "tool_call": {
+          "name": "convert",
+          "arguments": {
+            "unit": "m",
+            "value": "42 km"
+          }
+        },
+        "result": {
+          "display": "42000 m",
+          "value": "42000 m",
+          "kind": "quantity",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 378.264479,
+          "model_ms": 377.530411,
+          "compute_ms": 0.100365
+        },
+        "model": "needle2-tuned"
+      }
+    },
+    {
+      "kind": "warm_generative",
+      "query": "convert 43 km to m",
+      "wall_ms": 386.330305,
+      "exit_code": 0,
+      "correct": true,
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "convert 43 km to m",
+        "expression": "(43 km) to m",
+        "tool_call": {
+          "name": "convert",
+          "arguments": {
+            "unit": "m",
+            "value": "43 km"
+          }
+        },
+        "result": {
+          "display": "43000 m",
+          "value": "43000 m",
+          "kind": "quantity",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 383.86589,
+          "model_ms": 383.107694,
+          "compute_ms": 0.100977
+        },
+        "model": "needle2-tuned"
+      }
+    },
+    {
+      "kind": "warm_generative",
+      "query": "convert 44 km to m",
+      "wall_ms": 375.447908,
+      "exit_code": 0,
+      "correct": true,
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "convert 44 km to m",
+        "expression": "(44 km) to m",
+        "tool_call": {
+          "name": "convert",
+          "arguments": {
+            "unit": "m",
+            "value": "44 km"
+          }
+        },
+        "result": {
+          "display": "44000 m",
+          "value": "44000 m",
+          "kind": "quantity",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 373.931467,
+          "model_ms": 373.188952,
+          "compute_ms": 0.101066
+        },
+        "model": "needle2-tuned"
+      }
+    },
+    {
+      "kind": "warm_generative",
+      "query": "convert 45 km to m",
+      "wall_ms": 367.456806,
+      "exit_code": 0,
+      "correct": true,
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "convert 45 km to m",
+        "expression": "(45 km) to m",
+        "tool_call": {
+          "name": "convert",
+          "arguments": {
+            "unit": "m",
+            "value": "45 km"
+          }
+        },
+        "result": {
+          "display": "45000 m",
+          "value": "45000 m",
+          "kind": "quantity",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 365.97979200000003,
+          "model_ms": 365.27475,
+          "compute_ms": 0.100155
+        },
+        "model": "needle2-tuned"
+      }
+    },
+    {
+      "kind": "warm_generative",
+      "query": "convert 46 km to m",
+      "wall_ms": 375.131822,
+      "exit_code": 0,
+      "correct": true,
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "convert 46 km to m",
+        "expression": "(46 km) to m",
+        "tool_call": {
+          "name": "convert",
+          "arguments": {
+            "unit": "m",
+            "value": "46 km"
+          }
+        },
+        "result": {
+          "display": "46000 m",
+          "value": "46000 m",
+          "kind": "quantity",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 372.646377,
+          "model_ms": 371.840096,
+          "compute_ms": 0.137498
+        },
+        "model": "needle2-tuned"
+      }
+    },
+    {
+      "kind": "warm_generative",
+      "query": "convert 47 km to m",
+      "wall_ms": 371.358869,
+      "exit_code": 0,
+      "correct": true,
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "convert 47 km to m",
+        "expression": "(47 km) to m",
+        "tool_call": {
+          "name": "convert",
+          "arguments": {
+            "unit": "m",
+            "value": "47 km"
+          }
+        },
+        "result": {
+          "display": "47000 m",
+          "value": "47000 m",
+          "kind": "quantity",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 369.904841,
+          "model_ms": 369.160281,
+          "compute_ms": 0.112689
+        },
+        "model": "needle2-tuned"
+      }
+    },
+    {
+      "kind": "warm_generative",
+      "query": "convert 48 km to m",
+      "wall_ms": 375.563032,
+      "exit_code": 0,
+      "correct": true,
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "convert 48 km to m",
+        "expression": "(48 km) to m",
+        "tool_call": {
+          "name": "convert",
+          "arguments": {
+            "unit": "m",
+            "value": "48 km"
+          }
+        },
+        "result": {
+          "display": "48000 m",
+          "value": "48000 m",
+          "kind": "quantity",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 373.07741500000003,
+          "model_ms": 372.333146,
+          "compute_ms": 0.098682
+        },
+        "model": "needle2-tuned"
+      }
+    },
+    {
+      "kind": "warm_generative",
+      "query": "convert 49 km to m",
+      "wall_ms": 371.810058,
+      "exit_code": 0,
+      "correct": true,
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "convert 49 km to m",
+        "expression": "(49 km) to m",
+        "tool_call": {
+          "name": "convert",
+          "arguments": {
+            "unit": "m",
+            "value": "49 km"
+          }
+        },
+        "result": {
+          "display": "49000 m",
+          "value": "49000 m",
+          "kind": "quantity",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 370.359645,
+          "model_ms": 369.671167,
+          "compute_ms": 0.116366
+        },
+        "model": "needle2-tuned"
+      }
+    },
+    {
+      "kind": "warm_generative",
+      "query": "convert 50 km to m",
+      "wall_ms": 342.02867,
+      "exit_code": 0,
+      "correct": true,
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "convert 50 km to m",
+        "expression": "(50 km) to m",
+        "tool_call": {
+          "name": "convert",
+          "arguments": {
+            "unit": "m",
+            "value": "50 km"
+          }
+        },
+        "result": {
+          "display": "50000 m",
+          "value": "50000 m",
+          "kind": "quantity",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 340.56046200000003,
+          "model_ms": 339.889537,
+          "compute_ms": 0.094333
+        },
+        "model": "needle2-tuned"
+      }
+    },
+    {
+      "kind": "warm_generative",
+      "query": "convert 51 km to m",
+      "wall_ms": 379.570371,
+      "exit_code": 0,
+      "correct": true,
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "convert 51 km to m",
+        "expression": "(51 km) to m",
+        "tool_call": {
+          "name": "convert",
+          "arguments": {
+            "unit": "m",
+            "value": "51 km"
+          }
+        },
+        "result": {
+          "display": "51000 m",
+          "value": "51000 m",
+          "kind": "quantity",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 378.14053800000005,
+          "model_ms": 377.37583,
+          "compute_ms": 0.099694
+        },
+        "model": "needle2-tuned"
+      }
+    },
+    {
+      "kind": "warm_generative",
+      "query": "convert 52 km to m",
+      "wall_ms": 377.69418,
+      "exit_code": 0,
+      "correct": true,
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "convert 52 km to m",
+        "expression": "(52 km) to m",
+        "tool_call": {
+          "name": "convert",
+          "arguments": {
+            "unit": "m",
+            "value": "52 km"
+          }
+        },
+        "result": {
+          "display": "52000 m",
+          "value": "52000 m",
+          "kind": "quantity",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 375.275972,
+          "model_ms": 374.53955,
+          "compute_ms": 0.098222
+        },
+        "model": "needle2-tuned"
+      }
+    },
+    {
+      "kind": "warm_generative",
+      "query": "convert 53 km to m",
+      "wall_ms": 394.048195,
+      "exit_code": 0,
+      "correct": true,
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "convert 53 km to m",
+        "expression": "(53 km) to m",
+        "tool_call": {
+          "name": "convert",
+          "arguments": {
+            "unit": "m",
+            "value": "53 km"
+          }
+        },
+        "result": {
+          "display": "53000 m",
+          "value": "53000 m",
+          "kind": "quantity",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 392.663843,
+          "model_ms": 391.942709,
+          "compute_ms": 0.09745
+        },
+        "model": "needle2-tuned"
+      }
+    },
+    {
+      "kind": "warm_generative",
+      "query": "convert 54 km to m",
+      "wall_ms": 382.888117,
+      "exit_code": 0,
+      "correct": true,
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "convert 54 km to m",
+        "expression": "(54 km) to m",
+        "tool_call": {
+          "name": "convert",
+          "arguments": {
+            "unit": "m",
+            "value": "54 km"
+          }
+        },
+        "result": {
+          "display": "54000 m",
+          "value": "54000 m",
+          "kind": "quantity",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 380.323987,
+          "model_ms": 379.546473,
+          "compute_ms": 0.106588
+        },
+        "model": "needle2-tuned"
+      }
+    },
+    {
+      "kind": "warm_generative",
+      "query": "convert 55 km to m",
+      "wall_ms": 364.59113,
+      "exit_code": 0,
+      "correct": true,
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "convert 55 km to m",
+        "expression": "(55 km) to m",
+        "tool_call": {
+          "name": "convert",
+          "arguments": {
+            "unit": "m",
+            "value": "55 km"
+          }
+        },
+        "result": {
+          "display": "55000 m",
+          "value": "55000 m",
+          "kind": "quantity",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 362.951869,
+          "model_ms": 362.19748,
+          "compute_ms": 0.101879
+        },
+        "model": "needle2-tuned"
+      }
+    },
+    {
+      "kind": "warm_generative",
+      "query": "convert 56 km to m",
+      "wall_ms": 377.282079,
+      "exit_code": 0,
+      "correct": true,
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "convert 56 km to m",
+        "expression": "(56 km) to m",
+        "tool_call": {
+          "name": "convert",
+          "arguments": {
+            "unit": "m",
+            "value": "56 km"
+          }
+        },
+        "result": {
+          "display": "56000 m",
+          "value": "56000 m",
+          "kind": "quantity",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 375.821334,
+          "model_ms": 375.08951,
+          "compute_ms": 0.0975
+        },
+        "model": "needle2-tuned"
+      }
+    },
+    {
+      "kind": "grouping",
+      "query": "what is (13+7)*5",
+      "wall_ms": 3.015168,
+      "exit_code": 0,
+      "correct": true,
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "what is (13+7)*5",
+        "expression": "(13+7)*5",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "100",
+          "value": 100,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.605028,
+          "model_ms": 0.030199,
+          "compute_ms": 0.042543
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.9999382804028294
+      }
+    },
+    {
+      "kind": "off_topic",
+      "query": "what is the weather",
+      "wall_ms": 1.680549,
+      "exit_code": 2,
+      "correct": true,
+      "response": {
+        "schema_version": 1,
+        "ok": false,
+        "input": "what is the weather",
+        "error": {
+          "code": "unsupported_input",
+          "message": "This request asks for a task outside the calculator's scope. Ask explicitly for a calculation.",
+          "retryable": false
+        },
+        "attempts": 0,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.500784,
+          "model_ms": 0.0,
+          "compute_ms": 0.0
+        },
+        "model": "none"
+      }
+    },
+    {
+      "kind": "calculus",
+      "query": "integrate(x^2,x,0,3)",
+      "wall_ms": 2.664055,
+      "exit_code": 0,
+      "correct": true,
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "integrate(x^2,x,0,3)",
+        "expression": "integrate(x^2,x,0,3)",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "9",
+          "value": 9.0,
+          "kind": "number",
+          "exact": false
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.5437280000000001,
+          "model_ms": 0.021924,
+          "compute_ms": 0.022214
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.9956519893492848
+      }
+    }
+  ]
+}

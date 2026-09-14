@@ -1,0 +1,54 @@
+{
+  "binary_sha256": "bb8d4a5cc7cff5783fc7967a32ef1fd3e2750baff8f70b7a4edf46fa650cd07a",
+  "command": [
+    "strace",
+    "-f",
+    "-qq",
+    "-e",
+    "trace=network",
+    "-o",
+    "{workspace}/docs/evidence/offline-network.trace",
+    "{workspace}/dist/calc",
+    "--json",
+    "--no-daemon",
+    "--backend",
+    "needle",
+    "--threads",
+    "1",
+    "--retry",
+    "0",
+    "convert 1.25 km to m"
+  ],
+  "exit_code": 0,
+  "response": {
+    "schema_version": 1,
+    "ok": true,
+    "input": "convert 1.25 km to m",
+    "expression": "(1.25 km) to m",
+    "tool_call": {
+      "name": "convert",
+      "arguments": {
+        "unit": "m",
+        "value": "1.25 km"
+      }
+    },
+    "result": {
+      "display": "1250 m",
+      "value": "1250 m",
+      "kind": "quantity",
+      "exact": true
+    },
+    "attempts": 1,
+    "retries": 0,
+    "timing": {
+      "total_ms": 2115.578341,
+      "model_ms": 2110.553018,
+      "compute_ms": 0.179915
+    },
+    "model": "needle2-tuned"
+  },
+  "internet_socket_events": [],
+  "trace_file": "docs/evidence/offline-network.trace",
+  "trace_sha256": "21a042a77f6290bba9990cb8c30d5232c50b5d82ac24afd308b15782ed9718b4",
+  "scope": "One real generative-model calculation with a fresh disposable worker; corroborates the no-network implementation for this exercised path."
+}

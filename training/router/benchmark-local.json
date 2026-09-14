@@ -1,0 +1,12 @@
+{
+  "scope": "inference only, local development machine, rustc -O, CPU core 4, nice 10",
+  "model_sha256": "a5d6e9d61a232e96b07280ffa458607b6b79dd32aed33ca29db715c3a7204f29",
+  "unique_inputs": 10000,
+  "cold_us": 140.735,
+  "mean_us": 2.3545158,
+  "p50_us": 2.182,
+  "p95_us": 3.552,
+  "p99_us": 4.136,
+  "accepted": 8520,
+  "deferred": 1480
+}

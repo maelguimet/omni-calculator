@@ -1,0 +1,970 @@
+{"input": "what\tis\tthe\tanswer\tfor\tthe\tresult\tof\t1021\tplus\t1023?", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_0", "split": "validation"}
+{"input": "how much is factorial of the number 1061?", "label": 10, "intended_class": 10, "eligible": true, "category": "class_10_template_0", "split": "validation"}
+{"input": "how much is the lcm of 1061e-3 with 1063e2 please", "label": 13, "intended_class": 13, "eligible": true, "category": "class_13_template_0", "split": "validation"}
+{"input": "wat iz cube root of the number 1021?", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_0", "split": "validation"}
+{"input": "please find divide the value 1061 into -1063.75", "label": 6, "intended_class": 6, "eligible": true, "category": "class_6_template_0", "split": "validation"}
+{"input": "how  much  is  the  number  +1061e-3  modulo  1063  please", "label": 11, "intended_class": 11, "eligible": true, "category": "class_11_template_0", "split": "validation"}
+{"input": "how  much  is  the  product  of  1061  with  1063  please", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_0", "split": "validation"}
+{"input": "how much is divide the value 1031 into 1033?", "label": 6, "intended_class": 6, "eligible": true, "category": "class_6_template_0", "split": "validation"}
+{"input": "what  is  the  answer  for  lcm  of  1061  and  1063  seconds", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_5", "split": "validation"}
+{"input": "wat\tiz\t1021\tminus\tminus\t1023", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_10", "split": "validation"}
+{"input": "please find the number 1031 to the power 1033", "label": 7, "intended_class": 7, "eligible": true, "category": "class_7_template_0", "split": "validation"}
+{"input": "how  much  is  divide  the  value  1061  into  1063  please", "label": 6, "intended_class": 6, "eligible": true, "category": "class_6_template_0", "split": "validation"}
+{"input": "wat iz the result of 1021 divided by 1023?", "label": 5, "intended_class": 5, "eligible": true, "category": "class_5_template_0", "split": "validation"}
+{"input": "how much is the result of -1031.25 minus 1033.0", "label": 2, "intended_class": 2, "eligible": true, "category": "class_2_template_0", "split": "validation"}
+{"input": "how much is 1021.25 percent of the number 1023", "label": 18, "intended_class": 18, "eligible": true, "category": "class_18_template_0", "split": "validation"}
+{"input": "what  is  the  answer  for  what  is  three  plus  1031  please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_9", "split": "validation"}
+{"input": "what is the answer for cube root of the number 1009 please", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_0", "split": "validation"}
+{"input": "how\tmuch\tis\t-1021.0\tpercent\tof\tthe\tnumber\t1023?", "label": 18, "intended_class": 18, "eligible": true, "category": "class_18_template_0", "split": "validation"}
+{"input": "how much is the result of -1061.25 times 1063.75 please", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_1", "split": "validation"}
+{"input": "please  find  -1009e-3  or  +1011.0", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_8", "split": "validation"}
+{"input": "please\tfind\tsquare\troot\tof\tthe\tnumber\t1021\tplease", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_0", "split": "validation"}
+{"input": "wat  iz  the  number  1031  modulo  1033?", "label": 11, "intended_class": 11, "eligible": true, "category": "class_11_template_0", "split": "validation"}
+{"input": "how  much  is  absolute  value  of  the  number  1009", "label": 19, "intended_class": 19, "eligible": true, "category": "class_19_template_0", "split": "validation"}
+{"input": "please\tfind\tthe\tresult\tof\t1061e-3\ttimes\t+1063e2\tplease", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_1", "split": "validation"}
+{"input": "what\tis\tthe\tanswer\tfor\tthe\tlcm\tof\t1021.25\twith\t1023", "label": 13, "intended_class": 13, "eligible": true, "category": "class_13_template_0", "split": "validation"}
+{"input": "wat  iz  the  result  of  1031  times  1033", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_1", "split": "validation"}
+{"input": "wat iz never multiply 1061 and 1063.0", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_7", "split": "validation"}
+{"input": "wat iz 1061 percent of the number 1063?", "label": 18, "intended_class": 18, "eligible": true, "category": "class_18_template_0", "split": "validation"}
+{"input": "wat  iz  permutations  of  the  value  1009  from  1011", "label": 17, "intended_class": 17, "eligible": true, "category": "class_17_template_0", "split": "validation"}
+{"input": "please  find  the  number  1021  modulo  1023?", "label": 11, "intended_class": 11, "eligible": true, "category": "class_11_template_0", "split": "validation"}
+{"input": "please find the result of 1009 times 1011 please", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_1", "split": "validation"}
+{"input": "what  is  the  answer  for  the  result  of  1061e-3  choose  +1063.0", "label": 14, "intended_class": 14, "eligible": true, "category": "class_14_template_0", "split": "validation"}
+{"input": "what is the answer for 1021 minus the answer please", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_3", "split": "validation"}
+{"input": "how\tmuch\tis\tthe\tgcd\tof\t-1031.25\twith\t1033\tplease", "label": 12, "intended_class": 12, "eligible": true, "category": "class_12_template_0", "split": "validation"}
+{"input": "what is the answer for what is three plus 1031", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_9", "split": "validation"}
+{"input": "wat  iz  lcm  of  1061  and  1063  seconds  please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_5", "split": "validation"}
+{"input": "what is the answer for the result of -1021.25 plus 1023.75?", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_0", "split": "validation"}
+{"input": "wat  iz  sqrt  of  the  sum  of  1031  and  +1033.75", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_4", "split": "validation"}
+{"input": "please find the number 1031 modulo 1033 please", "label": 11, "intended_class": 11, "eligible": true, "category": "class_11_template_0", "split": "validation"}
+{"input": "what\tis\tthe\tanswer\tfor\tcube\troot\tof\tthe\tnumber\t+1061e-3?", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_0", "split": "validation"}
+{"input": "wat iz cube root of the number 1021.25 please", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_0", "split": "validation"}
+{"input": "please  find  subtract  from  +1021.25  please", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_2", "split": "validation"}
+{"input": "please find the result of +1009e-3 times 1011.75?", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_1", "split": "validation"}
+{"input": "what\tis\tthe\tanswer\tfor\tthe\tresult\tof\t1009e-3\tminus\t1011?", "label": 2, "intended_class": 2, "eligible": true, "category": "class_2_template_0", "split": "validation"}
+{"input": "how\tmuch\tis\tthe\tnumber\t+1009.0\tmodulo\t1011\tplease", "label": 11, "intended_class": 11, "eligible": true, "category": "class_11_template_0", "split": "validation"}
+{"input": "what  is  the  answer  for  what  is  three  plus  +1031.25", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_9", "split": "validation"}
+{"input": "what  is  the  answer  for  the  number  -1031e-3  to  the  power  1033  please", "label": 7, "intended_class": 7, "eligible": true, "category": "class_7_template_0", "split": "validation"}
+{"input": "what is the answer for subtract the value 1009 from 1011?", "label": 3, "intended_class": 3, "eligible": true, "category": "class_3_template_0", "split": "validation"}
+{"input": "please  find  squre  root  of  -1021.0?", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_1", "split": "validation"}
+{"input": "please  find  subtract  the  value  1031  from  +1033.0?", "label": 3, "intended_class": 3, "eligible": true, "category": "class_3_template_0", "split": "validation"}
+{"input": "please  find  squre  root  of  1021  please", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_1", "split": "validation"}
+{"input": "what\tis\tthe\tanswer\tfor\tthe\tresult\tof\t1061\tpermute\t1063\tplease", "label": 16, "intended_class": 16, "eligible": true, "category": "class_16_template_0", "split": "validation"}
+{"input": "please find sqrt of the sum of 1021 and 1023.0?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_4", "split": "validation"}
+{"input": "wat\tiz\t-1031.25\tor\t1033\tplease", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_8", "split": "validation"}
+{"input": "wat\tiz\tsubtract\tfrom\t1009", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_2", "split": "validation"}
+{"input": "what  is  the  answer  for  the  result  of  1009  divided  by  1011", "label": 5, "intended_class": 5, "eligible": true, "category": "class_5_template_0", "split": "validation"}
+{"input": "how\tmuch\tis\tsqure\troot\tof\t+1021e-3?", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_1", "split": "validation"}
+{"input": "how  much  is  factorial  of  the  number  1061", "label": 10, "intended_class": 10, "eligible": true, "category": "class_10_template_0", "split": "validation"}
+{"input": "how\tmuch\tis\tsqrt\tof\tthe\tsum\tof\t1061\tand\t1063\tplease", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_4", "split": "validation"}
+{"input": "wat  iz  1009  minus  the  answer  please", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_3", "split": "validation"}
+{"input": "what is the answer for what percent change from 1061 to 1063", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_6", "split": "validation"}
+{"input": "wat\tiz\tthe\tresult\tof\t-1031.25\tpermute\t1033\tplease", "label": 16, "intended_class": 16, "eligible": true, "category": "class_16_template_0", "split": "validation"}
+{"input": "wat iz subtract the value +1021.0 from 1023e2", "label": 3, "intended_class": 3, "eligible": true, "category": "class_3_template_0", "split": "validation"}
+{"input": "wat iz +1021.25 dogs live near 1023 cats", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_1", "split": "validation"}
+{"input": "how  much  is  the  result  of  1021  minus  -1023e2  please", "label": 2, "intended_class": 2, "eligible": true, "category": "class_2_template_0", "split": "validation"}
+{"input": "how much is subtract the value -1021.25 from 1023 please", "label": 3, "intended_class": 3, "eligible": true, "category": "class_3_template_0", "split": "validation"}
+{"input": "wat  iz  what  percent  change  from  1021  to  -1023.0?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_6", "split": "validation"}
+{"input": "what  is  the  answer  for  square  root  of  the  number  1031  please", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_0", "split": "validation"}
+{"input": "how much is subtract from 1061?", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_2", "split": "validation"}
+{"input": "wat iz what percent change from 1061 to +1063.75", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_6", "split": "validation"}
+{"input": "what  is  the  answer  for  sum  1061  and  +1063e2", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_1", "split": "validation"}
+{"input": "how much is +1009.0 minus the answer", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_3", "split": "validation"}
+{"input": "how  much  is  cube  root  of  the  number  1009e-3  please", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_0", "split": "validation"}
+{"input": "how much is the result of 1021 divided by 1023.0?", "label": 5, "intended_class": 5, "eligible": true, "category": "class_5_template_0", "split": "validation"}
+{"input": "what is the answer for the result of 1009 choose 1011e2 please", "label": 14, "intended_class": 14, "eligible": true, "category": "class_14_template_0", "split": "validation"}
+{"input": "how  much  is  subtract  from  1009?", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_2", "split": "validation"}
+{"input": "how  much  is  subtract  the  value  1009  from  1011", "label": 3, "intended_class": 3, "eligible": true, "category": "class_3_template_0", "split": "validation"}
+{"input": "how  much  is  -1031.0  dogs  live  near  1033.0  cats  please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_1", "split": "validation"}
+{"input": "wat\tiz\tthe\tresult\tof\t+1009e-3\tpermute\t+1011.0", "label": 16, "intended_class": 16, "eligible": true, "category": "class_16_template_0", "split": "validation"}
+{"input": "what is the answer for the gcd of 1061.25 with 1063", "label": 12, "intended_class": 12, "eligible": true, "category": "class_12_template_0", "split": "validation"}
+{"input": "how  much  is  sum  1009.0  and  1011  please", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_1", "split": "validation"}
+{"input": "wat iz the result of 1021 times 1023 please", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_1", "split": "validation"}
+{"input": "wat iz the result of 1021 divided by 1023", "label": 5, "intended_class": 5, "eligible": true, "category": "class_5_template_0", "split": "validation"}
+{"input": "please\tfind\tsqure\troot\tof\t-1021.25?", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_1", "split": "validation"}
+{"input": "how  much  is  the  lcm  of  1021  with  -1023.75?", "label": 13, "intended_class": 13, "eligible": true, "category": "class_13_template_0", "split": "validation"}
+{"input": "please\tfind\t1021\tminus\tminus\t1023?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_10", "split": "validation"}
+{"input": "how much is the result of 1021 choose 1023 please", "label": 14, "intended_class": 14, "eligible": true, "category": "class_14_template_0", "split": "validation"}
+{"input": "please  find  the  result  of  1061  divided  by  1063?", "label": 5, "intended_class": 5, "eligible": true, "category": "class_5_template_0", "split": "validation"}
+{"input": "how much is cube root of the number +1021.25?", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_0", "split": "validation"}
+{"input": "what\tis\tthe\tanswer\tfor\tfactorial\tof\tthe\tnumber\t+1021e-3\tplease", "label": 10, "intended_class": 10, "eligible": true, "category": "class_10_template_0", "split": "validation"}
+{"input": "wat iz -1009.25 percent of the number +1011e2", "label": 18, "intended_class": 18, "eligible": true, "category": "class_18_template_0", "split": "validation"}
+{"input": "what is the answer for what is three plus -1031e-3 please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_9", "split": "validation"}
+{"input": "please  find  sum  1061  and  1063", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_1", "split": "validation"}
+{"input": "wat  iz  sqrt  of  the  sum  of  -1031e-3  and  -1033.0?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_4", "split": "validation"}
+{"input": "wat  iz  show  weather  at  1061.0  please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_0", "split": "validation"}
+{"input": "how\tmuch\tis\t1061\tminus\tthe\tanswer", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_3", "split": "validation"}
+{"input": "please  find  square  root  of  the  number  1031", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_0", "split": "validation"}
+{"input": "please find divide the value 1021 into -1023.0 please", "label": 6, "intended_class": 6, "eligible": true, "category": "class_6_template_0", "split": "validation"}
+{"input": "wat  iz  the  number  1031  to  the  power  1033?", "label": 7, "intended_class": 7, "eligible": true, "category": "class_7_template_0", "split": "validation"}
+{"input": "wat  iz  the  number  +1021e-3  modulo  1023", "label": 11, "intended_class": 11, "eligible": true, "category": "class_11_template_0", "split": "validation"}
+{"input": "how much is what percent change from +1031.0 to 1033e2?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_6", "split": "validation"}
+{"input": "what  is  the  answer  for  +1021e-3  minus  the  answer", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_3", "split": "validation"}
+{"input": "please find permutations of the value -1061.0 from 1063", "label": 17, "intended_class": 17, "eligible": true, "category": "class_17_template_0", "split": "validation"}
+{"input": "please find show weather at 1009?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_0", "split": "validation"}
+{"input": "wat  iz  what  is  three  plus  1021  please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_9", "split": "validation"}
+{"input": "what is the answer for cube root of the number 1031", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_0", "split": "validation"}
+{"input": "what is the answer for what is three plus 1021e-3?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_9", "split": "validation"}
+{"input": "what  is  the  answer  for  the  gcd  of  1021  with  1023", "label": 12, "intended_class": 12, "eligible": true, "category": "class_12_template_0", "split": "validation"}
+{"input": "please  find  cube  root  of  the  number  1021", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_0", "split": "validation"}
+{"input": "please find the result of 1009 permute 1011 please", "label": 16, "intended_class": 16, "eligible": true, "category": "class_16_template_0", "split": "validation"}
+{"input": "how much is 1061 or 1063 please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_8", "split": "validation"}
+{"input": "what is the answer for the number 1021 modulo 1023?", "label": 11, "intended_class": 11, "eligible": true, "category": "class_11_template_0", "split": "validation"}
+{"input": "please\tfind\tdivide\tthe\tvalue\t+1009.25\tinto\t1011", "label": 6, "intended_class": 6, "eligible": true, "category": "class_6_template_0", "split": "validation"}
+{"input": "what  is  the  answer  for  1009  or  1011", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_8", "split": "validation"}
+{"input": "wat  iz  1021  or  1023?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_8", "split": "validation"}
+{"input": "please  find  the  result  of  1009e-3  times  1011", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_1", "split": "validation"}
+{"input": "wat iz absolute value of the number 1031?", "label": 19, "intended_class": 19, "eligible": true, "category": "class_19_template_0", "split": "validation"}
+{"input": "what is the answer for divide the value 1031 into 1033?", "label": 6, "intended_class": 6, "eligible": true, "category": "class_6_template_0", "split": "validation"}
+{"input": "please find subtract the value +1061.25 from +1063.75 please", "label": 3, "intended_class": 3, "eligible": true, "category": "class_3_template_0", "split": "validation"}
+{"input": "how  much  is  lcm  of  -1061.25  and  1063  seconds", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_5", "split": "validation"}
+{"input": "please find square root of the number 1061", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_0", "split": "validation"}
+{"input": "please  find  sqrt  of  the  sum  of  1009  and  1011  please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_4", "split": "validation"}
+{"input": "wat iz lcm of 1031 and 1033 seconds", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_5", "split": "validation"}
+{"input": "please  find  the  result  of  1021  choose  1023?", "label": 14, "intended_class": 14, "eligible": true, "category": "class_14_template_0", "split": "validation"}
+{"input": "what is the answer for squre root of 1021 please", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_1", "split": "validation"}
+{"input": "how  much  is  permutations  of  the  value  +1009e-3  from  -1011e2?", "label": 17, "intended_class": 17, "eligible": true, "category": "class_17_template_0", "split": "validation"}
+{"input": "what  is  the  answer  for  the  lcm  of  1009  with  1011", "label": 13, "intended_class": 13, "eligible": true, "category": "class_13_template_0", "split": "validation"}
+{"input": "what\tis\tthe\tanswer\tfor\tthe\tnumber\t1009\tto\tthe\tpower\t1011", "label": 7, "intended_class": 7, "eligible": true, "category": "class_7_template_0", "split": "validation"}
+{"input": "please find sum 1061.0 and 1063", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_1", "split": "validation"}
+{"input": "wat iz subtract the value 1061 from 1063?", "label": 3, "intended_class": 3, "eligible": true, "category": "class_3_template_0", "split": "validation"}
+{"input": "please find the result of +1021.0 minus 1023 please", "label": 2, "intended_class": 2, "eligible": true, "category": "class_2_template_0", "split": "validation"}
+{"input": "what\tis\tthe\tanswer\tfor\tnever\tmultiply\t1061\tand\t1063e2", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_7", "split": "validation"}
+{"input": "please find 1021 or 1023.75?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_8", "split": "validation"}
+{"input": "how  much  is  show  weather  at  -1009.0", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_0", "split": "validation"}
+{"input": "what  is  the  answer  for  permutations  of  the  value  1009  from  +1011e2?", "label": 17, "intended_class": 17, "eligible": true, "category": "class_17_template_0", "split": "validation"}
+{"input": "what  is  the  answer  for  the  number  1021e-3  modulo  1023  please", "label": 11, "intended_class": 11, "eligible": true, "category": "class_11_template_0", "split": "validation"}
+{"input": "wat iz what percent change from +1031.25 to 1033 please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_6", "split": "validation"}
+{"input": "wat\tiz\tshow\tweather\tat\t+1031e-3\tplease", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_0", "split": "validation"}
+{"input": "what  is  the  answer  for  1061.0  dogs  live  near  1063.75  cats", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_1", "split": "validation"}
+{"input": "what is the answer for sum +1061.25 and 1063?", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_1", "split": "validation"}
+{"input": "what  is  the  answer  for  the  result  of  1031  minus  +1033e2?", "label": 2, "intended_class": 2, "eligible": true, "category": "class_2_template_0", "split": "validation"}
+{"input": "wat iz choose the value +1031.0 from 1033 please", "label": 15, "intended_class": 15, "eligible": true, "category": "class_15_template_0", "split": "validation"}
+{"input": "wat  iz  subtract  from  1061  please", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_2", "split": "validation"}
+{"input": "how much is factorial of the number 1031e-3 please", "label": 10, "intended_class": 10, "eligible": true, "category": "class_10_template_0", "split": "validation"}
+{"input": "how\tmuch\tis\t1009\tminus\tthe\tanswer\tplease", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_3", "split": "validation"}
+{"input": "how\tmuch\tis\tsubtract\tthe\tvalue\t1061\tfrom\t1063?", "label": 3, "intended_class": 3, "eligible": true, "category": "class_3_template_0", "split": "validation"}
+{"input": "wat  iz  absolute  value  of  the  number  1009", "label": 19, "intended_class": 19, "eligible": true, "category": "class_19_template_0", "split": "validation"}
+{"input": "please  find  the  result  of  1031  minus  1033.0", "label": 2, "intended_class": 2, "eligible": true, "category": "class_2_template_0", "split": "validation"}
+{"input": "please\tfind\twhat\tis\tthree\tplus\t+1009.25\tplease", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_9", "split": "validation"}
+{"input": "please find cube root of the number 1021", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_0", "split": "validation"}
+{"input": "please find factorial of the number 1061?", "label": 10, "intended_class": 10, "eligible": true, "category": "class_10_template_0", "split": "validation"}
+{"input": "what  is  the  answer  for  permutations  of  the  value  1009  from  -1011.0  please", "label": 17, "intended_class": 17, "eligible": true, "category": "class_17_template_0", "split": "validation"}
+{"input": "how much is the result of 1061 plus 1063", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_0", "split": "validation"}
+{"input": "how much is the result of 1061 choose 1063", "label": 14, "intended_class": 14, "eligible": true, "category": "class_14_template_0", "split": "validation"}
+{"input": "how much is show weather at 1009", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_0", "split": "validation"}
+{"input": "please find the number 1061 to the power -1063.75?", "label": 7, "intended_class": 7, "eligible": true, "category": "class_7_template_0", "split": "validation"}
+{"input": "please\tfind\tshow\tweather\tat\t1009", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_0", "split": "validation"}
+{"input": "wat iz square root of the number 1061", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_0", "split": "validation"}
+{"input": "what is the answer for 1031 minus the answer?", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_3", "split": "validation"}
+{"input": "how much is the result of 1031 permute -1033.75 please", "label": 16, "intended_class": 16, "eligible": true, "category": "class_16_template_0", "split": "validation"}
+{"input": "what  is  the  answer  for  squre  root  of  1061?", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_1", "split": "validation"}
+{"input": "please  find  lcm  of  1031e-3  and  1033  seconds", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_5", "split": "validation"}
+{"input": "wat  iz  divide  the  value  1009  into  -1011.0?", "label": 6, "intended_class": 6, "eligible": true, "category": "class_6_template_0", "split": "validation"}
+{"input": "wat  iz  never  multiply  1021  and  1023  please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_7", "split": "validation"}
+{"input": "please find the lcm of 1021 with 1023", "label": 13, "intended_class": 13, "eligible": true, "category": "class_13_template_0", "split": "validation"}
+{"input": "please  find  the  product  of  1061  with  +1063e2", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_0", "split": "validation"}
+{"input": "how much is squre root of 1061", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_1", "split": "validation"}
+{"input": "wat\tiz\tthe\tresult\tof\t1021\tminus\t+1023.75?", "label": 2, "intended_class": 2, "eligible": true, "category": "class_2_template_0", "split": "validation"}
+{"input": "please  find  the  result  of  -1031e-3  times  1033?", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_1", "split": "validation"}
+{"input": "what is the answer for never multiply 1031 and -1033.75", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_7", "split": "validation"}
+{"input": "how\tmuch\tis\tsubtract\tfrom\t1009?", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_2", "split": "validation"}
+{"input": "what is the answer for sqrt of the sum of 1061 and 1063", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_4", "split": "validation"}
+{"input": "please\tfind\tsqrt\tof\tthe\tsum\tof\t-1061.0\tand\t1063?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_4", "split": "validation"}
+{"input": "how  much  is  the  result  of  1031  divided  by  1033.75", "label": 5, "intended_class": 5, "eligible": true, "category": "class_5_template_0", "split": "validation"}
+{"input": "wat  iz  the  result  of  1021  plus  -1023.0  please", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_0", "split": "validation"}
+{"input": "how  much  is  -1031.0  or  1033?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_8", "split": "validation"}
+{"input": "how  much  is  the  result  of  1031.0  minus  1033?", "label": 2, "intended_class": 2, "eligible": true, "category": "class_2_template_0", "split": "validation"}
+{"input": "please\tfind\tthe\tresult\tof\t1009e-3\tchoose\t1011", "label": 14, "intended_class": 14, "eligible": true, "category": "class_14_template_0", "split": "validation"}
+{"input": "what is the answer for the result of -1061.25 divided by 1063?", "label": 5, "intended_class": 5, "eligible": true, "category": "class_5_template_0", "split": "validation"}
+{"input": "please find subtract the value +1021e-3 from -1023.0?", "label": 3, "intended_class": 3, "eligible": true, "category": "class_3_template_0", "split": "validation"}
+{"input": "wat iz the product of 1009 with 1011e2?", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_0", "split": "validation"}
+{"input": "wat\tiz\tcube\troot\tof\tthe\tnumber\t1031\tplease", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_0", "split": "validation"}
+{"input": "wat  iz  -1009.0  minus  minus  1011?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_10", "split": "validation"}
+{"input": "how  much  is  sqrt  of  the  sum  of  1009  and  1011  please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_4", "split": "validation"}
+{"input": "wat  iz  the  result  of  -1031.25  divided  by  1033.75", "label": 5, "intended_class": 5, "eligible": true, "category": "class_5_template_0", "split": "validation"}
+{"input": "wat  iz  the  result  of  1061e-3  permute  1063?", "label": 16, "intended_class": 16, "eligible": true, "category": "class_16_template_0", "split": "validation"}
+{"input": "how\tmuch\tis\tsqrt\tof\tthe\tsum\tof\t1021\tand\t-1023.0?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_4", "split": "validation"}
+{"input": "what  is  the  answer  for  square  root  of  the  number  1031", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_0", "split": "validation"}
+{"input": "how  much  is  the  number  1061  modulo  1063", "label": 11, "intended_class": 11, "eligible": true, "category": "class_11_template_0", "split": "validation"}
+{"input": "please  find  the  number  1031  modulo  -1033.0", "label": 11, "intended_class": 11, "eligible": true, "category": "class_11_template_0", "split": "validation"}
+{"input": "wat iz divide the value 1021 into 1023?", "label": 6, "intended_class": 6, "eligible": true, "category": "class_6_template_0", "split": "validation"}
+{"input": "what is the answer for subtract the value 1031.25 from 1033 please", "label": 3, "intended_class": 3, "eligible": true, "category": "class_3_template_0", "split": "validation"}
+{"input": "what  is  the  answer  for  cube  root  of  the  number  1009.0?", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_0", "split": "validation"}
+{"input": "wat  iz  the  product  of  -1061.0  with  1063  please", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_0", "split": "validation"}
+{"input": "please  find  1021  dogs  live  near  1023  cats  please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_1", "split": "validation"}
+{"input": "please\tfind\tpermutations\tof\tthe\tvalue\t1021\tfrom\t+1023.75", "label": 17, "intended_class": 17, "eligible": true, "category": "class_17_template_0", "split": "validation"}
+{"input": "wat  iz  the  result  of  -1031.0  permute  1033", "label": 16, "intended_class": 16, "eligible": true, "category": "class_16_template_0", "split": "validation"}
+{"input": "what is the answer for the result of 1009 divided by 1011.75", "label": 5, "intended_class": 5, "eligible": true, "category": "class_5_template_0", "split": "validation"}
+{"input": "how\tmuch\tis\tthe\tresult\tof\t+1021.0\tplus\t1023", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_0", "split": "validation"}
+{"input": "what is the answer for lcm of 1061 and 1063.0 seconds", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_5", "split": "validation"}
+{"input": "please\tfind\twhat\tis\tthree\tplus\t+1021e-3", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_9", "split": "validation"}
+{"input": "please  find  sum  1061  and  +1063.0  please", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_1", "split": "validation"}
+{"input": "please  find  square  root  of  the  number  -1061.25  please", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_0", "split": "validation"}
+{"input": "please\tfind\tthe\tresult\tof\t1021e-3\tdivided\tby\t1023\tplease", "label": 5, "intended_class": 5, "eligible": true, "category": "class_5_template_0", "split": "validation"}
+{"input": "please  find  choose  the  value  +1021.0  from  1023?", "label": 15, "intended_class": 15, "eligible": true, "category": "class_15_template_0", "split": "validation"}
+{"input": "please find absolute value of the number 1009?", "label": 19, "intended_class": 19, "eligible": true, "category": "class_19_template_0", "split": "validation"}
+{"input": "wat  iz  1031  dogs  live  near  +1033.75  cats?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_1", "split": "validation"}
+{"input": "how  much  is  subtract  the  value  -1009.0  from  1011  please", "label": 3, "intended_class": 3, "eligible": true, "category": "class_3_template_0", "split": "validation"}
+{"input": "please find -1031.25 percent of the number 1033", "label": 18, "intended_class": 18, "eligible": true, "category": "class_18_template_0", "split": "validation"}
+{"input": "please find the lcm of 1031.25 with 1033?", "label": 13, "intended_class": 13, "eligible": true, "category": "class_13_template_0", "split": "validation"}
+{"input": "what is the answer for factorial of the number 1031", "label": 10, "intended_class": 10, "eligible": true, "category": "class_10_template_0", "split": "validation"}
+{"input": "please  find  the  number  1009  to  the  power  1011?", "label": 7, "intended_class": 7, "eligible": true, "category": "class_7_template_0", "split": "validation"}
+{"input": "how  much  is  sum  1021  and  +1023.75?", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_1", "split": "validation"}
+{"input": "wat  iz  subtract  the  value  1031.0  from  1033  please", "label": 3, "intended_class": 3, "eligible": true, "category": "class_3_template_0", "split": "validation"}
+{"input": "what is the answer for the result of 1061 plus 1063 please", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_0", "split": "validation"}
+{"input": "what is the answer for squre root of 1021?", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_1", "split": "validation"}
+{"input": "how much is 1061e-3 or 1063", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_8", "split": "validation"}
+{"input": "please find the result of 1031.25 plus +1033.0", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_0", "split": "validation"}
+{"input": "how\tmuch\tis\tabsolute\tvalue\tof\tthe\tnumber\t1061?", "label": 19, "intended_class": 19, "eligible": true, "category": "class_19_template_0", "split": "validation"}
+{"input": "wat\tiz\tdivide\tthe\tvalue\t+1031.0\tinto\t1033\tplease", "label": 6, "intended_class": 6, "eligible": true, "category": "class_6_template_0", "split": "validation"}
+{"input": "wat  iz  the  number  -1031e-3  modulo  1033.0  please", "label": 11, "intended_class": 11, "eligible": true, "category": "class_11_template_0", "split": "validation"}
+{"input": "what  is  the  answer  for  divide  the  value  1009.25  into  1011?", "label": 6, "intended_class": 6, "eligible": true, "category": "class_6_template_0", "split": "validation"}
+{"input": "please\tfind\tsquare\troot\tof\tthe\tnumber\t1009.25", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_0", "split": "validation"}
+{"input": "how\tmuch\tis\tthe\tresult\tof\t-1009.25\ttimes\t+1011.0", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_1", "split": "validation"}
+{"input": "wat  iz  choose  the  value  1021  from  -1023.75?", "label": 15, "intended_class": 15, "eligible": true, "category": "class_15_template_0", "split": "validation"}
+{"input": "wat  iz  the  number  1021  to  the  power  1023", "label": 7, "intended_class": 7, "eligible": true, "category": "class_7_template_0", "split": "validation"}
+{"input": "wat iz cube root of the number -1021e-3", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_0", "split": "validation"}
+{"input": "please find the product of 1021e-3 with 1023?", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_0", "split": "validation"}
+{"input": "how  much  is  the  result  of  +1031e-3  divided  by  1033e2  please", "label": 5, "intended_class": 5, "eligible": true, "category": "class_5_template_0", "split": "validation"}
+{"input": "what  is  the  answer  for  subtract  from  +1009e-3?", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_2", "split": "validation"}
+{"input": "please  find  factorial  of  the  number  1009", "label": 10, "intended_class": 10, "eligible": true, "category": "class_10_template_0", "split": "validation"}
+{"input": "what  is  the  answer  for  the  gcd  of  1021.0  with  1023  please", "label": 12, "intended_class": 12, "eligible": true, "category": "class_12_template_0", "split": "validation"}
+{"input": "please  find  the  number  1061  to  the  power  1063  please", "label": 7, "intended_class": 7, "eligible": true, "category": "class_7_template_0", "split": "validation"}
+{"input": "what is the answer for the result of 1021 choose 1023", "label": 14, "intended_class": 14, "eligible": true, "category": "class_14_template_0", "split": "validation"}
+{"input": "please  find  choose  the  value  +1009.25  from  +1011.75  please", "label": 15, "intended_class": 15, "eligible": true, "category": "class_15_template_0", "split": "validation"}
+{"input": "what is the answer for the result of 1031 times 1033", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_1", "split": "validation"}
+{"input": "wat\tiz\t+1031.0\tminus\tminus\t+1033e2\tplease", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_10", "split": "validation"}
+{"input": "what is the answer for the product of 1009 with 1011?", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_0", "split": "validation"}
+{"input": "wat iz subtract from 1009", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_2", "split": "validation"}
+{"input": "how  much  is  the  result  of  1031  times  -1033.0?", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_1", "split": "validation"}
+{"input": "what  is  the  answer  for  the  lcm  of  1009  with  1011  please", "label": 13, "intended_class": 13, "eligible": true, "category": "class_13_template_0", "split": "validation"}
+{"input": "wat iz 1031.0 minus the answer", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_3", "split": "validation"}
+{"input": "what is the answer for +1061.25 minus minus +1063e2", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_10", "split": "validation"}
+{"input": "please find sum 1009 and -1011e2 please", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_1", "split": "validation"}
+{"input": "wat  iz  cube  root  of  the  number  -1009.25", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_0", "split": "validation"}
+{"input": "please  find  the  gcd  of  1061  with  1063  please", "label": 12, "intended_class": 12, "eligible": true, "category": "class_12_template_0", "split": "validation"}
+{"input": "what is the answer for the number -1021.25 to the power 1023", "label": 7, "intended_class": 7, "eligible": true, "category": "class_7_template_0", "split": "validation"}
+{"input": "wat iz 1021 minus minus 1023 please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_10", "split": "validation"}
+{"input": "what is the answer for the gcd of 1009 with 1011?", "label": 12, "intended_class": 12, "eligible": true, "category": "class_12_template_0", "split": "validation"}
+{"input": "how  much  is  the  number  1031  to  the  power  1033", "label": 7, "intended_class": 7, "eligible": true, "category": "class_7_template_0", "split": "validation"}
+{"input": "please\tfind\tpermutations\tof\tthe\tvalue\t+1021.25\tfrom\t1023e2\tplease", "label": 17, "intended_class": 17, "eligible": true, "category": "class_17_template_0", "split": "validation"}
+{"input": "what\tis\tthe\tanswer\tfor\t1009\tor\t1011", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_8", "split": "validation"}
+{"input": "how much is what is three plus 1021 please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_9", "split": "validation"}
+{"input": "wat\tiz\tthe\tresult\tof\t-1031e-3\tdivided\tby\t1033?", "label": 5, "intended_class": 5, "eligible": true, "category": "class_5_template_0", "split": "validation"}
+{"input": "wat\tiz\tsum\t1031\tand\t1033\tplease", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_1", "split": "validation"}
+{"input": "wat iz square root of the number 1031 please", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_0", "split": "validation"}
+{"input": "what  is  the  answer  for  subtract  from  1061", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_2", "split": "validation"}
+{"input": "wat\tiz\tfactorial\tof\tthe\tnumber\t1061\tplease", "label": 10, "intended_class": 10, "eligible": true, "category": "class_10_template_0", "split": "validation"}
+{"input": "wat iz the number 1021 to the power 1023", "label": 7, "intended_class": 7, "eligible": true, "category": "class_7_template_0", "split": "validation"}
+{"input": "wat iz 1061 or -1063.75", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_8", "split": "validation"}
+{"input": "please  find  divide  the  value  1061  into  1063?", "label": 6, "intended_class": 6, "eligible": true, "category": "class_6_template_0", "split": "validation"}
+{"input": "wat  iz  sum  +1009.25  and  1011", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_1", "split": "validation"}
+{"input": "what  is  the  answer  for  the  number  1031.25  to  the  power  -1033.0", "label": 7, "intended_class": 7, "eligible": true, "category": "class_7_template_0", "split": "validation"}
+{"input": "what is the answer for the number 1031 modulo 1033", "label": 11, "intended_class": 11, "eligible": true, "category": "class_11_template_0", "split": "validation"}
+{"input": "wat iz the result of 1031 plus 1033?", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_0", "split": "validation"}
+{"input": "how  much  is  choose  the  value  1009  from  1011  please", "label": 15, "intended_class": 15, "eligible": true, "category": "class_15_template_0", "split": "validation"}
+{"input": "wat iz permutations of the value +1021e-3 from 1023.0?", "label": 17, "intended_class": 17, "eligible": true, "category": "class_17_template_0", "split": "validation"}
+{"input": "what  is  the  answer  for  absolute  value  of  the  number  +1061e-3  please", "label": 19, "intended_class": 19, "eligible": true, "category": "class_19_template_0", "split": "validation"}
+{"input": "please  find  cube  root  of  the  number  -1009e-3  please", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_0", "split": "validation"}
+{"input": "what  is  the  answer  for  1009  dogs  live  near  1011.75  cats  please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_1", "split": "validation"}
+{"input": "how much is the number 1021 to the power -1023.0", "label": 7, "intended_class": 7, "eligible": true, "category": "class_7_template_0", "split": "validation"}
+{"input": "please find square root of the number -1061.25?", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_0", "split": "validation"}
+{"input": "please\tfind\tsqrt\tof\tthe\tsum\tof\t1061\tand\t1063\tplease", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_4", "split": "validation"}
+{"input": "wat  iz  sqrt  of  the  sum  of  1061  and  1063  please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_4", "split": "validation"}
+{"input": "how  much  is  1031  or  1033", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_8", "split": "validation"}
+{"input": "what is the answer for what percent change from +1021.0 to 1023 please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_6", "split": "validation"}
+{"input": "wat iz choose the value -1061e-3 from 1063", "label": 15, "intended_class": 15, "eligible": true, "category": "class_15_template_0", "split": "validation"}
+{"input": "what is the answer for the lcm of -1031e-3 with 1033", "label": 13, "intended_class": 13, "eligible": true, "category": "class_13_template_0", "split": "validation"}
+{"input": "how  much  is  square  root  of  the  number  -1009e-3?", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_0", "split": "validation"}
+{"input": "wat\tiz\tlcm\tof\t1061\tand\t1063\tseconds\tplease", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_5", "split": "validation"}
+{"input": "please  find  permutations  of  the  value  1031  from  -1033.75", "label": 17, "intended_class": 17, "eligible": true, "category": "class_17_template_0", "split": "validation"}
+{"input": "please find square root of the number 1031.25 please", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_0", "split": "validation"}
+{"input": "wat  iz  square  root  of  the  number  1061?", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_0", "split": "validation"}
+{"input": "wat\tiz\tsubtract\tthe\tvalue\t1021\tfrom\t1023.0\tplease", "label": 3, "intended_class": 3, "eligible": true, "category": "class_3_template_0", "split": "validation"}
+{"input": "how much is permutations of the value -1031e-3 from 1033", "label": 17, "intended_class": 17, "eligible": true, "category": "class_17_template_0", "split": "validation"}
+{"input": "wat  iz  1009e-3  percent  of  the  number  -1011.0", "label": 18, "intended_class": 18, "eligible": true, "category": "class_18_template_0", "split": "validation"}
+{"input": "wat  iz  what  percent  change  from  1031  to  1033  please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_6", "split": "validation"}
+{"input": "please find the number -1031.0 to the power 1033 please", "label": 7, "intended_class": 7, "eligible": true, "category": "class_7_template_0", "split": "validation"}
+{"input": "what  is  the  answer  for  1061  or  1063e2?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_8", "split": "validation"}
+{"input": "wat iz squre root of +1031.25?", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_1", "split": "validation"}
+{"input": "what\tis\tthe\tanswer\tfor\tchoose\tthe\tvalue\t1061\tfrom\t1063\tplease", "label": 15, "intended_class": 15, "eligible": true, "category": "class_15_template_0", "split": "validation"}
+{"input": "wat iz the product of -1009e-3 with 1011.0", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_0", "split": "validation"}
+{"input": "what\tis\tthe\tanswer\tfor\tthe\tresult\tof\t+1009.25\tdivided\tby\t-1011e2\tplease", "label": 5, "intended_class": 5, "eligible": true, "category": "class_5_template_0", "split": "validation"}
+{"input": "please  find  the  gcd  of  -1061.0  with  1063.0?", "label": 12, "intended_class": 12, "eligible": true, "category": "class_12_template_0", "split": "validation"}
+{"input": "what  is  the  answer  for  what  is  three  plus  1009?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_9", "split": "validation"}
+{"input": "please  find  sqrt  of  the  sum  of  +1009.25  and  1011", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_4", "split": "validation"}
+{"input": "how  much  is  permutations  of  the  value  1031.25  from  1033e2  please", "label": 17, "intended_class": 17, "eligible": true, "category": "class_17_template_0", "split": "validation"}
+{"input": "wat iz sqrt of the sum of 1021.25 and 1023 please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_4", "split": "validation"}
+{"input": "please\tfind\tthe\tresult\tof\t1009.0\tminus\t1011", "label": 2, "intended_class": 2, "eligible": true, "category": "class_2_template_0", "split": "validation"}
+{"input": "what is the answer for square root of the number 1009", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_0", "split": "validation"}
+{"input": "how much is divide the value 1021 into -1023e2 please", "label": 6, "intended_class": 6, "eligible": true, "category": "class_6_template_0", "split": "validation"}
+{"input": "wat iz lcm of 1031 and +1033.75 seconds?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_5", "split": "validation"}
+{"input": "wat iz what is three plus 1031.0", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_9", "split": "validation"}
+{"input": "what\tis\tthe\tanswer\tfor\tlcm\tof\t1021.25\tand\t1023\tseconds?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_5", "split": "validation"}
+{"input": "wat\tiz\t1021\tminus\tthe\tanswer?", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_3", "split": "validation"}
+{"input": "what is the answer for sqrt of the sum of 1031 and 1033e2?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_4", "split": "validation"}
+{"input": "wat  iz  the  result  of  1061.0  permute  1063  please", "label": 16, "intended_class": 16, "eligible": true, "category": "class_16_template_0", "split": "validation"}
+{"input": "how\tmuch\tis\tchoose\tthe\tvalue\t1021\tfrom\t-1023.0?", "label": 15, "intended_class": 15, "eligible": true, "category": "class_15_template_0", "split": "validation"}
+{"input": "please find the gcd of 1061 with 1063?", "label": 12, "intended_class": 12, "eligible": true, "category": "class_12_template_0", "split": "validation"}
+{"input": "what  is  the  answer  for  the  number  1021  to  the  power  +1023.0?", "label": 7, "intended_class": 7, "eligible": true, "category": "class_7_template_0", "split": "validation"}
+{"input": "please\tfind\twhat\tpercent\tchange\tfrom\t1009\tto\t-1011.0", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_6", "split": "validation"}
+{"input": "how\tmuch\tis\twhat\tis\tthree\tplus\t-1031.25", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_9", "split": "validation"}
+{"input": "how  much  is  sqrt  of  the  sum  of  1021  and  1023", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_4", "split": "validation"}
+{"input": "please  find  never  multiply  1031  and  1033.75", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_7", "split": "validation"}
+{"input": "wat iz the result of 1009 plus 1011.0", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_0", "split": "validation"}
+{"input": "wat iz 1009 dogs live near 1011 cats please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_1", "split": "validation"}
+{"input": "what\tis\tthe\tanswer\tfor\tthe\tresult\tof\t+1009.25\tplus\t1011", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_0", "split": "validation"}
+{"input": "wat iz lcm of +1021.0 and 1023 seconds please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_5", "split": "validation"}
+{"input": "please  find  divide  the  value  1021  into  1023", "label": 6, "intended_class": 6, "eligible": true, "category": "class_6_template_0", "split": "validation"}
+{"input": "please find what percent change from 1009 to 1011?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_6", "split": "validation"}
+{"input": "wat iz factorial of the number -1061.0 please", "label": 10, "intended_class": 10, "eligible": true, "category": "class_10_template_0", "split": "validation"}
+{"input": "wat iz absolute value of the number +1021.25", "label": 19, "intended_class": 19, "eligible": true, "category": "class_19_template_0", "split": "validation"}
+{"input": "wat iz +1021e-3 minus the answer please", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_3", "split": "validation"}
+{"input": "please\tfind\tthe\tproduct\tof\t1061\twith\t1063?", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_0", "split": "validation"}
+{"input": "please  find  the  result  of  1031  choose  1033", "label": 14, "intended_class": 14, "eligible": true, "category": "class_14_template_0", "split": "validation"}
+{"input": "please find the result of +1061.0 permute 1063", "label": 16, "intended_class": 16, "eligible": true, "category": "class_16_template_0", "split": "validation"}
+{"input": "wat  iz  subtract  the  value  1061  from  1063?", "label": 3, "intended_class": 3, "eligible": true, "category": "class_3_template_0", "split": "validation"}
+{"input": "please find sqrt of the sum of 1021.0 and 1023.0", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_4", "split": "validation"}
+{"input": "how much is absolute value of the number 1031", "label": 19, "intended_class": 19, "eligible": true, "category": "class_19_template_0", "split": "validation"}
+{"input": "wat iz absolute value of the number -1021.0 please", "label": 19, "intended_class": 19, "eligible": true, "category": "class_19_template_0", "split": "validation"}
+{"input": "wat  iz  -1031.0  minus  minus  1033", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_10", "split": "validation"}
+{"input": "wat  iz  permutations  of  the  value  1021.25  from  -1023.75  please", "label": 17, "intended_class": 17, "eligible": true, "category": "class_17_template_0", "split": "validation"}
+{"input": "wat iz sum 1061 and -1063e2?", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_1", "split": "validation"}
+{"input": "what is the answer for absolute value of the number 1061 please", "label": 19, "intended_class": 19, "eligible": true, "category": "class_19_template_0", "split": "validation"}
+{"input": "wat iz the result of 1021 choose 1023?", "label": 14, "intended_class": 14, "eligible": true, "category": "class_14_template_0", "split": "validation"}
+{"input": "what\tis\tthe\tanswer\tfor\tsqrt\tof\tthe\tsum\tof\t1021.25\tand\t-1023.75?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_4", "split": "validation"}
+{"input": "what  is  the  answer  for  show  weather  at  1061  please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_0", "split": "validation"}
+{"input": "please\tfind\tfactorial\tof\tthe\tnumber\t1021", "label": 10, "intended_class": 10, "eligible": true, "category": "class_10_template_0", "split": "validation"}
+{"input": "please  find  squre  root  of  1021", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_1", "split": "validation"}
+{"input": "please  find  the  result  of  1009  minus  +1011.0  please", "label": 2, "intended_class": 2, "eligible": true, "category": "class_2_template_0", "split": "validation"}
+{"input": "wat\tiz\tthe\tresult\tof\t-1061.0\ttimes\t-1063e2\tplease", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_1", "split": "validation"}
+{"input": "how much is factorial of the number 1031", "label": 10, "intended_class": 10, "eligible": true, "category": "class_10_template_0", "split": "validation"}
+{"input": "what is the answer for -1009.0 dogs live near -1011.0 cats?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_1", "split": "validation"}
+{"input": "what is the answer for never multiply -1009.0 and 1011 please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_7", "split": "validation"}
+{"input": "what is the answer for 1021 dogs live near 1023e2 cats", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_1", "split": "validation"}
+{"input": "please find subtract from -1021e-3 please", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_2", "split": "validation"}
+{"input": "how\tmuch\tis\tthe\tgcd\tof\t-1021e-3\twith\t-1023.0?", "label": 12, "intended_class": 12, "eligible": true, "category": "class_12_template_0", "split": "validation"}
+{"input": "what is the answer for show weather at 1031e-3?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_0", "split": "validation"}
+{"input": "wat\tiz\tthe\tresult\tof\t+1061.25\tplus\t1063\tplease", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_0", "split": "validation"}
+{"input": "how  much  is  lcm  of  -1009e-3  and  1011  seconds  please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_5", "split": "validation"}
+{"input": "please find what is three plus 1021?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_9", "split": "validation"}
+{"input": "please  find  what  percent  change  from  +1061e-3  to  1063?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_6", "split": "validation"}
+{"input": "how  much  is  what  is  three  plus  +1021.0", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_9", "split": "validation"}
+{"input": "wat iz 1031 dogs live near 1033.75 cats?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_1", "split": "validation"}
+{"input": "please\tfind\tcube\troot\tof\tthe\tnumber\t1009e-3", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_0", "split": "validation"}
+{"input": "what  is  the  answer  for  the  gcd  of  1021  with  1023?", "label": 12, "intended_class": 12, "eligible": true, "category": "class_12_template_0", "split": "validation"}
+{"input": "what is the answer for the number 1031 modulo 1033 please", "label": 11, "intended_class": 11, "eligible": true, "category": "class_11_template_0", "split": "validation"}
+{"input": "what\tis\tthe\tanswer\tfor\tsqure\troot\tof\t1021", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_1", "split": "validation"}
+{"input": "what is the answer for factorial of the number +1009e-3?", "label": 10, "intended_class": 10, "eligible": true, "category": "class_10_template_0", "split": "validation"}
+{"input": "what  is  the  answer  for  sqrt  of  the  sum  of  +1021.0  and  1023", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_4", "split": "validation"}
+{"input": "wat iz the result of 1021 permute +1023.0 please", "label": 16, "intended_class": 16, "eligible": true, "category": "class_16_template_0", "split": "validation"}
+{"input": "what  is  the  answer  for  what  percent  change  from  1009  to  1011?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_6", "split": "validation"}
+{"input": "what is the answer for permutations of the value 1021e-3 from 1023?", "label": 17, "intended_class": 17, "eligible": true, "category": "class_17_template_0", "split": "validation"}
+{"input": "wat  iz  squre  root  of  +1009.0", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_1", "split": "validation"}
+{"input": "wat iz the result of 1061 divided by 1063 please", "label": 5, "intended_class": 5, "eligible": true, "category": "class_5_template_0", "split": "validation"}
+{"input": "how  much  is  the  lcm  of  1021.25  with  -1023.75", "label": 13, "intended_class": 13, "eligible": true, "category": "class_13_template_0", "split": "validation"}
+{"input": "wat  iz  the  result  of  1061  choose  +1063.0  please", "label": 14, "intended_class": 14, "eligible": true, "category": "class_14_template_0", "split": "validation"}
+{"input": "how much is the number 1009 modulo 1011 please", "label": 11, "intended_class": 11, "eligible": true, "category": "class_11_template_0", "split": "validation"}
+{"input": "how much is the result of 1061 permute 1063?", "label": 16, "intended_class": 16, "eligible": true, "category": "class_16_template_0", "split": "validation"}
+{"input": "please  find  factorial  of  the  number  +1031.25?", "label": 10, "intended_class": 10, "eligible": true, "category": "class_10_template_0", "split": "validation"}
+{"input": "how  much  is  the  result  of  1061  plus  -1063.0?", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_0", "split": "validation"}
+{"input": "wat iz the result of -1009.0 choose +1011e2 please", "label": 14, "intended_class": 14, "eligible": true, "category": "class_14_template_0", "split": "validation"}
+{"input": "how  much  is  1061  minus  minus  1063?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_10", "split": "validation"}
+{"input": "please  find  the  product  of  -1031.25  with  1033  please", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_0", "split": "validation"}
+{"input": "what  is  the  answer  for  1021  minus  minus  +1023.75  please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_10", "split": "validation"}
+{"input": "how  much  is  what  is  three  plus  1061?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_9", "split": "validation"}
+{"input": "please\tfind\t1061\tminus\tminus\t1063", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_10", "split": "validation"}
+{"input": "how much is what is three plus 1061?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_9", "split": "validation"}
+{"input": "please\tfind\tthe\tproduct\tof\t1021\twith\t1023\tplease", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_0", "split": "validation"}
+{"input": "how  much  is  factorial  of  the  number  1031e-3  please", "label": 10, "intended_class": 10, "eligible": true, "category": "class_10_template_0", "split": "validation"}
+{"input": "please  find  lcm  of  1061  and  -1063.75  seconds  please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_5", "split": "validation"}
+{"input": "please  find  never  multiply  1061  and  +1063.75  please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_7", "split": "validation"}
+{"input": "wat  iz  show  weather  at  1021", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_0", "split": "validation"}
+{"input": "please  find  the  lcm  of  1009  with  +1011e2", "label": 13, "intended_class": 13, "eligible": true, "category": "class_13_template_0", "split": "validation"}
+{"input": "wat iz the result of 1021 permute 1023?", "label": 16, "intended_class": 16, "eligible": true, "category": "class_16_template_0", "split": "validation"}
+{"input": "how much is absolute value of the number 1009?", "label": 19, "intended_class": 19, "eligible": true, "category": "class_19_template_0", "split": "validation"}
+{"input": "how much is square root of the number 1021 please", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_0", "split": "validation"}
+{"input": "what  is  the  answer  for  1009  minus  the  answer?", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_3", "split": "validation"}
+{"input": "what\tis\tthe\tanswer\tfor\tshow\tweather\tat\t1021e-3?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_0", "split": "validation"}
+{"input": "what is the answer for factorial of the number 1009 please", "label": 10, "intended_class": 10, "eligible": true, "category": "class_10_template_0", "split": "validation"}
+{"input": "please find absolute value of the number 1009.0 please", "label": 19, "intended_class": 19, "eligible": true, "category": "class_19_template_0", "split": "validation"}
+{"input": "what  is  the  answer  for  the  result  of  +1031.0  minus  1033", "label": 2, "intended_class": 2, "eligible": true, "category": "class_2_template_0", "split": "validation"}
+{"input": "please find never multiply 1021e-3 and 1023.75", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_7", "split": "validation"}
+{"input": "please find 1061 minus minus 1063 please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_10", "split": "validation"}
+{"input": "please find the result of 1009 choose +1011e2?", "label": 14, "intended_class": 14, "eligible": true, "category": "class_14_template_0", "split": "validation"}
+{"input": "how\tmuch\tis\t1031\tminus\tminus\t1033", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_10", "split": "validation"}
+{"input": "how  much  is  1021  percent  of  the  number  1023.75  please", "label": 18, "intended_class": 18, "eligible": true, "category": "class_18_template_0", "split": "validation"}
+{"input": "how much is choose the value -1009.0 from 1011?", "label": 15, "intended_class": 15, "eligible": true, "category": "class_15_template_0", "split": "validation"}
+{"input": "what is the answer for choose the value +1061e-3 from 1063 please", "label": 15, "intended_class": 15, "eligible": true, "category": "class_15_template_0", "split": "validation"}
+{"input": "how much is 1031.0 minus minus 1033?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_10", "split": "validation"}
+{"input": "how much is show weather at -1021.25?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_0", "split": "validation"}
+{"input": "please  find  the  result  of  1021  minus  -1023.0?", "label": 2, "intended_class": 2, "eligible": true, "category": "class_2_template_0", "split": "validation"}
+{"input": "wat\tiz\tthe\tresult\tof\t1021.25\tchoose\t1023\tplease", "label": 14, "intended_class": 14, "eligible": true, "category": "class_14_template_0", "split": "validation"}
+{"input": "what  is  the  answer  for  never  multiply  +1031.25  and  -1033.75  please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_7", "split": "validation"}
+{"input": "please find 1031.0 minus the answer please", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_3", "split": "validation"}
+{"input": "how  much  is  the  result  of  1009.25  minus  1011", "label": 2, "intended_class": 2, "eligible": true, "category": "class_2_template_0", "split": "validation"}
+{"input": "wat  iz  factorial  of  the  number  1061?", "label": 10, "intended_class": 10, "eligible": true, "category": "class_10_template_0", "split": "validation"}
+{"input": "what\tis\tthe\tanswer\tfor\tthe\tresult\tof\t1031\ttimes\t-1033.75\tplease", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_1", "split": "validation"}
+{"input": "what  is  the  answer  for  cube  root  of  the  number  1031  please", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_0", "split": "validation"}
+{"input": "how much is the product of -1009e-3 with 1011?", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_0", "split": "validation"}
+{"input": "please  find  the  product  of  -1061e-3  with  -1063.0?", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_0", "split": "validation"}
+{"input": "what\tis\tthe\tanswer\tfor\tthe\tresult\tof\t1031\tpermute\t1033?", "label": 16, "intended_class": 16, "eligible": true, "category": "class_16_template_0", "split": "validation"}
+{"input": "wat\tiz\tnever\tmultiply\t1031\tand\t1033", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_7", "split": "validation"}
+{"input": "please find absolute value of the number 1021.25", "label": 19, "intended_class": 19, "eligible": true, "category": "class_19_template_0", "split": "validation"}
+{"input": "what  is  the  answer  for  sum  1021  and  1023.0  please", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_1", "split": "validation"}
+{"input": "how  much  is  choose  the  value  +1031.25  from  -1033e2?", "label": 15, "intended_class": 15, "eligible": true, "category": "class_15_template_0", "split": "validation"}
+{"input": "how much is 1031.0 or +1033.0?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_8", "split": "validation"}
+{"input": "what\tis\tthe\tanswer\tfor\tsum\t1009\tand\t1011\tplease", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_1", "split": "validation"}
+{"input": "wat  iz  squre  root  of  1009?", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_1", "split": "validation"}
+{"input": "please\tfind\tnever\tmultiply\t1031.0\tand\t-1033.0?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_7", "split": "validation"}
+{"input": "wat\tiz\tthe\tnumber\t1009.25\tmodulo\t1011\tplease", "label": 11, "intended_class": 11, "eligible": true, "category": "class_11_template_0", "split": "validation"}
+{"input": "please  find  1061  minus  the  answer", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_3", "split": "validation"}
+{"input": "what is the answer for the lcm of 1021.25 with 1023?", "label": 13, "intended_class": 13, "eligible": true, "category": "class_13_template_0", "split": "validation"}
+{"input": "how much is the lcm of 1061 with +1063.0?", "label": 13, "intended_class": 13, "eligible": true, "category": "class_13_template_0", "split": "validation"}
+{"input": "wat\tiz\tnever\tmultiply\t+1009.25\tand\t1011?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_7", "split": "validation"}
+{"input": "wat iz the lcm of +1031.0 with 1033?", "label": 13, "intended_class": 13, "eligible": true, "category": "class_13_template_0", "split": "validation"}
+{"input": "what\tis\tthe\tanswer\tfor\t+1031e-3\tminus\tthe\tanswer?", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_3", "split": "validation"}
+{"input": "wat iz squre root of -1021.25 please", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_1", "split": "validation"}
+{"input": "how much is +1061e-3 dogs live near 1063 cats?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_1", "split": "validation"}
+{"input": "how much is the gcd of 1031 with 1033 please", "label": 12, "intended_class": 12, "eligible": true, "category": "class_12_template_0", "split": "validation"}
+{"input": "wat  iz  permutations  of  the  value  +1021.0  from  1023?", "label": 17, "intended_class": 17, "eligible": true, "category": "class_17_template_0", "split": "validation"}
+{"input": "what is the answer for the result of +1031.25 minus +1033.0?", "label": 2, "intended_class": 2, "eligible": true, "category": "class_2_template_0", "split": "validation"}
+{"input": "please\tfind\tthe\tgcd\tof\t-1021.0\twith\t1023?", "label": 12, "intended_class": 12, "eligible": true, "category": "class_12_template_0", "split": "validation"}
+{"input": "please  find  1061  dogs  live  near  1063  cats", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_1", "split": "validation"}
+{"input": "what is the answer for never multiply 1009 and 1011?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_7", "split": "validation"}
+{"input": "how much is the result of 1061 minus 1063?", "label": 2, "intended_class": 2, "eligible": true, "category": "class_2_template_0", "split": "validation"}
+{"input": "what is the answer for 1061e-3 minus minus -1063.0?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_10", "split": "validation"}
+{"input": "what  is  the  answer  for  the  result  of  1009  permute  1011  please", "label": 16, "intended_class": 16, "eligible": true, "category": "class_16_template_0", "split": "validation"}
+{"input": "wat  iz  what  is  three  plus  +1031.25?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_9", "split": "validation"}
+{"input": "please find what is three plus +1031e-3", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_9", "split": "validation"}
+{"input": "please find 1021 or -1023e2", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_8", "split": "validation"}
+{"input": "wat iz the result of +1021.25 permute 1023", "label": 16, "intended_class": 16, "eligible": true, "category": "class_16_template_0", "split": "validation"}
+{"input": "what  is  the  answer  for  1031  or  +1033.0  please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_8", "split": "validation"}
+{"input": "please  find  what  is  three  plus  1009?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_9", "split": "validation"}
+{"input": "please  find  1009  minus  minus  1011  please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_10", "split": "validation"}
+{"input": "how much is the number 1021 modulo 1023?", "label": 11, "intended_class": 11, "eligible": true, "category": "class_11_template_0", "split": "validation"}
+{"input": "wat\tiz\tchoose\tthe\tvalue\t1061\tfrom\t1063e2\tplease", "label": 15, "intended_class": 15, "eligible": true, "category": "class_15_template_0", "split": "validation"}
+{"input": "how much is lcm of 1031 and 1033 seconds please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_5", "split": "validation"}
+{"input": "what is the answer for divide the value 1009 into 1011 please", "label": 6, "intended_class": 6, "eligible": true, "category": "class_6_template_0", "split": "validation"}
+{"input": "what\tis\tthe\tanswer\tfor\tfactorial\tof\tthe\tnumber\t-1021.25", "label": 10, "intended_class": 10, "eligible": true, "category": "class_10_template_0", "split": "validation"}
+{"input": "please find cube root of the number 1061.0 please", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_0", "split": "validation"}
+{"input": "how  much  is  1021.0  percent  of  the  number  1023", "label": 18, "intended_class": 18, "eligible": true, "category": "class_18_template_0", "split": "validation"}
+{"input": "what  is  the  answer  for  the  result  of  +1031.25  plus  +1033.75  please", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_0", "split": "validation"}
+{"input": "how  much  is  the  number  1031  modulo  1033?", "label": 11, "intended_class": 11, "eligible": true, "category": "class_11_template_0", "split": "validation"}
+{"input": "wat\tiz\tthe\tresult\tof\t1009\tminus\t1011\tplease", "label": 2, "intended_class": 2, "eligible": true, "category": "class_2_template_0", "split": "validation"}
+{"input": "wat iz square root of the number 1031?", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_0", "split": "validation"}
+{"input": "what  is  the  answer  for  subtract  the  value  1021.25  from  1023  please", "label": 3, "intended_class": 3, "eligible": true, "category": "class_3_template_0", "split": "validation"}
+{"input": "please\tfind\tsubtract\tthe\tvalue\t-1009.25\tfrom\t+1011.0?", "label": 3, "intended_class": 3, "eligible": true, "category": "class_3_template_0", "split": "validation"}
+{"input": "please find squre root of -1009e-3?", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_1", "split": "validation"}
+{"input": "what  is  the  answer  for  the  result  of  +1009e-3  plus  +1011e2?", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_0", "split": "validation"}
+{"input": "what  is  the  answer  for  the  result  of  1061  times  1063?", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_1", "split": "validation"}
+{"input": "please find what percent change from 1061 to 1063 please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_6", "split": "validation"}
+{"input": "what  is  the  answer  for  the  result  of  1061  divided  by  -1063.75  please", "label": 5, "intended_class": 5, "eligible": true, "category": "class_5_template_0", "split": "validation"}
+{"input": "how much is cube root of the number -1061.25 please", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_0", "split": "validation"}
+{"input": "how much is 1009 percent of the number 1011 please", "label": 18, "intended_class": 18, "eligible": true, "category": "class_18_template_0", "split": "validation"}
+{"input": "please\tfind\tthe\tresult\tof\t1061\tpermute\t1063\tplease", "label": 16, "intended_class": 16, "eligible": true, "category": "class_16_template_0", "split": "validation"}
+{"input": "wat  iz  choose  the  value  +1009.25  from  1011", "label": 15, "intended_class": 15, "eligible": true, "category": "class_15_template_0", "split": "validation"}
+{"input": "please find factorial of the number 1031", "label": 10, "intended_class": 10, "eligible": true, "category": "class_10_template_0", "split": "validation"}
+{"input": "what is the answer for 1061 percent of the number 1063", "label": 18, "intended_class": 18, "eligible": true, "category": "class_18_template_0", "split": "validation"}
+{"input": "what\tis\tthe\tanswer\tfor\tthe\tresult\tof\t+1009e-3\tminus\t1011", "label": 2, "intended_class": 2, "eligible": true, "category": "class_2_template_0", "split": "validation"}
+{"input": "please find 1061 dogs live near 1063 cats?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_1", "split": "validation"}
+{"input": "how  much  is  1031  minus  the  answer", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_3", "split": "validation"}
+{"input": "how  much  is  the  result  of  1031  permute  1033  please", "label": 16, "intended_class": 16, "eligible": true, "category": "class_16_template_0", "split": "validation"}
+{"input": "wat iz the number 1031 modulo -1033.0?", "label": 11, "intended_class": 11, "eligible": true, "category": "class_11_template_0", "split": "validation"}
+{"input": "how  much  is  lcm  of  1009  and  1011  seconds?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_5", "split": "validation"}
+{"input": "what is the answer for the result of 1061 permute 1063", "label": 16, "intended_class": 16, "eligible": true, "category": "class_16_template_0", "split": "validation"}
+{"input": "wat\tiz\tthe\tlcm\tof\t1021\twith\t1023", "label": 13, "intended_class": 13, "eligible": true, "category": "class_13_template_0", "split": "validation"}
+{"input": "wat iz the result of 1031 times 1033", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_1", "split": "validation"}
+{"input": "how  much  is  square  root  of  the  number  1031  please", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_0", "split": "validation"}
+{"input": "wat  iz  1009  or  1011e2  please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_8", "split": "validation"}
+{"input": "how\tmuch\tis\tthe\tproduct\tof\t1031\twith\t1033", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_0", "split": "validation"}
+{"input": "what  is  the  answer  for  the  result  of  1009  choose  1011?", "label": 14, "intended_class": 14, "eligible": true, "category": "class_14_template_0", "split": "validation"}
+{"input": "please find subtract from 1009?", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_2", "split": "validation"}
+{"input": "how\tmuch\tis\tcube\troot\tof\tthe\tnumber\t1021e-3", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_0", "split": "validation"}
+{"input": "how\tmuch\tis\tcube\troot\tof\tthe\tnumber\t-1031e-3\tplease", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_0", "split": "validation"}
+{"input": "how much is permutations of the value 1009 from 1011.75?", "label": 17, "intended_class": 17, "eligible": true, "category": "class_17_template_0", "split": "validation"}
+{"input": "wat  iz  the  result  of  -1031.0  divided  by  1033?", "label": 5, "intended_class": 5, "eligible": true, "category": "class_5_template_0", "split": "validation"}
+{"input": "please  find  show  weather  at  +1061.0  please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_0", "split": "validation"}
+{"input": "wat iz what is three plus 1009.25?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_9", "split": "validation"}
+{"input": "what is the answer for sum 1031 and 1033 please", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_1", "split": "validation"}
+{"input": "please find the result of -1021.25 permute 1023?", "label": 16, "intended_class": 16, "eligible": true, "category": "class_16_template_0", "split": "validation"}
+{"input": "how  much  is  the  result  of  1021  choose  -1023.75?", "label": 14, "intended_class": 14, "eligible": true, "category": "class_14_template_0", "split": "validation"}
+{"input": "what\tis\tthe\tanswer\tfor\tlcm\tof\t1021e-3\tand\t1023\tseconds", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_5", "split": "validation"}
+{"input": "please  find  sqrt  of  the  sum  of  1061  and  1063.0?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_4", "split": "validation"}
+{"input": "please find subtract from 1061", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_2", "split": "validation"}
+{"input": "how\tmuch\tis\t1021\tdogs\tlive\tnear\t1023\tcats", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_1", "split": "validation"}
+{"input": "what is the answer for what percent change from -1061e-3 to 1063?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_6", "split": "validation"}
+{"input": "how much is the number +1021.0 modulo 1023", "label": 11, "intended_class": 11, "eligible": true, "category": "class_11_template_0", "split": "validation"}
+{"input": "how  much  is  the  product  of  +1031e-3  with  -1033.0?", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_0", "split": "validation"}
+{"input": "please find the result of 1061 divided by 1063.75", "label": 5, "intended_class": 5, "eligible": true, "category": "class_5_template_0", "split": "validation"}
+{"input": "what is the answer for the result of -1061e-3 permute +1063.0?", "label": 16, "intended_class": 16, "eligible": true, "category": "class_16_template_0", "split": "validation"}
+{"input": "please  find  the  result  of  1061  permute  1063", "label": 16, "intended_class": 16, "eligible": true, "category": "class_16_template_0", "split": "validation"}
+{"input": "how  much  is  square  root  of  the  number  -1009.0", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_0", "split": "validation"}
+{"input": "please  find  -1061e-3  dogs  live  near  1063  cats?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_1", "split": "validation"}
+{"input": "wat iz sqrt of the sum of 1009 and 1011?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_4", "split": "validation"}
+{"input": "how much is subtract from 1031 please", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_2", "split": "validation"}
+{"input": "how much is square root of the number 1009", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_0", "split": "validation"}
+{"input": "how much is sum 1009 and 1011", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_1", "split": "validation"}
+{"input": "wat  iz  the  gcd  of  1031  with  1033", "label": 12, "intended_class": 12, "eligible": true, "category": "class_12_template_0", "split": "validation"}
+{"input": "how much is the lcm of 1061 with 1063", "label": 13, "intended_class": 13, "eligible": true, "category": "class_13_template_0", "split": "validation"}
+{"input": "please  find  divide  the  value  1031  into  1033  please", "label": 6, "intended_class": 6, "eligible": true, "category": "class_6_template_0", "split": "validation"}
+{"input": "wat  iz  1031  minus  minus  1033  please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_10", "split": "validation"}
+{"input": "please\tfind\twhat\tpercent\tchange\tfrom\t1061\tto\t-1063e2?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_6", "split": "validation"}
+{"input": "what  is  the  answer  for  the  result  of  -1061.25  divided  by  1063.0?", "label": 5, "intended_class": 5, "eligible": true, "category": "class_5_template_0", "split": "validation"}
+{"input": "how\tmuch\tis\tdivide\tthe\tvalue\t1021\tinto\t1023", "label": 6, "intended_class": 6, "eligible": true, "category": "class_6_template_0", "split": "validation"}
+{"input": "how much is sum -1021e-3 and +1023.0 please", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_1", "split": "validation"}
+{"input": "how\tmuch\tis\tsqure\troot\tof\t1009\tplease", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_1", "split": "validation"}
+{"input": "please find factorial of the number 1061 please", "label": 10, "intended_class": 10, "eligible": true, "category": "class_10_template_0", "split": "validation"}
+{"input": "what is the answer for subtract from -1061.0 please", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_2", "split": "validation"}
+{"input": "wat  iz  the  product  of  1021  with  1023?", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_0", "split": "validation"}
+{"input": "please  find  1031  percent  of  the  number  1033?", "label": 18, "intended_class": 18, "eligible": true, "category": "class_18_template_0", "split": "validation"}
+{"input": "wat iz show weather at 1031", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_0", "split": "validation"}
+{"input": "please find 1031 dogs live near 1033 cats", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_1", "split": "validation"}
+{"input": "please  find  the  result  of  1009.0  plus  1011?", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_0", "split": "validation"}
+{"input": "please  find  never  multiply  1009  and  1011?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_7", "split": "validation"}
+{"input": "please  find  permutations  of  the  value  1061  from  1063  please", "label": 17, "intended_class": 17, "eligible": true, "category": "class_17_template_0", "split": "validation"}
+{"input": "how  much  is  cube  root  of  the  number  1021.25?", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_0", "split": "validation"}
+{"input": "wat  iz  lcm  of  1031.0  and  1033  seconds", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_5", "split": "validation"}
+{"input": "what  is  the  answer  for  choose  the  value  +1009.0  from  1011?", "label": 15, "intended_class": 15, "eligible": true, "category": "class_15_template_0", "split": "validation"}
+{"input": "wat iz the lcm of -1031.0 with 1033", "label": 13, "intended_class": 13, "eligible": true, "category": "class_13_template_0", "split": "validation"}
+{"input": "wat  iz  show  weather  at  1031?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_0", "split": "validation"}
+{"input": "wat  iz  the  result  of  1031  plus  1033", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_0", "split": "validation"}
+{"input": "what is the answer for choose the value 1031 from 1033?", "label": 15, "intended_class": 15, "eligible": true, "category": "class_15_template_0", "split": "validation"}
+{"input": "wat  iz  1009e-3  percent  of  the  number  +1011e2  please", "label": 18, "intended_class": 18, "eligible": true, "category": "class_18_template_0", "split": "validation"}
+{"input": "wat iz divide the value 1031 into 1033", "label": 6, "intended_class": 6, "eligible": true, "category": "class_6_template_0", "split": "validation"}
+{"input": "please  find  what  percent  change  from  1009.25  to  1011  please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_6", "split": "validation"}
+{"input": "wat iz the product of 1031 with 1033 please", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_0", "split": "validation"}
+{"input": "what is the answer for divide the value 1031 into +1033e2", "label": 6, "intended_class": 6, "eligible": true, "category": "class_6_template_0", "split": "validation"}
+{"input": "what  is  the  answer  for  permutations  of  the  value  -1009.25  from  1011", "label": 17, "intended_class": 17, "eligible": true, "category": "class_17_template_0", "split": "validation"}
+{"input": "what  is  the  answer  for  what  percent  change  from  1021.25  to  1023  please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_6", "split": "validation"}
+{"input": "wat  iz  the  result  of  1021  divided  by  1023  please", "label": 5, "intended_class": 5, "eligible": true, "category": "class_5_template_0", "split": "validation"}
+{"input": "please  find  show  weather  at  1021.25", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_0", "split": "validation"}
+{"input": "what  is  the  answer  for  factorial  of  the  number  1031  please", "label": 10, "intended_class": 10, "eligible": true, "category": "class_10_template_0", "split": "validation"}
+{"input": "wat\tiz\tthe\tlcm\tof\t1009.0\twith\t+1011.75?", "label": 13, "intended_class": 13, "eligible": true, "category": "class_13_template_0", "split": "validation"}
+{"input": "what is the answer for 1009 percent of the number 1011?", "label": 18, "intended_class": 18, "eligible": true, "category": "class_18_template_0", "split": "validation"}
+{"input": "how\tmuch\tis\tsum\t+1021e-3\tand\t-1023.75", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_1", "split": "validation"}
+{"input": "wat\tiz\t1061\tminus\tminus\t1063?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_10", "split": "validation"}
+{"input": "how  much  is  divide  the  value  1009  into  1011.75?", "label": 6, "intended_class": 6, "eligible": true, "category": "class_6_template_0", "split": "validation"}
+{"input": "please  find  square  root  of  the  number  -1009e-3?", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_0", "split": "validation"}
+{"input": "wat  iz  the  result  of  -1061e-3  minus  1063  please", "label": 2, "intended_class": 2, "eligible": true, "category": "class_2_template_0", "split": "validation"}
+{"input": "wat  iz  square  root  of  the  number  1061", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_0", "split": "validation"}
+{"input": "what is the answer for absolute value of the number 1031?", "label": 19, "intended_class": 19, "eligible": true, "category": "class_19_template_0", "split": "validation"}
+{"input": "wat\tiz\tthe\tnumber\t-1009.0\tmodulo\t1011?", "label": 11, "intended_class": 11, "eligible": true, "category": "class_11_template_0", "split": "validation"}
+{"input": "please  find  the  number  1031.25  modulo  1033.0  please", "label": 11, "intended_class": 11, "eligible": true, "category": "class_11_template_0", "split": "validation"}
+{"input": "please find -1031.25 dogs live near 1033 cats please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_1", "split": "validation"}
+{"input": "how  much  is  the  result  of  1031e-3  times  1033.75", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_1", "split": "validation"}
+{"input": "wat iz sum 1031 and 1033e2 please", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_1", "split": "validation"}
+{"input": "what\tis\tthe\tanswer\tfor\tthe\tproduct\tof\t1009\twith\t1011", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_0", "split": "validation"}
+{"input": "please find subtract the value -1009.0 from 1011", "label": 3, "intended_class": 3, "eligible": true, "category": "class_3_template_0", "split": "validation"}
+{"input": "what\tis\tthe\tanswer\tfor\tsubtract\tfrom\t1061", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_2", "split": "validation"}
+{"input": "how much is sqrt of the sum of 1031 and +1033e2 please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_4", "split": "validation"}
+{"input": "wat iz 1021 minus minus 1023", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_10", "split": "validation"}
+{"input": "what is the answer for +1021e-3 or 1023?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_8", "split": "validation"}
+{"input": "please find what is three plus 1061 please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_9", "split": "validation"}
+{"input": "what is the answer for the result of -1021e-3 plus -1023.0", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_0", "split": "validation"}
+{"input": "wat iz the lcm of 1021 with +1023.75 please", "label": 13, "intended_class": 13, "eligible": true, "category": "class_13_template_0", "split": "validation"}
+{"input": "how much is the number 1031e-3 to the power 1033?", "label": 7, "intended_class": 7, "eligible": true, "category": "class_7_template_0", "split": "validation"}
+{"input": "please  find  the  result  of  1061  times  -1063.75  please", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_1", "split": "validation"}
+{"input": "what  is  the  answer  for  subtract  from  1021  please", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_2", "split": "validation"}
+{"input": "how  much  is  never  multiply  1009e-3  and  1011?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_7", "split": "validation"}
+{"input": "please\tfind\tthe\tnumber\t1031\tto\tthe\tpower\t1033.0", "label": 7, "intended_class": 7, "eligible": true, "category": "class_7_template_0", "split": "validation"}
+{"input": "wat iz the gcd of +1061.25 with 1063e2", "label": 12, "intended_class": 12, "eligible": true, "category": "class_12_template_0", "split": "validation"}
+{"input": "wat iz 1061 or 1063.75 please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_8", "split": "validation"}
+{"input": "how  much  is  permutations  of  the  value  1009.25  from  1011", "label": 17, "intended_class": 17, "eligible": true, "category": "class_17_template_0", "split": "validation"}
+{"input": "wat  iz  the  result  of  1061.0  plus  1063?", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_0", "split": "validation"}
+{"input": "please find sqrt of the sum of 1061 and 1063 please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_4", "split": "validation"}
+{"input": "what is the answer for subtract from 1021?", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_2", "split": "validation"}
+{"input": "how  much  is  1061  minus  the  answer  please", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_3", "split": "validation"}
+{"input": "how much is the result of 1021 divided by 1023.75", "label": 5, "intended_class": 5, "eligible": true, "category": "class_5_template_0", "split": "validation"}
+{"input": "how  much  is  what  is  three  plus  1009  please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_9", "split": "validation"}
+{"input": "please  find  1031  minus  minus  1033", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_10", "split": "validation"}
+{"input": "please  find  -1061.0  or  -1063.75?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_8", "split": "validation"}
+{"input": "how  much  is  the  result  of  1009  choose  +1011.0", "label": 14, "intended_class": 14, "eligible": true, "category": "class_14_template_0", "split": "validation"}
+{"input": "wat iz the number 1061 modulo 1063", "label": 11, "intended_class": 11, "eligible": true, "category": "class_11_template_0", "split": "validation"}
+{"input": "please\tfind\tshow\tweather\tat\t+1031.25\tplease", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_0", "split": "validation"}
+{"input": "what is the answer for cube root of the number 1009?", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_0", "split": "validation"}
+{"input": "please find the result of 1061 divided by +1063.0?", "label": 5, "intended_class": 5, "eligible": true, "category": "class_5_template_0", "split": "validation"}
+{"input": "please find the result of 1009 plus 1011?", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_0", "split": "validation"}
+{"input": "how\tmuch\tis\tshow\tweather\tat\t1021.0?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_0", "split": "validation"}
+{"input": "wat\tiz\twhat\tis\tthree\tplus\t1021.25", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_9", "split": "validation"}
+{"input": "wat iz the result of -1031.0 minus 1033?", "label": 2, "intended_class": 2, "eligible": true, "category": "class_2_template_0", "split": "validation"}
+{"input": "wat  iz  what  is  three  plus  +1009.0", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_9", "split": "validation"}
+{"input": "wat iz the result of 1061 minus 1063", "label": 2, "intended_class": 2, "eligible": true, "category": "class_2_template_0", "split": "validation"}
+{"input": "how much is the result of +1021.0 permute 1023", "label": 16, "intended_class": 16, "eligible": true, "category": "class_16_template_0", "split": "validation"}
+{"input": "how much is the product of 1021 with 1023.75", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_0", "split": "validation"}
+{"input": "how  much  is  subtract  from  -1061e-3  please", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_2", "split": "validation"}
+{"input": "how much is the result of 1061 choose +1063e2?", "label": 14, "intended_class": 14, "eligible": true, "category": "class_14_template_0", "split": "validation"}
+{"input": "wat  iz  1021  percent  of  the  number  1023?", "label": 18, "intended_class": 18, "eligible": true, "category": "class_18_template_0", "split": "validation"}
+{"input": "please  find  absolute  value  of  the  number  1021", "label": 19, "intended_class": 19, "eligible": true, "category": "class_19_template_0", "split": "validation"}
+{"input": "wat iz subtract the value 1009 from -1011.0 please", "label": 3, "intended_class": 3, "eligible": true, "category": "class_3_template_0", "split": "validation"}
+{"input": "what  is  the  answer  for  the  result  of  1009  choose  1011  please", "label": 14, "intended_class": 14, "eligible": true, "category": "class_14_template_0", "split": "validation"}
+{"input": "what is the answer for permutations of the value 1061 from 1063", "label": 17, "intended_class": 17, "eligible": true, "category": "class_17_template_0", "split": "validation"}
+{"input": "what  is  the  answer  for  subtract  the  value  1061  from  1063?", "label": 3, "intended_class": 3, "eligible": true, "category": "class_3_template_0", "split": "validation"}
+{"input": "please\tfind\tabsolute\tvalue\tof\tthe\tnumber\t1009?", "label": 19, "intended_class": 19, "eligible": true, "category": "class_19_template_0", "split": "validation"}
+{"input": "how  much  is  the  result  of  1021.25  plus  1023", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_0", "split": "validation"}
+{"input": "wat iz the result of +1009.25 times 1011?", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_1", "split": "validation"}
+{"input": "please find choose the value 1009 from 1011 please", "label": 15, "intended_class": 15, "eligible": true, "category": "class_15_template_0", "split": "validation"}
+{"input": "wat iz the number -1031.25 modulo 1033 please", "label": 11, "intended_class": 11, "eligible": true, "category": "class_11_template_0", "split": "validation"}
+{"input": "wat  iz  the  lcm  of  1061  with  +1063e2", "label": 13, "intended_class": 13, "eligible": true, "category": "class_13_template_0", "split": "validation"}
+{"input": "what is the answer for squre root of 1061", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_1", "split": "validation"}
+{"input": "how much is the result of 1061e-3 times -1063.75", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_1", "split": "validation"}
+{"input": "what  is  the  answer  for  the  result  of  1021  times  1023", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_1", "split": "validation"}
+{"input": "please find the gcd of +1031.0 with 1033 please", "label": 12, "intended_class": 12, "eligible": true, "category": "class_12_template_0", "split": "validation"}
+{"input": "what\tis\tthe\tanswer\tfor\tthe\tresult\tof\t+1031.0\tplus\t1033\tplease", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_0", "split": "validation"}
+{"input": "how much is choose the value 1009 from 1011 please", "label": 15, "intended_class": 15, "eligible": true, "category": "class_15_template_0", "split": "validation"}
+{"input": "wat  iz  -1021.0  dogs  live  near  1023  cats", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_1", "split": "validation"}
+{"input": "please find 1061 or 1063 please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_8", "split": "validation"}
+{"input": "please find the number -1021e-3 modulo +1023e2", "label": 11, "intended_class": 11, "eligible": true, "category": "class_11_template_0", "split": "validation"}
+{"input": "wat  iz  subtract  from  1021.25?", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_2", "split": "validation"}
+{"input": "wat\tiz\t+1021.25\tor\t-1023.0", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_8", "split": "validation"}
+{"input": "how much is sqrt of the sum of -1031e-3 and 1033", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_4", "split": "validation"}
+{"input": "wat  iz  never  multiply  1009e-3  and  1011.0", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_7", "split": "validation"}
+{"input": "please  find  choose  the  value  1009.25  from  -1011e2", "label": 15, "intended_class": 15, "eligible": true, "category": "class_15_template_0", "split": "validation"}
+{"input": "what is the answer for 1031 or 1033 please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_8", "split": "validation"}
+{"input": "what  is  the  answer  for  subtract  the  value  1061  from  -1063.0", "label": 3, "intended_class": 3, "eligible": true, "category": "class_3_template_0", "split": "validation"}
+{"input": "wat iz permutations of the value 1031 from 1033", "label": 17, "intended_class": 17, "eligible": true, "category": "class_17_template_0", "split": "validation"}
+{"input": "how  much  is  the  result  of  1031  permute  1033", "label": 16, "intended_class": 16, "eligible": true, "category": "class_16_template_0", "split": "validation"}
+{"input": "how much is +1031.0 minus the answer?", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_3", "split": "validation"}
+{"input": "please find the number 1061 modulo 1063?", "label": 11, "intended_class": 11, "eligible": true, "category": "class_11_template_0", "split": "validation"}
+{"input": "what\tis\tthe\tanswer\tfor\tsqure\troot\tof\t1031?", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_1", "split": "validation"}
+{"input": "please  find  what  percent  change  from  +1061.0  to  -1063e2", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_6", "split": "validation"}
+{"input": "what is the answer for square root of the number 1031 please", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_0", "split": "validation"}
+{"input": "wat iz 1021 percent of the number 1023 please", "label": 18, "intended_class": 18, "eligible": true, "category": "class_18_template_0", "split": "validation"}
+{"input": "wat  iz  the  result  of  -1021e-3  minus  1023?", "label": 2, "intended_class": 2, "eligible": true, "category": "class_2_template_0", "split": "validation"}
+{"input": "what is the answer for subtract from 1021", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_2", "split": "validation"}
+{"input": "how  much  is  sum  1061  and  +1063.75", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_1", "split": "validation"}
+{"input": "please find the result of 1061 divided by -1063e2 please", "label": 5, "intended_class": 5, "eligible": true, "category": "class_5_template_0", "split": "validation"}
+{"input": "what is the answer for the result of 1021.0 minus +1023.0 please", "label": 2, "intended_class": 2, "eligible": true, "category": "class_2_template_0", "split": "validation"}
+{"input": "wat  iz  absolute  value  of  the  number  1021?", "label": 19, "intended_class": 19, "eligible": true, "category": "class_19_template_0", "split": "validation"}
+{"input": "wat iz factorial of the number 1021?", "label": 10, "intended_class": 10, "eligible": true, "category": "class_10_template_0", "split": "validation"}
+{"input": "please\tfind\tpermutations\tof\tthe\tvalue\t-1031e-3\tfrom\t-1033.0?", "label": 17, "intended_class": 17, "eligible": true, "category": "class_17_template_0", "split": "validation"}
+{"input": "how much is the result of 1021e-3 times 1023?", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_1", "split": "validation"}
+{"input": "what  is  the  answer  for  factorial  of  the  number  1021.25?", "label": 10, "intended_class": 10, "eligible": true, "category": "class_10_template_0", "split": "validation"}
+{"input": "what  is  the  answer  for  divide  the  value  1021  into  1023  please", "label": 6, "intended_class": 6, "eligible": true, "category": "class_6_template_0", "split": "validation"}
+{"input": "how much is permutations of the value +1009.0 from 1011 please", "label": 17, "intended_class": 17, "eligible": true, "category": "class_17_template_0", "split": "validation"}
+{"input": "what  is  the  answer  for  square  root  of  the  number  -1061.25?", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_0", "split": "validation"}
+{"input": "please find lcm of 1061.0 and -1063e2 seconds?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_5", "split": "validation"}
+{"input": "what\tis\tthe\tanswer\tfor\twhat\tis\tthree\tplus\t-1009.25?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_9", "split": "validation"}
+{"input": "wat\tiz\tfactorial\tof\tthe\tnumber\t1009?", "label": 10, "intended_class": 10, "eligible": true, "category": "class_10_template_0", "split": "validation"}
+{"input": "please find 1021 percent of the number +1023e2 please", "label": 18, "intended_class": 18, "eligible": true, "category": "class_18_template_0", "split": "validation"}
+{"input": "please\tfind\t1061.0\tpercent\tof\tthe\tnumber\t1063", "label": 18, "intended_class": 18, "eligible": true, "category": "class_18_template_0", "split": "validation"}
+{"input": "how  much  is  the  product  of  -1021.0  with  1023", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_0", "split": "validation"}
+{"input": "wat iz 1021 minus minus 1023?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_10", "split": "validation"}
+{"input": "wat  iz  cube  root  of  the  number  -1021e-3?", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_0", "split": "validation"}
+{"input": "wat\tiz\tthe\tresult\tof\t1009\tplus\t1011", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_0", "split": "validation"}
+{"input": "how\tmuch\tis\tchoose\tthe\tvalue\t1031\tfrom\t1033\tplease", "label": 15, "intended_class": 15, "eligible": true, "category": "class_15_template_0", "split": "validation"}
+{"input": "please  find  the  result  of  1021  plus  1023  please", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_0", "split": "validation"}
+{"input": "how much is the result of 1031 plus 1033 please", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_0", "split": "validation"}
+{"input": "what is the answer for show weather at -1031e-3", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_0", "split": "validation"}
+{"input": "how much is absolute value of the number +1009.0 please", "label": 19, "intended_class": 19, "eligible": true, "category": "class_19_template_0", "split": "validation"}
+{"input": "how  much  is  the  result  of  1031  plus  -1033e2  please", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_0", "split": "validation"}
+{"input": "wat iz the gcd of 1009 with +1011.0?", "label": 12, "intended_class": 12, "eligible": true, "category": "class_12_template_0", "split": "validation"}
+{"input": "how  much  is  the  gcd  of  1061.0  with  1063", "label": 12, "intended_class": 12, "eligible": true, "category": "class_12_template_0", "split": "validation"}
+{"input": "wat  iz  1061e-3  minus  the  answer", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_3", "split": "validation"}
+{"input": "how  much  is  the  gcd  of  -1009.25  with  1011  please", "label": 12, "intended_class": 12, "eligible": true, "category": "class_12_template_0", "split": "validation"}
+{"input": "please  find  absolute  value  of  the  number  1031?", "label": 19, "intended_class": 19, "eligible": true, "category": "class_19_template_0", "split": "validation"}
+{"input": "wat  iz  sum  1031  and  1033.75?", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_1", "split": "validation"}
+{"input": "please find the lcm of 1021 with 1023 please", "label": 13, "intended_class": 13, "eligible": true, "category": "class_13_template_0", "split": "validation"}
+{"input": "please\tfind\tdivide\tthe\tvalue\t1031\tinto\t1033?", "label": 6, "intended_class": 6, "eligible": true, "category": "class_6_template_0", "split": "validation"}
+{"input": "how  much  is  show  weather  at  -1009.0  please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_0", "split": "validation"}
+{"input": "please  find  the  number  1009  to  the  power  1011", "label": 7, "intended_class": 7, "eligible": true, "category": "class_7_template_0", "split": "validation"}
+{"input": "what\tis\tthe\tanswer\tfor\tthe\tlcm\tof\t1061\twith\t1063?", "label": 13, "intended_class": 13, "eligible": true, "category": "class_13_template_0", "split": "validation"}
+{"input": "wat  iz  the  number  1009  to  the  power  1011  please", "label": 7, "intended_class": 7, "eligible": true, "category": "class_7_template_0", "split": "validation"}
+{"input": "what is the answer for the result of 1031e-3 times 1033 please", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_1", "split": "validation"}
+{"input": "what is the answer for the result of 1009 times 1011?", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_1", "split": "validation"}
+{"input": "please  find  absolute  value  of  the  number  1031  please", "label": 19, "intended_class": 19, "eligible": true, "category": "class_19_template_0", "split": "validation"}
+{"input": "what is the answer for the number +1009.0 to the power +1011.0?", "label": 7, "intended_class": 7, "eligible": true, "category": "class_7_template_0", "split": "validation"}
+{"input": "wat iz what is three plus 1021 please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_9", "split": "validation"}
+{"input": "what  is  the  answer  for  1031  dogs  live  near  +1033.75  cats?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_1", "split": "validation"}
+{"input": "wat iz never multiply 1031 and 1033 please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_7", "split": "validation"}
+{"input": "what is the answer for the product of 1009 with 1011 please", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_0", "split": "validation"}
+{"input": "what  is  the  answer  for  the  result  of  1061  permute  1063", "label": 16, "intended_class": 16, "eligible": true, "category": "class_16_template_0", "split": "validation"}
+{"input": "how  much  is  the  number  1009  to  the  power  1011  please", "label": 7, "intended_class": 7, "eligible": true, "category": "class_7_template_0", "split": "validation"}
+{"input": "what  is  the  answer  for  the  result  of  1021  permute  1023?", "label": 16, "intended_class": 16, "eligible": true, "category": "class_16_template_0", "split": "validation"}
+{"input": "wat iz 1009 minus the answer?", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_3", "split": "validation"}
+{"input": "how much is subtract the value -1021.0 from +1023e2?", "label": 3, "intended_class": 3, "eligible": true, "category": "class_3_template_0", "split": "validation"}
+{"input": "please\tfind\tabsolute\tvalue\tof\tthe\tnumber\t1061\tplease", "label": 19, "intended_class": 19, "eligible": true, "category": "class_19_template_0", "split": "validation"}
+{"input": "how\tmuch\tis\t1031\tdogs\tlive\tnear\t1033\tcats?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_1", "split": "validation"}
+{"input": "what is the answer for the result of 1031 choose 1033?", "label": 14, "intended_class": 14, "eligible": true, "category": "class_14_template_0", "split": "validation"}
+{"input": "wat\tiz\tsquare\troot\tof\tthe\tnumber\t1021", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_0", "split": "validation"}
+{"input": "wat iz divide the value 1061 into 1063 please", "label": 6, "intended_class": 6, "eligible": true, "category": "class_6_template_0", "split": "validation"}
+{"input": "how  much  is  the  gcd  of  1021  with  1023?", "label": 12, "intended_class": 12, "eligible": true, "category": "class_12_template_0", "split": "validation"}
+{"input": "how\tmuch\tis\tfactorial\tof\tthe\tnumber\t1061", "label": 10, "intended_class": 10, "eligible": true, "category": "class_10_template_0", "split": "validation"}
+{"input": "what is the answer for choose the value 1061 from 1063.75", "label": 15, "intended_class": 15, "eligible": true, "category": "class_15_template_0", "split": "validation"}
+{"input": "how\tmuch\tis\tthe\tresult\tof\t1021\tdivided\tby\t1023\tplease", "label": 5, "intended_class": 5, "eligible": true, "category": "class_5_template_0", "split": "validation"}
+{"input": "what  is  the  answer  for  never  multiply  1031  and  +1033.0?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_7", "split": "validation"}
+{"input": "how much is 1009 percent of the number 1011.75?", "label": 18, "intended_class": 18, "eligible": true, "category": "class_18_template_0", "split": "validation"}
+{"input": "what is the answer for the result of 1021 divided by +1023e2 please", "label": 5, "intended_class": 5, "eligible": true, "category": "class_5_template_0", "split": "validation"}
+{"input": "please  find  +1021e-3  percent  of  the  number  1023  please", "label": 18, "intended_class": 18, "eligible": true, "category": "class_18_template_0", "split": "validation"}
+{"input": "how  much  is  squre  root  of  1031", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_1", "split": "validation"}
+{"input": "what  is  the  answer  for  squre  root  of  1009", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_1", "split": "validation"}
+{"input": "please find 1009 percent of the number +1011.75?", "label": 18, "intended_class": 18, "eligible": true, "category": "class_18_template_0", "split": "validation"}
+{"input": "please\tfind\tsum\t-1009e-3\tand\t-1011.75\tplease", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_1", "split": "validation"}
+{"input": "how\tmuch\tis\tthe\tresult\tof\t+1009.0\tminus\t1011", "label": 2, "intended_class": 2, "eligible": true, "category": "class_2_template_0", "split": "validation"}
+{"input": "please  find  the  result  of  1061.25  choose  1063  please", "label": 14, "intended_class": 14, "eligible": true, "category": "class_14_template_0", "split": "validation"}
+{"input": "what  is  the  answer  for  1061  percent  of  the  number  +1063.75?", "label": 18, "intended_class": 18, "eligible": true, "category": "class_18_template_0", "split": "validation"}
+{"input": "how\tmuch\tis\tsubtract\tfrom\t1031", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_2", "split": "validation"}
+{"input": "please  find  permutations  of  the  value  -1009e-3  from  1011?", "label": 17, "intended_class": 17, "eligible": true, "category": "class_17_template_0", "split": "validation"}
+{"input": "what is the answer for permutations of the value 1031 from -1033.75 please", "label": 17, "intended_class": 17, "eligible": true, "category": "class_17_template_0", "split": "validation"}
+{"input": "what\tis\tthe\tanswer\tfor\tthe\tresult\tof\t+1061e-3\ttimes\t+1063e2?", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_1", "split": "validation"}
+{"input": "wat\tiz\t1061\tor\t1063?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_8", "split": "validation"}
+{"input": "please find never multiply +1021.25 and 1023?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_7", "split": "validation"}
+{"input": "what  is  the  answer  for  cube  root  of  the  number  -1031.0", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_0", "split": "validation"}
+{"input": "what  is  the  answer  for  the  product  of  1021  with  1023", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_0", "split": "validation"}
+{"input": "please  find  lcm  of  1009  and  1011  seconds?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_5", "split": "validation"}
+{"input": "please find show weather at 1061", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_0", "split": "validation"}
+{"input": "please find the result of 1061.0 minus 1063?", "label": 2, "intended_class": 2, "eligible": true, "category": "class_2_template_0", "split": "validation"}
+{"input": "please find the gcd of 1031 with +1033e2", "label": 12, "intended_class": 12, "eligible": true, "category": "class_12_template_0", "split": "validation"}
+{"input": "wat  iz  absolute  value  of  the  number  1061  please", "label": 19, "intended_class": 19, "eligible": true, "category": "class_19_template_0", "split": "validation"}
+{"input": "what is the answer for 1021 minus minus -1023.75 please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_10", "split": "validation"}
+{"input": "how much is choose the value 1009 from 1011", "label": 15, "intended_class": 15, "eligible": true, "category": "class_15_template_0", "split": "validation"}
+{"input": "please  find  subtract  from  1009.25?", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_2", "split": "validation"}
+{"input": "please find show weather at 1061e-3 please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_0", "split": "validation"}
+{"input": "please  find  the  result  of  1061  divided  by  1063  please", "label": 5, "intended_class": 5, "eligible": true, "category": "class_5_template_0", "split": "validation"}
+{"input": "how\tmuch\tis\tabsolute\tvalue\tof\tthe\tnumber\t1021\tplease", "label": 19, "intended_class": 19, "eligible": true, "category": "class_19_template_0", "split": "validation"}
+{"input": "please  find  show  weather  at  1021?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_0", "split": "validation"}
+{"input": "how much is sqrt of the sum of 1021 and 1023?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_4", "split": "validation"}
+{"input": "how  much  is  squre  root  of  +1031.25?", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_1", "split": "validation"}
+{"input": "please find the product of 1021.0 with 1023", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_0", "split": "validation"}
+{"input": "please\tfind\tthe\tnumber\t1031\tto\tthe\tpower\t-1033.0\tplease", "label": 7, "intended_class": 7, "eligible": true, "category": "class_7_template_0", "split": "validation"}
+{"input": "what  is  the  answer  for  1061  minus  minus  1063?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_10", "split": "validation"}
+{"input": "wat iz subtract from 1031?", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_2", "split": "validation"}
+{"input": "how much is 1061 dogs live near 1063 cats please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_1", "split": "validation"}
+{"input": "wat iz what percent change from 1031e-3 to +1033.0?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_6", "split": "validation"}
+{"input": "how\tmuch\tis\tnever\tmultiply\t1021\tand\t1023.0", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_7", "split": "validation"}
+{"input": "how\tmuch\tis\tthe\tproduct\tof\t1021\twith\t1023.0?", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_0", "split": "validation"}
+{"input": "what\tis\tthe\tanswer\tfor\t1021\tminus\tminus\t1023\tplease", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_10", "split": "validation"}
+{"input": "what is the answer for lcm of 1031 and 1033 seconds please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_5", "split": "validation"}
+{"input": "please\tfind\tcube\troot\tof\tthe\tnumber\t1009\tplease", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_0", "split": "validation"}
+{"input": "wat  iz  the  result  of  1061.0  times  1063  please", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_1", "split": "validation"}
+{"input": "what is the answer for absolute value of the number 1031", "label": 19, "intended_class": 19, "eligible": true, "category": "class_19_template_0", "split": "validation"}
+{"input": "please find the product of 1031 with +1033.0 please", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_0", "split": "validation"}
+{"input": "wat  iz  the  lcm  of  1021  with  1023.75?", "label": 13, "intended_class": 13, "eligible": true, "category": "class_13_template_0", "split": "validation"}
+{"input": "how much is show weather at 1061.0 please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_0", "split": "validation"}
+{"input": "please find squre root of 1031", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_1", "split": "validation"}
+{"input": "please\tfind\tthe\tresult\tof\t-1021e-3\tminus\t-1023.75\tplease", "label": 2, "intended_class": 2, "eligible": true, "category": "class_2_template_0", "split": "validation"}
+{"input": "what is the answer for the result of 1061 minus 1063.0", "label": 2, "intended_class": 2, "eligible": true, "category": "class_2_template_0", "split": "validation"}
+{"input": "what  is  the  answer  for  choose  the  value  1009  from  1011  please", "label": 15, "intended_class": 15, "eligible": true, "category": "class_15_template_0", "split": "validation"}
+{"input": "wat  iz  factorial  of  the  number  1021  please", "label": 10, "intended_class": 10, "eligible": true, "category": "class_10_template_0", "split": "validation"}
+{"input": "please  find  factorial  of  the  number  -1061.25  please", "label": 10, "intended_class": 10, "eligible": true, "category": "class_10_template_0", "split": "validation"}
+{"input": "how much is divide the value 1009 into 1011", "label": 6, "intended_class": 6, "eligible": true, "category": "class_6_template_0", "split": "validation"}
+{"input": "wat  iz  sum  1061.25  and  1063  please", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_1", "split": "validation"}
+{"input": "how  much  is  -1021.25  or  +1023e2  please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_8", "split": "validation"}
+{"input": "wat  iz  factorial  of  the  number  -1009.0", "label": 10, "intended_class": 10, "eligible": true, "category": "class_10_template_0", "split": "validation"}
+{"input": "please  find  the  gcd  of  +1061.0  with  1063", "label": 12, "intended_class": 12, "eligible": true, "category": "class_12_template_0", "split": "validation"}
+{"input": "what  is  the  answer  for  1061  minus  the  answer  please", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_3", "split": "validation"}
+{"input": "wat\tiz\t1031\tdogs\tlive\tnear\t1033.75\tcats?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_1", "split": "validation"}
+{"input": "how  much  is  +1031.0  minus  minus  -1033e2  please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_10", "split": "validation"}
+{"input": "wat\tiz\tlcm\tof\t1021\tand\t-1023.0\tseconds", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_5", "split": "validation"}
+{"input": "how much is the number -1061e-3 to the power 1063 please", "label": 7, "intended_class": 7, "eligible": true, "category": "class_7_template_0", "split": "validation"}
+{"input": "please\tfind\tthe\tresult\tof\t1009\tpermute\t1011", "label": 16, "intended_class": 16, "eligible": true, "category": "class_16_template_0", "split": "validation"}
+{"input": "wat\tiz\tthe\tproduct\tof\t1061\twith\t1063.0\tplease", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_0", "split": "validation"}
+{"input": "how  much  is  1031e-3  minus  minus  1033", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_10", "split": "validation"}
+{"input": "what is the answer for subtract the value -1021.25 from 1023", "label": 3, "intended_class": 3, "eligible": true, "category": "class_3_template_0", "split": "validation"}
+{"input": "what is the answer for the result of 1009 permute 1011 please", "label": 16, "intended_class": 16, "eligible": true, "category": "class_16_template_0", "split": "validation"}
+{"input": "wat  iz  the  result  of  1009  times  +1011.75?", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_1", "split": "validation"}
+{"input": "wat  iz  squre  root  of  +1061.25  please", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_1", "split": "validation"}
+{"input": "how much is the result of 1021 plus 1023?", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_0", "split": "validation"}
+{"input": "what\tis\tthe\tanswer\tfor\tthe\tproduct\tof\t-1021.25\twith\t-1023.75\tplease", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_0", "split": "validation"}
+{"input": "what  is  the  answer  for  the  result  of  1031e-3  minus  +1033e2  please", "label": 2, "intended_class": 2, "eligible": true, "category": "class_2_template_0", "split": "validation"}
+{"input": "wat iz factorial of the number 1021", "label": 10, "intended_class": 10, "eligible": true, "category": "class_10_template_0", "split": "validation"}
+{"input": "what is the answer for the gcd of 1021 with 1023 please", "label": 12, "intended_class": 12, "eligible": true, "category": "class_12_template_0", "split": "validation"}
+{"input": "how  much  is  the  result  of  -1061e-3  times  +1063.0  please", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_1", "split": "validation"}
+{"input": "how much is the result of 1009 divided by 1011.75 please", "label": 5, "intended_class": 5, "eligible": true, "category": "class_5_template_0", "split": "validation"}
+{"input": "what  is  the  answer  for  choose  the  value  1009  from  1011", "label": 15, "intended_class": 15, "eligible": true, "category": "class_15_template_0", "split": "validation"}
+{"input": "wat iz choose the value 1031 from 1033?", "label": 15, "intended_class": 15, "eligible": true, "category": "class_15_template_0", "split": "validation"}
+{"input": "wat  iz  subtract  the  value  1061  from  1063", "label": 3, "intended_class": 3, "eligible": true, "category": "class_3_template_0", "split": "validation"}
+{"input": "please find lcm of 1009 and 1011.75 seconds please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_5", "split": "validation"}
+{"input": "how  much  is  absolute  value  of  the  number  -1031.0  please", "label": 19, "intended_class": 19, "eligible": true, "category": "class_19_template_0", "split": "validation"}
+{"input": "wat  iz  divide  the  value  1021.0  into  1023e2  please", "label": 6, "intended_class": 6, "eligible": true, "category": "class_6_template_0", "split": "validation"}
+{"input": "wat  iz  what  percent  change  from  -1031.25  to  1033", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_6", "split": "validation"}
+{"input": "what  is  the  answer  for  lcm  of  1021  and  -1023.0  seconds  please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_5", "split": "validation"}
+{"input": "how  much  is  1021  minus  the  answer?", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_3", "split": "validation"}
+{"input": "how much is never multiply 1061 and 1063", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_7", "split": "validation"}
+{"input": "please find 1031e-3 minus minus 1033?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_10", "split": "validation"}
+{"input": "wat iz the gcd of 1031e-3 with 1033.0 please", "label": 12, "intended_class": 12, "eligible": true, "category": "class_12_template_0", "split": "validation"}
+{"input": "wat  iz  divide  the  value  1061  into  1063", "label": 6, "intended_class": 6, "eligible": true, "category": "class_6_template_0", "split": "validation"}
+{"input": "how  much  is  subtract  the  value  1021  from  1023e2?", "label": 3, "intended_class": 3, "eligible": true, "category": "class_3_template_0", "split": "validation"}
+{"input": "how much is squre root of 1009?", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_1", "split": "validation"}
+{"input": "how much is what is three plus -1031.25", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_9", "split": "validation"}
+{"input": "please find the result of 1009 choose 1011 please", "label": 14, "intended_class": 14, "eligible": true, "category": "class_14_template_0", "split": "validation"}
+{"input": "wat  iz  lcm  of  1021  and  1023  seconds?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_5", "split": "validation"}
+{"input": "what  is  the  answer  for  squre  root  of  1031  please", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_1", "split": "validation"}
+{"input": "how\tmuch\tis\tshow\tweather\tat\t1031\tplease", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_0", "split": "validation"}
+{"input": "please find squre root of +1021.0 please", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_1", "split": "validation"}
+{"input": "what  is  the  answer  for  absolute  value  of  the  number  1009", "label": 19, "intended_class": 19, "eligible": true, "category": "class_19_template_0", "split": "validation"}
+{"input": "what is the answer for the number -1021e-3 to the power 1023 please", "label": 7, "intended_class": 7, "eligible": true, "category": "class_7_template_0", "split": "validation"}
+{"input": "wat  iz  the  product  of  1031  with  +1033.75", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_0", "split": "validation"}
+{"input": "what\tis\tthe\tanswer\tfor\tthe\tgcd\tof\t-1031.0\twith\t+1033.0?", "label": 12, "intended_class": 12, "eligible": true, "category": "class_12_template_0", "split": "validation"}
+{"input": "how much is 1009 dogs live near 1011 cats", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_1", "split": "validation"}
+{"input": "wat  iz  subtract  from  1021", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_2", "split": "validation"}
+{"input": "wat iz the number -1021.25 to the power 1023 please", "label": 7, "intended_class": 7, "eligible": true, "category": "class_7_template_0", "split": "validation"}
+{"input": "wat\tiz\tpermutations\tof\tthe\tvalue\t1021\tfrom\t-1023.0?", "label": 17, "intended_class": 17, "eligible": true, "category": "class_17_template_0", "split": "validation"}
+{"input": "what  is  the  answer  for  divide  the  value  1061.25  into  1063", "label": 6, "intended_class": 6, "eligible": true, "category": "class_6_template_0", "split": "validation"}
+{"input": "please  find  what  is  three  plus  1009  please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_9", "split": "validation"}
+{"input": "what\tis\tthe\tanswer\tfor\tthe\tresult\tof\t1021\tchoose\t1023", "label": 14, "intended_class": 14, "eligible": true, "category": "class_14_template_0", "split": "validation"}
+{"input": "what  is  the  answer  for  factorial  of  the  number  1061", "label": 10, "intended_class": 10, "eligible": true, "category": "class_10_template_0", "split": "validation"}
+{"input": "how  much  is  1061  dogs  live  near  1063  cats", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_1", "split": "validation"}
+{"input": "wat  iz  1031.25  dogs  live  near  1033  cats  please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_1", "split": "validation"}
+{"input": "how\tmuch\tis\tthe\tgcd\tof\t+1031.0\twith\t-1033.0", "label": 12, "intended_class": 12, "eligible": true, "category": "class_12_template_0", "split": "validation"}
+{"input": "please  find  1061  minus  the  answer?", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_3", "split": "validation"}
+{"input": "how much is sum 1061.0 and -1063.75?", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_1", "split": "validation"}
+{"input": "how  much  is  the  number  1031  to  the  power  1033?", "label": 7, "intended_class": 7, "eligible": true, "category": "class_7_template_0", "split": "validation"}
+{"input": "wat  iz  the  result  of  1009.0  choose  1011?", "label": 14, "intended_class": 14, "eligible": true, "category": "class_14_template_0", "split": "validation"}
+{"input": "what  is  the  answer  for  1021  minus  minus  1023", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_10", "split": "validation"}
+{"input": "please  find  1009  or  -1011e2  please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_8", "split": "validation"}
+{"input": "what  is  the  answer  for  the  number  1031  modulo  1033?", "label": 11, "intended_class": 11, "eligible": true, "category": "class_11_template_0", "split": "validation"}
+{"input": "please find the result of 1031.25 choose 1033", "label": 14, "intended_class": 14, "eligible": true, "category": "class_14_template_0", "split": "validation"}
+{"input": "how  much  is  subtract  from  +1021.25", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_2", "split": "validation"}
+{"input": "what\tis\tthe\tanswer\tfor\tsubtract\tfrom\t-1021.25?", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_2", "split": "validation"}
+{"input": "please  find  the  lcm  of  1009  with  +1011.75  please", "label": 13, "intended_class": 13, "eligible": true, "category": "class_13_template_0", "split": "validation"}
+{"input": "what is the answer for -1031e-3 or 1033", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_8", "split": "validation"}
+{"input": "please\tfind\twhat\tpercent\tchange\tfrom\t1031\tto\t-1033.0\tplease", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_6", "split": "validation"}
+{"input": "wat  iz  the  gcd  of  1021  with  1023?", "label": 12, "intended_class": 12, "eligible": true, "category": "class_12_template_0", "split": "validation"}
+{"input": "how  much  is  the  result  of  -1021e-3  permute  1023?", "label": 16, "intended_class": 16, "eligible": true, "category": "class_16_template_0", "split": "validation"}
+{"input": "please  find  the  result  of  1031  divided  by  -1033.75", "label": 5, "intended_class": 5, "eligible": true, "category": "class_5_template_0", "split": "validation"}
+{"input": "please find choose the value 1061 from 1063e2", "label": 15, "intended_class": 15, "eligible": true, "category": "class_15_template_0", "split": "validation"}
+{"input": "what  is  the  answer  for  never  multiply  1009  and  1011.0", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_7", "split": "validation"}
+{"input": "wat iz sum 1009e-3 and 1011", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_1", "split": "validation"}
+{"input": "please  find  subtract  the  value  +1021.0  from  1023  please", "label": 3, "intended_class": 3, "eligible": true, "category": "class_3_template_0", "split": "validation"}
+{"input": "what is the answer for 1031 percent of the number 1033 please", "label": 18, "intended_class": 18, "eligible": true, "category": "class_18_template_0", "split": "validation"}
+{"input": "how much is square root of the number 1021?", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_0", "split": "validation"}
+{"input": "wat\tiz\tsqrt\tof\tthe\tsum\tof\t+1061.0\tand\t1063.75", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_4", "split": "validation"}
+{"input": "how  much  is  factorial  of  the  number  1009?", "label": 10, "intended_class": 10, "eligible": true, "category": "class_10_template_0", "split": "validation"}
+{"input": "please find what percent change from -1061.25 to 1063e2", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_6", "split": "validation"}
+{"input": "how  much  is  the  lcm  of  1031  with  1033  please", "label": 13, "intended_class": 13, "eligible": true, "category": "class_13_template_0", "split": "validation"}
+{"input": "what  is  the  answer  for  lcm  of  +1009e-3  and  -1011.75  seconds?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_5", "split": "validation"}
+{"input": "how\tmuch\tis\tfactorial\tof\tthe\tnumber\t1061\tplease", "label": 10, "intended_class": 10, "eligible": true, "category": "class_10_template_0", "split": "validation"}
+{"input": "what is the answer for sqrt of the sum of 1009 and 1011 please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_4", "split": "validation"}
+{"input": "wat iz the result of 1021 choose -1023e2", "label": 14, "intended_class": 14, "eligible": true, "category": "class_14_template_0", "split": "validation"}
+{"input": "what is the answer for the lcm of 1009 with -1011.75 please", "label": 13, "intended_class": 13, "eligible": true, "category": "class_13_template_0", "split": "validation"}
+{"input": "what  is  the  answer  for  1021  percent  of  the  number  1023  please", "label": 18, "intended_class": 18, "eligible": true, "category": "class_18_template_0", "split": "validation"}
+{"input": "please find +1031.25 minus the answer", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_3", "split": "validation"}
+{"input": "how  much  is  show  weather  at  -1009.0?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_0", "split": "validation"}
+{"input": "what is the answer for 1009.25 dogs live near +1011e2 cats please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_1", "split": "validation"}
+{"input": "wat iz the number 1021 to the power 1023?", "label": 7, "intended_class": 7, "eligible": true, "category": "class_7_template_0", "split": "validation"}
+{"input": "please  find  the  result  of  1021  plus  1023.0", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_0", "split": "validation"}
+{"input": "what is the answer for show weather at 1009 please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_0", "split": "validation"}
+{"input": "how much is cube root of the number -1061e-3", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_0", "split": "validation"}
+{"input": "how\tmuch\tis\twhat\tpercent\tchange\tfrom\t1021\tto\t+1023.0?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_6", "split": "validation"}
+{"input": "how much is subtract from -1021e-3", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_2", "split": "validation"}
+{"input": "wat  iz  cube  root  of  the  number  1031  please", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_0", "split": "validation"}
+{"input": "how much is never multiply 1031 and -1033.75?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_7", "split": "validation"}
+{"input": "please  find  the  lcm  of  1061  with  1063?", "label": 13, "intended_class": 13, "eligible": true, "category": "class_13_template_0", "split": "validation"}
+{"input": "how  much  is  never  multiply  1061  and  1063  please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_7", "split": "validation"}
+{"input": "what  is  the  answer  for  absolute  value  of  the  number  1061?", "label": 19, "intended_class": 19, "eligible": true, "category": "class_19_template_0", "split": "validation"}
+{"input": "wat\tiz\tthe\tresult\tof\t1021\ttimes\t1023", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_1", "split": "validation"}
+{"input": "how much is squre root of 1061 please", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_1", "split": "validation"}
+{"input": "wat iz the result of +1061.25 minus 1063 please", "label": 2, "intended_class": 2, "eligible": true, "category": "class_2_template_0", "split": "validation"}
+{"input": "what  is  the  answer  for  sqrt  of  the  sum  of  -1031.0  and  1033?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_4", "split": "validation"}
+{"input": "what\tis\tthe\tanswer\tfor\tthe\tresult\tof\t-1009.25\tdivided\tby\t1011.75", "label": 5, "intended_class": 5, "eligible": true, "category": "class_5_template_0", "split": "validation"}
+{"input": "please  find  cube  root  of  the  number  1021?", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_0", "split": "validation"}
+{"input": "wat\tiz\tthe\tresult\tof\t1031\tdivided\tby\t+1033.75", "label": 5, "intended_class": 5, "eligible": true, "category": "class_5_template_0", "split": "validation"}
+{"input": "how  much  is  what  percent  change  from  1021.0  to  1023", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_6", "split": "validation"}
+{"input": "please find sum 1031 and 1033?", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_1", "split": "validation"}
+{"input": "how much is 1009 minus minus -1011e2 please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_10", "split": "validation"}
+{"input": "how  much  is  -1009.0  percent  of  the  number  1011?", "label": 18, "intended_class": 18, "eligible": true, "category": "class_18_template_0", "split": "validation"}
+{"input": "what  is  the  answer  for  sum  1061  and  +1063e2?", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_1", "split": "validation"}
+{"input": "please find divide the value 1009 into 1011?", "label": 6, "intended_class": 6, "eligible": true, "category": "class_6_template_0", "split": "validation"}
+{"input": "what  is  the  answer  for  the  lcm  of  1009.0  with  1011e2?", "label": 13, "intended_class": 13, "eligible": true, "category": "class_13_template_0", "split": "validation"}
+{"input": "what\tis\tthe\tanswer\tfor\tthe\tresult\tof\t-1021e-3\tdivided\tby\t1023?", "label": 5, "intended_class": 5, "eligible": true, "category": "class_5_template_0", "split": "validation"}
+{"input": "please  find  the  result  of  1021e-3  permute  1023  please", "label": 16, "intended_class": 16, "eligible": true, "category": "class_16_template_0", "split": "validation"}
+{"input": "how much is the result of 1009.0 minus 1011 please", "label": 2, "intended_class": 2, "eligible": true, "category": "class_2_template_0", "split": "validation"}
+{"input": "how much is the product of 1021 with 1023 please", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_0", "split": "validation"}
+{"input": "please find permutations of the value 1021 from 1023?", "label": 17, "intended_class": 17, "eligible": true, "category": "class_17_template_0", "split": "validation"}
+{"input": "how\tmuch\tis\twhat\tis\tthree\tplus\t-1009.0?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_9", "split": "validation"}
+{"input": "wat  iz  choose  the  value  1009  from  1011  please", "label": 15, "intended_class": 15, "eligible": true, "category": "class_15_template_0", "split": "validation"}
+{"input": "how much is the gcd of 1021 with 1023", "label": 12, "intended_class": 12, "eligible": true, "category": "class_12_template_0", "split": "validation"}
+{"input": "wat iz sqrt of the sum of 1021 and 1023.75", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_4", "split": "validation"}
+{"input": "wat iz show weather at -1021.0?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_0", "split": "validation"}
+{"input": "how  much  is  squre  root  of  1021  please", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_1", "split": "validation"}
+{"input": "how much is subtract the value +1009e-3 from 1011", "label": 3, "intended_class": 3, "eligible": true, "category": "class_3_template_0", "split": "validation"}
+{"input": "what  is  the  answer  for  sqrt  of  the  sum  of  1021  and  1023  please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_4", "split": "validation"}
+{"input": "how much is lcm of 1061 and 1063 seconds", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_5", "split": "validation"}
+{"input": "what\tis\tthe\tanswer\tfor\t1031\tdogs\tlive\tnear\t1033.75\tcats?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_1", "split": "validation"}
+{"input": "how  much  is  what  percent  change  from  1021  to  1023?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_6", "split": "validation"}
+{"input": "please find never multiply 1031 and -1033.0 please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_7", "split": "validation"}
+{"input": "wat\tiz\twhat\tis\tthree\tplus\t1061\tplease", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_9", "split": "validation"}
+{"input": "please  find  1061  percent  of  the  number  1063e2", "label": 18, "intended_class": 18, "eligible": true, "category": "class_18_template_0", "split": "validation"}
+{"input": "how\tmuch\tis\tshow\tweather\tat\t1031", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_0", "split": "validation"}
+{"input": "please\tfind\tsubtract\tfrom\t+1021.25\tplease", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_2", "split": "validation"}
+{"input": "how much is the gcd of 1061 with 1063?", "label": 12, "intended_class": 12, "eligible": true, "category": "class_12_template_0", "split": "validation"}
+{"input": "please find lcm of 1031 and 1033 seconds", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_5", "split": "validation"}
+{"input": "how much is never multiply 1009 and -1011e2 please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_7", "split": "validation"}
+{"input": "how much is what percent change from +1031.0 to 1033", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_6", "split": "validation"}
+{"input": "how  much  is  the  result  of  1061  divided  by  1063?", "label": 5, "intended_class": 5, "eligible": true, "category": "class_5_template_0", "split": "validation"}
+{"input": "please\tfind\tsqrt\tof\tthe\tsum\tof\t1061\tand\t+1063.75", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_4", "split": "validation"}
+{"input": "wat  iz  square  root  of  the  number  +1061.0  please", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_0", "split": "validation"}
+{"input": "wat iz permutations of the value 1021.25 from 1023.0 please", "label": 17, "intended_class": 17, "eligible": true, "category": "class_17_template_0", "split": "validation"}
+{"input": "wat\tiz\tdivide\tthe\tvalue\t+1009e-3\tinto\t1011?", "label": 6, "intended_class": 6, "eligible": true, "category": "class_6_template_0", "split": "validation"}
+{"input": "how\tmuch\tis\t+1009.0\tor\t-1011e2?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_8", "split": "validation"}
+{"input": "how  much  is  the  result  of  1009  choose  1011  please", "label": 14, "intended_class": 14, "eligible": true, "category": "class_14_template_0", "split": "validation"}
+{"input": "what is the answer for 1009 minus the answer", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_3", "split": "validation"}
+{"input": "please  find  sum  1031  and  1033?", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_1", "split": "validation"}
+{"input": "please find permutations of the value -1031e-3 from 1033 please", "label": 17, "intended_class": 17, "eligible": true, "category": "class_17_template_0", "split": "validation"}
+{"input": "how much is 1031 minus minus 1033.75", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_10", "split": "validation"}
+{"input": "wat\tiz\tsqure\troot\tof\t1061\tplease", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_1", "split": "validation"}
+{"input": "how much is 1009 minus the answer please", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_3", "split": "validation"}
+{"input": "wat iz squre root of -1031.25", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_1", "split": "validation"}
+{"input": "wat\tiz\tabsolute\tvalue\tof\tthe\tnumber\t1021", "label": 19, "intended_class": 19, "eligible": true, "category": "class_19_template_0", "split": "validation"}
+{"input": "please  find  subtract  the  value  1021  from  1023", "label": 3, "intended_class": 3, "eligible": true, "category": "class_3_template_0", "split": "validation"}
+{"input": "how\tmuch\tis\tcube\troot\tof\tthe\tnumber\t1061.25?", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_0", "split": "validation"}
+{"input": "what\tis\tthe\tanswer\tfor\tsquare\troot\tof\tthe\tnumber\t1061", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_0", "split": "validation"}
+{"input": "please find cube root of the number 1031?", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_0", "split": "validation"}
+{"input": "what\tis\tthe\tanswer\tfor\tlcm\tof\t+1061.25\tand\t1063\tseconds\tplease", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_5", "split": "validation"}
+{"input": "wat  iz  1031  or  +1033.0", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_8", "split": "validation"}
+{"input": "what  is  the  answer  for  what  percent  change  from  1061  to  1063", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_6", "split": "validation"}
+{"input": "wat iz subtract from +1031e-3 please", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_2", "split": "validation"}
+{"input": "what  is  the  answer  for  1061  percent  of  the  number  1063.75", "label": 18, "intended_class": 18, "eligible": true, "category": "class_18_template_0", "split": "validation"}
+{"input": "please  find  1009  minus  the  answer  please", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_3", "split": "validation"}
+{"input": "wat  iz  the  result  of  1061  minus  1063", "label": 2, "intended_class": 2, "eligible": true, "category": "class_2_template_0", "split": "validation"}
+{"input": "how  much  is  choose  the  value  1009  from  -1011e2", "label": 15, "intended_class": 15, "eligible": true, "category": "class_15_template_0", "split": "validation"}
+{"input": "how  much  is  cube  root  of  the  number  +1061e-3", "label": 9, "intended_class": 9, "eligible": true, "category": "class_9_template_0", "split": "validation"}
+{"input": "wat iz show weather at +1031e-3 please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_0", "split": "validation"}
+{"input": "please find the result of -1021e-3 plus +1023.75 please", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_0", "split": "validation"}
+{"input": "what  is  the  answer  for  show  weather  at  1009", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_0", "split": "validation"}
+{"input": "please\tfind\tthe\tlcm\tof\t1031\twith\t1033.75?", "label": 13, "intended_class": 13, "eligible": true, "category": "class_13_template_0", "split": "validation"}
+{"input": "please\tfind\tlcm\tof\t1061\tand\t1063.0\tseconds\tplease", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_5", "split": "validation"}
+{"input": "how\tmuch\tis\tthe\tlcm\tof\t1021\twith\t1023", "label": 13, "intended_class": 13, "eligible": true, "category": "class_13_template_0", "split": "validation"}
+{"input": "please find -1021e-3 minus the answer?", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_3", "split": "validation"}
+{"input": "how much is lcm of +1031.0 and 1033 seconds?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_5", "split": "validation"}
+{"input": "what  is  the  answer  for  the  number  1061.0  modulo  1063e2", "label": 11, "intended_class": 11, "eligible": true, "category": "class_11_template_0", "split": "validation"}
+{"input": "wat\tiz\tthe\tresult\tof\t+1021.25\tminus\t1023", "label": 2, "intended_class": 2, "eligible": true, "category": "class_2_template_0", "split": "validation"}
+{"input": "what  is  the  answer  for  the  product  of  -1021.0  with  1023  please", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_0", "split": "validation"}
+{"input": "how  much  is  absolute  value  of  the  number  1021?", "label": 19, "intended_class": 19, "eligible": true, "category": "class_19_template_0", "split": "validation"}
+{"input": "wat  iz  never  multiply  1031  and  1033?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_7", "split": "validation"}
+{"input": "how  much  is  divide  the  value  1031.0  into  -1033.75", "label": 6, "intended_class": 6, "eligible": true, "category": "class_6_template_0", "split": "validation"}
+{"input": "please find the result of 1031 times -1033.75", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_1", "split": "validation"}
+{"input": "what\tis\tthe\tanswer\tfor\tabsolute\tvalue\tof\tthe\tnumber\t1031?", "label": 19, "intended_class": 19, "eligible": true, "category": "class_19_template_0", "split": "validation"}
+{"input": "what  is  the  answer  for  show  weather  at  +1031.25?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_0", "split": "validation"}
+{"input": "wat  iz  the  lcm  of  1061  with  1063.0  please", "label": 13, "intended_class": 13, "eligible": true, "category": "class_13_template_0", "split": "validation"}
+{"input": "wat iz never multiply 1009 and 1011?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_7", "split": "validation"}
+{"input": "how  much  is  sqrt  of  the  sum  of  1009.0  and  1011?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_4", "split": "validation"}
+{"input": "please  find  1031  minus  minus  1033?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_10", "split": "validation"}
+{"input": "what is the answer for sum 1009 and 1011", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_1", "split": "validation"}
+{"input": "wat  iz  the  gcd  of  1031  with  +1033.0  please", "label": 12, "intended_class": 12, "eligible": true, "category": "class_12_template_0", "split": "validation"}
+{"input": "wat\tiz\tthe\tgcd\tof\t1021\twith\t1023", "label": 12, "intended_class": 12, "eligible": true, "category": "class_12_template_0", "split": "validation"}
+{"input": "wat iz -1031e-3 or +1033e2?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_8", "split": "validation"}
+{"input": "please  find  the  result  of  -1031.0  permute  1033?", "label": 16, "intended_class": 16, "eligible": true, "category": "class_16_template_0", "split": "validation"}
+{"input": "please find 1061 minus minus -1063.75", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_10", "split": "validation"}
+{"input": "please  find  what  is  three  plus  1009", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_9", "split": "validation"}
+{"input": "what\tis\tthe\tanswer\tfor\tthe\tnumber\t-1031.0\tmodulo\t1033\tplease", "label": 11, "intended_class": 11, "eligible": true, "category": "class_11_template_0", "split": "validation"}
+{"input": "what is the answer for square root of the number 1061?", "label": 8, "intended_class": 8, "eligible": true, "category": "class_8_template_0", "split": "validation"}
+{"input": "please find the result of 1061.0 minus -1063.75", "label": 2, "intended_class": 2, "eligible": true, "category": "class_2_template_0", "split": "validation"}
+{"input": "how  much  is  never  multiply  1061e-3  and  +1063.75", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_7", "split": "validation"}
+{"input": "how much is what percent change from +1061.0 to +1063e2 please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_6", "split": "validation"}
+{"input": "how  much  is  what  percent  change  from  -1061.0  to  1063  please", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_6", "split": "validation"}
+{"input": "what\tis\tthe\tanswer\tfor\tthe\tnumber\t1031\tmodulo\t1033", "label": 11, "intended_class": 11, "eligible": true, "category": "class_11_template_0", "split": "validation"}
+{"input": "what  is  the  answer  for  the  product  of  1031  with  +1033e2?", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_0", "split": "validation"}
+{"input": "wat  iz  the  result  of  1009  choose  1011", "label": 14, "intended_class": 14, "eligible": true, "category": "class_14_template_0", "split": "validation"}
+{"input": "what  is  the  answer  for  the  result  of  1061  plus  1063", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_0", "split": "validation"}
+{"input": "what is the answer for the product of 1009 with 1011e2", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_0", "split": "validation"}
+{"input": "what is the answer for lcm of 1061 and 1063 seconds?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_5", "split": "validation"}
+{"input": "how\tmuch\tis\tthe\tresult\tof\t+1021.0\tchoose\t1023?", "label": 14, "intended_class": 14, "eligible": true, "category": "class_14_template_0", "split": "validation"}
+{"input": "wat iz the result of -1021.25 plus -1023.75 please", "label": 1, "intended_class": 1, "eligible": true, "category": "class_1_template_0", "split": "validation"}
+{"input": "please  find  subtract  from  +1061.0", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_2", "split": "validation"}
+{"input": "what  is  the  answer  for  the  result  of  1009  times  1011.0  please", "label": 4, "intended_class": 4, "eligible": true, "category": "class_4_template_1", "split": "validation"}
+{"input": "how  much  is  1061  dogs  live  near  -1063.75  cats?", "label": 0, "intended_class": 0, "eligible": false, "category": "defer_template_1", "split": "validation"}
+{"input": "wat  iz  +1031.0  minus  the  answer?", "label": 0, "intended_class": 0, "eligible": true, "category": "defer_template_3", "split": "validation"}
+{"input": "please find choose the value 1061 from +1063e2?", "label": 15, "intended_class": 15, "eligible": true, "category": "class_15_template_0", "split": "validation"}

@@ -1,0 +1,558 @@
+{
+  "model_sha256": "d3b0c2c0d30daa38dd9f3cc2411f7b1cc842c4a1b2c07b56dfdcc57a8cf5cc14",
+  "script_sha256": "8f5bc99ca10e4e8a6c8b121f035374ea30cfdd5a3a6f4e1e828410d5102fa94a",
+  "data_sha256": "49540725635cb93450592cdc9920af25c6eadb8765ad6160edf68127450eca12",
+  "policy": "Development regression audit, first written after attempt02 and reused after scientific-vocabulary augmentation; exact strings excluded from training; not a pristine final-model holdout.",
+  "overall": {
+    "threshold": 0.98,
+    "count": 5010,
+    "tp": 2126,
+    "fp": 108,
+    "fn": 284,
+    "tn": 2492,
+    "precision": 0.9516562220232766,
+    "recall": 0.8821576763485477,
+    "false_positives": [
+      {
+        "input": "please explain matrix_power([[1,33763452],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,72542411],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,48017778],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,65244766],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,98114691],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,44036701],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,46802190],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,19847678],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,52270273],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,88528752],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,57731409],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,54744020],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,52888845],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,69625783],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,74288741],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,19859702],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,94716692],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,16415912],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,15935131],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,13123545],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,47673831],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,89389542],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,27114388],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,41830476],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,26057750],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,69855247],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,45384532],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,85383907],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,49492749],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,99718211],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,20733136],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,57119466],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,30006847],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,20035691],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,95242279],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,74505173],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,63215714],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,36379192],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,19318738],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,97051751],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,39258368],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,77074138],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,96564505],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,28010399],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,38144501],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,73368960],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,78702335],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,94723058],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,52372618],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,80832919],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,73920141],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,33579287],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,13595018],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,39399959],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,32700567],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,92754392],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,94341824],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,18967492],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,41576221],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,14708776],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,42729784],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,54706918],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,46528503],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,94788814],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,42476193],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,98307775],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,38628321],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,48047237],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,32029038],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,31474865],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,42943684],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,34546384],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,99994376],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,69276002],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,60523141],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,24859990],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,61095755],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,68975253],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,67203315],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,77221024],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,80838409],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,31452998],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,11087424],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,12903176],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,29698972],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,20961488],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,35929267],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,84715636],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,12347123],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,20948061],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,57687604],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,51930837],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,79437558],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,64844102],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,53797348],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,70133842],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,66288658],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,11025870],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,46209093],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,36556867],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,99906199],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,80954440],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,62342855],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,48294790],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,89493158],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,22800335],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,91493007],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      },
+      {
+        "input": "please explain matrix_power([[1,33919553],[0,1]],3)",
+        "confidence": 0.9957365989685059,
+        "category": "post_selection"
+      }
+    ]
+  }
+}

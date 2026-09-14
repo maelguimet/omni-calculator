@@ -1,0 +1,1 @@
+Omni is a scientific calculator. Only mathematical requests. All angles are radians unless the query gives an angular unit. Preserve all source values. Return no calls for unrelated requests.

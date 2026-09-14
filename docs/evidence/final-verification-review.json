@@ -1,0 +1,72 @@
+{
+  "binary_sha256": "bb8d4a5cc7cff5783fc7967a32ef1fd3e2750baff8f70b7a4edf46fa650cd07a",
+  "frozen_binary": "/tmp/omni-final-verification-tp1sq8se/calc",
+  "backend": "auto",
+  "retry": 3,
+  "explicit_model_override": false,
+  "suites": [
+    {
+      "report": "docs/evidence/acceptance-final.json",
+      "report_sha256": "94d9d8090d3f205cb03bd6274bc56a1c4e0af9950b992603c140ec6b43d188a3",
+      "cases_sha256": "40b4345a732ba9da0188a2ed70af193f751bb29cddd4d2d5f139771ed8307695",
+      "passed": 75,
+      "total": 75
+    },
+    {
+      "report": "docs/evidence/independent-audit-final.json",
+      "report_sha256": "0305b1a97e02a7de3d1284285655bdf0494f612031dc5adc3ddb80cae7c2fbb6",
+      "cases_sha256": "ce1c6c0b07ab140c73715e5b3b87656a8c17e36723bf00016a37b2377ce2af98",
+      "passed": 100,
+      "total": 100
+    },
+    {
+      "report": "docs/evidence/order-ood-audit-final.json",
+      "report_sha256": "5a6b232510c9674699258f622829a788f92c03797175eccb2a6be3425fc88d12",
+      "cases_sha256": "0384b2fe85e77bb5c144f2f591daa6fbd8f5d96309b27d8390bd08e640e39876",
+      "passed": 24,
+      "total": 25
+    }
+  ],
+  "residual_rejections": [
+    {
+      "suite": "docs/evidence/order-ood-audit-final.json",
+      "id": "neighbor-009",
+      "input": "what is 9 less than 42",
+      "expect": {
+        "number": 33,
+        "exact": true
+      },
+      "failure": "calculation rejected",
+      "response": {
+        "schema_version": 1,
+        "ok": false,
+        "input": "what is 9 less than 42",
+        "tool_call": {
+          "name": "function",
+          "arguments": {
+            "arguments": [
+              "[42,9]"
+            ],
+            "function": "ncr"
+          }
+        },
+        "error": {
+          "code": "model_error",
+          "message": "The source requests subtract, but the tool proposed ncr. Select subtract and preserve the original operands.",
+          "retryable": false
+        },
+        "attempts": 4,
+        "retries": 3,
+        "timing": {
+          "total_ms": 2402.318397,
+          "model_ms": 2401.730506,
+          "compute_ms": 0.0
+        },
+        "model": "needle2-tuned"
+      },
+      "classification": "Model language limitation: no valid grounded subtraction for the less-than phrase after the full retry budget. Final proposal was ncr with a list argument, which semantic validation safely rejected. This is a conservative rejection, not a numerical result."
+    }
+  ],
+  "wrong_answers": [],
+  "source_or_expectation_changes": false
+}

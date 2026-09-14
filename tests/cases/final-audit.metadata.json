@@ -1,0 +1,21 @@
+{
+  "file": "tests/cases/final-audit.json",
+  "sha256": "1b7d4cb0be89e49ba3b4761b1f664682981f11d7fc15c6d5b53df99efa30099a",
+  "count": 100,
+  "unquoted_safe_count": 39,
+  "categories": {
+    "bad_input": 21,
+    "literal_and_typo": 12,
+    "matrices_and_vectors": 7,
+    "numerical_calculus": 6,
+    "probability": 5,
+    "scientific_and_complex": 12,
+    "statistics": 7,
+    "symbolic": 7,
+    "units_and_physics": 9,
+    "verbal_operations": 14
+  },
+  "oracle_policy": "All goldens were established before any trained-CLI run using Python stdlib integer/Fraction/complex/math arithmetic or stated analytical identities. Raw expressions were checked by those independent mathematical references; no app output was copied. Symbolic checks use constant results, unique root sets or x+C to avoid equivalent-display ambiguity.",
+  "forbidden_sources_read": false,
+  "trained_cli_run_on_cases": false
+}

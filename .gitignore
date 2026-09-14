@@ -1,0 +1,40 @@
+/target/
+/.cache/
+/dist/
+/.agents/
+/.codex/
+.venv/
+.env
+.env.*
+*.pkl
+*.log
+__pycache__/
+*.pyc
+
+# Original machine-specific reports stay local; public copies are docs/evidence/.
+/reports/
+!/docs/evidence/*.log
+
+# Selected inference weights and the MLP test fixtures are versioned.
+# Large Needle development datasets, base weights and alternate checkpoints are not.
+/training/base/*
+!/training/base/manifest.json
+/training/runs/
+/training/data/
+/training/train.jsonl
+/training/heldout.jsonl
+/training/retry-supplement.jsonl
+/training/reference-v2/attempt-*/
+/training/intent/baseline-loss-selection/
+
+# Keep experiment tooling and small curated inputs, not generated result dumps.
+/experiments/*.json
+!/experiments/tools*.json
+!/experiments/development-model-comparison.json
+!/experiments/parity-investigation.json
+/experiments/*.jsonl
+!/experiments/heldout.jsonl
+!/experiments/teacher-probe-cases.jsonl
+!/experiments/pipeline-cases32.jsonl
+/experiments/runtime-debug.txt
+/experiments/native-v3-token-debug.txt

@@ -1,0 +1,9 @@
+{
+  "cactus-needle": "2.0.12",
+  "jax": "0.11.1",
+  "jaxlib": "0.11.1",
+  "numpy": "2.5.3",
+  "optax": "0.2.8",
+  "flax": "0.12.9",
+  "sentencepiece": "0.2.2"
+}

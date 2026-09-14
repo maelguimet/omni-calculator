@@ -1,0 +1,185 @@
+name: Build, test, and release
+
+on:
+  push:
+    branches: [main]
+    tags: ["v*"]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  # A newer change can replace a CI run, but must not interrupt publication.
+  cancel-in-progress: ${{ github.ref_type != 'tag' }}
+
+defaults:
+  run:
+    shell: bash
+
+env:
+  RUSTUP_TOOLCHAIN: 1.97.1
+  CARGO_BUILD_JOBS: 2
+  RUST_TEST_THREADS: 2
+  CARGO_TERM_COLOR: always
+
+jobs:
+  build:
+    name: Linux x86_64 / Rust 1.97.1
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    outputs:
+      version: ${{ steps.version.outputs.version }}
+      artifact-name: ${{ steps.version.outputs.artifact-name }}
+    steps:
+      - name: Check out source
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+
+      - name: Set isolated build paths and validate release version
+        id: version
+        run: |
+          mkdir -p target/publication-reports
+          printf 'CARGO_HOME=%s/omni-cargo\n' "$RUNNER_TEMP" >> "$GITHUB_ENV"
+          printf 'RUSTFLAGS=--remap-path-prefix=%s=/omni --remap-path-prefix=%s/omni-cargo=/cargo\n' "$GITHUB_WORKSPACE" "$RUNNER_TEMP" >> "$GITHUB_ENV"
+          python3 - <<'PY'
+          import os
+          import tomllib
+          from pathlib import Path
+
+          version = tomllib.loads(Path("Cargo.toml").read_text())["package"]["version"]
+          if os.environ["GITHUB_REF_TYPE"] == "tag":
+              expected = f"v{version}"
+              if os.environ["GITHUB_REF_NAME"] != expected:
+                  raise SystemExit(f"Release tag must be {expected}, matching Cargo.toml")
+          with open(os.environ["GITHUB_OUTPUT"], "a") as output:
+              output.write(f"version={version}\n")
+              output.write(f"artifact-name=omni-calc-{version}-linux-x86_64\n")
+          PY
+
+      - name: Install pinned Rust toolchain
+        run: |
+          rustup toolchain install "$RUSTUP_TOOLCHAIN" --profile minimal --component rustfmt --component clippy
+          rustc --version --verbose
+          cargo --version
+          python3 --version
+
+      - name: Download and verify pinned native runtime
+        run: python3 scripts/setup_model.py | tee target/publication-reports/runtime.log
+
+      - name: Check formatting
+        run: cargo fmt --all -- --check
+
+      - name: Lint default features
+        run: cargo clippy --locked --all-targets -- -D warnings 2>&1 | tee target/publication-reports/clippy-default.log
+
+      - name: Lint without default features
+        run: cargo clippy --locked --no-default-features --all-targets -- -D warnings 2>&1 | tee target/publication-reports/clippy-no-default.log
+
+      - name: Test release with bundled models
+        run: cargo test --locked --release --all-targets 2>&1 | tee target/publication-reports/tests-release.log
+
+      - name: Test without default features
+        run: cargo test --locked --no-default-features --all-targets 2>&1 | tee target/publication-reports/tests-no-default.log
+
+      - name: Build release executable
+        run: cargo build --locked --release --bin calc 2>&1 | tee target/publication-reports/build-release.log
+
+      - name: Verify CLI acceptance cases
+        run: |
+          python3 scripts/verify_cli.py target/release/calc \
+            --cases tests/cases/acceptance.json \
+            --output target/publication-reports/acceptance.json \
+            | tee target/publication-reports/acceptance.log
+
+      - name: Verify independent CLI audit
+        run: |
+          python3 scripts/verify_cli.py target/release/calc \
+            --cases tests/cases/final-audit-json-safe.json \
+            --output target/publication-reports/independent-audit.json \
+            | tee target/publication-reports/independent-audit.log
+
+      - name: Package tested executable, models, licenses, and fresh reports
+        run: |
+          python3 scripts/package.py \
+            --report target/publication-reports/acceptance.json \
+            --report target/publication-reports/independent-audit.json \
+            | tee target/publication-reports/package.log
+          (cd dist && sha256sum --check SHA256SUMS)
+
+      - name: Verify extracted release and run its bundled models
+        run: |
+          python3 .github/verify-release.py --expected-revision "$GITHUB_SHA" \
+            | tee target/publication-reports/packaged-release.log
+
+      - name: Save release artifacts
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: ${{ steps.version.outputs.artifact-name }}
+          path: |
+            dist/calc
+            dist/*.tar.gz
+            dist/manifest.json
+            dist/SHA256SUMS
+          if-no-files-found: error
+          compression-level: 0
+          retention-days: 30
+
+      - name: Save verification reports and logs
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: verification-${{ github.run_id }}-${{ github.run_attempt }}
+          path: target/publication-reports/
+          if-no-files-found: warn
+          retention-days: 30
+
+  release:
+    name: Publish tagged release
+    if: startsWith(github.ref, 'refs/tags/v')
+    needs: build
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - name: Check out tagged release notes
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+
+      - name: Download verified build artifacts
+        uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4
+        with:
+          name: ${{ needs.build.outputs.artifact-name }}
+          path: dist
+
+      - name: Verify release checksums
+        working-directory: dist
+        run: sha256sum --check SHA256SUMS
+
+      # Update this notes file with each version before creating its v* tag.
+      - name: Publish release and binary assets
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          RELEASE_TAG: ${{ github.ref_name }}
+          PACKAGE_VERSION: ${{ needs.build.outputs.version }}
+        run: |
+          test "$RELEASE_TAG" = "v$PACKAGE_VERSION"
+          release_flags=()
+          if [[ "$PACKAGE_VERSION" == *-* ]]; then
+            release_flags+=(--prerelease)
+          fi
+          gh release create "$RELEASE_TAG" \
+            dist/calc \
+            "dist/omni-calc-$PACKAGE_VERSION-linux-x86_64.tar.gz" \
+            dist/manifest.json \
+            dist/SHA256SUMS \
+            --verify-tag \
+            --title "Omni Calculator $RELEASE_TAG" \
+            --notes-file .github/release-notes.md \
+            "${release_flags[@]}"

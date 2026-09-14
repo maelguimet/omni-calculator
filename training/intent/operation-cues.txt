@@ -1,0 +1,1 @@
+abs absolute add addition away cbrt cent choose combination combinations difference divide divided division divisor exponent factor factorial gcd lcm less minus mod modulo multiple multiplication multiplied multiply ncr npr percent permutation permutations permute plus power product quotient raise raised remainder root sqrt subtract subtraction sum times total

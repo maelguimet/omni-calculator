@@ -1,0 +1,10 @@
+* text=auto eol=lf
+*.bin binary
+*.cact binary
+
+# Preserve exact bytes of upstream files, hash-pinned fixtures, and evidence.
+third_party/** -text -whitespace
+vendor/** -text -whitespace
+docs/evidence/** -text -whitespace
+training/** -text
+LICENSE -text -whitespace

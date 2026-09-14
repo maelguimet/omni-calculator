@@ -1,0 +1,146 @@
+{
+  "scope": "Frozen but repeatedly inspected V2 development diagnostic set; not untouched final acceptance and not application pass counts.",
+  "results": [
+    {
+      "artifact": "experiments/results-v2-epoch1-synthetic.json",
+      "artifact_sha256": "dce6fc304fd7f6f732d2c9cca16ed2af5ba220fabfefef4614e39b94cbcc772b",
+      "weights": "training/runs/v2/epoch-01.cact",
+      "weights_sha256": "b369a5ea8bd6aa0a23f721c4900aad0c8ebf6fd46f683fada5faf6561facca88",
+      "samples": 768,
+      "exact": 437,
+      "structural": 439,
+      "call_equivalent": 439,
+      "weights_hash_source": "verified now against the unchanged retained export; older benchmark lacked embedded hash",
+      "selected_for_deployment": false
+    },
+    {
+      "artifact": "experiments/results-v2-epoch2-synthetic.json",
+      "artifact_sha256": "763a2f4839ce846e3d3dc69adeca59ae2c11ce920913361c875e2d672dd837b0",
+      "weights": "training/runs/v2/epoch-02.cact",
+      "weights_sha256": "04ee9922cb909c1a45c793abeb7e0f89255917138ff7d46b2962b89f9438d98f",
+      "samples": 768,
+      "exact": 476,
+      "structural": 483,
+      "call_equivalent": 483,
+      "weights_hash_source": "verified now against the unchanged retained export; older benchmark lacked embedded hash",
+      "selected_for_deployment": false
+    },
+    {
+      "artifact": "experiments/results-v2-epoch3-synthetic.json",
+      "artifact_sha256": "dbf2b82e61cf427c089efcdf0ee2bf99891b938a2e95b91aa69ffe6b6237c3ec",
+      "weights": "training/runs/v2/epoch-03.cact",
+      "weights_sha256": "1852739bfbb36f945eed2bca5c3ddfd364fab276cf7914ccbe793df4746e46e4",
+      "samples": 768,
+      "exact": 476,
+      "structural": 481,
+      "call_equivalent": 481,
+      "weights_hash_source": "verified now against the unchanged retained export; older benchmark lacked embedded hash",
+      "selected_for_deployment": true,
+      "parent_development_cli": {
+        "passed": 75,
+        "samples": 75,
+        "source": "Parent complete-application verification; distinct from this native benchmark."
+      }
+    },
+    {
+      "artifact": "experiments/results-v3-step4096-v2heldout.json",
+      "artifact_sha256": "4c6400b15e9eb38b0cf030b35d416dbfee677bcda7d347de27b7a1a97e4c3d9b",
+      "weights": "training/runs/v3/step-04096.cact",
+      "weights_sha256": "0188fe9a1c49014608984daeca1df811acc19146857ec47387ba99497690c144",
+      "samples": 768,
+      "exact": 521,
+      "structural": 525,
+      "call_equivalent": 531,
+      "selected_for_deployment": false
+    },
+    {
+      "artifact": "experiments/results-v3-epoch1-v2heldout.json",
+      "artifact_sha256": "21dbcc16cca9bdafdb87291cb51c698b99cf481f9983efc5136fecbf647ca740",
+      "weights": "training/runs/v3/epoch-01.cact",
+      "weights_sha256": "c81241010f4002509885232c60efb81dfa9de4e66ab59b6c376e8d77bae45d65",
+      "samples": 768,
+      "exact": 509,
+      "structural": 510,
+      "call_equivalent": 514,
+      "selected_for_deployment": false,
+      "parent_development_cli": {
+        "passed": 70,
+        "samples": 75,
+        "source": "Parent complete-application verification; distinct from this native benchmark."
+      }
+    },
+    {
+      "artifact": "experiments/results-encoding-aligned-512-v2-heldout.json",
+      "artifact_sha256": "58874e793551156a2527a5c9d27504441d35ca94d27f59636e195d60b3ba7bfa",
+      "weights": "training/runs/encoding-aligned/step-00512.cact",
+      "weights_sha256": "3a12541a171b7886c7c9a86da3a83ce4c5767b7c7fdadd88effdab0714386ebb",
+      "samples": 768,
+      "exact": 623,
+      "structural": 625,
+      "call_equivalent": 631,
+      "selected_for_deployment": false,
+      "parent_development_cli": {
+        "passed": 71,
+        "samples": 75,
+        "source": "Parent complete-application verification; distinct from this native benchmark."
+      }
+    },
+    {
+      "artifact": "experiments/results-encoding-aligned-1024-v2-heldout.json",
+      "artifact_sha256": "2b7ce98c41d0fcd0043de27dc62116cc166f9130ac1666f0a1fcae3a74b40a9e",
+      "weights": "training/runs/encoding-aligned/step-01024.cact",
+      "weights_sha256": "4a789eb6e34f12e093f2c865492a75820bb91e8ab1d616a305c499b05bde4fbc",
+      "samples": 768,
+      "exact": 622,
+      "structural": 624,
+      "call_equivalent": 630,
+      "selected_for_deployment": false,
+      "parent_development_cli": {
+        "passed": 70,
+        "samples": 75,
+        "source": "Parent complete-application verification; distinct from this native benchmark."
+      }
+    },
+    {
+      "artifact": "experiments/results-v2-encoding-aligned-512-v2-heldout.json",
+      "artifact_sha256": "3b86dbe43e1e32b0b318f8479fabd1ff34049c2c7290fc12be38b2e55a690a68",
+      "weights": "training/runs/v2-encoding-aligned/step-00512.cact",
+      "weights_sha256": "55406559e4182a1fa874ab2dcab00e69c9002bf31d15b9e4578772223d5f83c9",
+      "samples": 768,
+      "exact": 544,
+      "structural": 549,
+      "call_equivalent": 549,
+      "selected_for_deployment": false
+    },
+    {
+      "artifact": "experiments/results-v2-encoding-aligned-1024-v2-heldout.json",
+      "artifact_sha256": "b20d67178b64f9160c7b33999df34aa396fbaa45105da5462c2d2b62029239c8",
+      "weights": "training/runs/v2-encoding-aligned/step-01024.cact",
+      "weights_sha256": "631acfb7ded9e1e521d91f7a1239649e6bdd1521535e36f1b8e453a433584698",
+      "samples": 768,
+      "exact": 555,
+      "structural": 559,
+      "call_equivalent": 559,
+      "selected_for_deployment": false,
+      "parent_development_cli": {
+        "passed": 74,
+        "samples": 75,
+        "source": "Parent complete-application verification; distinct from this native benchmark."
+      }
+    }
+  ],
+  "final_deployment_selection": {
+    "name": "Original V2 epoch3",
+    "source_weights": "training/runs/v2/epoch-03.cact",
+    "packaged_weights": "models/omni.cact",
+    "sha256": "1852739bfbb36f945eed2bca5c3ddfd364fab276cf7914ccbe793df4746e46e4",
+    "development_cli_passed": 75,
+    "development_cli_samples": 75,
+    "independent_validation_samples": 100,
+    "independent_validation_note": "Parent retained independent100-case validation for the selected model; this training agent did not read its corpus.",
+    "validation_source": "Final parent deployment-selection message",
+    "reason": "Best complete-application result. Alternatives improved synthetic native rates but showed composition, units and other CLI regressions.",
+    "final_v2_aligned_development_cli_passed": 74,
+    "candidate_artifacts_preserved": true
+  }
+}

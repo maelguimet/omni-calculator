@@ -1,0 +1,29 @@
+{
+  "model_sha256": "97d0df5d619f5f8badfb1aa6d5c6d72a77ba4b248b63b6caad18c05321e46dd2",
+  "data_sha256": "7e0f313c4fd9cf387f60b02ad2dbc5f38079262047f0ff6deb81e2d5c82ba4e0",
+  "script_sha256": "46dcbdf01b40018e7bada8817fd1a330ee8dd8815d475a44094bad5da26771af",
+  "policy": "Fresh cases written after freezing model and threshold. No tuning against this audit. Typography variants are correlated, not independent samples. Some familiar templates overlap after masking; report those separately. Rust integration tests additionally apply the mandatory semantic validator.",
+  "overall": {
+    "count": 216,
+    "threshold": 0.98,
+    "tp": 64,
+    "fp": 0,
+    "literal_positives": 76,
+    "precision": 1.0,
+    "recall": 0.8421052631578947,
+    "classification_accuracy": 0.5972222222222222,
+    "false_positives": []
+  },
+  "new_masked_inputs": {
+    "count": 177,
+    "threshold": 0.98,
+    "tp": 48,
+    "fp": 0,
+    "literal_positives": 60,
+    "precision": 1.0,
+    "recall": 0.8,
+    "classification_accuracy": 0.5084745762711864,
+    "false_positives": []
+  },
+  "prior_masked_overlap": 39
+}

@@ -1,0 +1,1 @@
+Copy symbolic expressions exactly. For natural language use scientific calculator syntax. square root of 9: sqrt(9). 2 to the power of 3: 2^3. factorial of 4: 4!. mean of 1,2,3: mean([1,2,3]). differentiate x^2: diff(x^2,x). Never drop operations or parentheses. Off-topic requests return no calls.

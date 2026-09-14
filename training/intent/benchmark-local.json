@@ -1,0 +1,12 @@
+{
+  "scope": "local release model plus semantic validation; excludes math, CLI, IPC and Needle",
+  "model_sha256": "97d0df5d619f5f8badfb1aa6d5c6d72a77ba4b248b63b6caad18c05321e46dd2",
+  "unique_inputs": 10000,
+  "wordings": 4,
+  "accepted": 10000,
+  "cold_model_us": 310.163,
+  "mean_us": 33.6097615,
+  "p50_us": 31.589,
+  "p95_us": 48.269,
+  "p99_us": 62.737
+}

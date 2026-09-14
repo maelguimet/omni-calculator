@@ -1,0 +1,140 @@
+--- a/src/num/bigrat.rs
++++ b/src/num/bigrat.rs
+@@ -211,7 +211,34 @@
+ 			return Ok(0.0);
+ 		}
+ 		self = self.simplify(int)?;
+-		let positive_result = self.num.as_f64() / self.den.as_f64();
++		let numerator = self.num.as_f64();
++		let denominator = self.den.as_f64();
++		let positive_result = if numerator.is_finite() && denominator.is_finite() {
++			numerator / denominator
++		} else {
++			// An exactly decoded subnormal has a denominator larger than f64
++			// can represent. Normalize both integers before forming the ratio.
++			let numerator_shift = self.num.ilog2().saturating_sub(53);
++			let denominator_shift = self.den.ilog2().saturating_sub(53);
++			let exponent = i128::from(numerator_shift) - i128::from(denominator_shift);
++			if !(-1075..=1024).contains(&exponent) {
++				return Err(FendError::ValueTooLarge);
++			}
++			let numerator = self.num.clone().rshift_n(&numerator_shift.into(), int)?.as_f64();
++			let denominator = self.den.clone().rshift_n(&denominator_shift.into(), int)?.as_f64();
++			let ratio = numerator / denominator;
++			let exponent = i32::try_from(exponent).map_err(|_| FendError::ValueTooLarge)?;
++			if exponent < -1022 {
++				(ratio * 2.0_f64.powi(-1022)) * 2.0_f64.powi(exponent + 1022)
++			} else if exponent > 1023 {
++				(ratio * 2.0_f64.powi(1023)) * 2.0_f64.powi(exponent - 1023)
++			} else {
++				ratio * 2.0_f64.powi(exponent)
++			}
++		};
++		if !positive_result.is_finite() || positive_result == 0.0 {
++			return Err(FendError::ValueTooLarge);
++		}
+ 		if self.sign == Sign::Negative {
+ 			Ok(-positive_result)
+ 		} else {
+@@ -219,28 +246,36 @@
+ 		}
+ 	}
+ 
+-	#[allow(
+-		clippy::cast_possible_truncation,
+-		clippy::cast_sign_loss,
+-		clippy::cast_precision_loss
+-	)]
+-	pub(crate) fn from_f64<I: Interrupt>(mut f: f64, int: &I) -> FResult<Self> {
+-		let negative = f < 0.0;
+-		if negative {
+-			f = -f;
+-		}
+-		let i = (f * u64::MAX as f64) as u128;
+-		let part1 = i as u64;
+-		let part2 = (i >> 64) as u64;
++	pub(crate) fn from_f64<I: Interrupt>(f: f64, int: &I) -> FResult<Self> {
++		if !f.is_finite() {
++			return Err(FendError::ValueTooLarge);
++		}
++		if f == 0.0 {
++			return Ok(Self::from(0));
++		}
++		let bits = f.to_bits();
++		let exponent_bits = (bits >> 52) & 0x7ff;
++		let fraction = bits & ((1_u64 << 52) - 1);
++		let (mantissa, exponent) = if exponent_bits == 0 {
++			(fraction, -1074)
++		} else {
++			(fraction | (1_u64 << 52), i64::try_from(exponent_bits).unwrap() - 1075)
++		};
++		let mut numerator = BigUint::from(mantissa);
++		let mut denominator = BigUint::from(1);
++		if exponent >= 0 {
++			numerator = numerator.lshift_n(&exponent.unsigned_abs().into(), int)?;
++		} else {
++			denominator = denominator.lshift_n(&exponent.unsigned_abs().into(), int)?;
++		}
+ 		Ok(Self {
+-			sign: if negative {
++			sign: if f.is_sign_negative() {
+ 				Sign::Negative
+ 			} else {
+ 				Sign::Positive
+ 			},
+-			num: BigUint::from(part1)
+-				.add(&BigUint::from(part2).mul(&BigUint::from(u64::MAX), int)?),
+-			den: BigUint::from(u64::MAX),
++			num: numerator,
++			den: denominator,
+ 		})
+ 	}
+ 
+@@ -1386,6 +1421,27 @@
+ 	use std::mem;
+ 
+ 	#[test]
++	fn finite_float_conversion_preserves_extreme_and_subnormal_bits() -> FResult<()> {
++		let int = &crate::interrupt::Never;
++		for value in [f64::MAX, -f64::MAX, f64::MIN_POSITIVE, f64::from_bits(1),
++			-f64::from_bits(1), 1e-310, -1e-30, 5.225307804268378e98, 0.1, 1.0] {
++			assert_eq!(BigRat::from_f64(value, int)?.into_f64(int)?.to_bits(), value.to_bits());
++		}
++		let mut bits = 0x7da4_b3c2_d1e0_f987_u64;
++		for _ in 0..128 {
++			bits = bits.wrapping_mul(6364136223846793005).wrapping_add(1442695040888963407);
++			let value = f64::from_bits(bits);
++			if value.is_finite() && value != 0.0 {
++				assert_eq!(BigRat::from_f64(value, int)?.into_f64(int)?.to_bits(), value.to_bits());
++			}
++		}
++		for value in [f64::NAN, f64::INFINITY, f64::NEG_INFINITY] {
++			assert!(BigRat::from_f64(value, int).is_err());
++		}
++		Ok(())
++	}
++
++	#[test]
+ 	fn test_bigrat_from() {
+ 		mem::drop(BigRat::from(2));
+ 		mem::drop(BigRat::from(0));
+--- a/tests/integration_tests.rs
++++ b/tests/integration_tests.rs
+@@ -3286,7 +3286,7 @@
+ 
+ #[test]
+ fn log10_10000() {
+-	test_eval_simple("log10 10000", "approx. 4.0000000000");
++	test_eval("log10 10000", "approx. 4");
+ }
+ 
+ #[test]
+@@ -3306,7 +3306,7 @@
+ 
+ #[test]
+ fn log_10000() {
+-	test_eval_simple("log 10000", "approx. 4.0000000000");
++	test_eval("log 10000", "approx. 4");
+ }
+ 
+ #[test]

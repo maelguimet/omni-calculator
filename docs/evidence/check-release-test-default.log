@@ -1,0 +1,236 @@
+   Compiling omni-calc v0.1.0 ({workspace})
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.99s
+     Running unittests src/lib.rs (target/debug/deps/omni_calc-39c104948ec5df6f)
+
+running 15 tests
+test planner::grounding::tests::token_boundaries_are_preserved ... ok
+test planner::grounding::tests::number_words_have_separate_values_and_signs ... ok
+test planner::tests::domain_error_is_not_repaired_into_different_math ... ok
+test planner::tests::grounded_engine_capability_errors_do_not_retry_into_different_math ... ok
+test planner::tests::identical_invalid_calls_still_stop_early ... ok
+test planner::tests::distinct_invalid_calls_with_identical_errors_can_retry ... ok
+test planner::tests::immutable_literal_errors_do_not_retry_into_different_math ... ok
+test planner::tests::provider_failure_cannot_retain_an_earlier_attempts_confidence ... ok
+test planner::tests::references_preserve_grouping ... ok
+test planner::tests::numbers_cannot_be_invented_dropped_or_rounded ... ok
+test planner::tests::zero_retries_means_one_attempt ... ok
+test planner::tests::retries_correct_a_failed_model ... ok
+test intent::tests::python_extraction_features_and_scalar_inference_match ... ok
+test planner::grounding::tests::source_units_and_correct_composition_are_supported ... ok
+test router::tests::feature_and_inference_parity_with_independent_python_scalar_reference ... ok
+
+test result: ok. 15 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.01s
+
+     Running unittests src/main.rs (target/debug/deps/calc-e62e4737e12f3d84)
+
+running 2 tests
+test tests::flags_work_after_unquoted_input ... ok
+test tests::negative_inputs_and_option_terminator ... ok
+
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/acceptance_math.rs (target/debug/deps/acceptance_math-a101ac428f4c807e)
+
+running 4 tests
+test invalid_domains_fail_through_conversion_and_nested_call_paths ... ok
+test nested_function_powers_and_signed_exponents_keep_standard_precedence ... ok
+test kinetic_energy_and_temperature_conversions_preserve_dimensions_and_offsets ... ok
+test exact_outcomes_survive_large_intermediates_and_tool_composition ... ok
+
+test result: ok. 4 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/cli_audit.rs (target/debug/deps/cli_audit-137f3159b2e0d993)
+
+running 33 tests
+test algebra_operation_and_variable_are_grounded ... ok
+test algebra_variable_must_be_a_variable_token ... ok
+test calculate_adapter_cannot_answer_an_out_of_scope_request ... ok
+test calculate_adapter_cannot_invent_an_unrelated_expression ... ok
+test conversion_preserves_the_requested_destination ... ok
+test as_conversions_keep_destination_after_polite_suffixes ... ok
+test correct_grounded_calls_remain_usable ... ok
+test division_operand_order_is_grounded ... ok
+test counted_items_and_binomial_annotations_preserve_choose_order ... ok
+test extrema_and_distribution_fillers_do_not_remove_real_units ... ok
+test function_call_cannot_rewrite_a_complete_literal_expression ... ok
+test function_operands_cannot_invent_constants ... ok
+test common_aliases_keep_noncommutative_order ... ok
+test inverse_trigonometric_and_percentage_intents_do_not_collapse ... ok
+test explicit_two_step_instructions_preserve_both_operations_and_order ... ok
+test jsonl_recovers_from_bad_records_without_non_json_stdout ... ok
+test linear_equation_alias_requires_matrix_and_vector_operands ... ok
+test operation_and_noncommutative_operand_order_are_grounded ... ok
+test incidental_arithmetic_does_not_change_an_unrelated_requested_task ... ok
+test quantity_units_and_constants_cannot_be_dropped_or_invented ... ok
+test divide_into_reverses_complete_operand_groups ... ok
+test spaced_algebra_verbs_do_not_capture_only_the_first_parentheses ... ok
+test spaced_function_calls_and_polite_wrappers_preserve_full_literal ... ok
+test parenthesized_operands_with_by_are_verbal_binary_requests ... ok
+test nested_operation_grouping_is_preserved ... ok
+test spaced_numeric_calls_preserve_complete_mathematical_syntax ... ok
+test two_step_literal_operands_cannot_change_grouping_or_function_boundaries ... ok
+test subtraction_after_a_unit_or_constant_stays_binary ... ok
+test whitespace_normalization_cannot_merge_number_or_unit_tokens ... ok
+test wrapper_variants_and_verbal_operator_boundaries_are_recognized ... ok
+test squared_and_cubed_supply_the_exponent_without_inventing_a_source_position ... ok
+test validation_feedback_identifies_the_source_constraint_without_rewriting_calls ... ok
+test repeated_unary_operands_are_distinct_from_unary_of_a_group ... ok
+
+test result: ok. 33 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.05s
+
+     Running tests/cli_contract.rs (target/debug/deps/cli_contract-b4c9d4ea567f79e2)
+
+running 4 tests
+test non_utf8_argv_is_an_error_not_a_panic ... ok
+test jsonl_preserves_ids_and_rejects_extra_fields ... ok
+test invalid_stdin_is_bounded_and_machine_readable ... ok
+test invalid_flags_are_machine_readable ... ok
+
+test result: ok. 4 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.01s
+
+     Running tests/config_contract.rs (target/debug/deps/config_contract-354df72e8e35b7f4)
+
+running 1 test
+test a_fast_request_does_not_hide_a_missing_or_invalid_model_option ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/engine_audit.rs (target/debug/deps/engine_audit-b6ef1e600e08f623)
+
+running 13 tests
+test dot_product_preserves_a_small_uncancelled_term ... ok
+test divergent_scaled_integral_is_not_a_tiny_finite_answer ... ok
+test finite_difference_does_not_claim_false_convergence ... ok
+test exact_integer_operations_do_not_round_fractional_arguments ... ok
+test matrix_norm_and_inverse_are_scale_stable ... ok
+test numerical_calculus_enforces_scalar_domains ... ok
+test overflow_must_not_masquerade_as_zero_variance ... ok
+test exact_fraction_json_uses_canonical_improper_fractions_of_unbounded_size ... ok
+test root_is_invariant_to_scaling_of_the_function ... ok
+test explicit_function_calls_bind_before_following_powers ... ok
+test result_metadata_respects_units_and_approximation ... ok
+test spelled_out_temperature_units_preserve_affine_offsets ... ok
+test floating_function_results_do_not_saturate_or_truncate_at_integer_limits ... ok
+
+test result: ok. 13 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.18s
+
+     Running tests/exact_arithmetic.rs (target/debug/deps/exact_arithmetic-63e7d675a405cbe2)
+
+running 1 test
+test generated_rational_trees_preserve_every_bit_and_grouping ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.16s
+
+     Running tests/intent.rs (target/debug/deps/intent-adce5fa33647efbd)
+
+running 5 tests
+test benchmark_unique_requests_through_the_model_and_validator ... ignored, manual timing: use --release -- --ignored --nocapture
+test unsupported_shapes_defer_even_if_they_contain_strong_operation_words ... ok
+test essential_verbal_requests_produce_grounded_calls_and_copy_exact_spans ... ok
+test learned_weights_and_training_artifacts_match_their_provenance ... ok
+test fresh_audit_cannot_execute_a_wrong_or_invented_operation ... ok
+
+test result: ok. 4 passed; 0 failed; 1 ignored; 0 measured; 0 filtered out; finished in 0.07s
+
+     Running tests/json_precision.rs (target/debug/deps/json_precision-bfb9754e167ff68f)
+
+running 1 test
+test json_consumers_cannot_round_exact_integer_answers ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/jsonl_ids.rs (target/debug/deps/jsonl_ids-4865c900c09bf2dd)
+
+running 1 test
+test explicit_null_and_ids_on_invalid_objects_are_preserved ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.01s
+
+     Running tests/router.rs (target/debug/deps/router-f8969731c9a05222)
+
+running 4 tests
+test oversized_inputs_defer_without_allocating_model_sized_per_input_data ... ok
+test curated_cases_are_measured_without_requiring_universal_recall ... ok
+test fresh_audit_preserves_raw_model_failures_and_validators_reject_them ... ok
+test embedded_weights_match_training_provenance ... ok
+
+test result: ok. 4 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.15s
+
+
+running 9 tests
+     Running tests/scientific.rs (target/debug/deps/scientific-18c6f621e883d86c)
+test distributions_match_independent_closed_forms ... ok
+test malformed_inputs_and_resource_limits_fail_cleanly ... ok
+test exact_arithmetic_precedence_and_big_integers ... ok
+test combinatorics_and_special_functions ... ok
+test matrix_operations_obey_inverse_and_solve_residuals ... ok
+test numerical_calculus_matches_analytic_oracles ... ok
+test scale_and_cancellation_regressions_cover_related_operations ... ok
+test statistics_use_explicit_population_and_sample_conventions ... ok
+test complex_scientific_functions_and_units ... ok
+
+test result: ok. 9 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.01s
+
+     Running tests/service_contract.rs (target/debug/deps/service_contract-244fefd82b6ec60d)
+
+running 15 tests
+test daemon_cleanup_does_not_unlink_a_replacement_socket ... ok
+test concurrent_daemon_clients_keep_their_response_ids ... ok
+test closing_stdout_is_quiet_and_does_not_panic ... ok
+test disconnected_status_client_does_not_kill_shared_worker ... ok
+test daemon_reuses_process_and_stop_removes_its_socket ... ok
+test malformed_control_response_returns_json_error_without_panicking ... ok
+test malformed_jsonl_records_recover_without_losing_next_request ... ok
+test full_socket_backlog_obeys_timeout_without_replacing_live_socket ... ok
+test missing_model_is_explicit_in_fresh_and_daemon_modes ... ok
+test mismatched_and_inconsistent_worker_responses_are_not_successes ... ok
+test transport_failure_retries_preserve_request_and_budget ... ok
+test client_timeout_does_not_poison_next_daemon_request ... ok
+test unsafe_runtime_files_are_rejected_without_replacement ... ok
+test transport_retry_exhaustion_is_bounded_and_terminal ... ok
+test total_timeout_is_not_reset_by_fragmented_worker_output ... ok
+
+test result: ok. 15 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.13s
+
+     Running tests/symbolic.rs (target/debug/deps/symbolic-0e8f665637b73852)
+
+running 11 tests
+test arbitrary_ascii_input_does_not_panic ... ok
+test domain_conditions_survive_cancellation_and_differentiation ... ok
+test derivatives_match_closed_form_values ... ok
+test exact_decimals_big_integers_and_operator_precedence ... ok
+test equations_return_all_exact_roots_including_complex ... ok
+test expansions_match_independent_integer_polynomials ... ok
+test factorizations_preserve_polynomial_values ... ok
+test unsupported_operations_never_invent_answers ... ok
+test chain_and_quotient_derivatives_match_independent_numerics ... ok
+test antiderivatives_differentiate_to_the_integrand_numerically ... ok
+test malformed_and_adversarial_inputs_fail_boundedly ... ok
+
+test result: ok. 11 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.04s
+
+     Running tests/symbolic_audit.rs (target/debug/deps/symbolic_audit-32b5a506e3fe0549)
+
+running 6 tests
+test multiplying_maximum_integer_exponent_must_not_panic_or_wrap ... ok
+test real_power_domain_is_checked_before_numeric_base_cancellation ... ok
+test substitution_preserves_domains_of_the_replacement_expression ... ok
+test higher_degree_solve_returns_complete_sets_or_an_explicit_error ... ok
+test logarithm_means_the_same_thing_in_numerical_and_symbolic_dialects ... ok
+test reciprocal_quadratic_integrals_have_the_correct_sign_and_scale ... ok
+
+test result: ok. 6 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.01s
+
+     Running tests/trailing_commas.rs (target/debug/deps/trailing_commas-a2a4d8b719e12756)
+
+running 1 test
+test one_final_comma_is_allowed_without_changing_values_or_arity ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+   Doc-tests omni_calc
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+

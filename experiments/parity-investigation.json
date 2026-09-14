@@ -1,0 +1,78 @@
+{
+  "status": "Complete. OriginalV2epoch3 selected for deployment; alternatives retained. No training, inference, export or diagnostic workers remain.",
+  "native_runtime": "Needle 2.0.4, pinned upstream generation-2 runtime",
+  "training_package": "cactus-needle 2.0.12",
+  "v3_adapter": "training/runs/v3/epoch-01.pkl",
+  "initial_exact_teacher_forced": 4,
+  "initial_exact_jax_autoregressive": 4,
+  "initial_exact_native": 1,
+  "samples": 4,
+  "contiguous_step256_exact_native": 3,
+  "hypothesis": "Separately encoded targets insert a SentencePiece leading-space token before the tool-call start; byte grammar may alter decoding. Partial improvement is not proof of the cause.",
+  "artifacts": {
+    "results-teacher-v3-epoch1-actual-encoding.json": {
+      "sha256": "1fefa49dcc916f3ef42f74fe97cee29603fb2e83adb62ef65459433cbbdc274d"
+    },
+    "results-teacher-v3-epoch1-greedy.json": {
+      "sha256": "8908d32660e406ead38617d4da37efa31a3400d8455fb0ee69b41dce108b0f51"
+    },
+    "results-native-teacher-v3.json": {
+      "sha256": "26b08a5b95f0e99c9326b4bfb090968f31b431bf61b3bb8cec67822f02c89934"
+    },
+    "results-native-teacher-v3-fp32.json": {
+      "sha256": "8a448676cefeeb63fe7be28fb4b96ce18ddb7cc5b205710464c4a05a96ef04d1"
+    },
+    "results-native-teacher-v3-no-rebase.json": {
+      "sha256": "9174cfbf6682aee98b277550886196f20fe68719362f3319994e7ecf606de312"
+    },
+    "results-native-teacher-v3-full-kv.json": {
+      "sha256": "dfc67778d91c79ec1e7966f24cb18b551b72991708f0457f1d7ff37ada1a1c39"
+    },
+    "results-native-encoding-aligned-256.json": {
+      "sha256": "8b60891154d47e53dd691b95938aa14ac3e0fb4d414a216fb7828a78d747b60d"
+    },
+    "results-native-encoding-aligned-512.json": {
+      "sha256": "d0e7e2b29ecdc5af1cb358cdb012107a02d3915da2b7e7fbe3359fbd871936a6"
+    },
+    "results-native-encoding-aligned-1024.json": {
+      "sha256": "ebd4bb21f7e64d8b992ee6fb01727a61c467e25d72549dec0558dbdf1d4a4f55"
+    },
+    "results-teacher-encoding-aligned-1024-greedy.json": {
+      "sha256": "876cb192e3ed9fd16e9b39223535072f0064242db83ad4deec7a92c4080b1465"
+    },
+    "results-encoding-aligned-512-v2-heldout.json": {
+      "sha256": "58874e793551156a2527a5c9d27504441d35ca94d27f59636e195d60b3ba7bfa"
+    },
+    "results-encoding-aligned-1024-v2-heldout.json": {
+      "sha256": "2b7ce98c41d0fcd0043de27dc62116cc166f9130ac1666f0a1fcae3a74b40a9e"
+    },
+    "results-v2-encoding-aligned-512-v2-heldout.json": {
+      "sha256": "3b86dbe43e1e32b0b318f8479fabd1ff34049c2c7290fc12be38b2e55a690a68"
+    },
+    "results-v2-encoding-aligned-1024-v2-heldout.json": {
+      "sha256": "b20d67178b64f9160c7b33999df34aa396fbaa45105da5462c2d2b62029239c8"
+    }
+  },
+  "contiguous_step512_exact_native": 4,
+  "contiguous_step1024_exact_native": 3,
+  "contiguous_step1024_exact_jax_autoregressive": 4,
+  "v3_contiguous_step512_diagnostic_exact": 623,
+  "v3_contiguous_step1024_diagnostic_exact": 622,
+  "diagnostic_samples": 768,
+  "v2_contiguous_step512_diagnostic_exact": 544,
+  "v2_contiguous_step1024_diagnostic_exact": 555,
+  "final_deployment_selection": {
+    "name": "Original V2 epoch3",
+    "source_weights": "training/runs/v2/epoch-03.cact",
+    "packaged_weights": "models/omni.cact",
+    "sha256": "1852739bfbb36f945eed2bca5c3ddfd364fab276cf7914ccbe793df4746e46e4",
+    "development_cli_passed": 75,
+    "development_cli_samples": 75,
+    "independent_validation_samples": 100,
+    "independent_validation_note": "Parent retained independent100-case validation for the selected model; this training agent did not read its corpus.",
+    "validation_source": "Final parent deployment-selection message",
+    "reason": "Best complete-application result. Alternatives improved synthetic native rates but showed composition, units and other CLI regressions.",
+    "final_v2_aligned_development_cli_passed": 74,
+    "candidate_artifacts_preserved": true
+  }
+}
