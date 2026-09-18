@@ -1,0 +1,483 @@
+{
+  "method": "Two sequential runs per executable, one CPU, 512 MiB memory limit, zero swap, nice 10. Warm end-to-end CLI wall times; small live-VPS sample, not a universal latency guarantee.",
+  "runs": {
+    "baseline-a": {
+      "binary_sha256": "1f1bbf67e2bbdafc65f17b5a1a14d31d66ffc550daa103a517dc915f5cf90e41",
+      "binary_bytes": 31584728,
+      "retry": 3,
+      "affinity": [
+        0
+      ],
+      "limits": {
+        "cpu.max": "100000 100000",
+        "memory.max": "536870912",
+        "memory.swap.max": "0",
+        "pids.max": "64"
+      },
+      "cold": {
+        "category": "cold",
+        "input": "convert 2.75 km to m",
+        "expect": {
+          "display": "2750 m"
+        },
+        "response": {
+          "schema_version": 1,
+          "ok": true,
+          "input": "convert 2.75 km to m",
+          "expression": "(2.75 km) to m",
+          "tool_call": {
+            "name": "convert",
+            "arguments": {
+              "unit": "m",
+              "value": "2.75 km"
+            }
+          },
+          "result": {
+            "display": "2750 m",
+            "value": "2750 m",
+            "kind": "quantity",
+            "exact": true
+          },
+          "attempts": 1,
+          "retries": 0,
+          "timing": {
+            "total_ms": 2994.709069,
+            "model_ms": 2992.606157,
+            "compute_ms": 0.188668
+          },
+          "model": "needle2-tuned"
+        },
+        "failure": null,
+        "wall_ms": 2997.485863
+      },
+      "status": {
+        "loaded": true,
+        "needle_loaded": true,
+        "ok": true,
+        "pid": 2982810,
+        "running": true
+      },
+      "memory_kib": {
+        "VmHWM": 62704,
+        "VmRSS": 62160
+      },
+      "worker_affinities": [
+        [
+          0
+        ]
+      ],
+      "passed": 32,
+      "total": 40
+    },
+    "baseline-b": {
+      "binary_sha256": "1f1bbf67e2bbdafc65f17b5a1a14d31d66ffc550daa103a517dc915f5cf90e41",
+      "binary_bytes": 31584728,
+      "retry": 3,
+      "affinity": [
+        0
+      ],
+      "limits": {
+        "cpu.max": "100000 100000",
+        "memory.max": "536870912",
+        "memory.swap.max": "0",
+        "pids.max": "64"
+      },
+      "cold": {
+        "category": "cold",
+        "input": "convert 2.75 km to m",
+        "expect": {
+          "display": "2750 m"
+        },
+        "response": {
+          "schema_version": 1,
+          "ok": true,
+          "input": "convert 2.75 km to m",
+          "expression": "(2.75 km) to m",
+          "tool_call": {
+            "name": "convert",
+            "arguments": {
+              "unit": "m",
+              "value": "2.75 km"
+            }
+          },
+          "result": {
+            "display": "2750 m",
+            "value": "2750 m",
+            "kind": "quantity",
+            "exact": true
+          },
+          "attempts": 1,
+          "retries": 0,
+          "timing": {
+            "total_ms": 2935.236155,
+            "model_ms": 2933.186435,
+            "compute_ms": 0.198757
+          },
+          "model": "needle2-tuned"
+        },
+        "failure": null,
+        "wall_ms": 2937.871303
+      },
+      "status": {
+        "loaded": true,
+        "needle_loaded": true,
+        "ok": true,
+        "pid": 2986137,
+        "running": true
+      },
+      "memory_kib": {
+        "VmHWM": 62832,
+        "VmRSS": 62288
+      },
+      "worker_affinities": [
+        [
+          0
+        ]
+      ],
+      "passed": 32,
+      "total": 40
+    },
+    "final-a": {
+      "binary_sha256": "023bb21787fb7870f25267f06b514b5050d5baecf7bcd501bfb814df504e0ad4",
+      "binary_bytes": 31922344,
+      "retry": 3,
+      "affinity": [
+        0
+      ],
+      "limits": {
+        "cpu.max": "100000 100000",
+        "memory.max": "536870912",
+        "memory.swap.max": "0",
+        "pids.max": "64"
+      },
+      "cold": {
+        "category": "cold",
+        "input": "convert 2.75 km to m",
+        "expect": {
+          "display": "2750 m"
+        },
+        "response": {
+          "schema_version": 1,
+          "ok": true,
+          "input": "convert 2.75 km to m",
+          "expression": "(2.75 km) to m",
+          "tool_call": {
+            "name": "convert",
+            "arguments": {
+              "unit": "m",
+              "value": "2.75 km"
+            }
+          },
+          "result": {
+            "display": "2750 m",
+            "value": "2750 m",
+            "kind": "quantity",
+            "exact": true
+          },
+          "attempts": 1,
+          "retries": 0,
+          "timing": {
+            "total_ms": 2956.398532,
+            "model_ms": 2953.197663,
+            "compute_ms": 0.191954
+          },
+          "model": "needle2-tuned"
+        },
+        "failure": null,
+        "wall_ms": 2957.965099
+      },
+      "status": {
+        "loaded": true,
+        "needle_loaded": true,
+        "ok": true,
+        "pid": 2985408,
+        "running": true
+      },
+      "memory_kib": {
+        "VmHWM": 62788,
+        "VmRSS": 62028
+      },
+      "worker_affinities": [
+        [
+          0
+        ]
+      ],
+      "passed": 40,
+      "total": 40
+    },
+    "final-b": {
+      "binary_sha256": "023bb21787fb7870f25267f06b514b5050d5baecf7bcd501bfb814df504e0ad4",
+      "binary_bytes": 31922344,
+      "retry": 3,
+      "affinity": [
+        0
+      ],
+      "limits": {
+        "cpu.max": "100000 100000",
+        "memory.max": "536870912",
+        "memory.swap.max": "0",
+        "pids.max": "64"
+      },
+      "cold": {
+        "category": "cold",
+        "input": "convert 2.75 km to m",
+        "expect": {
+          "display": "2750 m"
+        },
+        "response": {
+          "schema_version": 1,
+          "ok": true,
+          "input": "convert 2.75 km to m",
+          "expression": "(2.75 km) to m",
+          "tool_call": {
+            "name": "convert",
+            "arguments": {
+              "unit": "m",
+              "value": "2.75 km"
+            }
+          },
+          "result": {
+            "display": "2750 m",
+            "value": "2750 m",
+            "kind": "quantity",
+            "exact": true
+          },
+          "attempts": 1,
+          "retries": 0,
+          "timing": {
+            "total_ms": 2981.62567,
+            "model_ms": 2978.311871,
+            "compute_ms": 0.242663
+          },
+          "model": "needle2-tuned"
+        },
+        "failure": null,
+        "wall_ms": 2983.270229
+      },
+      "status": {
+        "loaded": true,
+        "needle_loaded": true,
+        "ok": true,
+        "pid": 2985901,
+        "running": true
+      },
+      "memory_kib": {
+        "VmHWM": 62876,
+        "VmRSS": 62084
+      },
+      "worker_affinities": [
+        [
+          0
+        ]
+      ],
+      "passed": 40,
+      "total": 40
+    }
+  },
+  "categories": {
+    "calculus": {
+      "baseline": {
+        "passed": 8,
+        "total": 8,
+        "median_success_ms": 598.9845735,
+        "median_all_attempts_ms": 598.9845735,
+        "max_ms": 635.78596
+      },
+      "final": {
+        "passed": 8,
+        "total": 8,
+        "median_success_ms": 607.3861704999999,
+        "median_all_attempts_ms": 607.3861704999999,
+        "max_ms": 622.470184
+      },
+      "median_delta_ms": 8.401596999999924
+    },
+    "composition": {
+      "baseline": {
+        "passed": 8,
+        "total": 8,
+        "median_success_ms": 465.75982150000004,
+        "median_all_attempts_ms": 465.75982150000004,
+        "max_ms": 480.002613
+      },
+      "final": {
+        "passed": 8,
+        "total": 8,
+        "median_success_ms": 459.17314350000004,
+        "median_all_attempts_ms": 459.17314350000004,
+        "max_ms": 466.967173
+      },
+      "median_delta_ms": -6.586678000000006
+    },
+    "intent": {
+      "baseline": {
+        "passed": 8,
+        "total": 8,
+        "median_success_ms": 2.9475805,
+        "median_all_attempts_ms": 2.9475805,
+        "max_ms": 3.427219
+      },
+      "final": {
+        "passed": 8,
+        "total": 8,
+        "median_success_ms": 2.427154,
+        "median_all_attempts_ms": 2.427154,
+        "max_ms": 3.051508
+      },
+      "median_delta_ms": -0.5204265000000001
+    },
+    "km_conversion": {
+      "baseline": {
+        "passed": 8,
+        "total": 8,
+        "median_success_ms": 361.1583405,
+        "median_all_attempts_ms": 361.1583405,
+        "max_ms": 377.287047
+      },
+      "final": {
+        "passed": 8,
+        "total": 8,
+        "median_success_ms": 363.09931400000005,
+        "median_all_attempts_ms": 363.09931400000005,
+        "max_ms": 377.58275
+      },
+      "median_delta_ms": 1.940973500000041
+    },
+    "literal": {
+      "baseline": {
+        "passed": 8,
+        "total": 8,
+        "median_success_ms": 2.3105515,
+        "median_all_attempts_ms": 2.3105515,
+        "max_ms": 3.015078
+      },
+      "final": {
+        "passed": 8,
+        "total": 8,
+        "median_success_ms": 2.615986,
+        "median_all_attempts_ms": 2.615986,
+        "max_ms": 3.215818
+      },
+      "median_delta_ms": 0.30543450000000005
+    },
+    "new_composition": {
+      "baseline": {
+        "passed": 0,
+        "total": 4,
+        "median_success_ms": null,
+        "median_all_attempts_ms": 1716.2449495,
+        "max_ms": 2215.263162
+      },
+      "final": {
+        "passed": 4,
+        "total": 4,
+        "median_success_ms": 2.5699965000000002,
+        "median_all_attempts_ms": 2.5699965000000002,
+        "max_ms": 3.263471
+      }
+    },
+    "new_order": {
+      "baseline": {
+        "passed": 0,
+        "total": 4,
+        "median_success_ms": null,
+        "median_all_attempts_ms": 2534.6289605,
+        "max_ms": 3260.143361
+      },
+      "final": {
+        "passed": 4,
+        "total": 4,
+        "median_success_ms": 2.4488155000000003,
+        "median_all_attempts_ms": 2.4488155000000003,
+        "max_ms": 2.785169
+      }
+    },
+    "new_powers": {
+      "baseline": {
+        "passed": 0,
+        "total": 4,
+        "median_success_ms": null,
+        "median_all_attempts_ms": 364.90146000000004,
+        "max_ms": 387.064314
+      },
+      "final": {
+        "passed": 4,
+        "total": 4,
+        "median_success_ms": 2.5057264999999997,
+        "median_all_attempts_ms": 2.5057264999999997,
+        "max_ms": 3.106064
+      }
+    },
+    "new_words": {
+      "baseline": {
+        "passed": 0,
+        "total": 4,
+        "median_success_ms": null,
+        "median_all_attempts_ms": 2090.063313,
+        "max_ms": 2768.668003
+      },
+      "final": {
+        "passed": 4,
+        "total": 4,
+        "median_success_ms": 2.3653370000000002,
+        "median_all_attempts_ms": 2.3653370000000002,
+        "max_ms": 2.95465
+      }
+    },
+    "statistics": {
+      "baseline": {
+        "passed": 8,
+        "total": 8,
+        "median_success_ms": 462.683499,
+        "median_all_attempts_ms": 462.683499,
+        "max_ms": 497.288782
+      },
+      "final": {
+        "passed": 8,
+        "total": 8,
+        "median_success_ms": 461.8671445,
+        "median_all_attempts_ms": 461.8671445,
+        "max_ms": 484.182274
+      },
+      "median_delta_ms": -0.8163544999999885
+    },
+    "temperature": {
+      "baseline": {
+        "passed": 8,
+        "total": 8,
+        "median_success_ms": 1288.508344,
+        "median_all_attempts_ms": 1288.508344,
+        "max_ms": 1353.366113
+      },
+      "final": {
+        "passed": 8,
+        "total": 8,
+        "median_success_ms": 1292.8493134999999,
+        "median_all_attempts_ms": 1292.8493134999999,
+        "max_ms": 1320.998235
+      },
+      "median_delta_ms": 4.340969499999801
+    },
+    "word_numbers": {
+      "baseline": {
+        "passed": 8,
+        "total": 8,
+        "median_success_ms": 430.5713485,
+        "median_all_attempts_ms": 430.5713485,
+        "max_ms": 1435.449069
+      },
+      "final": {
+        "passed": 8,
+        "total": 8,
+        "median_success_ms": 3.136032,
+        "median_all_attempts_ms": 3.136032,
+        "max_ms": 3.370008
+      },
+      "median_delta_ms": -427.4353165
+    }
+  },
+  "cleanup": {
+    "removed": "/tmp/omni-accuracy-zqrrgnqv",
+    "files": 13
+  }
+}

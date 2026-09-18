@@ -85,7 +85,7 @@ fn model() -> &'static Model {
     })
 }
 
-fn number_end(bytes: &[u8], start: usize) -> Option<usize> {
+pub(crate) fn number_end(bytes: &[u8], start: usize) -> Option<usize> {
     let mut i = start;
     if bytes.get(i).is_some_and(|b| matches!(b, b'+' | b'-')) {
         i += 1;
@@ -186,7 +186,7 @@ fn extract(input: &str) -> Option<Vec<(usize, usize)>> {
     (!spans.is_empty() && cues == 1).then_some(spans)
 }
 
-fn mask(input: &str, spans: &[(usize, usize)]) -> String {
+pub(crate) fn mask(input: &str, spans: &[(usize, usize)]) -> String {
     let mut text = String::with_capacity(input.len());
     let mut previous = 0;
     for &(start, end) in spans {
@@ -198,7 +198,7 @@ fn mask(input: &str, spans: &[(usize, usize)]) -> String {
     text
 }
 
-fn features(text: &str) -> (Vec<usize>, f32) {
+pub(crate) fn features(text: &str) -> (Vec<usize>, f32) {
     let mut bytes = Vec::with_capacity(text.len() + 2);
     bytes.push(0xff);
     bytes.extend(

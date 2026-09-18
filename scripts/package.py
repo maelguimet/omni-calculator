@@ -51,7 +51,9 @@ def main():
         for directory in ["docs", "third_party"]:
             shutil.copytree(ROOT / directory, stage / directory,
                             ignore=shutil.ignore_patterns("__pycache__", "*.py"))
-        for relative in ["training/README.md", "vendor/fend-core/OMNI-PATCH.md",
+        for relative in ["training/README.md", "training/composition/README.md",
+                         "training/intent/README.md", "training/reference-v2/README.md",
+                         "training/router/README.md", "vendor/fend-core/OMNI-PATCH.md",
                          "vendor/fend-core/omni-float-conversion.patch"]:
             target = stage / relative
             target.parent.mkdir(parents=True, exist_ok=True)

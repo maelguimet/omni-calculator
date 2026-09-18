@@ -1,3 +1,5 @@
+#[cfg(feature = "fast-router")]
+pub mod composition;
 pub mod engine;
 pub mod error;
 #[cfg(feature = "fast-router")]

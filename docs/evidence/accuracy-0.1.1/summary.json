@@ -1,0 +1,53 @@
+{
+  "baseline": {
+    "passed": 306,
+    "total": 352,
+    "correct_calculations": 244,
+    "calculation_requests": 290,
+    "correct_expected_errors": 62,
+    "expected_error_requests": 62,
+    "accepted_wrong": 8
+  },
+  "final": {
+    "passed": 346,
+    "total": 352,
+    "correct_calculations": 284,
+    "calculation_requests": 290,
+    "correct_expected_errors": 62,
+    "expected_error_requests": 62,
+    "accepted_wrong": 0
+  },
+  "regressions": [],
+  "remaining_rejections": [
+    "add the square root of 81 and the cube root of 125",
+    "find the smallest of -8, 3, -12, 9",
+    "could you calculate the product of the sum of 12 and 8 and 5",
+    "the square root of 121 plus the cube root of 216",
+    "divide the difference of 68 and 20 by the sum of 7 and 5",
+    "express 850 cm as m"
+  ],
+  "suites": [
+    {
+      "name": "existing",
+      "passed": 200,
+      "total": 200
+    },
+    {
+      "name": "language",
+      "passed": 66,
+      "total": 66
+    },
+    {
+      "name": "expansion",
+      "passed": 60,
+      "total": 62
+    },
+    {
+      "name": "reserved",
+      "passed": 20,
+      "total": 24
+    }
+  ],
+  "binary_sha256": "023bb21787fb7870f25267f06b514b5050d5baecf7bcd501bfb814df504e0ad4",
+  "composition_sha256": "263ceae58aeeceb69fe35389a01f76918b29538cb98694b0e088b996e2adb9a3"
+}

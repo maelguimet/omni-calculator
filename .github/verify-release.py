@@ -82,6 +82,7 @@ def main():
             environment["OMNI_RUNTIME_DIR"] = runtime
             requests = [
                 ("auto", "wat iz 1 + 1", 2, "integer"),
+                ("auto", "add the squares of 6 and 8", 100, "integer"),
                 ("needle", "convert 2.75 km to m", "2750 m", "quantity"),
             ]
             for backend, request, expected, kind in requests:

@@ -91,6 +91,33 @@ impl Provider for LocalModel {
                         return Ok(prediction);
                     }
                 }
+                let numeric = crate::planner::model_number_spelling(input);
+                if let Some(candidate) = numeric.as_deref()
+                    && let Some(prediction) = crate::intent::predict(candidate)
+                    && prediction.calls.len() == 1
+                    && crate::planner::expression_for_call(&prediction.calls[0], input).is_ok()
+                {
+                    self.selected = crate::intent::MODEL_ID;
+                    self.ready = true;
+                    return Ok(prediction);
+                }
+                for candidate in [
+                    Some(input),
+                    (normalized != input).then_some(normalized),
+                    numeric.as_deref(),
+                ]
+                .into_iter()
+                .flatten()
+                {
+                    if let Some(prediction) = crate::composition::predict(candidate)
+                        && prediction.calls.len() == 1
+                        && crate::planner::expression_for_call(&prediction.calls[0], input).is_ok()
+                    {
+                        self.selected = crate::composition::MODEL_ID;
+                        self.ready = true;
+                        return Ok(prediction);
+                    }
+                }
             }
         }
         #[cfg(not(feature = "fast-router"))]

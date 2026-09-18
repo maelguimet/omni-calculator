@@ -9,6 +9,9 @@ use std::time::{Duration, Instant};
 
 mod grounding;
 
+#[cfg(feature = "fast-router")]
+pub(crate) use grounding::model_number_spelling;
+
 /// Borrow the request after removing the same conversational framing used by
 /// literal evaluation. This does not normalize or rewrite its mathematics.
 pub(crate) fn normalized_request(input: &str) -> &str {
@@ -413,7 +416,11 @@ pub fn literal_expression(input: &str) -> Result<String, CalcError> {
         ));
     }
     // Verbal operators cannot be handed to the expression engine as units or names.
-    let words = expr.to_ascii_lowercase();
+    let words = expr
+        .split_whitespace()
+        .collect::<Vec<_>>()
+        .join(" ")
+        .to_ascii_lowercase();
     let verbal_division_into = expr.find('(').is_some_and(|i| {
         matches!(
             expr[..i].trim().to_ascii_lowercase().as_str(),
@@ -453,6 +460,7 @@ pub fn literal_expression(input: &str) -> Result<String, CalcError> {
         " raised",
         " exponent",
         " less ",
+        " fewer ",
         " over ",
         " tims ",
         " plus",

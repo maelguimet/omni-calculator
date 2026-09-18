@@ -1,0 +1,1653 @@
+{
+  "binary_sha256": "1f1bbf67e2bbdafc65f17b5a1a14d31d66ffc550daa103a517dc915f5cf90e41",
+  "binary_bytes": 31584728,
+  "retry": 3,
+  "affinity": [
+    0
+  ],
+  "records": [
+    {
+      "category": "literal",
+      "input": "wat iz 81+17",
+      "expect": {
+        "number": 98
+      },
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "wat iz 81+17",
+        "expression": "81+17",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "98",
+          "value": 98,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.799076,
+          "model_ms": 0.279794,
+          "compute_ms": 0.037242
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.9999734656161928
+      },
+      "failure": null,
+      "wall_ms": 2.360775
+    },
+    {
+      "category": "intent",
+      "input": "what is the square root of 441",
+      "expect": {
+        "number": 21
+      },
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "what is the square root of 441",
+        "expression": "sqrt(441)",
+        "tool_call": {
+          "name": "function",
+          "arguments": {
+            "arguments": [
+              "441"
+            ],
+            "function": "sqrt"
+          }
+        },
+        "result": {
+          "display": "21",
+          "value": 21,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.7687459999999999,
+          "model_ms": 0.14908,
+          "compute_ms": 0.059495
+        },
+        "model": "omni-intent-v1",
+        "confidence": 0.996504964556508
+      },
+      "failure": null,
+      "wall_ms": 2.907467
+    },
+    {
+      "category": "km_conversion",
+      "input": "convert 63 km to m",
+      "expect": {
+        "display": "63000 m"
+      },
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "convert 63 km to m",
+        "expression": "(63 km) to m",
+        "tool_call": {
+          "name": "convert",
+          "arguments": {
+            "unit": "m",
+            "value": "63 km"
+          }
+        },
+        "result": {
+          "display": "63000 m",
+          "value": "63000 m",
+          "kind": "quantity",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 376.103944,
+          "model_ms": 374.397482,
+          "compute_ms": 0.098091
+        },
+        "model": "needle2-tuned"
+      },
+      "failure": null,
+      "wall_ms": 377.287047
+    },
+    {
+      "category": "temperature",
+      "input": "convert 68 degrees Fahrenheit to Celsius",
+      "expect": {
+        "display": "20 \u00b0C"
+      },
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "convert 68 degrees Fahrenheit to Celsius",
+        "expression": "(68 degrees Fahrenheit) to Celsius",
+        "tool_call": {
+          "name": "convert",
+          "arguments": {
+            "unit": "Celsius",
+            "value": "68 degrees Fahrenheit"
+          }
+        },
+        "result": {
+          "display": "20 \u00b0C",
+          "value": "20 \u00b0C",
+          "kind": "quantity",
+          "exact": true
+        },
+        "attempts": 2,
+        "retries": 1,
+        "timing": {
+          "total_ms": 1298.668058,
+          "model_ms": 1297.952256,
+          "compute_ms": 0.08386300000000001
+        },
+        "model": "needle2-tuned"
+      },
+      "failure": null,
+      "wall_ms": 1301.273268
+    },
+    {
+      "category": "composition",
+      "input": "multiply the difference of 29 and 6 by 4",
+      "expect": {
+        "number": 92
+      },
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "multiply the difference of 29 and 6 by 4",
+        "expression": "((29-6))*(4)",
+        "tool_call": {
+          "name": "function",
+          "arguments": {
+            "arguments": [
+              "(29-6)",
+              "4"
+            ],
+            "function": "multiply"
+          }
+        },
+        "result": {
+          "display": "92",
+          "value": 92,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 477.461097,
+          "model_ms": 476.614429,
+          "compute_ms": 0.089043
+        },
+        "model": "needle2-tuned"
+      },
+      "failure": null,
+      "wall_ms": 479.0148
+    },
+    {
+      "category": "statistics",
+      "input": "find the median of 3, 7, 11, 20",
+      "expect": {
+        "number": 9
+      },
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "find the median of 3, 7, 11, 20",
+        "expression": "median([3,7,11,20])",
+        "tool_call": {
+          "name": "function",
+          "arguments": {
+            "arguments": [
+              "[3,7,11,20]"
+            ],
+            "function": "median"
+          }
+        },
+        "result": {
+          "display": "9",
+          "value": 9.0,
+          "kind": "number",
+          "exact": false
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 462.503059,
+          "model_ms": 461.7674970000001,
+          "compute_ms": 0.008826
+        },
+        "model": "needle2-tuned"
+      },
+      "failure": null,
+      "wall_ms": 464.046951
+    },
+    {
+      "category": "calculus",
+      "input": "integrate x^2 from 1 to 4",
+      "expect": {
+        "number": 21.0
+      },
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "integrate x^2 from 1 to 4",
+        "expression": "integrate(x^2,x,1,4)",
+        "tool_call": {
+          "name": "algebra",
+          "arguments": {
+            "expression": "x^2",
+            "lower": "1",
+            "operation": "integrate",
+            "upper": "4",
+            "variable": "x"
+          }
+        },
+        "result": {
+          "display": "21",
+          "value": 21.0,
+          "kind": "number",
+          "exact": false
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 617.7032,
+          "model_ms": 616.944804,
+          "compute_ms": 0.022273
+        },
+        "model": "needle2-tuned"
+      },
+      "failure": null,
+      "wall_ms": 620.261388
+    },
+    {
+      "category": "word_numbers",
+      "input": "what is ninety minus seventeen",
+      "expect": {
+        "number": 73
+      },
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "what is ninety minus seventeen",
+        "expression": "(90)-(17)",
+        "tool_call": {
+          "name": "function",
+          "arguments": {
+            "arguments": [
+              "90",
+              "17"
+            ],
+            "function": "subtract"
+          }
+        },
+        "result": {
+          "display": "73",
+          "value": 73,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 470.11706599999997,
+          "model_ms": 469.364861,
+          "compute_ms": 0.081911
+        },
+        "model": "needle2-tuned"
+      },
+      "failure": null,
+      "wall_ms": 471.682984
+    },
+    {
+      "category": "literal",
+      "input": "wat iz 82+18",
+      "expect": {
+        "number": 100
+      },
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "wat iz 82+18",
+        "expression": "82+18",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "100",
+          "value": 100,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.552345,
+          "model_ms": 0.014368,
+          "compute_ms": 0.037664
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.9999734656161928
+      },
+      "failure": null,
+      "wall_ms": 2.013738
+    },
+    {
+      "category": "intent",
+      "input": "what is the square root of 484",
+      "expect": {
+        "number": 22
+      },
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "what is the square root of 484",
+        "expression": "sqrt(484)",
+        "tool_call": {
+          "name": "function",
+          "arguments": {
+            "arguments": [
+              "484"
+            ],
+            "function": "sqrt"
+          }
+        },
+        "result": {
+          "display": "22",
+          "value": 22,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.96108,
+          "model_ms": 0.09197,
+          "compute_ms": 0.064345
+        },
+        "model": "omni-intent-v1",
+        "confidence": 0.996504964556508
+      },
+      "failure": null,
+      "wall_ms": 2.139524
+    },
+    {
+      "category": "km_conversion",
+      "input": "convert 64 km to m",
+      "expect": {
+        "display": "64000 m"
+      },
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "convert 64 km to m",
+        "expression": "(64 km) to m",
+        "tool_call": {
+          "name": "convert",
+          "arguments": {
+            "unit": "m",
+            "value": "64 km"
+          }
+        },
+        "result": {
+          "display": "64000 m",
+          "value": "64000 m",
+          "kind": "quantity",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 359.818062,
+          "model_ms": 358.880388,
+          "compute_ms": 0.099414
+        },
+        "model": "needle2-tuned"
+      },
+      "failure": null,
+      "wall_ms": 360.998649
+    },
+    {
+      "category": "temperature",
+      "input": "convert 77 degrees Fahrenheit to Celsius",
+      "expect": {
+        "display": "25 \u00b0C"
+      },
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "convert 77 degrees Fahrenheit to Celsius",
+        "expression": "(77 degrees Fahrenheit) to Celsius",
+        "tool_call": {
+          "name": "convert",
+          "arguments": {
+            "unit": "Celsius",
+            "value": "77 degrees Fahrenheit"
+          }
+        },
+        "result": {
+          "display": "25 \u00b0C",
+          "value": "25 \u00b0C",
+          "kind": "quantity",
+          "exact": true
+        },
+        "attempts": 2,
+        "retries": 1,
+        "timing": {
+          "total_ms": 1298.7503490000001,
+          "model_ms": 1297.96889,
+          "compute_ms": 0.086238
+        },
+        "model": "needle2-tuned"
+      },
+      "failure": null,
+      "wall_ms": 1301.315071
+    },
+    {
+      "category": "composition",
+      "input": "multiply the difference of 30 and 6 by 4",
+      "expect": {
+        "number": 96
+      },
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "multiply the difference of 30 and 6 by 4",
+        "expression": "((30-6))*(4)",
+        "tool_call": {
+          "name": "function",
+          "arguments": {
+            "arguments": [
+              "(30-6)",
+              "4"
+            ],
+            "function": "multiply"
+          }
+        },
+        "result": {
+          "display": "96",
+          "value": 96,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 434.732457,
+          "model_ms": 433.915868,
+          "compute_ms": 0.068143
+        },
+        "model": "needle2-tuned"
+      },
+      "failure": null,
+      "wall_ms": 436.256553
+    },
+    {
+      "category": "statistics",
+      "input": "find the median of 4, 8, 12, 21",
+      "expect": {
+        "number": 10
+      },
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "find the median of 4, 8, 12, 21",
+        "expression": "median([4,8,12,21])",
+        "tool_call": {
+          "name": "function",
+          "arguments": {
+            "arguments": [
+              "[4,8,12,21]"
+            ],
+            "function": "median"
+          }
+        },
+        "result": {
+          "display": "10",
+          "value": 10.0,
+          "kind": "number",
+          "exact": false
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 443.219763,
+          "model_ms": 442.405128,
+          "compute_ms": 0.009088
+        },
+        "model": "needle2-tuned"
+      },
+      "failure": null,
+      "wall_ms": 445.743384
+    },
+    {
+      "category": "calculus",
+      "input": "integrate x^2 from 1 to 5",
+      "expect": {
+        "number": 41.333333333333336
+      },
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "integrate x^2 from 1 to 5",
+        "expression": "integrate(x^2,x,1,5)",
+        "tool_call": {
+          "name": "algebra",
+          "arguments": {
+            "expression": "x^2",
+            "lower": "1",
+            "operation": "integrate",
+            "upper": "5",
+            "variable": "x"
+          }
+        },
+        "result": {
+          "display": "41.333333333333336",
+          "value": 41.333333333333336,
+          "kind": "number",
+          "exact": false
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 587.901647,
+          "model_ms": 587.180773,
+          "compute_ms": 0.022533
+        },
+        "model": "needle2-tuned"
+      },
+      "failure": null,
+      "wall_ms": 590.609736
+    },
+    {
+      "category": "word_numbers",
+      "input": "multiply negative six by eleven",
+      "expect": {
+        "number": -66
+      },
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "multiply negative six by eleven",
+        "expression": "(-6)*(11)",
+        "tool_call": {
+          "name": "function",
+          "arguments": {
+            "arguments": [
+              "-6",
+              "11"
+            ],
+            "function": "multiply"
+          }
+        },
+        "result": {
+          "display": "-66",
+          "value": -66,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 403.48404700000003,
+          "model_ms": 402.75558,
+          "compute_ms": 0.060399
+        },
+        "model": "needle2-tuned"
+      },
+      "failure": null,
+      "wall_ms": 405.002512
+    },
+    {
+      "category": "literal",
+      "input": "wat iz 83+19",
+      "expect": {
+        "number": 102
+      },
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "wat iz 83+19",
+        "expression": "83+19",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "102",
+          "value": 102,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.6117400000000001,
+          "model_ms": 0.014538,
+          "compute_ms": 0.036762
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.9999734656161928
+      },
+      "failure": null,
+      "wall_ms": 3.015078
+    },
+    {
+      "category": "intent",
+      "input": "what is the square root of 529",
+      "expect": {
+        "number": 23
+      },
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "what is the square root of 529",
+        "expression": "sqrt(529)",
+        "tool_call": {
+          "name": "function",
+          "arguments": {
+            "arguments": [
+              "529"
+            ],
+            "function": "sqrt"
+          }
+        },
+        "result": {
+          "display": "23",
+          "value": 23,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.802873,
+          "model_ms": 0.091538,
+          "compute_ms": 0.064384
+        },
+        "model": "omni-intent-v1",
+        "confidence": 0.996504964556508
+      },
+      "failure": null,
+      "wall_ms": 1.935758
+    },
+    {
+      "category": "km_conversion",
+      "input": "convert 65 km to m",
+      "expect": {
+        "display": "65000 m"
+      },
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "convert 65 km to m",
+        "expression": "(65 km) to m",
+        "tool_call": {
+          "name": "convert",
+          "arguments": {
+            "unit": "m",
+            "value": "65 km"
+          }
+        },
+        "result": {
+          "display": "65000 m",
+          "value": "65000 m",
+          "kind": "quantity",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 346.71572499999996,
+          "model_ms": 345.966927,
+          "compute_ms": 0.100375
+        },
+        "model": "needle2-tuned"
+      },
+      "failure": null,
+      "wall_ms": 349.01093
+    },
+    {
+      "category": "temperature",
+      "input": "convert 86 degrees Fahrenheit to Celsius",
+      "expect": {
+        "display": "30 \u00b0C"
+      },
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "convert 86 degrees Fahrenheit to Celsius",
+        "expression": "(86 degrees Fahrenheit) to Celsius",
+        "tool_call": {
+          "name": "convert",
+          "arguments": {
+            "unit": "Celsius",
+            "value": "86 degrees Fahrenheit"
+          }
+        },
+        "result": {
+          "display": "30 \u00b0C",
+          "value": "30 \u00b0C",
+          "kind": "quantity",
+          "exact": true
+        },
+        "attempts": 2,
+        "retries": 1,
+        "timing": {
+          "total_ms": 1297.151358,
+          "model_ms": 1296.413001,
+          "compute_ms": 0.087229
+        },
+        "model": "needle2-tuned"
+      },
+      "failure": null,
+      "wall_ms": 1298.662158
+    },
+    {
+      "category": "composition",
+      "input": "multiply the difference of 31 and 6 by 4",
+      "expect": {
+        "number": 100
+      },
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "multiply the difference of 31 and 6 by 4",
+        "expression": "((31-6))*(4)",
+        "tool_call": {
+          "name": "function",
+          "arguments": {
+            "arguments": [
+              "(31-6)",
+              "4"
+            ],
+            "function": "multiply"
+          }
+        },
+        "result": {
+          "display": "100",
+          "value": 100,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 458.628308,
+          "model_ms": 457.6967350000001,
+          "compute_ms": 0.103992
+        },
+        "model": "needle2-tuned"
+      },
+      "failure": null,
+      "wall_ms": 461.163242
+    },
+    {
+      "category": "statistics",
+      "input": "find the median of 5, 9, 13, 22",
+      "expect": {
+        "number": 11
+      },
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "find the median of 5, 9, 13, 22",
+        "expression": "median([5,9,13,22])",
+        "tool_call": {
+          "name": "function",
+          "arguments": {
+            "arguments": [
+              "[5,9,13,22]"
+            ],
+            "function": "median"
+          }
+        },
+        "result": {
+          "display": "11",
+          "value": 11.0,
+          "kind": "number",
+          "exact": false
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 459.804467,
+          "model_ms": 459.025291,
+          "compute_ms": 0.009078
+        },
+        "model": "needle2-tuned"
+      },
+      "failure": null,
+      "wall_ms": 461.320047
+    },
+    {
+      "category": "calculus",
+      "input": "integrate x^2 from 1 to 6",
+      "expect": {
+        "number": 71.66666666666667
+      },
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "integrate x^2 from 1 to 6",
+        "expression": "integrate(x^2,x,1,6)",
+        "tool_call": {
+          "name": "algebra",
+          "arguments": {
+            "expression": "x^2",
+            "lower": "1",
+            "operation": "integrate",
+            "upper": "6",
+            "variable": "x"
+          }
+        },
+        "result": {
+          "display": "71.66666666666667",
+          "value": 71.66666666666667,
+          "kind": "number",
+          "exact": false
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 597.863833,
+          "model_ms": 596.941569,
+          "compute_ms": 0.022133999999999997
+        },
+        "model": "needle2-tuned"
+      },
+      "failure": null,
+      "wall_ms": 599.392558
+    },
+    {
+      "category": "word_numbers",
+      "input": "cube root of negative eight",
+      "expect": {
+        "number": -2
+      },
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "cube root of negative eight",
+        "expression": "cbrt(-8)",
+        "tool_call": {
+          "name": "function",
+          "arguments": {
+            "arguments": [
+              "-8"
+            ],
+            "function": "cbrt"
+          }
+        },
+        "result": {
+          "display": "-2",
+          "value": -2,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 2,
+        "retries": 1,
+        "timing": {
+          "total_ms": 1432.911751,
+          "model_ms": 1432.0660240000002,
+          "compute_ms": 0.081829
+        },
+        "model": "needle2-tuned"
+      },
+      "failure": null,
+      "wall_ms": 1435.449069
+    },
+    {
+      "category": "literal",
+      "input": "wat iz 84+20",
+      "expect": {
+        "number": 104
+      },
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "wat iz 84+20",
+        "expression": "84+20",
+        "tool_call": {
+          "name": "evaluate",
+          "arguments": {}
+        },
+        "result": {
+          "display": "104",
+          "value": 104,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.515082,
+          "model_ms": 0.014488,
+          "compute_ms": 0.037243000000000005
+        },
+        "model": "omni-reference-router-v2",
+        "confidence": 0.9999734656161928
+      },
+      "failure": null,
+      "wall_ms": 1.925849
+    },
+    {
+      "category": "intent",
+      "input": "what is the square root of 576",
+      "expect": {
+        "number": 24
+      },
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "what is the square root of 576",
+        "expression": "sqrt(576)",
+        "tool_call": {
+          "name": "function",
+          "arguments": {
+            "arguments": [
+              "576"
+            ],
+            "function": "sqrt"
+          }
+        },
+        "result": {
+          "display": "24",
+          "value": 24,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 0.71929,
+          "model_ms": 0.09178,
+          "compute_ms": 0.057482000000000005
+        },
+        "model": "omni-intent-v1",
+        "confidence": 0.996504964556508
+      },
+      "failure": null,
+      "wall_ms": 2.946984
+    },
+    {
+      "category": "km_conversion",
+      "input": "convert 66 km to m",
+      "expect": {
+        "display": "66000 m"
+      },
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "convert 66 km to m",
+        "expression": "(66 km) to m",
+        "tool_call": {
+          "name": "convert",
+          "arguments": {
+            "unit": "m",
+            "value": "66 km"
+          }
+        },
+        "result": {
+          "display": "66000 m",
+          "value": "66000 m",
+          "kind": "quantity",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 358.97628399999996,
+          "model_ms": 353.9894,
+          "compute_ms": 0.107159
+        },
+        "model": "needle2-tuned"
+      },
+      "failure": null,
+      "wall_ms": 360.265012
+    },
+    {
+      "category": "temperature",
+      "input": "convert 95 degrees Fahrenheit to Celsius",
+      "expect": {
+        "display": "35 \u00b0C"
+      },
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "convert 95 degrees Fahrenheit to Celsius",
+        "expression": "(95 degrees Fahrenheit) to Celsius",
+        "tool_call": {
+          "name": "convert",
+          "arguments": {
+            "unit": "Celsius",
+            "value": "95 degrees Fahrenheit"
+          }
+        },
+        "result": {
+          "display": "35 \u00b0C",
+          "value": "35 \u00b0C",
+          "kind": "quantity",
+          "exact": true
+        },
+        "attempts": 2,
+        "retries": 1,
+        "timing": {
+          "total_ms": 1263.48728,
+          "model_ms": 1262.747528,
+          "compute_ms": 0.085977
+        },
+        "model": "needle2-tuned"
+      },
+      "failure": null,
+      "wall_ms": 1266.207102
+    },
+    {
+      "category": "composition",
+      "input": "multiply the difference of 32 and 6 by 4",
+      "expect": {
+        "number": 104
+      },
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "multiply the difference of 32 and 6 by 4",
+        "expression": "((32-6))*(4)",
+        "tool_call": {
+          "name": "function",
+          "arguments": {
+            "arguments": [
+              "(32-6)",
+              "4"
+            ],
+            "function": "multiply"
+          }
+        },
+        "result": {
+          "display": "104",
+          "value": 104,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 470.18573000000004,
+          "model_ms": 469.3376,
+          "compute_ms": 0.06826399999999999
+        },
+        "model": "needle2-tuned"
+      },
+      "failure": null,
+      "wall_ms": 471.916077
+    },
+    {
+      "category": "statistics",
+      "input": "find the median of 6, 10, 14, 23",
+      "expect": {
+        "number": 12
+      },
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "find the median of 6, 10, 14, 23",
+        "expression": "median([6,10,14,23])",
+        "tool_call": {
+          "name": "function",
+          "arguments": {
+            "arguments": [
+              "[6,10,14,23]"
+            ],
+            "function": "median"
+          }
+        },
+        "result": {
+          "display": "12",
+          "value": 12.0,
+          "kind": "number",
+          "exact": false
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 472.91253500000005,
+          "model_ms": 471.056716,
+          "compute_ms": 0.008346
+        },
+        "model": "needle2-tuned"
+      },
+      "failure": null,
+      "wall_ms": 474.452673
+    },
+    {
+      "category": "calculus",
+      "input": "integrate x^2 from 1 to 7",
+      "expect": {
+        "number": 114.0
+      },
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "integrate x^2 from 1 to 7",
+        "expression": "integrate(x^2,x,1,7)",
+        "tool_call": {
+          "name": "algebra",
+          "arguments": {
+            "expression": "x^2",
+            "lower": "1",
+            "operation": "integrate",
+            "upper": "7",
+            "variable": "x"
+          }
+        },
+        "result": {
+          "display": "114",
+          "value": 114.0,
+          "kind": "number",
+          "exact": false
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 592.628716,
+          "model_ms": 591.950837,
+          "compute_ms": 0.02058
+        },
+        "model": "needle2-tuned"
+      },
+      "failure": null,
+      "wall_ms": 595.196473
+    },
+    {
+      "category": "word_numbers",
+      "input": "seventeen to the power of four",
+      "expect": {
+        "number": 83521
+      },
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "seventeen to the power of four",
+        "expression": "(17)^(4)",
+        "tool_call": {
+          "name": "function",
+          "arguments": {
+            "arguments": [
+              "17",
+              "4"
+            ],
+            "function": "power"
+          }
+        },
+        "result": {
+          "display": "83521",
+          "value": 83521,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 397.244514,
+          "model_ms": 396.485147,
+          "compute_ms": 0.063523
+        },
+        "model": "needle2-tuned"
+      },
+      "failure": null,
+      "wall_ms": 398.743651
+    },
+    {
+      "category": "new_powers",
+      "input": "add the squares of 6 and 8",
+      "expect": {
+        "number": 100
+      },
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "add the squares of 6 and 8",
+        "expression": "(6)+(8)",
+        "tool_call": {
+          "name": "function",
+          "arguments": {
+            "arguments": [
+              "6",
+              "8"
+            ],
+            "function": "add"
+          }
+        },
+        "result": {
+          "display": "14",
+          "value": 14,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 345.695599,
+          "model_ms": 344.873531,
+          "compute_ms": 0.058704
+        },
+        "model": "needle2-tuned"
+      },
+      "failure": "wrong exact numerical answer",
+      "wall_ms": 348.25442
+    },
+    {
+      "category": "new_powers",
+      "input": "sum of squares of -4 and 9",
+      "expect": {
+        "number": 97
+      },
+      "response": {
+        "schema_version": 1,
+        "ok": true,
+        "input": "sum of squares of -4 and 9",
+        "expression": "(-4)+(9)",
+        "tool_call": {
+          "name": "function",
+          "arguments": {
+            "arguments": [
+              "-4",
+              "9"
+            ],
+            "function": "add"
+          }
+        },
+        "result": {
+          "display": "5",
+          "value": 5,
+          "kind": "integer",
+          "exact": true
+        },
+        "attempts": 1,
+        "retries": 0,
+        "timing": {
+          "total_ms": 371.391465,
+          "model_ms": 370.552052,
+          "compute_ms": 0.058584
+        },
+        "model": "needle2-tuned"
+      },
+      "failure": "wrong exact numerical answer",
+      "wall_ms": 372.878097
+    },
+    {
+      "category": "new_composition",
+      "input": "subtract the product of 7 and 4 from 65",
+      "expect": {
+        "number": 37
+      },
+      "response": {
+        "schema_version": 1,
+        "ok": false,
+        "input": "subtract the product of 7 and 4 from 65",
+        "tool_call": {
+          "name": "function",
+          "arguments": {
+            "arguments": [
+              "(7+4)",
+              "(65)"
+            ],
+            "function": "subtract"
+          }
+        },
+        "error": {
+          "code": "model_error",
+          "message": "An operand introduced an operation absent from the request.",
+          "retryable": false
+        },
+        "attempts": 3,
+        "retries": 2,
+        "timing": {
+          "total_ms": 2156.396058,
+          "model_ms": 2155.219038,
+          "compute_ms": 0.0
+        },
+        "model": "needle2-tuned"
+      },
+      "failure": "calculation rejected",
+      "wall_ms": 2158.963673
+    },
+    {
+      "category": "new_composition",
+      "input": "divide 144 by the product of 3 and 4",
+      "expect": {
+        "number": 12
+      },
+      "response": {
+        "schema_version": 1,
+        "ok": false,
+        "input": "divide 144 by the product of 3 and 4",
+        "tool_call": {
+          "name": "function",
+          "arguments": {
+            "arguments": [
+              "144",
+              "(3+4)"
+            ],
+            "function": "divide"
+          }
+        },
+        "error": {
+          "code": "model_error",
+          "message": "An operand introduced an operation absent from the request.",
+          "retryable": false
+        },
+        "attempts": 2,
+        "retries": 1,
+        "timing": {
+          "total_ms": 1268.803666,
+          "model_ms": 1267.969533,
+          "compute_ms": 0.0
+        },
+        "model": "needle2-tuned"
+      },
+      "failure": "calculation rejected",
+      "wall_ms": 1270.340738
+    },
+    {
+      "category": "new_order",
+      "input": "what is 9 less than 42",
+      "expect": {
+        "number": 33
+      },
+      "response": {
+        "schema_version": 1,
+        "ok": false,
+        "input": "what is 9 less than 42",
+        "tool_call": {
+          "name": "function",
+          "arguments": {
+            "arguments": [
+              "[42,9]"
+            ],
+            "function": "ncr"
+          }
+        },
+        "error": {
+          "code": "model_error",
+          "message": "The source requests subtract, but the tool proposed ncr. Select subtract and preserve the original operands.",
+          "retryable": false
+        },
+        "attempts": 4,
+        "retries": 3,
+        "timing": {
+          "total_ms": 3257.6089389999997,
+          "model_ms": 3256.674612,
+          "compute_ms": 0.0
+        },
+        "model": "needle2-tuned"
+      },
+      "failure": "calculation rejected",
+      "wall_ms": 3260.143361
+    },
+    {
+      "category": "new_order",
+      "input": "take 17 away from 83",
+      "expect": {
+        "number": 66
+      },
+      "response": {
+        "schema_version": 1,
+        "ok": false,
+        "input": "take 17 away from 83",
+        "tool_call": {
+          "name": "function",
+          "arguments": {
+            "arguments": [
+              "83",
+              "17"
+            ],
+            "function": "tan"
+          }
+        },
+        "error": {
+          "code": "model_error",
+          "message": "No matching mathematical operation was stated. Use an explicit expression if the wording is ambiguous.",
+          "retryable": false
+        },
+        "attempts": 3,
+        "retries": 2,
+        "timing": {
+          "total_ms": 1919.125164,
+          "model_ms": 1918.389684,
+          "compute_ms": 0.0
+        },
+        "model": "needle2-tuned"
+      },
+      "failure": "calculation rejected",
+      "wall_ms": 1920.717423
+    },
+    {
+      "category": "new_words",
+      "input": "subtract negative 8 from 31",
+      "expect": {
+        "number": 39
+      },
+      "response": {
+        "schema_version": 1,
+        "ok": false,
+        "input": "subtract negative 8 from 31",
+        "tool_call": {
+          "name": "function",
+          "arguments": {
+            "arguments": [
+              "31",
+              "8"
+            ],
+            "function": "subtract"
+          }
+        },
+        "error": {
+          "code": "model_error",
+          "message": "The tool changed or omitted a signed quantity. Copy every value exactly, without calculating it. Required quantities, preserving counts: [-8, 31]. Proposed quantities: [31, 8].",
+          "retryable": false
+        },
+        "attempts": 2,
+        "retries": 1,
+        "timing": {
+          "total_ms": 1424.042125,
+          "model_ms": 1423.4251330000002,
+          "compute_ms": 0.0
+        },
+        "model": "needle2-tuned"
+      },
+      "failure": "calculation rejected",
+      "wall_ms": 1425.577162
+    },
+    {
+      "category": "new_words",
+      "input": "calculate six times negative thirteen",
+      "expect": {
+        "number": -78
+      },
+      "response": {
+        "schema_version": 1,
+        "ok": false,
+        "input": "calculate six times negative thirteen",
+        "tool_call": {
+          "name": "function",
+          "arguments": {
+            "arguments": [
+              "-13",
+              "6",
+              "3"
+            ],
+            "function": "subtract"
+          }
+        },
+        "error": {
+          "code": "model_error",
+          "message": "The tool changed or omitted a signed quantity. Copy every value exactly, without calculating it. Required quantities, preserving counts: [-13, 6]. Proposed quantities: [-13, 3, 6].",
+          "retryable": false
+        },
+        "attempts": 3,
+        "retries": 2,
+        "timing": {
+          "total_ms": 2766.987734,
+          "model_ms": 2766.334603,
+          "compute_ms": 0.0
+        },
+        "model": "needle2-tuned"
+      },
+      "failure": "calculation rejected",
+      "wall_ms": 2768.668003
+    }
+  ],
+  "limits": {
+    "cpu.max": "100000 100000",
+    "memory.max": "536870912",
+    "memory.swap.max": "0",
+    "pids.max": "64"
+  },
+  "cold": {
+    "category": "cold",
+    "input": "convert 2.75 km to m",
+    "expect": {
+      "display": "2750 m"
+    },
+    "response": {
+      "schema_version": 1,
+      "ok": true,
+      "input": "convert 2.75 km to m",
+      "expression": "(2.75 km) to m",
+      "tool_call": {
+        "name": "convert",
+        "arguments": {
+          "unit": "m",
+          "value": "2.75 km"
+        }
+      },
+      "result": {
+        "display": "2750 m",
+        "value": "2750 m",
+        "kind": "quantity",
+        "exact": true
+      },
+      "attempts": 1,
+      "retries": 0,
+      "timing": {
+        "total_ms": 2994.709069,
+        "model_ms": 2992.606157,
+        "compute_ms": 0.188668
+      },
+      "model": "needle2-tuned"
+    },
+    "failure": null,
+    "wall_ms": 2997.485863
+  },
+  "status": {
+    "loaded": true,
+    "needle_loaded": true,
+    "ok": true,
+    "pid": 2982810,
+    "running": true
+  },
+  "memory_kib": {
+    "VmHWM": 62704,
+    "VmRSS": 62160
+  },
+  "worker_affinities": [
+    [
+      0
+    ]
+  ],
+  "summary": {
+    "calculus": {
+      "passed": 4,
+      "total": 4,
+      "median_success_ms": 597.2945155,
+      "median_all_attempts_ms": 597.2945155,
+      "max_ms": 620.261388
+    },
+    "composition": {
+      "passed": 4,
+      "total": 4,
+      "median_success_ms": 466.53965949999997,
+      "median_all_attempts_ms": 466.53965949999997,
+      "max_ms": 479.0148
+    },
+    "intent": {
+      "passed": 4,
+      "total": 4,
+      "median_success_ms": 2.5234955,
+      "median_all_attempts_ms": 2.5234955,
+      "max_ms": 2.946984
+    },
+    "km_conversion": {
+      "passed": 4,
+      "total": 4,
+      "median_success_ms": 360.6318305,
+      "median_all_attempts_ms": 360.6318305,
+      "max_ms": 377.287047
+    },
+    "literal": {
+      "passed": 4,
+      "total": 4,
+      "median_success_ms": 2.1872565,
+      "median_all_attempts_ms": 2.1872565,
+      "max_ms": 3.015078
+    },
+    "new_composition": {
+      "passed": 0,
+      "total": 2,
+      "median_success_ms": null,
+      "median_all_attempts_ms": 1714.6522055,
+      "max_ms": 2158.963673
+    },
+    "new_order": {
+      "passed": 0,
+      "total": 2,
+      "median_success_ms": null,
+      "median_all_attempts_ms": 2590.430392,
+      "max_ms": 3260.143361
+    },
+    "new_powers": {
+      "passed": 0,
+      "total": 2,
+      "median_success_ms": null,
+      "median_all_attempts_ms": 360.5662585,
+      "max_ms": 372.878097
+    },
+    "new_words": {
+      "passed": 0,
+      "total": 2,
+      "median_success_ms": null,
+      "median_all_attempts_ms": 2097.1225825,
+      "max_ms": 2768.668003
+    },
+    "statistics": {
+      "passed": 4,
+      "total": 4,
+      "median_success_ms": 462.683499,
+      "median_all_attempts_ms": 462.683499,
+      "max_ms": 474.452673
+    },
+    "temperature": {
+      "passed": 4,
+      "total": 4,
+      "median_success_ms": 1299.967713,
+      "median_all_attempts_ms": 1299.967713,
+      "max_ms": 1301.315071
+    },
+    "word_numbers": {
+      "passed": 4,
+      "total": 4,
+      "median_success_ms": 438.34274800000003,
+      "median_all_attempts_ms": 438.34274800000003,
+      "max_ms": 1435.449069
+    }
+  }
+}

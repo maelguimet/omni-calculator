@@ -37,6 +37,7 @@ pub(super) fn negated_calculation(input: &str) -> bool {
                     | "factor"
                     | "substitute"
                     | "convert"
+                    | "take"
             ) || cues(&lex(tail))
                 .first()
                 .is_some_and(|(position, _)| *position == 0)
@@ -178,20 +179,41 @@ pub(super) fn request_scope(input: &str) -> Result<()> {
 }
 
 pub(super) fn strip_wrapper(input: &str) -> &str {
+    fn prefix<'a>(mut text: &'a str, phrase: &str) -> Option<&'a str> {
+        for word in phrase.split_whitespace() {
+            if !text.get(..word.len())?.eq_ignore_ascii_case(word) {
+                return None;
+            }
+            text = &text[word.len()..];
+            if !text.starts_with(char::is_whitespace) {
+                return None;
+            }
+            text = text.trim_start();
+        }
+        Some(text)
+    }
+    fn suffix<'a>(mut text: &'a str, phrase: &str) -> Option<&'a str> {
+        for word in phrase.split_whitespace().rev() {
+            let (rest, last) = text.rsplit_once(char::is_whitespace)?;
+            if !last.eq_ignore_ascii_case(word) {
+                return None;
+            }
+            text = rest.trim_end();
+        }
+        Some(text)
+    }
     let mut text = input.trim().trim_end_matches('?').trim();
     for _ in 0..3 {
-        let lower = text.to_ascii_lowercase();
-        if let Some(suffix) = [" please", " for me"]
+        if let Some(rest) = ["please", "for me"]
             .iter()
-            .find(|suffix| lower.ends_with(**suffix))
+            .find_map(|phrase| suffix(text, phrase))
         {
-            text = text[..text.len() - suffix.len()].trim();
+            text = rest;
         } else {
             break;
         }
     }
     for _ in 0..3 {
-        let lower = text.to_ascii_lowercase();
         let prefixes = [
             "please ",
             "could you calculate ",
@@ -226,8 +248,8 @@ pub(super) fn strip_wrapper(input: &str) -> &str {
             "calc ",
             "find ",
         ];
-        if let Some(prefix) = prefixes.iter().find(|p| lower.starts_with(**p)) {
-            text = text[prefix.len()..].trim();
+        if let Some(rest) = prefixes.iter().find_map(|phrase| prefix(text, phrase)) {
+            text = rest;
         } else {
             break;
         }
@@ -509,6 +531,32 @@ fn normalize_number(s: &str) -> String {
     format!("{digits}e{scale}")
 }
 
+/// Offer the same quantities in digit notation to the bounded intent model.
+/// This is only a candidate spelling; validation still uses the original input.
+#[cfg(feature = "fast-router")]
+pub(crate) fn model_number_spelling(input: &str) -> Option<String> {
+    let tokens = source_tokens(input);
+    if tokens == lex(strip_wrapper(input)) {
+        return None;
+    }
+    let mut words = Vec::new();
+    let mut i = 0;
+    while i < tokens.len() {
+        if tokens[i].text == "-" {
+            if !quantity_before(&tokens, i) && tokens.get(i + 1).is_some_and(|t| t.kind == NUMBER) {
+                words.push(format!("-{}", tokens[i + 1].text));
+                i += 2;
+                continue;
+            }
+            words.push("minus".to_owned());
+        } else {
+            words.push(tokens[i].text.clone());
+        }
+        i += 1;
+    }
+    Some(words.join(" "))
+}
+
 fn quantities(tokens: &[Token]) -> BTreeMap<String, usize> {
     let mut out = BTreeMap::new();
     for (i, token) in tokens.iter().enumerate().filter(|(_, t)| t.kind == NUMBER) {
@@ -586,7 +634,24 @@ fn source_quantities(tokens: &[Token]) -> BTreeMap<String, usize> {
 }
 
 pub(super) fn numbers(input: &str, output: &str) -> Result<()> {
-    let expected = source_quantities(&source_tokens(input));
+    let tokens = source_tokens(input);
+    if let Some(powers) = plural_powers(&tokens)? {
+        if input
+            .as_bytes()
+            .windows(3)
+            .any(|w| w[0].is_ascii_digit() && w[1] == b',' && w[2].is_ascii_digit())
+        {
+            return Err(reject(
+                "Separate scalar list items with a space after each comma; use no thousands separators.",
+            ));
+        }
+        return if quantities(&lex(&powers.arguments().join(","))) == quantities(&lex(output)) {
+            Ok(())
+        } else {
+            Err(powers.error())
+        };
+    }
+    let expected = source_quantities(&tokens);
     let proposed = quantities(&lex(output));
     if expected != proposed {
         let mut message = "The tool changed or omitted a signed quantity. Copy every value exactly, without calculating it.".to_owned();
@@ -820,6 +885,8 @@ fn language_word(word: &str) -> bool {
             | "times"
             | "tims"
             | "less"
+            | "fewer"
+            | "away"
             | "percent"
             | "per"
             | "cent"
@@ -906,6 +973,8 @@ fn aliases() -> &'static [(&'static str, &'static str)] {
         ("standard deviation", "stdev"),
         ("smallest value", "min"),
         ("largest value", "max"),
+        ("smallest", "min"),
+        ("largest", "max"),
         ("absolute value", "abs"),
         ("natural logarithm", "ln"),
         ("natural log", "ln"),
@@ -929,6 +998,8 @@ fn aliases() -> &'static [(&'static str, &'static str)] {
         ("divided by", "divide"),
         ("divided into", "divide"),
         ("added to", "add"),
+        ("away from", "subtract"),
+        ("fewer than", "subtract"),
         ("per cent", "percent"),
         ("binomial coefficient", "ncr"),
         ("ordered selections", "npr"),
@@ -1038,7 +1109,7 @@ fn cues(tokens: &[Token]) -> Vec<(usize, String)> {
             i += len;
         } else {
             let op = match tokens[i].text.as_str() {
-                "+" => Some("add"),
+                "+" if quantity_before(tokens, i) => Some("add"),
                 "*" => Some("multiply"),
                 "/" => Some("divide"),
                 "^" => Some("power"),
@@ -1389,6 +1460,161 @@ fn balanced(tokens: &[Token]) -> bool {
     stack.is_empty()
 }
 
+struct PluralPowers<'a> {
+    function: &'static str,
+    exponent: &'static str,
+    bases: Vec<&'a [Token]>,
+}
+
+impl PluralPowers<'_> {
+    fn arguments(&self) -> Vec<String> {
+        self.bases
+            .iter()
+            .map(|base| {
+                let base: String = base.iter().map(|token| token.text.as_str()).collect();
+                format!("({base})^{}", self.exponent)
+            })
+            .collect()
+    }
+
+    fn error(&self) -> CalcError {
+        let mut message = format!(
+            "Apply exponent {} to each listed base before {}. Preserve parentheses around signed bases.",
+            self.exponent, self.function
+        );
+        let arguments = serde_json::json!(self.arguments()).to_string();
+        if arguments.len() <= 200 {
+            message.push_str(&format!(
+                " Required arguments in source order: {arguments}."
+            ));
+        }
+        reject(&message)
+    }
+
+    fn validate(&self, name: &str, args: &[&str]) -> Result<()> {
+        if canonical(name) != self.function {
+            return Err(self.error());
+        }
+        let list;
+        let args = if args.len() == 1 && matches!(name, "sum" | "mean") {
+            let tokens = lex(args[0]);
+            if tokens.first().is_none_or(|t| t.text != "[")
+                || tokens.last().is_none_or(|t| t.text != "]")
+                || !balanced(&tokens)
+            {
+                return Err(self.error());
+            }
+            list = tokens[1..tokens.len() - 1]
+                .split(|t| t.text == ",")
+                .map(|part| part.iter().map(|t| t.text.as_str()).collect::<String>())
+                .collect::<Vec<_>>();
+            list.iter().map(String::as_str).collect::<Vec<_>>()
+        } else {
+            args.to_vec()
+        };
+        if args.len() != self.bases.len() {
+            return Err(self.error());
+        }
+        for (argument, source) in args.iter().zip(&self.bases) {
+            let parts = operand_arguments(argument, "power").map_err(|_| self.error())?;
+            let [base, exponent] = parts.as_slice() else {
+                return Err(self.error());
+            };
+            let base = lex(base);
+            // -6^2 means -(6^2), whereas the square of -6 is (-6)^2.
+            if (source.first().is_some_and(|t| t.text == "-")
+                && base.first().is_none_or(|t| t.text != "("))
+                || normalized(strip_parentheses(&base)) != normalized(source)
+                || normalized(strip_parentheses(&lex(exponent))) != normalized(&lex(self.exponent))
+            {
+                return Err(self.error());
+            }
+        }
+        Ok(())
+    }
+}
+
+/// A plural power distributes over a complete list of signed scalar bases.
+/// Keep this deliberately bounded: unclear scope, units, and nested expressions
+/// require explicit powers, rather than guessing which values to exponentiate.
+fn plural_powers(tokens: &[Token]) -> Result<Option<PluralPowers<'_>>> {
+    let Some(position) = tokens.iter().position(|t| {
+        t.text.eq_ignore_ascii_case("squares") || t.text.eq_ignore_ascii_case("cubes")
+    }) else {
+        return Ok(None);
+    };
+    let unsupported = || {
+        reject(
+            "Cannot ground this plural power group. Write each power explicitly, with parentheses around signed bases.",
+        )
+    };
+    let prefix = tokens[..position]
+        .iter()
+        .map(|t| t.text.to_ascii_lowercase())
+        .filter(|word| word != "the")
+        .collect::<Vec<_>>()
+        .join(" ");
+    let function = match prefix.as_str() {
+        "add" | "adding" | "sum" | "sum of" => "add",
+        "multiply" | "product of" => "multiply",
+        "difference of" => "subtract",
+        "mean of" | "average of" => "mean",
+        _ => return Err(unsupported()),
+    };
+    if tokens
+        .get(position + 1)
+        .is_none_or(|t| !t.text.eq_ignore_ascii_case("of"))
+    {
+        return Err(unsupported());
+    }
+    let mut bases = Vec::new();
+    let mut rest = &tokens[position + 2..];
+    while !rest.is_empty() {
+        let end = rest
+            .iter()
+            .position(|t| t.text == "," || t.text.eq_ignore_ascii_case("and"))
+            .unwrap_or(rest.len());
+        let base = &rest[..end];
+        if !balanced(base) {
+            return Err(unsupported());
+        }
+        let base = strip_parentheses(base);
+        if !matches!(base, [value] if value.kind == NUMBER)
+            && !matches!(base, [sign, value] if matches!(sign.text.as_str(), "+" | "-") && value.kind == NUMBER)
+        {
+            return Err(unsupported());
+        }
+        bases.push(base);
+        if end == rest.len() {
+            break;
+        }
+        let comma = rest[end].text == ",";
+        rest = &rest[end + 1..];
+        if comma
+            && rest
+                .first()
+                .is_some_and(|t| t.text.eq_ignore_ascii_case("and"))
+        {
+            rest = &rest[1..];
+        }
+        if rest.is_empty() {
+            return Err(unsupported());
+        }
+    }
+    if bases.len() < 2 || (matches!(function, "subtract" | "multiply") && bases.len() != 2) {
+        return Err(unsupported());
+    }
+    Ok(Some(PluralPowers {
+        function,
+        exponent: if tokens[position].text.eq_ignore_ascii_case("squares") {
+            "2"
+        } else {
+            "3"
+        },
+        bases,
+    }))
+}
+
 /// Inspect just the root of a generated operand; the normal guards still
 /// validate the operation and both copied operands against the original step.
 fn operand_arguments(expression: &str, expected: &str) -> Result<Vec<String>> {
@@ -1616,6 +1842,9 @@ pub(super) fn function(input: &str, name: &str, args: &[&str]) -> Result<()> {
         }
     }
     let source = source_tokens(input);
+    if let Some(powers) = plural_powers(&source)? {
+        return powers.validate(name, args);
+    }
     distribution_parameters(&source, name, args)?;
     if name.contains('_') && args.iter().any(|arg| span(&source, &lex(arg)).is_none()) {
         return Err(reject(
@@ -1747,11 +1976,18 @@ pub(super) fn function(input: &str, name: &str, args: &[&str]) -> Result<()> {
         let right = argument_position(&source, args[1]);
         let lower = input.to_ascii_lowercase();
         let reversed = reversed_division
-            || (name == "subtract" && lower.contains("subtract") && lower.contains(" from "))
+            || (name == "subtract"
+                && source
+                    .iter()
+                    .any(|t| t.text.eq_ignore_ascii_case("subtract"))
+                && source.iter().any(|t| t.text.eq_ignore_ascii_case("from")))
             || (name == "subtract"
                 && source.windows(2).any(|tokens| {
-                    tokens[0].text.eq_ignore_ascii_case("less")
-                        && tokens[1].text.eq_ignore_ascii_case("than")
+                    ((tokens[0].text.eq_ignore_ascii_case("less")
+                        || tokens[0].text.eq_ignore_ascii_case("fewer"))
+                        && tokens[1].text.eq_ignore_ascii_case("than"))
+                        || (tokens[0].text.eq_ignore_ascii_case("away")
+                            && tokens[1].text.eq_ignore_ascii_case("from"))
                 }))
             || (name == "log" && (lower.contains("log base ") || lower.contains("the base ")))
             || (matches!(name, "ncr" | "npr") && lower.contains(" from "))
@@ -1818,6 +2054,7 @@ fn grouped_operands(source: &[Token], name: &str, args: &[&str]) -> Result<()> {
     for (noun, operation) in [
         ("difference", "subtract"),
         ("sum", "add"),
+        ("product", "multiply"),
         ("quotient", "divide"),
         ("ratio", "divide"),
     ] {
@@ -1839,7 +2076,7 @@ fn grouped_operands(source: &[Token], name: &str, args: &[&str]) -> Result<()> {
                     ratio_separator = true;
                     return false;
                 }
-                matches!(words[i].as_str(), "by" | "to" | "then")
+                matches!(words[i].as_str(), "by" | "to" | "from" | "then")
                     || (words[i] == "and"
                         && words
                             .get(i + 1)
@@ -1857,7 +2094,7 @@ fn grouped_operands(source: &[Token], name: &str, args: &[&str]) -> Result<()> {
         });
         let Some(argument) = matching else {
             return Err(reject(
-                "The model changed which operands belong to the stated sum, difference, or ratio.",
+                "The model changed which operands belong to the stated sum, difference, product, or ratio.",
             ));
         };
         if matches!(operation, "subtract" | "divide")

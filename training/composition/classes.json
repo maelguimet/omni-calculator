@@ -1,0 +1,157 @@
+[
+  {
+    "function": "defer",
+    "arity": 0,
+    "arguments": []
+  },
+  {
+    "function": "add",
+    "arity": 2,
+    "arguments": [
+      "({a})^2",
+      "({b})^2"
+    ]
+  },
+  {
+    "function": "subtract",
+    "arity": 2,
+    "arguments": [
+      "({a})^2",
+      "({b})^2"
+    ]
+  },
+  {
+    "function": "multiply",
+    "arity": 2,
+    "arguments": [
+      "({a})^2",
+      "({b})^2"
+    ]
+  },
+  {
+    "function": "mean",
+    "arity": 2,
+    "arguments": [
+      "({a})^2",
+      "({b})^2"
+    ]
+  },
+  {
+    "function": "sum",
+    "arity": 3,
+    "arguments": [
+      "[({a})^2,({b})^2,({c})^2]"
+    ]
+  },
+  {
+    "function": "add",
+    "arity": 2,
+    "arguments": [
+      "({a})^3",
+      "({b})^3"
+    ]
+  },
+  {
+    "function": "subtract",
+    "arity": 2,
+    "arguments": [
+      "({a})^3",
+      "({b})^3"
+    ]
+  },
+  {
+    "function": "multiply",
+    "arity": 2,
+    "arguments": [
+      "({a})^3",
+      "({b})^3"
+    ]
+  },
+  {
+    "function": "mean",
+    "arity": 2,
+    "arguments": [
+      "({a})^3",
+      "({b})^3"
+    ]
+  },
+  {
+    "function": "sum",
+    "arity": 3,
+    "arguments": [
+      "[({a})^3,({b})^3,({c})^3]"
+    ]
+  },
+  {
+    "function": "subtract",
+    "arity": 3,
+    "arguments": [
+      "{c}",
+      "({a})*({b})"
+    ]
+  },
+  {
+    "function": "divide",
+    "arity": 3,
+    "arguments": [
+      "{a}",
+      "({b})*({c})"
+    ]
+  },
+  {
+    "function": "add",
+    "arity": 3,
+    "arguments": [
+      "({a})*({b})",
+      "{c}"
+    ]
+  },
+  {
+    "function": "subtract",
+    "arity": 3,
+    "arguments": [
+      "{c}",
+      "({a})+({b})"
+    ]
+  },
+  {
+    "function": "multiply",
+    "arity": 4,
+    "arguments": [
+      "({a})-({b})",
+      "({c})+({d})"
+    ]
+  },
+  {
+    "function": "multiply",
+    "arity": 4,
+    "arguments": [
+      "({a})+({b})",
+      "({c})-({d})"
+    ]
+  },
+  {
+    "function": "divide",
+    "arity": 4,
+    "arguments": [
+      "({a})+({b})",
+      "({c})-({d})"
+    ]
+  },
+  {
+    "function": "power",
+    "arity": 2,
+    "arguments": [
+      "({a})-({b})",
+      "2"
+    ]
+  },
+  {
+    "function": "subtract",
+    "arity": 2,
+    "arguments": [
+      "{b}",
+      "{a}"
+    ]
+  }
+]

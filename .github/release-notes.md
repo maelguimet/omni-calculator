@@ -1,22 +1,21 @@
-Omni Calculator's first public release: a fully local Rust scientific calculator for humans and agents. Small bundled models turn natural language into validated tool calls; Rust executes the mathematics.
+`add the squares of 6 and 8` now returns **100**. This release improves natural-language accuracy while keeping the original Needle 2 model and runtime.
 
-- Human CLI output, JSON and JSONL, stable exit codes, bounded retries, and request timeouts.
-- Exact arithmetic, units, complex numbers, scientific functions, statistics, distributions, matrices, numerical calculus, and symbolic algebra.
-- No account, network access, Python installation, or GPU required to run the released executable.
+- A small trained CPU classifier handles more powers, nested arithmetic, and reversed subtraction. Number words can use the existing fast model.
+- Stricter validation checks powers, signs, grouping, quantities, and operand order against the original request.
+- The expanded 352-case CLI suite improves from **306/352 (86.9%) to 346/352 (98.3%)**, with **zero observed accepted wrong answers** and no previously passing cases lost. Six valid requests are still refused. These are development/regression results, not universal language accuracy.
+- Two live-VPS runs each improve from **32/40 to 40/40**. Newly supported arithmetic has 2–3 ms family medians; the largest existing-family median increase is 8.4 ms. Number-word requests improve from about 431 ms to 3 ms.
+- CI now checks 266 CLI regressions, both Rust feature configurations, formatting, linting, and the actual extracted release executable.
 
-The binary targets **Linux x86_64 with glibc 2.39 or newer**. Download the archive, check its SHA-256 checksum, and unpack it:
+See the [accuracy report and remaining limitations](https://github.com/maelguimet/omni-calculator/blob/v0.1.1/docs/accuracy-0.1.1.md) for the corpora, data-exposure caveats, raw responses, training provenance, and VPS measurements. Needle 3 and further generative fine-tuning were evaluated; neither justified replacing the selected Needle 2 model.
+
+The executable runs fully locally without Python, a GPU, an account, or network access. It targets **Linux x86_64 with glibc 2.39 or newer**. Download the archive and `SHA256SUMS` together, then run:
 
 ```sh
 sha256sum --check --ignore-missing SHA256SUMS
-tar -xzf omni-calc-0.1.0-linux-x86_64.tar.gz
-cd omni-calc-0.1.0-linux-x86_64
-./calc what is 1 + 1
-./calc wat iz 1+1 --json
-./calc 'integrate(sin(x),x,0,pi)'
+tar -xzf omni-calc-0.1.1-linux-x86_64.tar.gz
+cd omni-calc-0.1.1-linux-x86_64
+./calc 'add the squares of 6 and 8'
+./calc 'multiply negative six by eleven' --json
 ```
 
-Download `SHA256SUMS` beside the archive before running the first command. The archive includes documentation, model provenance, licenses, an artifact manifest, and acceptance reports for this exact executable. A standalone `calc` executable is also available; mark it executable with `chmod +x calc` after downloading.
-
-Common requests use fast trained classifiers. Broader language uses a generative model and takes longer, especially on its first request. Language coverage and symbolic mathematics have limits: for example, `what is 9 less than 42` is conservatively rejected, while `42-9` works. The mathematical reference documents supported operations and numerical limits.
-
-See the [README](https://github.com/maelguimet/omni-calculator#readme) for building from source and CLI usage. The [verification report](https://github.com/maelguimet/omni-calculator/blob/v0.1.0/docs/verification.md) describes local testing, VPS benchmarks, and known limitations. Every release is built from its tagged source and checked with Rust tests and two real-CLI acceptance suites before publication.
+The archive includes documentation, licenses, model provenance, an artifact manifest, and fresh acceptance reports for its executable. A standalone `calc` is also available; run `chmod +x calc` after downloading. Broader generative requests still take hundreds of milliseconds or more. See the [README](https://github.com/maelguimet/omni-calculator/blob/v0.1.1/README.md) for usage and building from source.

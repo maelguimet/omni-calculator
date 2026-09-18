@@ -102,11 +102,22 @@ jobs:
             --output target/publication-reports/independent-audit.json \
             | tee target/publication-reports/independent-audit.log
 
+      - name: Verify ordering and language regressions
+        run: |
+          python3 scripts/verify_cli.py target/release/calc \
+            --cases tests/cases/order-ood-audit.json \
+            --output target/publication-reports/ordering.json
+          python3 scripts/verify_cli.py target/release/calc \
+            --cases tests/cases/accuracy-regressions.json \
+            --output target/publication-reports/language-regressions.json
+
       - name: Package tested executable, models, licenses, and fresh reports
         run: |
           python3 scripts/package.py \
             --report target/publication-reports/acceptance.json \
             --report target/publication-reports/independent-audit.json \
+            --report target/publication-reports/ordering.json \
+            --report target/publication-reports/language-regressions.json \
             | tee target/publication-reports/package.log
           (cd dist && sha256sum --check SHA256SUMS)
 

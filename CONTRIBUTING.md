@@ -28,9 +28,11 @@ python3 scripts/verify_cli.py target/release/calc \
 Keep model interpretation separate from mathematical execution. A model call
 must pass source and schema validation before evaluation. Include meaningful
 regressions for changed quantities, grouping, operand order, malformed inputs,
-and error behavior when those areas change. The follow-up corpus in
-`tests/cases/order-ood-audit.json` retains one known language rejection; its
-expected mathematical answer has not been replaced with an expected failure.
+and error behavior when those areas change. CI also runs
+`tests/cases/order-ood-audit.json` and `tests/cases/accuracy-regressions.json`.
+The broader `accuracy-expansion.json` and `accuracy-holdout.json` remain
+diagnostic audits: their expected mathematical answers are retained even for
+known language rejections. See [accuracy evidence](docs/accuracy-0.1.1.md).
 
 ## Models and licenses
 

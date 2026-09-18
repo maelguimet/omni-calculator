@@ -1,6 +1,6 @@
 # Training and model provenance
 
-Training is optional. The public checkout includes the three selected model
+Training is optional. The public checkout includes all four selected model
 files, so building or running Omni does not require a training environment,
 Python ML packages, or a GPU. See the root [README](../README.md) for source builds.
 
@@ -52,8 +52,9 @@ env OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 NUMEXPR_NUM_THREA
 Exact numerical reproducibility can depend on dependency versions and BLAS.
 The committed weights and their hashes are the source-build inputs; retraining
 is a separate development activity. Model-specific details, audits, and formats:
-[reference V2](reference-v2/README.md), [intent V1](intent/README.md), and the
-[earlier reference experiment](router/README.md).
+[reference V2](reference-v2/README.md), [intent V1](intent/README.md),
+[earlier reference experiment](router/README.md), and
+[composition V1](composition/README.md).
 
 ## Needle specialization
 

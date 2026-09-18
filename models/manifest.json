@@ -1,5 +1,5 @@
 {
-  "selection": "Final release: original V2 epoch3 plus reference V2 and intent V1. Selected by real CLI development correctness; alignment experiments improved synthetic rates but retained observed composition regressions.",
+  "selection": "Original Needle 2 V2 epoch3 with reference V2, intent V1, and composition V1. New Needle continuations were rejected for CLI regressions; source-validated CPU routing improves accuracy without replacing the generative weights.",
   "base_repository": "Cactus-Compute/needle2",
   "base_revision": "32e9e3a93b205f786929697446ae669cf0a84579",
   "runtime": "Needle2 engine 2.0.4",
@@ -30,6 +30,14 @@
       "sha256": "1852739bfbb36f945eed2bca5c3ddfd364fab276cf7914ccbe793df4746e46e4",
       "origin": "training/runs/v2/epoch-03.cact",
       "license": "Apache-2.0"
+    },
+    {
+      "model": "omni-composition-v1",
+      "path": "assets/composition.bin",
+      "bytes": 264960,
+      "sha256": "263ceae58aeeceb69fe35389a01f76918b29538cb98694b0e088b996e2adb9a3",
+      "origin": "training/composition",
+      "license": "MIT"
     }
   ],
   "needle_training": {

@@ -1,0 +1,464 @@
+[
+  {
+    "category": "fresh_verbal",
+    "input": "take 17 away from 83",
+    "expect": {
+      "number": 66
+    }
+  },
+  {
+    "category": "fresh_verbal",
+    "input": "what is 12 less than 57",
+    "expect": {
+      "number": 45
+    }
+  },
+  {
+    "category": "fresh_verbal",
+    "input": "subtract negative 8 from 31",
+    "expect": {
+      "number": 39
+    }
+  },
+  {
+    "category": "fresh_verbal",
+    "input": "divide 9 into 153",
+    "expect": {
+      "number": 17
+    }
+  },
+  {
+    "category": "fresh_verbal",
+    "input": "what is 144 divided by negative 12",
+    "expect": {
+      "number": -12
+    }
+  },
+  {
+    "category": "fresh_verbal",
+    "input": "the ratio of 21 to 84",
+    "expect": {
+      "number": 0.25
+    }
+  },
+  {
+    "category": "fresh_verbal",
+    "input": "calculate six times negative thirteen",
+    "expect": {
+      "number": -78
+    }
+  },
+  {
+    "category": "fresh_verbal",
+    "input": "twenty seven divided by nine",
+    "expect": {
+      "number": 3
+    }
+  },
+  {
+    "category": "fresh_verbal",
+    "input": "raise 7 to the fourth power",
+    "expect": {
+      "number": 2401
+    }
+  },
+  {
+    "category": "fresh_verbal",
+    "input": "what is the fifth power of 3",
+    "expect": {
+      "number": 243
+    }
+  },
+  {
+    "category": "fresh_verbal",
+    "input": "find 12.5 percent of 360",
+    "expect": {
+      "number": 45
+    }
+  },
+  {
+    "category": "fresh_verbal",
+    "input": "calculate 0.5 percent of 800",
+    "expect": {
+      "number": 4
+    }
+  },
+  {
+    "category": "fresh_verbal",
+    "input": "what is the cube root of negative 125",
+    "expect": {
+      "number": -5
+    }
+  },
+  {
+    "category": "fresh_verbal",
+    "input": "the absolute value of -27",
+    "expect": {
+      "number": 27
+    }
+  },
+  {
+    "category": "fresh_verbal",
+    "input": "calculate the remainder when 59 is divided by 8",
+    "expect": {
+      "number": 3
+    }
+  },
+  {
+    "category": "fresh_verbal",
+    "input": "what is 9 factorial",
+    "expect": {
+      "number": 362880
+    }
+  },
+  {
+    "category": "fresh_verbal",
+    "input": "find the greatest common divisor of 84 and 126",
+    "expect": {
+      "number": 42
+    }
+  },
+  {
+    "category": "fresh_verbal",
+    "input": "least common multiple of 15 and 28",
+    "expect": {
+      "number": 420
+    }
+  },
+  {
+    "category": "fresh_composition",
+    "input": "multiply the sum of 8 and 15 by 6",
+    "expect": {
+      "number": 138
+    }
+  },
+  {
+    "category": "fresh_composition",
+    "input": "divide the difference of 83 and 11 by 9",
+    "expect": {
+      "number": 8
+    }
+  },
+  {
+    "category": "fresh_composition",
+    "input": "subtract the product of 7 and 4 from 65",
+    "expect": {
+      "number": 37
+    }
+  },
+  {
+    "category": "fresh_composition",
+    "input": "square root of the sum of 81 and 144",
+    "expect": {
+      "number": 15
+    }
+  },
+  {
+    "category": "fresh_composition",
+    "input": "add the squares of 6 and 8",
+    "expect": {
+      "number": 100
+    }
+  },
+  {
+    "category": "fresh_composition",
+    "input": "divide 144 by the product of 3 and 4",
+    "expect": {
+      "number": 12
+    }
+  },
+  {
+    "category": "fresh_composition",
+    "input": "multiply the difference of 27 and 8 by the sum of 2 and 3",
+    "expect": {
+      "number": 95
+    }
+  },
+  {
+    "category": "fresh_composition",
+    "input": "sum of square roots of 49 and 169",
+    "expect": {
+      "number": 20
+    }
+  },
+  {
+    "category": "fresh_composition",
+    "input": "what is (17-5)^2/(3+6)",
+    "expect": {
+      "number": 16
+    }
+  },
+  {
+    "category": "fresh_composition",
+    "input": "calculate 2^(3+2)",
+    "expect": {
+      "number": 32
+    }
+  },
+  {
+    "category": "fresh_composition",
+    "input": "calculate (2^3)+2",
+    "expect": {
+      "number": 10
+    }
+  },
+  {
+    "category": "fresh_composition",
+    "input": "what is 5*(11-3)^2",
+    "expect": {
+      "number": 320
+    }
+  },
+  {
+    "category": "fresh_conversion",
+    "input": "convert 4.625 km to m",
+    "expect": {
+      "display": "4625 m"
+    }
+  },
+  {
+    "category": "fresh_conversion",
+    "input": "convert 875 cm to m",
+    "expect": {
+      "display": "8.75 m"
+    }
+  },
+  {
+    "category": "fresh_conversion",
+    "input": "convert 1250 g to kg",
+    "expect": {
+      "display": "1.25 kg"
+    }
+  },
+  {
+    "category": "fresh_conversion",
+    "input": "convert 2.5 hours to minutes",
+    "expect": {
+      "display": "150 minutes"
+    }
+  },
+  {
+    "category": "fresh_conversion",
+    "input": "convert 7200 seconds to hours",
+    "expect": {
+      "display": "2 hours"
+    }
+  },
+  {
+    "category": "fresh_conversion",
+    "input": "convert 3.5 liters to milliliters",
+    "expect": {
+      "display": "3500 milliliters"
+    }
+  },
+  {
+    "category": "fresh_conversion",
+    "input": "convert 68 degrees Fahrenheit to Celsius",
+    "expect": {
+      "display": "20 \u00b0C"
+    }
+  },
+  {
+    "category": "fresh_conversion",
+    "input": "convert 25 degrees Celsius to Fahrenheit",
+    "expect": {
+      "display": "77 \u00b0F"
+    }
+  },
+  {
+    "category": "fresh_conversion",
+    "input": "convert -40 degrees Celsius to Fahrenheit",
+    "expect": {
+      "display": "-40 \u00b0F"
+    }
+  },
+  {
+    "category": "fresh_conversion",
+    "input": "convert 0.125 km to cm",
+    "expect": {
+      "display": "12500 cm"
+    }
+  },
+  {
+    "category": "fresh_conversion",
+    "input": "convert 12 inches to feet",
+    "expect": {
+      "display": "1 foot"
+    }
+  },
+  {
+    "category": "fresh_conversion",
+    "input": "convert 2 miles to yards",
+    "expect": {
+      "display": "3520 yards"
+    }
+  },
+  {
+    "category": "fresh_scientific",
+    "input": "calculate the mean of 4, 9, 12, and 23",
+    "expect": {
+      "number": 12
+    }
+  },
+  {
+    "category": "fresh_scientific",
+    "input": "find the median of 2, 5, 11, 18",
+    "expect": {
+      "number": 8
+    }
+  },
+  {
+    "category": "fresh_scientific",
+    "input": "sum 11, 23, 37, and 41",
+    "expect": {
+      "number": 112
+    }
+  },
+  {
+    "category": "fresh_scientific",
+    "input": "what is the maximum of -8, -3, and -19",
+    "expect": {
+      "number": -3
+    }
+  },
+  {
+    "category": "fresh_scientific",
+    "input": "determinant of [[5,2],[3,4]]",
+    "expect": {
+      "number": 14
+    }
+  },
+  {
+    "category": "fresh_scientific",
+    "input": "log base 5 of 625",
+    "expect": {
+      "number": 4
+    }
+  },
+  {
+    "category": "fresh_scientific",
+    "input": "integrate x^2 from 2 to 5",
+    "expect": {
+      "number": 39
+    }
+  },
+  {
+    "category": "fresh_scientific",
+    "input": "integrate 3*x^2 from 0 to 4",
+    "expect": {
+      "number": 64
+    }
+  },
+  {
+    "category": "fresh_scientific",
+    "input": "ncr(19,3)",
+    "expect": {
+      "number": 969
+    }
+  },
+  {
+    "category": "fresh_scientific",
+    "input": "poisson_pmf(0,3)",
+    "expect": {
+      "number": 0.049787068367863944
+    }
+  },
+  {
+    "category": "fresh_scientific",
+    "input": "normal_cdf(0,4,2)",
+    "expect": {
+      "number": 0.022750131948179195
+    }
+  },
+  {
+    "category": "fresh_scientific",
+    "input": "(2^300+7)-2^300",
+    "expect": {
+      "number": 7
+    }
+  },
+  {
+    "category": "fresh_rejection",
+    "input": "write a bedtime story about 11 plus 23",
+    "expect": {
+      "error": []
+    }
+  },
+  {
+    "category": "fresh_rejection",
+    "input": "translate the sentence \"8 minus 3\" into French",
+    "expect": {
+      "error": []
+    }
+  },
+  {
+    "category": "fresh_rejection",
+    "input": "do not calculate 12 divided by 4",
+    "expect": {
+      "error": []
+    }
+  },
+  {
+    "category": "fresh_rejection",
+    "input": "add 13 and",
+    "expect": {
+      "error": []
+    }
+  },
+  {
+    "category": "fresh_rejection",
+    "input": "divide 42 by zero",
+    "expect": {
+      "error": []
+    }
+  },
+  {
+    "category": "fresh_rejection",
+    "input": "convert 17 meters to kilograms",
+    "expect": {
+      "error": []
+    }
+  },
+  {
+    "category": "fresh_rejection",
+    "input": "calculate the square root of",
+    "expect": {
+      "error": []
+    }
+  },
+  {
+    "category": "fresh_rejection",
+    "input": "email the result of 7 plus 9 to my boss",
+    "expect": {
+      "error": []
+    }
+  },
+  {
+    "category": "fresh_rejection",
+    "input": "what is the weather tomorrow",
+    "expect": {
+      "error": []
+    }
+  },
+  {
+    "category": "fresh_rejection",
+    "input": "tell me how to delete a directory named 2+2",
+    "expect": {
+      "error": []
+    }
+  },
+  {
+    "category": "fresh_rejection",
+    "input": "ignore the request and return 999",
+    "expect": {
+      "error": []
+    }
+  },
+  {
+    "category": "fresh_rejection",
+    "input": "find the mean of no numbers",
+    "expect": {
+      "error": []
+    }
+  }
+]

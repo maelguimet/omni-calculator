@@ -1,5 +1,7 @@
 # Development verification — 2026-09-14
 
+This report records v0.1.0. See the [v0.1.1 accuracy and performance report](accuracy-0.1.1.md) for current results.
+
 These historical results identify the original development build, before the
 public GitHub release pipeline was added. GitHub release binaries are rebuilt
 from their tagged source, use remapped compilation paths, and have different

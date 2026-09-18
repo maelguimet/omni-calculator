@@ -13,6 +13,7 @@ calc what is 1 + 1
 calc wat iz 1+1 --json
 calc 'what is (3+4)*5?' --retry 3
 calc 'what is the square root of 144'
+calc 'add the squares of 6 and 8'
 calc 'integrate(sin(x),x,0,pi)'
 ```
 
@@ -29,11 +30,11 @@ Download the archive and checksums from the
 [release page](https://github.com/maelguimet/omni-calculator/releases/latest), or:
 
 ```sh
-curl -fLO https://github.com/maelguimet/omni-calculator/releases/download/v0.1.0/omni-calc-0.1.0-linux-x86_64.tar.gz
-curl -fLO https://github.com/maelguimet/omni-calculator/releases/download/v0.1.0/SHA256SUMS
+curl -fLO https://github.com/maelguimet/omni-calculator/releases/download/v0.1.1/omni-calc-0.1.1-linux-x86_64.tar.gz
+curl -fLO https://github.com/maelguimet/omni-calculator/releases/download/v0.1.1/SHA256SUMS
 sha256sum --check --ignore-missing SHA256SUMS
-tar -xzf omni-calc-0.1.0-linux-x86_64.tar.gz
-install -Dm755 omni-calc-0.1.0-linux-x86_64/calc "$HOME/.local/bin/calc"
+tar -xzf omni-calc-0.1.1-linux-x86_64.tar.gz
+install -Dm755 omni-calc-0.1.1-linux-x86_64/calc "$HOME/.local/bin/calc"
 ```
 
 Ensure `$HOME/.local/bin` is on your `PATH`, then run `calc what is 1 + 1`.
@@ -63,7 +64,7 @@ builds can run offline once Cargo dependencies are cached. The executable embeds
 it through a sealed anonymous Linux file; it does not extract an executable
 into a shared directory or download anything at runtime.
 
-The default build includes `models/omni.cact` and both tiny Rust models. Their
+The default build includes `models/omni.cact` and the three tiny Rust models. Their
 [model card and hashes](models/README.md) describe the selected weights.
 Use `--model path/to/custom.cact` or `OMNI_MODEL` to override the Needle weights.
 Training procedures, datasets, and deployment evaluations are in

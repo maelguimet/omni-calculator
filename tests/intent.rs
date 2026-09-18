@@ -127,6 +127,44 @@ fn fresh_audit_cannot_execute_a_wrong_or_invented_operation() {
 }
 
 #[test]
+fn spelled_quantities_use_the_fast_model_but_remain_grounded_in_the_original() {
+    use omni_calc::model::{LocalModel, Provider};
+    for (input, function, args) in [
+        (
+            "subtract negative eight from thirty-one",
+            "subtract",
+            vec!["31", "-8"],
+        ),
+        (
+            "calculate six times negative thirteen",
+            "multiply",
+            vec!["6", "-13"],
+        ),
+        (
+            "what is two hundred and five minus forty-six",
+            "subtract",
+            vec!["205", "46"],
+        ),
+        ("cube root of negative sixty-four", "cbrt", vec!["-64"]),
+    ] {
+        let mut model = LocalModel::new(None, false);
+        let prediction = model.predict(input, None).unwrap();
+        assert!(
+            !model.needle_loaded(),
+            "unnecessary generative inference for {input}"
+        );
+        let call = &prediction.calls[0];
+        assert_eq!(call.arguments["function"], function, "{input}");
+        assert_eq!(
+            call.arguments["arguments"],
+            serde_json::json!(args),
+            "{input}"
+        );
+        assert!(expression_for_call(call, input).is_ok(), "{input}");
+    }
+}
+
+#[test]
 #[ignore = "manual timing: use --release -- --ignored --nocapture"]
 fn benchmark_unique_requests_through_the_model_and_validator() {
     use std::{hint::black_box, time::Instant};

@@ -612,6 +612,146 @@ fn squared_and_cubed_supply_the_exponent_without_inventing_a_source_position() {
     }
 }
 
+#[test]
+fn plural_powers_cannot_disappear_or_move_between_operands() {
+    rejected_call(
+        "sum of squares of 1,000 and 2",
+        "function",
+        json!({"function":"sum","arguments":["1^2","0^2","2^2"]}),
+    );
+    for (input, arguments) in [
+        ("add the squares of 6 and 8", vec!["6", "8"]),
+        ("sum of squares of 6 and 8", vec!["6^(2^2)", "8"]),
+        ("add the squares of 6 and 8", vec!["2^6", "2^8"]),
+        ("add the cubes of 6 and 8", vec!["6^3", "8"]),
+        ("add the squares of -6 and 8", vec!["-6^2", "8^2"]),
+        ("add the squares of 6 and 8", vec!["(6+8)^2", "2"]),
+        ("add the squares of 6 and 8", vec!["6^2", "8^3"]),
+        ("add the squares of 2 and 2", vec!["2^2^2", "2"]),
+        (
+            "add the squares of 6 and 8 then divide by 2",
+            vec!["6^2", "8^2"],
+        ),
+        ("add the squares of 6 m and 8 m", vec!["6^2", "8^2"]),
+    ] {
+        rejected_call(
+            input,
+            "function",
+            json!({"function":"add","arguments":arguments}),
+        );
+    }
+}
+
+#[test]
+fn plural_powers_preserve_each_base_exponent_and_outer_operation() {
+    for (input, function, arguments) in [
+        ("add the squares of 6 and 8", "add", vec!["6^2", "8^2"]),
+        ("sum of squares of six and eight", "sum", vec!["[6^2,8^2]"]),
+        ("add the squares of -6 and 8", "add", vec!["(-6)^2", "8^2"]),
+        ("add the cubes of -6 and 8", "add", vec!["(-6)^3", "8^3"]),
+        (
+            "sum of squares of 2, 2, and 3",
+            "sum",
+            vec!["2^2", "2^2", "3^2"],
+        ),
+        (
+            "mean of squares of 1.5 and 2e1",
+            "mean",
+            vec!["1.5^2", "20^2"],
+        ),
+        (
+            "difference of squares of 6 and 8",
+            "subtract",
+            vec!["6^2", "8^2"],
+        ),
+    ] {
+        accepted_call(
+            input,
+            "function",
+            json!({"function":function,"arguments":arguments}),
+        );
+    }
+    rejected_call(
+        "difference of squares of 6 and 8",
+        "function",
+        json!({"function":"subtract","arguments":["8^2","6^2"]}),
+    );
+    rejected_call(
+        "product of squares of 6 and 8",
+        "function",
+        json!({"function":"add","arguments":["6^2","8^2"]}),
+    );
+}
+
+#[test]
+fn subtraction_aliases_keep_the_later_quantity_first() {
+    for input in ["take 19 away from 72", "what is 19 fewer than 72"] {
+        accepted_call(
+            input,
+            "function",
+            json!({"function":"subtract","arguments":["72","19"]}),
+        );
+        rejected_call(
+            input,
+            "function",
+            json!({"function":"subtract","arguments":["19","72"]}),
+        );
+        assert!(planner::literal_expression(input).is_err());
+    }
+    rejected_call(
+        "do not take 19 away from 72",
+        "function",
+        json!({"function":"subtract","arguments":["72","19"]}),
+    );
+}
+
+#[test]
+fn nested_products_keep_their_complete_operand_group() {
+    accepted_call(
+        "subtract the product of 7 and 4 from 65",
+        "function",
+        json!({"function":"subtract","arguments":["65","7*4"]}),
+    );
+    rejected_call(
+        "subtract the product of 7 and 4 from 65",
+        "function",
+        json!({"function":"subtract","arguments":["65*7","4"]}),
+    );
+    accepted_call(
+        "divide 144 by the product of 3 and 4",
+        "function",
+        json!({"function":"divide","arguments":["144","3*4"]}),
+    );
+    rejected_call(
+        "divide 144 by the product of 3 and 4",
+        "function",
+        json!({"function":"divide","arguments":["144*3","4"]}),
+    );
+}
+
+#[test]
+fn flexible_wrappers_and_positive_signs_preserve_operand_roles() {
+    accepted_call(
+        "could\tyou  calculate\tsubtract\tthe product of +7 and 4\tfrom 65 for\tme",
+        "function",
+        json!({"function":"subtract","arguments":["65","(+7)*4"]}),
+    );
+    rejected_call(
+        "could\tyou  calculate\tsubtract\tthe product of +7 and 4\tfrom 65 for\tme",
+        "function",
+        json!({"function":"subtract","arguments":["(+7)*4","65"]}),
+    );
+    accepted_call(
+        "what is +9 fewer than +42",
+        "function",
+        json!({"function":"subtract","arguments":["+42","+9"]}),
+    );
+    assert_eq!(
+        planner::literal_expression("could\tyou  evaluate (2+3)*4 for\tme").unwrap(),
+        "(2+3)*4"
+    );
+}
+
 fn accepted_call(input: &str, name: &str, arguments: Value) {
     let result = planner::expression_for_call(
         &ToolCall {
