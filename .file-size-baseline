@@ -1,0 +1,18 @@
+# Files over the 20,000-byte cap when scripts/check-file-size was added.
+# Each may shrink but not grow past the size recorded here (bytes path).
+67027 experiments/pipeline-cases32.jsonl
+20808 src/engine.rs
+27107 src/engine/calculus.rs
+27518 src/planner.rs
+76401 src/planner/grounding.rs
+29279 src/service.rs
+64908 src/symbolic.rs
+30566 tests/cases/final-audit-json-safe.json
+30560 tests/cases/final-audit.json
+31703 tests/cli_audit.rs
+21276 tests/service_contract.rs
+26800 training/generate.py
+26800 training/generate_v2.py
+20838 training/intent/train.py
+33037 training/reference-v2/parity.json
+31700 training/router/parity.json

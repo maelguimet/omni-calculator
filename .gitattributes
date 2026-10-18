@@ -8,3 +8,9 @@ vendor/** -text -whitespace
 docs/evidence/** -text -whitespace
 training/** -text
 LICENSE -text -whitespace
+
+# Vendored sources and generated outputs, exempt from scripts/check-file-size.
+vendor/** linguist-vendored
+third_party/** linguist-vendored
+docs/evidence/** linguist-generated
+training/**/*.jsonl linguist-generated

@@ -68,3 +68,13 @@ python3 scripts/package.py \
 The output is in `dist/`. Each supplied report must identify the exact executable
 being packaged. Historical development results in `docs/evidence/` retain their
 own executable hashes and are not measurements of a later rebuild.
+
+## File-size cap
+
+Each file stays under about 5,000 tokens, counted as 20,000 bytes. A pre-commit hook blocks bigger staged files, and CI runs the same check on every push and pull request. To enable the hook once per clone:
+
+```sh
+git config core.hooksPath .githooks
+```
+
+`scripts/check-file-size --all` checks the whole tree. When the check fails, split the file by responsibility, move tests to their own file, or extract data and fixtures. Some files were already over the cap when the check was added. They are listed in `.file-size-baseline` with their size at that time; they may shrink but not grow. Lockfiles, binary assets, and paths marked `linguist-generated` or `linguist-vendored` in `.gitattributes` are exempt.
