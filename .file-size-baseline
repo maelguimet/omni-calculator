@@ -1,5 +1,11 @@
 # Files over the 20,000-byte cap when scripts/check-file-size was added.
 # Each may shrink but not grow past the size recorded here (bytes path).
+348748 docs/evidence/accuracy-0.1.1/baseline-all.json
+351875 docs/evidence/accuracy-0.1.1/final-all.json
+40638 docs/evidence/accuracy-0.1.1/vps-baseline-a.json
+40690 docs/evidence/accuracy-0.1.1/vps-baseline-b.json
+40619 docs/evidence/accuracy-0.1.1/vps-final-a.json
+40703 docs/evidence/accuracy-0.1.1/vps-final-b.json
 67027 experiments/pipeline-cases32.jsonl
 20808 src/engine.rs
 27107 src/engine/calculus.rs

@@ -12,5 +12,5 @@ LICENSE -text -whitespace
 # Vendored sources and generated outputs, exempt from scripts/check-file-size.
 vendor/** linguist-vendored
 third_party/** linguist-vendored
-docs/evidence/** linguist-generated
+docs/evidence/*.json linguist-generated
 training/**/*.jsonl linguist-generated
